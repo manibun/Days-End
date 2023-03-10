@@ -1,0 +1,173 @@
+module Base {
+
+	model CanteenOliveDrab
+	{
+		mesh = Items/Canteen,
+		texture = Items/CanteenOliveDrabTexture,
+	}
+	model WorldItem_CanteenOliveDrab
+	{
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = Items/CanteenOliveDrabTexture,
+	}
+	model CanteenArmyGreen
+	{
+		mesh = Items/Canteen,
+		texture = Items/CanteenArmyGreenTexture,
+	}
+	model WorldItem_CanteenArmyGreen
+	{
+		mesh = WorldItems/WorldItem_Canteen,
+		texture = Items/CanteenArmyGreenTexture,
+	}
+	model Flask
+	{
+		mesh = Items/Flask,
+		texture = Items/FlaskTexture,
+	}
+	model WorldItem_Flask
+	{
+		mesh = WorldItems/WorldItem_Flask,
+		texture = Items/FlaskTexture,
+	}
+	model FlaskSpiffo
+	{
+		mesh = Items/FlaskSpiffo,
+		texture = Items/FlaskSpiffoTexture,
+	}
+	model WorldItem_FlaskSpiffo
+	{
+		mesh = WorldItems/WorldItem_FlaskSpiffo,
+		texture = Items/FlaskSpiffoTexture,
+	}
+	model GymBottleBlueYellow
+	{
+		mesh = Items/GymBottle,
+		texture = Items/GymBottleBlueYellowTexture,
+	}
+	model WorldItem_GymBottleBlueYellow
+	{
+		mesh = WorldItems/WorldItem_GymBottle,
+		texture = Items/GymBottleBlueYellowTexture,
+	}
+	model GymBottleOrangeCharcoal
+	{
+		mesh = Items/GymBottle,
+		texture = Items/GymBottleOrangeCharcoalTexture,
+	}
+	model WorldItem_GymBottleOrangeCharcoal
+	{
+		mesh = WorldItems/WorldItem_GymBottle,
+		texture = Items/GymBottleOrangeCharcoalTexture,
+	}
+	model GymBottlePurpleGrey
+	{
+		mesh = Items/GymBottle,
+		texture = Items/GymBottlePurpleGreyTexture,
+	}
+	model WorldItem_GymBottlePurpleGrey
+	{
+		mesh = WorldItems/WorldItem_GymBottle,
+		texture = Items/GymBottlePurpleGreyTexture,
+	}
+	model GymBottleSpiffo
+	{
+		mesh = Items/GymBottle,
+		texture = Items/GymBottleSpiffoTexture,
+	}
+	model WorldItem_GymBottleSpiffo
+	{
+		mesh = WorldItems/WorldItem_GymBottle,
+		texture = Items/GymBottleSpiffoTexture,
+	}
+	model MedicinalCanteenWhiteGreen
+	{
+		mesh = Items/MedicinalCanteen,
+		texture = Items/MedicinalCanteenWhiteGreenTexture,
+	}
+	model WorldItem_MedicinalCanteenWhiteGreen
+	{
+		mesh = WorldItems/WorldItem_MedicinalCanteen,
+		texture = Items/MedicinalCanteenWhiteGreenTexture,
+	}
+	model MedicinalCanteenGreenWhite
+	{
+		mesh = Items/MedicinalCanteen,
+		texture = Items/MedicinalCanteenGreenWhiteTexture,
+	}
+	model WorldItem_MedicinalCanteenGreenWhite
+	{
+		mesh = WorldItems/WorldItem_MedicinalCanteen,
+		texture = Items/MedicinalCanteenGreenWhiteTexture,
+	}
+	model MedicinalCanteenWhiteRed
+	{
+		mesh = Items/MedicinalCanteen,
+		texture = Items/MedicinalCanteenWhiteRedTexture,
+	}
+	model WorldItem_MedicinalCanteenWhiteRed
+	{
+		mesh = WorldItems/WorldItem_MedicinalCanteen,
+		texture = Items/MedicinalCanteenWhiteRedTexture,
+	}
+	model MedicinalCanteenRedWhite
+	{
+		mesh = Items/MedicinalCanteen,
+		texture = Items/MedicinalCanteenRedWhiteTexture,
+	}
+	model WorldItem_MedicinalCanteenRedWhite
+	{
+		mesh = WorldItems/WorldItem_MedicinalCanteen,
+		texture = Items/MedicinalCanteenRedWhiteTexture,
+	}
+	model GiantWaterBottleEmpty
+	{
+		mesh = Items/GiantWaterBottle,
+		texture = Items/GiantWaterBottleEmptyTexture,
+	}
+	model WorldItem_GiantWaterBottleEmpty
+	{
+		mesh = WorldItems/WorldItem_GiantWaterBottle,
+		texture = Items/GiantWaterBottleEmptyTexture,
+	}
+	model GiantWaterBottleWater
+	{
+		mesh = Items/GiantWaterBottle,
+		texture = Items/GiantWaterBottleWaterTexture,
+	}
+	model WorldItem_GiantWaterBottleWater
+	{
+		mesh = WorldItems/WorldItem_GiantWaterBottle,
+		texture = Items/GiantWaterBottleWaterTexture,
+	}
+	model GiantWaterBottlePetrol
+	{
+		mesh = Items/GiantWaterBottle,
+		texture = Items/GiantWaterBottlePetrolTexture,
+	}
+	model WorldItem_GiantWaterBottlePetrol
+	{
+		mesh = WorldItems/WorldItem_GiantWaterBottle,
+		texture = Items/GiantWaterBottlePetrolTexture,
+	}
+	model JerryCanTank
+	{
+		mesh = Items/JerryCanTank,
+		texture = Items/JerryCanTankTexture,
+	}
+	model WorldItem_JerryCanTank
+	{
+		mesh = WorldItems/WorldItem_JerryCanTank,
+		texture = Items/JerryCanTankTexture,
+	}
+	model JumboJerryCanTank
+	{
+		mesh = Items/JumboJerryCanTank,
+		texture = Items/JumboJerryCanTankTexture,
+	}
+	model WorldItem_JumboJerryCanTank
+	{
+		mesh = WorldItems/WorldItem_JumboJerryCanTank,
+		texture = Items/JumboJerryCanTankTexture,
+	}
+}

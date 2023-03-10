@@ -1,0 +1,6 @@
+Items_RU = {
+	
+	DisplayName_Reinforced_Baseball_Bat = "Армированная бейсбольная бита",
+	DisplayName_Viking_Axe = "Топор викинга",
+	
+}

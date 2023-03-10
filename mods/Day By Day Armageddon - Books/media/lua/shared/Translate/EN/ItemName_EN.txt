@@ -1,0 +1,31 @@
+Tooltip_EN = {
+	Tooltip_Fire =	"Set in the backdrop of the Yukon Trail, where the temperatures plummet below sub-tundra, one hopeful prospector travels without any human companion.",
+	Tooltip_Dick =	"Ishmael believes he has signed onto a routine commission aboard a normal whaling vessel, but he soon learns that Captain Ahab is not guiding the Pequod in the simple pursuit 
+				<LINE> of commerce but is seeking one specific whale, Moby-Dick, a great white whale infamous for his giant size and his ability to destroy the whalers that seek him.",
+	Tooltip_Burd =	"Beggining in 1963, Where Major General first joined the United Stated Army; Maj. Gen Irwin describes his experiences, life and burdens of being a man that has dedicated his 
+				<LINE> life to his country. The book explores heavy psychological descrpitions of the mentality of Maj. Gen. Irwin and his men while imprisoned in Dong Hoi, then later moved to
+				<LINE> Hanoi Hilton.",
+	Tooltip_1984 =	"A portrait of a totalitarian society under the ever-watchful gaze of Big Brother, where love, privacy, and individuality are banned.",
+	Tooltip_Shin =	"Jack Torrance’s new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he’ll have plenty of time to 
+				<LINE> spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote ... and more sinister.",
+	Tooltip_Give =	"Given his lifetime assignment at the Ceremony of Twelve, Jonas becomes the receiver of memories shared by only one other in his community and discovers the terrible truth about
+				<LINE> the society in which he lives.",
+	Tooltip_Harr =	"Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Witchcraft and Wizardry.",
+	Tooltip_Amer =	"A man addicted to his superficial, perfect life, he pulls us into a dark underworld where the American Dream becomes a nightmare ...",
+	Tooltip_LOTR =	"One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+	Tooltip_Fear =	"Hunter S. Thompson is roaring down the desert highway to Las Vegas with his attorney, the Samoan, to find the dark side of the American Dream. Armed with a drug arsenal of 
+				<LINE> stupendous proportions, the duo engage in a surreal succession of chemically enhanced confrontations with casino operators, police officers and assorted Middle Americans..",
+	Tooltip_Comm =	"'The proletarians have nothing to lose but their chains. They have a world to win.'",
+	Tooltip_Hole =	"But there are an awful lot of holes. It doesn’t take long for Stanley to realize there’s more than character improvement going on at Camp Green Lake. The boys are digging holes
+				<LINE> because the warden is looking for something.",
+	Tooltip_Pick =	"To mankind at Large the time is Com at Last the grat day of Regoising what is that why I will tell you thous three kings is Rased Rased you meane should know Rased on the first 
+				<LINE> Royal Arch in the world olmost Not quite but very hiw up upon so thay are good mark to be scene so the womans Lik to see the frount and all people Loves to see them as the 
+				<LINE> quakers will Com and peape slyly and feele glad and say houe the doue frind father Jorge washeton is in the senter king Addoms is at the Rite hand the present king at the 
+				<LINE> Left hand father gorge with his hat on the other hats of the middel king...",
+	Tooltip_Pick =	"To mankind at Large the time is Com at Last the grat day of Regoising what is that why I will tell you thous three kings is Rased Rased you meane should know Rased on the first 
+				<LINE> Royal Arch in the world olmost Not quite but very hiw up upon so thay are good mark to be scene so the womans Lik to see the frount and all people Loves to see them as the 
+				<LINE> quakers will Com and peape slyly and feele glad and say houe the doue frind father Jorge washeton is in the senter king Addoms is at the Rite hand the present king at the 
+				<LINE> Left hand father gorge with his hat on the other hats of the middel king...",
+	Tooltip_Extr =	"'And Jesus said 'talk to the hand, yo'",
+	Tooltip_IT =		"Welcome to Derry, Maine. It’s a small city, a place as hauntingly familiar as your own hometown. Only in Derry the haunting is real."
+}

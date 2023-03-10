@@ -1,0 +1,17 @@
+module Ducks
+{
+    item Tshirt_DuckDECAL
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Duck T-Shirt,
+        ClothingItem = Tshirt_DuckDECAL,
+        BodyLocation = Tshirt,
+        Icon	= Tshirt_DuckDECAL,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+}

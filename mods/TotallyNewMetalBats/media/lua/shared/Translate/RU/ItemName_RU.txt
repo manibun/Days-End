@@ -1,0 +1,5 @@
+ItemName_RU = {
+	ItemName_BatesMetalicos.MetalBaseballBat = "Металлическая бейсбольная бита",
+	ItemName_BatesMetalicos.Bgrip = "Профессиональная рукоятка для бейсбольной биты",
+	ItemName_BatesMetalicos.Bsock = "Профессиональная обшивка для бейсбольной биты",
+}

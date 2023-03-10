@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	
+	<!-- Shirts Start -->
+
+	<!-- BandanaTop_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTop_White.xml</path>
+		<guid>6a245b90-9424-4d43-939f-34c23a177b9d</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTop_Camo_Desert.xml</path>
+		<guid>ce98be2e-00bf-48d6-a280-07961e5ab375</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTop_Camo_Grassland.xml</path>
+		<guid>889f4b40-5999-413d-9ac6-3f989fbd2479</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTop_Camo_Water.xml</path>
+		<guid>e28f7907-885b-4cf1-8d27-d2c51c5caa74</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BandanaTop_Camo_Winter.xml</path>
+		<guid>e0d465d3-3414-4822-ae05-7ac60820eb50</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BandanaTop_Camo_Woodland.xml</path>
+		<guid>862b9f83-c17b-4d6d-a238-8984374920fa</guid>
+	</files>
+	
+	
+	<!-- BandanaTopShort_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTopShort_White.xml</path>
+		<guid>ee1dff7e-d9b7-4569-b028-1eb169830e24</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTopShort_Camo_Desert.xml</path>
+		<guid>c777234f-880b-4962-8ace-d930818a5970</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTopShort_Camo_Grassland.xml</path>
+		<guid>2792836c-089c-422e-b2fe-d2f6807a7a65</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/BandanaTopShort_Camo_Water.xml</path>
+		<guid>c523f430-4a14-4b73-8446-7f3309632d31</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BandanaTopShort_Camo_Winter.xml</path>
+		<guid>7ad64f8f-854a-4687-9f9d-e2731c9ceb83</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BandanaTopShort_Camo_Woodland.xml</path>
+		<guid>176b04d2-24ab-447b-8c57-ac5e39d5459e</guid>
+	</files>
+	
+	
+	<!-- ChainTopNoArms_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopNoArms_White.xml</path>
+		<guid>979c6041-1572-40ba-8d40-5c9995947b0a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopNoArms_Camo_Desert.xml</path>
+		<guid>80f3a873-2497-42b3-bff5-e4daaadebccd</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopNoArms_Camo_Grassland.xml</path>
+		<guid>85117bea-3a01-4813-be0a-2202e7f0b314</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopNoArms_Camo_Water.xml</path>
+		<guid>956619fb-c939-4b6f-b3c0-fce9f4dc738d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ChainTopNoArms_Camo_Winter.xml</path>
+		<guid>0aaf1422-bddc-4902-aed7-a7760bceecb2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ChainTopNoArms_Camo_Woodland.xml</path>
+		<guid>7b22b21a-4f73-4dcb-97f3-71462967b735</guid>
+	</files>
+	
+	
+	<!-- ChainTopLong_Trans_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopLong_Trans_Black.xml</path>
+		<guid>ef8f2955-045a-4c1d-b4e5-f415390f2392</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/ChainTopLong_Trans_Lace_Black.xml</path>
+		<guid>fd75d4f0-3b89-46fe-ba63-01a521e17a02</guid>
+	</files>
+	
+	
+	<!-- CrissCrossTopNoArms_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_White.xml</path>
+		<guid>7d89671a-377f-4351-9696-8b161834adb5</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_Camo_Desert.xml</path>
+		<guid>1a7af0af-d088-4b8d-aab3-20a3aec5c0c0</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_Camo_Grassland.xml</path>
+		<guid>a20798e8-ab7b-4a83-842a-0f0de336c2b0</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_Camo_Water.xml</path>
+		<guid>b22c0bca-81cf-46dd-a189-8994458c6241</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_Camo_Winter.xml</path>
+		<guid>abc944bb-7e1f-4ea1-b5f5-8665fdfb3c6e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrissCrossTopNoArms_Camo_Woodland.xml</path>
+		<guid>6eca78d6-2625-4308-b946-5ea3d7e26333</guid>
+	</files>
+	
+	
+	<!-- CrissCrossTopNoArmsShort_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_White.xml</path>
+		<guid>72581725-2fbe-4168-a173-437ad2e9aa1e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_Camo_Desert.xml</path>
+		<guid>3fe02e5b-997d-4892-879c-23e0043257dc</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_Camo_Grassland.xml</path>
+		<guid>4666ed2a-2700-42d3-b31a-a73a00588e22</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_Camo_Water.xml</path>
+		<guid>bb3e3bf7-2b5b-4564-9741-4c0a7edc79b6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_Camo_Winter.xml</path>
+		<guid>c1045cd9-be80-4f78-b15e-26972558e4d6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CrissCrossTopNoArmsShort_Camo_Woodland.xml</path>
+		<guid>2952c772-6c00-4731-8525-126d5d7d30f0</guid>
+	</files>
+	
+	
+	<!-- CropTop_Camo -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Camo_Desert.xml</path>
+		<guid>63fc91a3-60c7-49e5-84fe-94c388ba2990</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Camo_Grassland.xml</path>
+		<guid>65e8a5ad-ed92-45ec-a625-dcb2848a165c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Camo_Water.xml</path>
+		<guid>6fa8c2c1-48ef-456a-bc00-da23e3f173bd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Camo_Winter.xml</path>
+		<guid>7466c587-681f-42c0-9dc5-1eb64955e9a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Camo_Woodland.xml</path>
+		<guid>86eedec0-7375-4366-a9e3-60ede0835fe1</guid>
+	</files>
+	
+	
+	<!-- CropTopNoArms_Camo -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Camo_Desert.xml</path>
+		<guid>7cf78e9c-58ec-47db-9cd7-64d564f08918</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Camo_Grassland.xml</path>
+		<guid>8b739b1c-7c2e-436a-9f9b-1d2fb7d3e6bc</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Camo_Water.xml</path>
+		<guid>4c9c766d-6733-4a75-b0c2-2a42c24b1ffe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Camo_Winter.xml</path>
+		<guid>ff01f941-059f-4576-9952-131cbe473e8d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Camo_Woodland.xml</path>
+		<guid>4efe1ae5-875c-4176-bf84-db2f70983c17</guid>
+	</files>
+	
+	
+	<!-- CropTop_BigCutout_BoundF_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_White.xml</path>
+		<guid>1f565855-ef2b-4df9-aa1d-31c2e71f7868</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_Camo_Desert.xml</path>
+		<guid>78653f0c-8e16-453b-85ab-2fbb7e8b1c83</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_Camo_Grassland.xml</path>
+		<guid>68874bfc-3171-4820-b9b6-a3d3d52dee55</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_Camo_Water.xml</path>
+		<guid>1844b60a-f6c9-448b-a40d-0f8cb0f4d1fc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_Camo_Winter.xml</path>
+		<guid>996fe3dd-a777-4561-87fc-3f7973a54cfb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_BigCutout_BoundF_Camo_Woodland.xml</path>
+		<guid>c7341dcb-b8ca-4a47-9163-749ce26d32ba</guid>
+	</files>
+	
+	
+	<!-- CropTopNoArms_BigCutout_BoundF_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_White.xml</path>
+		<guid>a129d889-2fc9-43b2-8de8-44aa79507aa4</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_Camo_Desert.xml</path>
+		<guid>f20615f6-a9a1-4a59-9f38-607fcebac99e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_Camo_Grassland.xml</path>
+		<guid>cdd40b9b-6e31-4c04-936a-de536d9dfdae</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_Camo_Water.xml</path>
+		<guid>582e4ce3-f65c-4a8b-80b5-6abd470d45cc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_Camo_Winter.xml</path>
+		<guid>2b6acc7d-8267-4658-aa63-8e11df852d01</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_BigCutout_BoundF_Camo_Woodland.xml</path>
+		<guid>8b5db7d2-8ddc-4427-973b-f4691e2096b3</guid>
+	</files>
+	
+	
+	<!-- CropTop_Cutout_BoundF_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_White.xml</path>
+		<guid>a2866fa0-c4e5-4f06-9524-8564f0ad7f32</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_Camo_Desert.xml</path>
+		<guid>8e0c7abb-e0ca-4653-a016-7d1d898eb654</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_Camo_Grassland.xml</path>
+		<guid>a949f6eb-d006-4dec-84f9-8a543cbed319</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_Camo_Water.xml</path>
+		<guid>73a063af-6a53-433b-84aa-b7455c5cc7d4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_Camo_Winter.xml</path>
+		<guid>098cef42-7f6f-4457-8cb9-230a1801ada1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Cutout_BoundF_Camo_Woodland.xml</path>
+		<guid>8f970e59-6566-4bb6-b5bd-51fffd8fa94c</guid>
+	</files>
+	
+	
+	<!-- CropTopNoArms_Cutout_BoundF_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_White.xml</path>
+		<guid>dccb6fd3-dcdf-425a-81d3-d35a58a80253</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_Camo_Desert.xml</path>
+		<guid>1ae52178-346b-4097-86b6-616273cbe832</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_Camo_Grassland.xml</path>
+		<guid>81cc395b-8ae4-4cb1-b3af-29fe171822ba</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_Camo_Water.xml</path>
+		<guid>b7fd60fb-4331-498a-9b4e-bccec83282dd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_Camo_Winter.xml</path>
+		<guid>6b8bce72-677f-40e1-9943-67bea1860c36</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_BoundF_Camo_Woodland.xml</path>
+		<guid>d3b6804c-4960-4b1e-aada-43ad6f32f7fa</guid>
+	</files>
+	
+	
+	<!-- CropTop_Cutout_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_White.xml</path>
+		<guid>c401d5cb-ce3d-4f60-9115-0b438e4fb8ae</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_Camo_Desert.xml</path>
+		<guid>673b5271-271a-4818-9ec1-a6e77ff032ad</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_Camo_Grassland.xml</path>
+		<guid>8c092125-6953-41a9-ab2e-9a7538085c46</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTop_Cutout_Camo_Water.xml</path>
+		<guid>3fc112b1-9a6c-45c4-8796-3ede5a275a2a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Cutout_Camo_Winter.xml</path>
+		<guid>e5eeb260-ab08-488c-871c-be01729eee38</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTop_Cutout_Camo_Woodland.xml</path>
+		<guid>79c4792a-4f49-4209-8b36-1a0a98f18e28</guid>
+	</files>
+	
+	
+	<!-- CropTopNoArms_Cutout_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_White.xml</path>
+		<guid>0a956ad3-62f1-420b-9190-203acdcb6e1a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_Camo_Desert.xml</path>
+		<guid>a8a18e76-4d52-46a0-a082-da2cb0c9cb5c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_Camo_Grassland.xml</path>
+		<guid>4409748c-6fae-4a63-bf39-aa235a534e68</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_Camo_Water.xml</path>
+		<guid>f1ec50a9-acc2-4c11-81dd-1a352c8b4af3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_Camo_Winter.xml</path>
+		<guid>178818cf-2dbe-4653-afeb-4f230dfbfa70</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopNoArms_Cutout_Camo_Woodland.xml</path>
+		<guid>21b43fed-8f1f-41dd-9a80-55e512cfe69f</guid>
+	</files>
+		
+	
+	<!-- CropTopRing_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopRing_White.xml</path>
+		<guid>05a30b10-b6ea-40d0-9c5e-a9b306525402</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopRing_Camo_Desert.xml</path>
+		<guid>f74abf6a-d9c0-49a6-9e6e-21bd60142fc0</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopRing_Camo_Grassland.xml</path>
+		<guid>e4335f1a-f581-4858-96a2-d6ae1803e7ce</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopRing_Camo_Water.xml</path>
+		<guid>53ed0f8e-f05a-405a-9613-cd906e95548a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopRing_Camo_Winter.xml</path>
+		<guid>e495e942-e72b-4c01-a43e-8e4df15bc038</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopRing_Camo_Woodland.xml</path>
+		<guid>0f7d889b-c96c-43b8-a962-2cefa9da6e91</guid>
+	</files>
+	
+	
+	<!-- CropTopOneCarrier_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/CropTopOneCarrier_White.xml</path>
+		<guid>1f02e008-f611-4e7e-85f6-7cb8a4764f03</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopOneCarrier_Camo_Desert.xml</path>
+		<guid>2c40aad5-6404-4f68-ace7-acc89a4ae674</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopOneCarrier_Camo_Grassland.xml</path>
+		<guid>eadd9335-0394-4e54-a34a-d65a231c28ed</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/CropTopOneCarrier_Camo_Water.xml</path>
+		<guid>cab56718-f510-4d76-bee5-9c8d8a4ec93f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopOneCarrier_Camo_Winter.xml</path>
+		<guid>14a25edd4-ab59-4d3c-96a5-00f05e182fab </guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CropTopOneCarrier_Camo_Woodland.xml</path>
+		<guid>6bd47838-9660-4d65-9929-d44dd0b12c8c</guid>
+	</files>
+	
+	
+	<!-- NeckholderTankTop_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTop_White.xml</path>
+		<guid>0fc2d691-d465-4427-bf6f-c0f500e2f2ad</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTop_Camo_Desert.xml</path>
+		<guid>928aaff9-e58b-44d5-a141-38ec3c98e2b6</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTop_Camo_Grassland.xml</path>
+		<guid>c596fbfa-5768-4b90-bee5-c06c6899eca8</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTop_Camo_Water.xml</path>
+		<guid>144c34ab-7d8b-40b5-995d-31a6250a8b84</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTankTop_Camo_Winter.xml</path>
+		<guid>285869d5-82f3-4014-9a6e-e770c89585ef</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTankTop_Camo_Woodland.xml</path>
+		<guid>be575818-7389-4bb9-a31d-4048a3983c9d</guid>
+	</files>
+	
+	
+	<!-- NeckholderTankTopShort_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_White.xml</path>
+		<guid>825edc13-016a-4623-b962-a0cc9d72d140</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_Camo_Desert.xml</path>
+		<guid>bf8deaef-9306-42c7-a945-fda00347bf94</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_Camo_Grassland.xml</path>
+		<guid>e8848601-2ad8-42f8-8599-59064f283cbe</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_Camo_Water.xml</path>
+		<guid>de703f0b-be07-490c-bde1-2836d525978e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_Camo_Winter.xml</path>
+		<guid>6034d1f0-e390-4c70-8253-1e7c0e84b5d8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTankTopShort_Camo_Woodland.xml</path>
+		<guid>630d1355-c07a-452c-96aa-ee0e6a46197f</guid>
+	</files>
+	
+	
+	<!-- NeckholderTop_Backstrap_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_White.xml</path>
+		<guid>9e592bb4-17a8-4817-a8f6-82982cd6ff23</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_Camo_Desert.xml</path>
+		<guid>ee864c4d-a671-44d5-98c5-83efaaf4df63</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_Camo_Grassland.xml</path>
+		<guid>a0abd60e-5b2c-412d-b72e-216086ac1278</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_Camo_Water.xml</path>
+		<guid>8dcef3eb-d31b-4f69-80bf-6dc5baa54e21</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_Camo_Winter.xml</path>
+		<guid>3d50705c-6b25-4d14-9678-89cfc2ee4087</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_Backstrap_Camo_Woodland.xml</path>
+		<guid>4769bbfe-6f83-45a1-bc4a-8736847b9a5b</guid>
+	</files>
+	
+	
+	<!-- NeckholderTopShort_Backstrap_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_White.xml</path>
+		<guid>9dbee181-f408-48e9-a9bc-8e01980318e3</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_Camo_Desert.xml</path>
+		<guid>e00f11d6a-d42a-44d5-9b1a-3ca9433278ff</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_Camo_Grassland.xml</path>
+		<guid>c912030c-0d46-4964-b198-0b675d374888</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_Camo_Water.xml</path>
+		<guid>ca452b9d-e94a-4824-9caa-ed4baaa08c4f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_Camo_Winter.xml</path>
+		<guid>55f9b2fc-c8bb-4fec-8266-d29795c78020</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTopShort_Backstrap_Camo_Woodland.xml</path>
+		<guid>666de930-4615-4eff-9fee-ac2c574ca4d6</guid>
+	</files>
+	
+	
+	<!-- NeckholderTop_Cutout_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_White.xml</path>
+		<guid>315a5ccf-b901-4f76-9846-c6f8461c66fc</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_Camo_Desert.xml</path>
+		<guid>006ef344-93d3-4b9a-9e11-29a2b09c941e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_Camo_Grassland.xml</path>
+		<guid>6a003f4a-d866-4483-a7d8-62bd7628b424</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_Camo_Water.xml</path>
+		<guid>b520b02a-b2a1-4837-8a16-dc84626d920c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_Camo_Winter.xml</path>
+		<guid>7651fc2f-5601-4c1a-a0c0-4bf563206c1e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_Cutout_Camo_Woodland.xml</path>
+		<guid>7b30f986-4827-4842-b496-b1dfb517bbac</guid>
+	</files>
+	
+	
+	<!-- NeckholderTop_DoubleStrap_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_White.xml</path>
+		<guid>a01eb8cf-5397-4863-9f2f-7a8f94c47ed4</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_Camo_Desert.xml</path>
+		<guid>b4a50005-62dd-4905-a624-316a979640ef</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_Camo_Grassland.xml</path>
+		<guid>b53eef35-5408-4fba-ab94-134d9d280ef6</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_Camo_Water.xml</path>
+		<guid>df1c0c59-e35c-4820-a7d6-0cde59657e38</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_Camo_Winter.xml</path>
+		<guid>b80abf2c-8dd9-45ee-b59a-a10752c25987</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NeckholderTop_DoubleStrap_Camo_Woodland.xml</path>
+		<guid>2672bbdd-c77f-45e6-a9df-fa70d3f321e6</guid>
+	</files>
+	
+	
+	<!-- Special_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/Special_BR_Black_Red.xml</path>
+		<guid>e5b79cd3-8a76-44c3-aeb8-65a0494d86f3</guid>
+	</files>
+	
+	
+	<!-- StripesTop_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/StripesTop_White.xml</path>
+		<guid>a2f5b1c6-c2f5-4d1e-93dd-46baccd87087</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/StripesTop_Camo_Desert.xml</path>
+		<guid>089359a6-5705-419c-8d74-79fb9a66009e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/StripesTop_Camo_Grassland.xml</path>
+		<guid>d297fa60-3155-489f-952f-7c89d90a76ac</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/StripesTop_Camo_Water.xml</path>
+		<guid>dd07f1b1-57c7-4045-a831-13c6b38a419b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StripesTop_Camo_Winter.xml</path>
+		<guid>408dd20a-366a-45d1-ade0-8fa1c64a45fe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StripesTop_Camo_Woodland.xml</path>
+		<guid>81f77583-a0e4-4b40-b849-94bd4576d3aa</guid>
+	</files>
+	
+	
+	<!-- TankTop_BoundB_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_BoundB_White.xml</path>
+		<guid>f68486bc-f23c-403a-a5bb-59a61d8159ef</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_BoundB_Camo_Desert.xml</path>
+		<guid>2768bd14-ab14-484d-87d3-833be1a79d34</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_BoundB_Camo_Grassland.xml</path>
+		<guid>3c852df1-bba5-44e4-8112-5e80b6cc1cb3</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_BoundB_Camo_Water.xml</path>
+		<guid>b738dc94-37f1-49a4-8d2e-6a278a1baf50</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTop_BoundB_Camo_Winter.xml</path>
+		<guid>26a107c5-3f9a-4b33-9088-44bff755f599</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTop_BoundB_Camo_Woodland.xml</path>
+		<guid>6214d0be-2cb2-42fd-825c-6dcac265a8e4</guid>
+	</files>
+	
+	
+	<!-- TankTop_Camo -->
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_White.xml</path>
+		<guid>51ac9b24-3dd0-4698-a814-f153c2e35bde</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_Camo_Desert.xml</path>
+		<guid>4b33e071-7cce-4751-90b6-8856c62df4eb</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_Camo_Grassland.xml</path>
+		<guid>a57d44e4-650e-4bb2-9d8f-203c47078565</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_Camo_Water.xml</path>
+		<guid>21de024c-1e8d-4db6-a2a9-da27ed28b811</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTop_Camo_Winter.xml</path>
+		<guid>c93b3fed-3ad6-4cb8-ac51-83d6f646a26b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTop_Camo_Woodland.xml</path>
+		<guid>1b5a37ca-103e-47a4-bfbb-712fbaa44b0f</guid>
+	</files>
+	
+	
+	<!-- TankTopShort_Camo -->
+	<files>	
+		<path>media/clothing/clothingItems/TankTopShort_White.xml</path>
+		<guid>85282c27-bfe3-421c-b65f-6a8380b26540</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTopShort_Camo_Desert.xml</path>
+		<guid>a8169dca-c2a8-4ff1-8b07-1ca4c18ab39f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTopShort_Camo_Grassland.xml</path>
+		<guid>67c229c5-7c8c-44b2-a78f-0def36a8f01c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTopShort_Camo_Water.xml</path>
+		<guid>b62aa4f4-1287-458e-a586-57398ea12d4a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTopShort_Camo_Winter.xml</path>
+		<guid>6eb568a3-fea8-4531-935f-86a690f2ab42</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TankTopShort_Camo_Woodland.xml</path>
+		<guid>d30b3e3a-76d7-42a0-9da0-df8fd323ba6c</guid>
+	</files>
+	
+	
+	<!-- TankTop_Trans_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_Trans_Black.xml</path>
+		<guid>56a017d9-5522-407c-a9d5-a13e23b1e27a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TankTop_Trans_Lace_Black.xml</path>
+		<guid>9069af69-4577-45ca-9e23-c5c1332a3ce1</guid>
+	</files>
+
+
+	<!-- TwistedTopNoArms_Cutout_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_White.xml</path>
+		<guid>3c975090-9e79-4b41-8312-893bd635c985</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_Camo_Desert.xml</path>
+		<guid>42638ca8-1c44-44f4-92e8-42c61abd272a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_Camo_Grassland.xml</path>
+		<guid>cf2dec9c-0427-439e-a969-950a70a48c8e</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_Camo_Water.xml</path>
+		<guid>22eb532a-7111-45f8-912d-e8964629bc2c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_Camo_Winter.xml</path>
+		<guid>e9341397-d946-445b-a277-44337ee24993</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TwistedTopNoArms_Cutout_Camo_Woodland.xml</path>
+		<guid>5d33c62c-c1cf-4ac9-bca4-55f30d05501c</guid>
+	</files>
+
+	<!-- Shirts End -->
+	
+	
+	
+	<!-- Sweater Start -->
+
+	<!-- Sweater End -->
+	
+	
+
+	<!-- Pants Start -->
+	
+	<!-- JeansHPants_BoundS_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_BoundS_Black.xml</path>
+		<guid>007d7064-114f-4873-9298-76eda83b9d8c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_BoundS_Blue.xml</path>
+		<guid>961ad90e-490b-4bff-8ade-bd36ccb5ca2b</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_BoundS_Grey.xml</path>
+		<guid>7177e579-425a-489c-9101-32b47b541796</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_BoundS_White.xml</path>
+		<guid>84eecc4a-c214-4dc4-9b3d-80a4f663685a</guid>
+	</files>
+	
+	
+	<!-- JeansHPants_Normal_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Black.xml</path>
+		<guid>f8a64e8a-4a17-4109-beec-8d3048d4fe29</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Blue.xml</path>
+		<guid>9064a22c-bf80-415b-940a-9928c962b821</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Grey.xml</path>
+		<guid>1d107666-fe23-4756-a5a3-c36f33fb48ca</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_White.xml</path>
+		<guid>57cff85b-25df-444d-a7bb-473c8e3ec735</guid>
+	</files>
+	
+	
+	<!-- JeansHPants_Normal_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Ripped_Black.xml</path>
+		<guid>2e0aede2-ce6f-4fe9-895b-96f509f5b971</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Ripped_Blue.xml</path>
+		<guid>05c24c72-6e37-4428-ace4-eff58cfce20a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Ripped_Grey.xml</path>
+		<guid>baa795eb-ccda-483c-85e5-9bf37051619b</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Normal_Ripped_White.xml</path>
+		<guid>def2fb5f-8004-4cc9-8dd9-63e65a393c4d</guid>
+	</files>
+	
+	
+	<!-- JeansHPants_Skull_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Black.xml</path>
+		<guid>a63d4c23-6c55-4034-b0e3-8ada9c018180</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_LightBlue.xml</path>
+		<guid>8e6adc50-7b70-4f17-ae15-729c918e512f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Grey.xml</path>
+		<guid>ee3b8171-a4db-491c-8eeb-310c9dd622fb</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_White.xml</path>
+		<guid>ca89e0a6-476d-4db7-b57c-0bc0369d8f74</guid>
+	</files>
+	
+	
+	<!-- JeansHPants_Skull_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Ripped_Black.xml</path>
+		<guid>f5b9f2b1-1bb4-48a2-be93-790033341a82</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Ripped_LightBlue.xml</path>
+		<guid>1a46dc95-f40c-45d6-a53a-6926db71baef</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Ripped_Grey.xml</path>
+		<guid>7032efb1-9953-474e-852a-aa8b746c4519</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Skull_Ripped_White.xml</path>
+		<guid>136aceea-3b32-4ac9-af6c-2c37db2b06e1</guid>
+	</files>
+	
+	
+	<!-- JeansHPants_Special_Skull_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Special_Skull_Black.xml</path>
+		<guid>ca34a4e1-1ca1-41e8-914f-e8944eafa65f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Special_Skull_Blue.xml</path>
+		<guid>0d99f821-6a0c-4cbb-864f-4ecc279e95f7</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Special_Skull_Grey.xml</path>
+		<guid>8188a949-cc3d-4ffe-8893-c0feb08e756d</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansHPants_Special_Skull_White.xml</path>
+		<guid>7680ec3f-990e-48db-9aa7-9ca55b10c17b</guid>
+	</files>
+	
+	
+	<!-- JeansLong_BoundS_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_BoundS_Black.xml</path>
+		<guid>5bdce526-0c0f-45e5-9dec-d73ff3ecb919</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_BoundS_Grey.xml</path>
+		<guid>f1af9f8d-5aa6-469e-a109-c005b5d223dd</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_BoundS_White.xml</path>
+		<guid>53a4887f-2ef1-4655-aa9f-0f5428377955</guid>
+	</files>
+	
+	
+	<!-- JeansLong_Normal_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Black.xml</path>
+		<guid>7ca901c5-e581-48a9-95aa-0c4ba9369c42</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Blue.xml</path>
+		<guid>85407806-0985-49a9-984b-56ee89ba9976</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Grey.xml</path>
+		<guid>2ec4994b-fe34-4a0f-b50b-3cffb99c8637</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_White.xml</path>
+		<guid>0b2c80ba-4e0d-47bc-983d-8c9566703c9f</guid>
+	</files>
+	
+	
+	<!-- JeansLong_Normal_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Ripped_Black.xml</path>
+		<guid>3b95bb8d-4122-45af-809a-f6fafcad8276</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Ripped_Blue.xml</path>
+		<guid>dfff6f93-c835-48b8-9df3-61090a2f9180</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Ripped_Grey.xml</path>
+		<guid>cb6fe2ec-3e6f-4e73-864a-758b94fad584</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Normal_Ripped_White.xml</path>
+		<guid>6f1cca2b-e743-44e2-b977-80ac10316b10</guid>
+	</files>
+	
+	
+	<!-- JeansLong_Skull_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Black.xml</path>
+		<guid>283ac1f2-4138-4a30-88d4-65c4a340bf9f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_LightBlue.xml</path>
+		<guid>4cca6b9d-f251-473a-8145-acbd83b719ca</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Grey.xml</path>
+		<guid>dd21e801-c97d-48cd-a1b3-67f7ea6e5467</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_White.xml</path>
+		<guid>2da036a8-38ec-4869-8ecf-020d3e87cd64</guid>
+	</files>
+	
+	
+	<!-- JeansLong_Skull_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Ripped_Black.xml</path>
+		<guid>5503a819-27dc-4406-b4ca-ec3877e2cc07</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Ripped_LightBlue.xml</path>
+		<guid>b5f3f7df-961c-43fb-a9d2-dd3dc249256a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Ripped_Grey.xml</path>
+		<guid>fba7589f-bedf-4fa9-b669-09565cd5111f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansLong_Skull_Ripped_White.xml</path>
+		<guid>c9b8452a-d92c-4f14-80bf-83fd1c900531</guid>
+	</files>
+	
+	
+	<!-- JeansShorts_Normal_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Black.xml</path>
+		<guid>5d772a38-a3f8-4dba-a58c-aa3b26820545</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Blue.xml</path>
+		<guid>d3af89bf-aade-4f43-af8f-5bacf955ba4c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Grey.xml</path>
+		<guid>65a3055c-64e8-4ec9-a976-0e2e4215d2fa</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_White.xml</path>
+		<guid>0dd756e4-ebe0-4066-b6fe-09da08d73238</guid>
+	</files>
+	
+	
+	<!-- JeansShorts_Normal_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Ripped_Black.xml</path>
+		<guid>6da53e80-bd75-402f-ac27-ed9203c53c8f</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Ripped_Blue.xml</path>
+		<guid>f1ed586f-5b80-4ea0-945c-6ab892a104c9</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Ripped_Grey.xml</path>
+		<guid>7f0fc3c7-51c9-4bc8-9d69-a130be3ea16c</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Normal_Ripped_White.xml</path>
+		<guid>b4d928ea-3f26-4203-a9fa-80ea1d956577</guid>
+	</files>
+	
+	
+	<!-- JeansShorts_Skull_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Black.xml</path>
+		<guid>bc10f738-ea89-4038-bf73-a7e854f594e8</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_LightBlue.xml</path>
+		<guid>44ef3fc3-9e98-4737-a09e-1f7a8190bc35</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Grey.xml</path>
+		<guid>101fa6ad-3774-4daf-b055-b7b4943622c7</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_White.xml</path>
+		<guid>c6ee31de-87fd-4418-8694-d70c29b77c3a</guid>
+	</files>
+	
+	
+	<!-- JeansShorts_Skull_Ripped_Base -->
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Ripped_Black.xml</path>
+		<guid>9afee5e8-a288-40fe-b98c-2776b2017a28</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Ripped_LightBlue.xml</path>
+		<guid>aa8fa85e-6dde-4e37-9706-b8ca71e6e89a</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Ripped_Grey.xml</path>
+		<guid>200beb4e-2602-4f5c-b4cd-ed2d903afaa9</guid>
+	</files>
+	<files>	
+		<path>media/clothing/clothingItems/JeansShorts_Skull_Ripped_White.xml</path>
+		<guid>5a14b938-4268-4cf9-be3e-187b6a06f2e5</guid>
+	</files>
+	
+	<!-- Pants End -->
+	
+</fileGuidTable>
+
+
+	

@@ -1,0 +1,65 @@
+module Base
+{
+
+	model WorkshopMag1_Ground
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazine,
+		texture	= Magazines/WorkshopMag1,
+		scale = 1,
+    }
+	model WorkshopMag1
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazineReading,
+		texture	= Magazines/WorkshopMag1,
+		scale = 1,
+    }
+	model WorkshopMag2_Ground
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazine,
+		texture	= Magazines/WorkshopMag2,
+		scale = 1,
+    }
+	model WorkshopMag2
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazineReading,
+		texture	= Magazines/WorkshopMag2,
+		scale = 1,
+    }
+	model WorkshopMag3_Ground
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazine,
+		texture	= Magazines/WorkshopMag3,
+		scale = 1,
+    }
+	model WorkshopMag3
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazineReading,
+		texture	= Magazines/WorkshopMag3,
+		scale = 1,
+    }
+	model WorkshopMag4_Ground
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazine,
+		texture	= Magazines/WorkshopMag4,
+		scale = 1,
+    }
+	model WorkshopMag4
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazineReading,
+		texture	= Magazines/WorkshopMag4,
+		scale = 1,
+    }
+	model WorkshopMag5_Ground
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazine,
+		texture	= Magazines/WorkshopMag5,
+		scale = 1,
+    }
+	model WorkshopMag5
+	{
+		mesh = WorldItems/Magazines/TWRecipeMagazineReading,
+		texture	= Magazines/WorkshopMag5,
+		scale = 1,
+    }
+	
+}

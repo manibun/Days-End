@@ -1,0 +1,27 @@
+module SproutCraftThis4
+{
+	imports
+	{
+		Base
+	}
+
+
+recipe Make NailsBox simple
+    {
+	   Base.SmallSheetMetal=1,
+	   Base.SheetPaper2=4,
+
+ 	   keep Scissors,
+ 	   keep Saw,
+ 	   keep Hammer,
+
+         Category			:Welding,
+	   Result			:Base.NailsBox,
+	   SkillRequired		:MetalWelding=2,
+	   Sound			:Sawing,
+	   Time			:200.0,
+
+    }
+
+
+}

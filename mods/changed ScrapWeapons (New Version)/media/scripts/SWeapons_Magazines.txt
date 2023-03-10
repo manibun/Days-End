@@ -1,0 +1,89 @@
+module SWeapons
+{
+	imports
+	{
+		Base
+	}
+
+	item WeaponMag1
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Doom's Day Survivor Vol. 1 (Basics),
+		Icon = WeaponMag1,
+		TeachedRecipes = Make Scrap Club;Make Salvaged Club;Make Huge Scrap Pickaxe;Make Scrap Pickaxe;Make Large Scrap Pickaxe;Sharpen Stop Sign,
+		StaticModel = WeaponMag1,
+		ReplaceOnUse    =   WeaponMag1,
+		WorldStaticModel = WeaponMag1_Ground,
+		Tooltip             = Tooltip_WeaponMag1,
+		DisplayCategory = SkillBook,
+	}
+	item WeaponMag2
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Doom's Day Survivor Vol. 2 (Shivs),
+		Icon = WeaponMag2,
+		TeachedRecipes = Make Scrap Shiv;Make Salvaged Shiv;Sharpen Screwdriver,
+		StaticModel = WeaponMag2,
+		ReplaceOnUse    =   WeaponMag2,
+	    WorldStaticModel = WeaponMag2_Ground,
+		Tooltip             = Tooltip_WeaponMag2,
+		DisplayCategory = SkillBook,
+	}
+
+	item WeaponMag3
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Doom's Day Survivor Vol. 3 (Blunt Weapons),
+		Icon = WeaponMag3,
+		TeachedRecipes = Attach Pipes;Make Tin Can Club;Attach Gears to Pipe;Make Salvaged Crowbar;Attach DumbBell to Pipe,
+		StaticModel = WeaponMag3,
+		ReplaceOnUse    =   WeaponMag3,
+		WorldStaticModel = WeaponMag3_Ground,
+		Tooltip             = Tooltip_WeaponMag3,
+		DisplayCategory = SkillBook,
+	}
+	
+	item WeaponMag4
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Wasteland Warrior Vol. 1 (Axes),
+		Icon = WeaponMag4,
+		TeachedRecipes = Make TireIronAxe;Make Salvaged PipeWrench;Make Salvaged Climbing Axe,
+		StaticModel = WeaponMag4,
+		ReplaceOnUse    =   WeaponMag4,
+		WorldStaticModel = WeaponMag4_Ground,
+		Tooltip             = Tooltip_WeaponMag4,
+		DisplayCategory = SkillBook,
+	}
+	item WeaponMag5
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Wasteland Warrior Vol. 2 (Spears),
+		Icon = WeaponMag5,
+		TeachedRecipes = Make Salvaged Spear;Make Scrap Spear,
+		StaticModel = WeaponMag5,
+		ReplaceOnUse    =   WeaponMag5,
+		WorldStaticModel = WeaponMag5_Ground,
+		Tooltip             = Tooltip_WeaponMag5,
+		DisplayCategory = SkillBook,
+	}
+	item WeaponMag6
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Wasteland Warrior Vol. 3 (Bladed Weapons),
+		Icon = WeaponMag6,
+		TeachedRecipes = Make Salvaged Cleaver;Make Salvaged Blade;Make Scrap Sword;Make Scrap Machete;Make Salvaged Machete;Make Scrap Blade;Make Salvaged Nightstick,
+		StaticModel = WeaponMag6,
+		ReplaceOnUse    =   WeaponMag6,
+		WorldStaticModel = WeaponMag6_Ground,
+		Tooltip             =  Tooltip_WeaponMag6,
+		DisplayCategory = SkillBook,
+	}
+	
+}

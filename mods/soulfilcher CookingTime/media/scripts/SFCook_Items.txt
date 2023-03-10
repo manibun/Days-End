@@ -1,0 +1,1516 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Magazines************************/
+
+    item SFCookingMag1
+    {
+        DisplayCategory = SkillBook,
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Good Cooking Magazine Vol. 3,
+        Icon		=	SFCookingMag1,
+        TeachedRecipes  =   Make Corn Batter;Make Corndog,
+        ReplaceOnUse    =   SFCookingMag1,
+        WorldStaticModel = MagazineOpenGround,
+    }
+
+    item SFCookingMag2
+    {
+        DisplayCategory = SkillBook,
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Good Cooking Magazine Vol. 4,
+        Icon		=	SFCookMag2,
+        TeachedRecipes  =   Make Tomato Sauce,
+        ReplaceOnUse    =   SFCookingMag2,
+        WorldStaticModel = MagazineOpenGround,
+    }
+
+    item SFCookingMag3
+    {
+        DisplayCategory = SkillBook,
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Good Cooking Magazine Vol. 5,
+        Icon		=	SFCookMag3,
+        TeachedRecipes  =   Make Cupcake Batter,
+        ReplaceOnUse    =   SFCookingMag3,
+        WorldStaticModel = MagazineOpenGround,
+    }
+
+    item SFCookingGuide
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.5,
+        Type	=	Literature,
+        DisplayName	=	Complete Cooking Guide,
+        Icon	=	SFBookCook,
+        TeachedRecipes  =   Make Biscuits;Make Cake Batter;Make Chocolate Chip Cookie Dough;Make Chocolate Cookie Dough;Make Corn Batter;Make Corndog;Make Cupcake Batter;Make Bread Dough;Make Oatmeal Cookie Dough;Make Pie Dough;Make Pizza;Make Shortbread Cookie Dough;Make Sugar Cookie Dough;Make Tomato Sauce,
+        ReplaceOnUse    =   SFCookingGuide,
+	WorldStaticModel = BookClosedGround,
+    }
+
+
+
+/************************Food and Vegetables************************/
+
+    item SFBakingTrayCornbread
+	{
+	    	DisplayCategory = Food,
+        	HungerChange	=	-15,
+		Weight	=	0.8,
+		Type	=	Food,
+		DisplayName	=	Baking Tray with Cornbread,
+		Icon	=	BakingTray_bread,
+        	UnhappyChange	=	-20,
+        	ThirstChange	=	20,
+        	ReplaceOnUse	=	BakingTray,
+        	ReplaceOnCooked =   Base.BakingTray;Base.Dough,
+        	IsCookable	=	TRUE,
+        	MinutesToCook	=	40,
+        	MinutesToBurn	=	80,
+        	UnhappyChange	= -20,
+        	ThirstChange	= 20,
+        	Carbohydrates	= 99,
+        	Proteins	= 17.7,
+        	Lipids		= 6.66,
+        	Calories	= 532,
+        	WorldStaticModel = BakingTray,
+	}
+
+    	item SFBarbecue
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-20,
+		Weight	=	0.2,
+		Type	=	Food,
+		UnhappyChange	=	30,
+		DisplayName	=	Barbecue Sauce,
+		Icon	=	SFBarbecue,
+		EvolvedRecipe = Sandwich:2;Burger:2;Stir fry:2,
+		Spice   =   true,
+        	Carbohydrates = 410,
+        	Proteins = 0.8,
+        	Lipids = 0,
+        	Calories = 1720,
+        	Packaged = TRUE,
+        	CantBeFrozen = TRUE,
+        	WorldStaticModel = Ketchup,
+	}
+
+    item SFBeans
+    {
+        Weight	=	1.6,
+        Type	=	Food,
+        DisplayName	=	Beans,
+        Icon	=	SFBeans,
+        HungerChange    =   -50,
+        UnhappyChange   =   40,
+        ThirstChange    =   50,
+        Carbohydrates = 66,
+        Proteins = 14,
+        Lipids = 2,
+        Calories = 340,
+        Packaged = TRUE,
+    }
+
+    item SFBeanBowl
+    {
+		DisplayCategory = Food,
+        Weight	=	1,
+        Type	=	Food,
+        DisplayName	=	Bowl of Beans,
+        Icon	=	BowlFull,
+        IsCookable	=	    true,
+        MinutesToBurn   =   40,
+        MinutesToCook   =   10,
+        ReplaceOnUse    =   Bowl,
+        GoodHot = true,
+		CustomContextMenu = Drink,
+		CustomEatSound = EatingSoup,
+		StaticModel = Bowl,
+		EatType = 2handbowl,
+	WorldStaticModel = BowlSoup_Ground,
+
+    }
+
+    	item Beercheese
+    	{
+		DisplayCategory = Food,
+		Type		=	Food,
+        	DisplayName	=	Beer Cheese,
+        	Icon		=	Beercheese,
+		HungerChange	=	-15,
+		Weight		=	0.2,
+		DaysTotallyRotten	=	20,
+		DaysFresh	=	14,
+		EvolvedRecipe 	= 	Sandwich:5;Burger:5;Salad:5,
+		FoodType    	=   	NoExplicit,
+        Carbohydrates = 0.87,
+        Proteins = 6.4,
+        Lipids = 9.33,
+        Calories = 113,
+    	}
+
+    	item Beetroot
+	{
+		DisplayCategory = Food,
+		Type		=		Food,
+		DisplayName	=		Beetroot,
+		Icon		=		SFBeetroot,
+		Weight		=		0.2,
+		HungerChange 	=		-18,
+		DaysFresh 	=		14,
+		DaysTotallyRotten =	 	28,
+        	EvolvedRecipe   =       Soup:18;Stew:18;Pie:18;Stir fry:18;Salad:9;Roasted Vegetables:18;Pickles:9,
+        	FoodType    	=   Vegetables,
+        	Carbohydrates 	= 19.12,
+        	Proteins 	= 3.22,
+        	Lipids 		= 0.34,
+        	Calories 	= 86,
+	}
+
+    item SFBoxOfTea
+    {
+		DisplayCategory = Food,
+        	Weight	=	0.8,
+        	Type	=	Normal,
+        	DisplayName	=	Box of Tea Bags,
+        	Icon	=	SFBoxTea,
+    }
+
+    	item BreadPieces
+    	{
+		DisplayCategory = Food,
+        	Type		=	Food,
+        	DisplayName	=	Bread Crumbs,
+        	Icon		=	BreadPieces,
+        	HungerChange	=	-2,
+		DaysFresh	=	1,
+		DaysTotallyRotten	=	2,
+        	EvolvedRecipe   =       Soup:2;Salad:2,
+        	Weight		=	0.02,
+        	Carbohydrates 	= 	6,
+        	Proteins 	= 	1.1,
+        	Lipids 		= 	0.45,
+        	Calories 	= 	35,
+    	}
+
+    item SFCalabrese
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-20,
+		Weight		=	0.1,
+		Type		=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Calabrese,
+		Icon		=	SFPepperoni,
+		EvolvedRecipe 	= Sandwich:10;Salad:10;Pizza:10,
+		FoodType    	=   Meat,
+        	DaysTotallyRotten	=	30,
+        	DaysFresh		=	15,
+        	Carbohydrates = 0,
+        	Proteins = 15.70,
+        	Lipids = 5.43,
+        	Calories = 183,
+        	WorldStaticModel = Pepperoni_Ground,
+	}
+
+    item CannedHam
+    {
+		DisplayCategory = Food,
+        Weight	=	0.8,
+        Type	=	Food,
+        DisplayName	=	Canned Ham,
+        Icon	=	CannedHam,
+        Carbohydrates = 0,
+        Proteins = 78,
+        Lipids = 48,
+        Calories = 720,
+        Packaged = TRUE,
+        CannedFood = TRUE,
+        StaticModel = CanClosed,
+        WorldStaticModel = CanClosedCornerBeef,
+    }
+
+    item CannedHamOpen
+    {
+		DisplayCategory = Food,
+        Weight	=	0.8,
+        Type	=	Food,
+        DisplayName	=	Opened Canned Ham,
+        Icon	=	CannedHamOpen,
+        HungerChange 		=		-25,
+        DaysFresh			=	2,
+        DaysTotallyRotten	=	4,
+        EvolvedRecipe   =   Pizza:10;Soup:10;Stew:10;Omelette:10;Sandwich:10;Sandwich Baguette:10;Burger:10;Salad:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        Carbohydrates = 0,
+        Proteins = 78,
+        Lipids = 48,
+        Calories = 720,
+        Packaged = TRUE,
+        FoodType            =       Meat,
+        EvolvedRecipeName = Ham,
+        ReplaceOnUse    =   TinCanEmpty,
+        StaticModel = CanOpen,
+        EatType = can,
+        CannedFood = TRUE,
+        WorldStaticModel = CanOpenCornerBeef,
+    }
+
+	item CannedSoupOpen
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-25,
+		Weight	=	0.8,
+		Type	=	Food,
+		DisplayName	=	Opened Canned Tomato Soup,
+		Icon	=	SFSoupCanOpen,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottle,
+		DaysTotallyRotten	=	4,
+        DaysFresh = 2,
+        Carbohydrates = 20,
+        Proteins = 7.5,
+        Lipids = 2.5,
+        Calories = 125,
+        Packaged = TRUE,
+        ReplaceOnUse    =   TinCanEmpty,
+        StaticModel = CanOpen,
+        EatType = can,
+        CannedFood = TRUE,
+        WorldStaticModel = CanOpenTomatoes,
+	}
+
+	item CannedSoup
+    {
+		DisplayCategory = Food,
+        Weight	=	0.8,
+        Type	=	Food,
+        DisplayName	=	Canned Tomato Soup,
+        Icon	=	TinCan,
+        Carbohydrates = 20,
+        Proteins = 7.5,
+        Lipids = 2.5,
+        Calories = 125,
+        Packaged = TRUE,
+        CannedFood = TRUE,
+        StaticModel = CanClosed,
+        WorldStaticModel = CanClosedTomatoes,
+    }
+
+	item CannedSpagetti
+	{
+		DisplayCategory = Food,
+		Weight	=	0.7,
+		Type	=	Food,
+		DisplayName	=	Canned Spaghetti,
+		Icon	=	CannedSpagetti,
+        Carbohydrates = 159,
+        Proteins = 25,
+        Lipids = 22,
+        Calories = 540,
+        Packaged = TRUE,
+        CannedFood = TRUE,
+        StaticModel = CanClosed,
+        WorldStaticModel = CanClosedBolognese,
+	}
+
+	item OpenCannedSpagetti
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-15,
+        	EvolvedRecipe 	= Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:15;Salad:15;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		Weight		=	0.8,
+		Type		=	Food,
+        	ThirstChange	=	-3,
+		DaysTotallyRotten	=	4,
+		UnhappyChange	=	10,
+		DisplayName	=	Open Canned Spaghetti,
+		Icon		=	CannedSpagettiOpen,
+        	FoodType    	=	NoExplicit,
+		DaysFresh	=	2,
+        	Carbohydrates = 159,
+        	Proteins = 25,
+        	Lipids = 22,
+        	Calories = 540,
+        	Packaged 	=	TRUE,
+        	ReplaceOnUse    =  	TinCanEmpty,
+        StaticModel = CanOpen,
+        EatType = can,
+        CannedFood = TRUE,
+        WorldStaticModel = CanOpenBolognese,
+	}
+
+	item CannedSpinach
+	{
+		DisplayCategory = Food,
+		Weight	=	0.7,
+		Type	=	Food,
+		DisplayName	=	Canned Spinach,
+		Icon	=	CannedSpinach,
+        Carbohydrates   =	33,
+        Proteins = 7,
+        Lipids = 1,
+        Calories = 170,
+        Packaged = TRUE,
+        CannedFood = TRUE,
+        StaticModel = CanClosed,
+        WorldStaticModel = CanClosedPeas,
+	}
+
+	item OpenCannedSpinach
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-12,
+        	EvolvedRecipe 	= Soup:12;Stew:12;Pie:12;Stir fry:12;Sandwich:12;Salad:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12,
+		Weight		=	0.8,
+		Type		=	Food,
+        	ThirstChange	=	-3,
+		DaysTotallyRotten	=	4,
+		UnhappyChange	=	10,
+		DisplayName	=	Open Canned Spinach,
+		Icon		=	CannedSpinachOpen,
+        	FoodType    	=	Vegetables,
+		DaysFresh	=	2,
+        	Carbohydrates 	= 33,
+        	Proteins 	= 7,
+        	Lipids 		= 1,
+        	Calories 	= 170,
+        	Packaged 	=	TRUE,
+        	ReplaceOnUse    =  	TinCanEmpty,
+        	StaticModel	= CanOpen,
+        	EatType		= can,
+        	CannedFood	= TRUE,
+        	WorldStaticModel = CanOpenPeas,
+	}
+
+	item CannedBeetroot
+    	{
+        Type			=	Food,
+        DisplayName		=	Jar of Beetroot,
+        Icon			=	JamRed,
+        Weight			=	0.5,
+        DaysFresh 	    	=	60,
+        DaysTotallyRotten   	=	90,
+        OnCooked            	=       CannedFood_OnCooked,
+        IsCookable	   	=	TRUE,
+        MinutesToBurn	    	=	120,
+        MinutesToCook	    	=	60,
+        WorldStaticModel	= JarFoodRed,
+    	}
+
+	item CannedPumpkin
+    	{
+        Type			=	Food,
+        DisplayName		=	Jar of Pumpkin,
+        Icon			=	JarBrown,
+        Weight			=	0.5,
+        DaysFresh 	    	=	60,
+        DaysTotallyRotten   	=	90,
+        OnCooked            	=       CannedFood_OnCooked,
+        IsCookable	   	=	TRUE,
+        MinutesToBurn	    	=	120,
+        MinutesToCook	    	=	60,
+        WorldStaticModel	= JarFoodRed,
+    	}
+
+    item SFCatfood
+	{
+		DisplayCategory = Food,
+		Weight	=	1,
+		Type	=	Food,
+		DisplayName	=	Cat Food,
+		Icon	=	SFCatFood,
+        Carbohydrates = 77.56,
+        Proteins = 16.04,
+        Lipids = 12.58,
+        Calories = 498,
+        Packaged = TRUE,
+        StaticModel = CanClosed,
+        CannedFood = TRUE,
+        WorldStaticModel = TinnedTuna_Ground,
+	}
+
+	item SFCatfoodOpen
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-30,
+		Weight		=	1,
+		Type		=	Food,
+		DaysFresh	=	5,
+		DaysTotallyRotten	=	7,
+		UnhappyChange	=	50,
+		DisplayName	=	Opened Cat Food,
+		Icon		=	SFCatFoodOpen,
+        	Carbohydrates 	= 77.56,
+        	Proteins 	= 16.04,
+        	Lipids 		= 12.58,
+        	Calories 	= 498,
+        	Packaged 	= TRUE,
+        	ReplaceOnUse    =   TinCanEmpty,
+        	StaticModel	= CanOpen,
+        	EatType		= can,
+        	CannedFood	= TRUE,
+        	WorldStaticModel = TinnedTuna_Open_Ground,
+	}
+
+    	item Cauliflower
+	{
+		Type				=		Food,
+		DisplayName			=		Cauliflower,
+		Icon				=		Cauliflower,
+		Weight				=		0.2,
+		HungerChange 		=		-25,
+		ThirstChange		=		-15,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	4,
+		EvolvedRecipe       =       Soup:15;Stew:15;Stir fry:15;Sandwich:10;Burger:10;Salad:15;Roasted Vegetables:15;Pickles:10,
+		ThirstChange	=	-10,
+		FoodType    =   Vegetables,
+        	Carbohydrates = 41.41,
+        	Proteins = 9.14,
+        	Lipids = 0.71,
+        	Calories = 178,
+        	StaticModel = RoundFood_Green,
+        	WorldStaticModel = Cabbage_Ground,	
+	}
+
+    item SFChili
+    {
+        Weight		=	3,
+        Type		=	Food,
+        DisplayName	=	Chili,
+        Icon		=	PotFull,
+        Carbohydrates 	= 0,
+        Proteins 	= 78,
+        Lipids 		= 2.66,
+        Calories 	= 720,
+        IsCookable	=	    true,
+        MinutesToBurn   =   70,
+        MinutesToCook   =   30,
+        UnhappyChange   =   -20,
+        ReplaceOnUse    =   Pot,
+        BadInMicrowave  = true,
+        GoodHot 	= true,
+        StaticModel	= CookingPot,
+	WorldStaticModel = CookingPotGround,
+    }
+
+    item SFChocolateWaferStick
+    {
+        Weight		=	0.05,
+        Type		=	Food,
+        DisplayName	=	Chocolate Wafer Stick,
+        Icon		=	Sticko,
+	DaysFresh	=	2,
+	DaysTotallyRotten =	4,
+	HungerChange	=	-2,
+        UnhappyChange   =  	-2,
+        Carbohydrates 	=	8,
+        Proteins 	=	0,
+        Lipids 		=	0.3,
+        Calories	=	2,
+        StaticModel 	=	CylinderFood_Stick,
+	EvolvedRecipe 	= 	Icecream:2,
+	FoodType	=	Chocolate,
+    }
+
+    item SFChocolateWaferSticksJar
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Jar of Chocolate Wafer Sticks,
+        Icon	=	StickoJar,
+        Packaged = TRUE,
+        Carbohydrates 	=	240,
+        Proteins 	=	0,
+        Lipids 		=	10,
+        Calories	=	60,
+        CannedFood = TRUE,
+    }
+
+    item SFChocolateWaferSticksJarOpen
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Open Jar of Chocolate Wafer Sticks,
+        Icon		=	StickoJarOpen,
+        Packaged	=	TRUE,
+	DaysFresh	=	2,
+	DaysTotallyRotten =	4,
+	HungerChange	=	-60,
+        UnhappyChange   =  	-30,
+        Carbohydrates 	=	240,
+        Proteins 	=	0,
+        Lipids 		=	10,
+        Calories	=	60,
+    }
+
+    	item Cinnamon
+    	{
+		HungerChange	=	-10,
+		Weight		=	0.2,
+		Type		=	Food,
+        	DisplayName	=	Cinnamon,
+        	Icon		=	Cinnamon,
+		Spice   	=   	true,
+		ThirstChange	=	20,
+		BoredomChange	=	15,
+		UnhappyChange	=	20,
+		CantBeFrozen 	= 	TRUE,
+		EvolvedRecipe 	= 	Icecream:1;HotDrink:1;Cake:1;FruitSalad:1;Cupcakes:1;Pancakes:1,
+    	}
+
+    	item SFCornBatter
+	{
+        	Type		=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.2,
+		DisplayName	=	Corn Batter,
+		Icon		=	CakeBatter,
+		Weight		=	0.3,
+        	ReplaceOnDeplete    =  	Bowl,
+        	Carbohydrates = 50,
+        	Proteins = 8,
+        	Lipids = 48,
+        	Calories = 800,
+        	WorldStaticModel = CakeBatter,
+	}
+
+    item SFCornbreadBatter
+	{
+		Type				=			Normal,
+		DisplayName			=		    Cornbread Batter,
+		Icon				=			CakeBatter,
+		Weight				=			0.3,
+        Carbohydrates = 54,
+        Proteins = 7,
+        Lipids = 10,
+        Calories = 300,
+        WorldStaticModel = CakeBatter,
+	}
+
+	item SFCorndogRaw
+	{
+		HungerChange	=	-12,
+		Weight	=	0.1,
+		Type	=	Food,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Corndog,
+		Icon		=	SFCorndogRaw,
+		DaysFresh	=	3,
+        	IsCookable	=	true,
+        	MinutesToBurn   =   	40,
+        	MinutesToCook   =   	10,
+		DangerousUncooked	=	TRUE,
+        	Carbohydrates = 7,
+        	Proteins = 19,
+        	Lipids = 9,
+        	Calories = 180,
+        	ReplaceOnCooked =   Base.Corndog,
+        	ReplaceOnUse    =   SFThinStick,
+        	StaticModel = Corndog,
+        	WorldStaticModel = Corndog_Ground,
+	}
+
+    	item SFCupcake
+    	{
+        	HungerChange	=	-12,
+        	Weight		=	0.2,
+        	Type		=	Food,
+        	UnhappyChange	=	-10,
+        	DisplayName	=	Cupcake,
+        	DaysTotallyRotten	=	13,
+        	DaysFresh 	= 	6,
+        	Icon		=	SFCupcake,
+        	WorldStaticModel = Cupcake,
+    	}
+
+    item SFCupcakeBatter
+	{
+		Type		=	Normal,
+		DisplayName	=	Cupcake Batter,
+		Icon		=	CakeBatter,
+		Weight		=	0.3,
+        Carbohydrates = 67,
+        Proteins = 4,
+        Lipids = 4,
+        Calories = 305,
+        WorldStaticModel = CakeBatter,
+	}
+
+	item SFCupcakePrep
+	{
+		Weight	=	0.5,
+		Type	=	Food,
+		DisplayName	=	Cupcake Preparation,
+		Icon	=	SFCupcakePrep,
+        	ReplaceOnUse    =   	filcher.SFCupcakeTray,
+		UnhappyChange   =   -20,
+		HungerChange    =   -30,
+        Carbohydrates = 67,
+        Proteins = 4,
+        Lipids = 4,
+        Calories = 305,
+	}
+
+	item SFCupcakes
+	{
+		Weight	=	0.5,
+		Type	=	Food,
+		DisplayName	=	Cupcakes,
+		Icon	=	SFCupcakes,
+        	ReplaceOnUse    =   	filcher.SFCupcakeTray,
+		DaysFresh	=	6,
+		DaysTotallyRotten	=	9,
+        	IsCookable	=	true,
+        	MinutesToBurn   =   	40,
+        	MinutesToCook   =   	10,
+	}
+
+
+	item SFCurry
+    {
+        HungerChange	=	-10,
+        Weight	=	0.2,
+        Type	=	Food,
+        DisplayName	=	Curry,
+        Icon	=	SFCurry,
+        Spice   =   true,
+        ThirstChange	=	20,
+        BoredomChange	=	15,
+        UnhappyChange	=	20,
+        EvolvedRecipe = Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+        CantBeFrozen = TRUE,
+    }
+
+    	item DriedApricots
+    	{
+        	Type		=	Food,
+        	DisplayName	=	Dried Apricots,
+        	Icon		=	DriedApricots,
+        	Weight		=	0.3,
+        	HungerChange 	=	-3,
+        	EvolvedRecipe   =       Cake:3;FruitSalad:3,
+        	FoodType        =       Fruits,
+        	Carbohydrates 	= 	33.36,
+        	Proteins 	= 	4.2,
+        	Lipids 		= 	1.2,
+        	Calories 	= 	144,
+    	}
+
+    item SFDrink
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Drink,
+	ThirstChange	=	-10,
+        UnhappyChange   =   	-10,
+        Icon		=	SFGlassDrink,
+        ReplaceOnUse    =   	filcher.EmptyGlass,
+        CustomContextMenu	=  Drink,
+	CustomEatSound 	= PZ_DrinkingFromBottle,
+	Alcoholic	=	TRUE,
+        CantBeFrozen 	= TRUE,
+    }
+
+    item SFDrinkBase
+    {
+        Weight		=	0.8,
+        Type		=	Food,
+        DisplayName	=	Glass of Alcoholic Beverage,
+        Icon		=	SFGlassWhiskey,
+	Alcoholic	=	TRUE,
+	ThirstChange	=	-10,
+        UnhappyChange   =   	-10,
+        ReplaceOnUse    =   	filcher.EmptyGlass,
+        CustomContextMenu	=  Drink,
+	CustomEatSound 	= PZ_DrinkingFromBottle,
+        Carbohydrates 	= 0,
+        Proteins 	= 0,
+        Lipids 		= 0,
+        Calories 	= 481,
+        CantBeFrozen 	= TRUE,
+    }
+
+    	item SFFig
+    	{
+        	Type		=	Food,
+        	DisplayName	=	Fig,
+        	Icon		=	SFFig,
+        	Weight		=	0.3,
+        	HungerChange 	=	-15,
+        	EvolvedRecipe   =       Cake:8;FruitSalad:8,
+		DaysFresh	=	5,
+		DaysTotallyRotten	=	8,
+        	FoodType        =       Fruits,
+        	Carbohydrates 	= 	51,
+        	Proteins 	= 	1.5,
+        	Lipids 		= 	0.81,
+        	Calories 	= 	210,
+    	}
+
+	item SFHazelnutCream
+	{
+		HungerChange	=	-25,
+		Weight		=	0.3,
+		Type		=	Food,
+		UnhappyChange	=	-20,
+		DisplayName	=	Hazelnut Cream,
+		Icon		=	SFHazelnutCream,
+		BoredomChange	=	-10,
+		EvolvedRecipe	=	Cake:5;Icecream:5;Sandwich:5;Cupcakes:5;Pancakes:5,
+		FoodType	=  	NoExplicit,
+        Carbohydrates = 128,
+        Proteins = 24,
+        Lipids = 205,
+        Calories = 2360,
+        Packaged = TRUE,
+	}
+
+    	item SFHotdog
+    	{
+        	HungerChange	=	-20,
+        	Weight		=	0.3,
+        	Type		=	Food,
+        	UnhappyChange	=	-10,
+        	DisplayName	=	Hotdog,
+        	DaysTotallyRotten	=	6,
+        	DaysFresh 	= 	3,
+        	Icon		=	SFHotdog,
+        	StaticModel	= HotDog,
+        	EatType		= 2handforced,
+       		WorldStaticModel = HotDog_Ground,
+
+    	}
+
+	item IcecreamBowl
+    {
+        HungerChange	=	-15,
+        Type		=	Food,
+        DisplayName	=	Bowl of Ice Cream,
+        Weight		=	1,
+        Carbohydrates	=	90,
+        Proteins	=	13,
+        Lipids		=	42,
+        Calories	=	800,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+        UnhappyChange	=	-5,
+        Icon		=	BowlIcecream,
+        ReplaceOnUse    =	Bowl,
+        StaticModel	=	Bowl,
+        EatType		=	2handbowl,
+	WorldStaticModel = BowlSoup_Ground,	
+    }
+
+    item SFIcecreamEvolved
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Icecream,
+        Icon		=	IcecreamEvolved,
+        ReplaceOnUse    =	Bowl,
+        StaticModel	=	Bowl,
+        EatType		=	2handbowl,
+	WorldStaticModel = BowlSoup_Ground,
+    }
+
+    item SFJelly
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Jelly,
+        Icon		=	SFJelly,
+        ReplaceOnUse    =   	filcher.JarAndLid,
+        WorldStaticModel =	JarFoodRed,
+    }
+
+    item SFJuice
+    {
+	Weight		= 0.3,
+        Type		=	Food,
+        DisplayName	=	Juice,
+        Icon		=	PlasticCupJuice,
+        UnhappyChange   =   	-10,
+        ThirstChange    =   	-20,
+        ReplaceOnUse    =   	PlasticCup,
+        CustomContextMenu	=  Drink,
+	CustomEatSound = DrinkingFromCan,
+        WorldStaticModel = PlasticCup_Ground,
+    }
+
+    	item SFKiwi
+    	{
+        	Type		=	Food,
+        	DisplayName	=	Kiwi,
+        	Icon		=	SFKiwi,
+        	Weight		=	0.2,
+        	HungerChange 	=	-15,
+		ThirstChange	=	-5,
+        	EvolvedRecipe   =       Cake:8;FruitSalad:8;Juice:4,
+		DaysFresh	=	5,
+		DaysTotallyRotten	=	8,
+        	FoodType        =       Fruits,
+        	Carbohydrates 	= 	10,
+        	Proteins 	= 	0.8,
+        	Lipids 		= 	0.4,
+        	Calories 	= 	42,
+    	}
+
+    	item Lemonade
+    	{
+        	Type		=	Food,
+        	DisplayName	=	Lemonade,
+        	Icon		=	Lemonade,
+		ThirstChange	=	-50,
+		HungerChange	=	-10,
+		UnhappyChange	=	-5,
+		StressChange	=	-5,
+		ReplaceOnUse	=	PlasticCup,
+		CustomContextMenu = Drink,
+		CustomEatSound 	= PZ_DrinkingFromBottle,
+        	Weight		=	1,
+        	Carbohydrates 	= 5.41,
+        	Proteins 	= 0.64,
+        	Lipids 		= 0.17,
+        	Calories 	= 17,
+        	CantBeFrozen 	= TRUE,
+    	}
+
+    item Macaroni
+    {
+        Weight		=	2,
+        Type		=	Food,
+        DisplayName	=	Macaroni,
+        Icon		=	MacaroniRaw,
+        HungerChange    =   -60,
+        UnhappyChange   =   40,
+        ThirstChange    =   60,
+        Carbohydrates 	= 656,
+        Proteins 	= 112,
+        Lipids 		= 16,
+        Calories 	= 3360,
+        Packaged 	= TRUE,
+	Tags		= Pasta,
+        WorldStaticModel = Pasta,
+    }
+
+    item Olives
+    {
+        HungerChange	=	-5,
+        Weight		=	0.1,
+        AlwaysWelcomeGift	=	true,
+        Type		=	Food,
+        DisplayName	=	Olives,
+        Icon		=	Olives,
+        EvolvedRecipe 	= Sandwich:5;Burger:5;Salad:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Pizza:5;Drink:1,
+        FoodType    	=   NoExplicit,
+        Carbohydrates 	= 1,
+        Proteins 	= 0,
+        Lipids 		= 0,
+        Calories 	= 5,
+    }
+
+    	item SFPapaya
+    	{
+        	Type		=	Food,
+        	DisplayName	=	Papaya,
+        	Icon		=	SFPapaya,
+        	Weight		=	0.4,
+        	HungerChange 	=	-15,
+		ThirstChange	=	-5,
+        	EvolvedRecipe   =       Cake:8;FruitSalad:8;Juice:3,
+		DaysFresh	=	5,
+		DaysTotallyRotten	=	8,
+        	FoodType        =       Fruits,
+        	Carbohydrates 	= 	51,
+        	Proteins 	= 	1.5,
+        	Lipids 		= 	0.81,
+        	Calories 	= 	210,
+    	}
+
+	item SFPaprika
+    {
+        HungerChange	=	-10,
+        Weight	=	0.2,
+        Type	=	Food,
+        DisplayName	=	Paprika,
+        Icon	=	SFPaprika,
+        Spice   =   true,
+        ThirstChange	=	20,
+        BoredomChange	=	15,
+        UnhappyChange	=	20,
+        EvolvedRecipe = Soup:1;Stew:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Chili:1,
+        CantBeFrozen = TRUE,
+    }
+
+    item SFPickles
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Pickles,
+        Icon		=	SFPickles,
+        ReplaceOnUse    =   	filcher.JarAndLid,
+        WorldStaticModel =	JarFoodGreen,
+    }
+
+    item SFPicklingJar
+    {
+        Weight		=	1,
+        Type		=	Food,
+        DisplayName	=	Pickling Jar,
+        Icon		=	SFPicklingJar,
+        ReplaceOnUse    =   	filcher.JarAndLid,
+    }
+
+	item SFPizzaDough
+    {
+        Type		=	Normal,
+        DisplayName	=	Pizza Dough,
+        Icon		=	DoughRolled,
+        Weight		=	0.3,
+        WorldStaticModel = Dough,
+    }
+
+    item SFPizzaPrep
+	{
+		Weight	=	0.5,
+		Type	=	Food,
+		DisplayName	=	Pizza Preparation,
+		Icon	=	SFPizzaPrep,
+		HungerChange    =   -25,
+        Carbohydrates = 86,
+        Proteins = 8,
+        Lipids = 26,
+        Calories = 640,
+	}
+
+    item SFPizzaRaw
+	{
+		HungerChange	=	-25,
+		Weight		=	0.5,
+		AlwaysWelcomeGift	=	true,
+		Type		=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Pizza,
+		Icon		=	SFPizzaRaw,
+        	IsCookable	=	TRUE,
+		DaysTotallyRotten	=	5,
+		DaysFresh	=	3,
+		MinutesToBurn	=	40,
+        	MinutesToCook	=	20,
+        	ReplaceOnUse	=	BakingPan,
+        	BadInMicrowave 	= true,
+	}
+
+    item SFPizzaSlice
+    {
+        HungerChange	=	-5,
+        Weight	=	0.3,
+        Type	=	Food,
+        UnhappyChange	=	-5,
+        DisplayName	=	Pizza Slice,
+        DaysTotallyRotten	=	5,
+        DaysFresh = 3,
+        Icon	=	SFPizzaSlice,
+        Carbohydrates = 86,
+        Proteins = 8,
+        Lipids = 26,
+        Calories = 640,
+        WorldStaticModel = PizzaSlice_Ground,
+    }
+
+    item SFPlainBreadDough
+    {
+        Type			=	Food,
+        DisplayName		=	Plain Bread,
+        Icon			=	Dough,
+        Weight			=	0.3,
+        HungerChange 		=	-15,
+        UnhappyChange	    	=	15,
+        ThirstChange		=	10,
+        RemoveNegativeEffectOnCooked    =   TRUE,
+        IsCookable		=	TRUE,
+        DaysTotallyRotten	=	2,
+        MinutesToBurn		=	50,
+        MinutesToCook		=	20,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        DaysFresh		=	1,
+        ReplaceOnCooked 	=	filcher.SFPlainBreadCooked,
+        ReplaceOnRotten 	=	filcher.SFPlainBreadRotten,
+    }
+
+    item SFPlainBreadCooked
+    {
+        Type			=	Food,
+        DisplayName		=	Plain Bread,
+        Icon			=	Dough,
+        Weight			=	0.3,
+        HungerChange 		=	-15,
+        UnhappyChange	    	=	5,
+        IsCookable		=	TRUE,
+        DaysTotallyRotten	=	8,
+        MinutesToBurn		=	50,
+        MinutesToCook		=	0,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        DaysFresh		=	3,
+    }
+
+    item SFPlainBreadRotten
+    {
+        Type			=	Food,
+        DisplayName		=	Fermented Bread,
+        Icon			=	Dough,
+        Weight			=	0.3,
+        HungerChange 		=	-15,
+        UnhappyChange	    	=	20,
+        ThirstChange		=	15,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+    }
+
+	item SFPopsicle
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-5,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Popsicle,
+		Icon	=	SFPopsicle1,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        ReplaceOnRotten = SFPopsicleMelted,
+        Packaged = TRUE,
+	Tags = GoodFrozen,
+	}
+
+	item SFPopsicleMelted
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Melted Popsicle,
+		Icon	=	SFPopsicle1,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle2
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-5,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Popsicle,
+		Icon	=	SFPopsicle2,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        ReplaceOnRotten = SFPopsicle2Melted,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle2Melted
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Melted Popsicle,
+		Icon	=	SFPopsicle2,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle3
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-5,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Popsicle,
+		Icon	=	SFPopsicle3,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        ReplaceOnRotten = SFPopsicle3Melted,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle3Melted
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Melted Popsicle,
+		Icon	=	SFPopsicle3,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle4
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-5,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Popsicle,
+		Icon	=	SFPopsicle4,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        ReplaceOnRotten = SFPopsicle4Melted,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle4Melted
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Melted Popsicle,
+		Icon	=	SFPopsicle4,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle5
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-5,
+        DaysFresh	=	1,
+        DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Popsicle,
+		Icon	=	SFPopsicle5,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        ReplaceOnRotten = SFPopsicle5Melted,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+	item SFPopsicle5Melted
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Melted Popsicle,
+		Icon	=	SFPopsicle5,
+        Carbohydrates = 60,
+        Proteins = 8,
+        Lipids = 28,
+        Calories = 534,
+        Packaged = TRUE,
+		Tags = GoodFrozen,
+	}
+
+    item SFPorkribs
+    {
+        HungerChange	=	-30,
+        Weight		=	0.3,
+        Type		=	Food,
+        IsCookable	=	TRUE,
+        DangerousUncooked	=	TRUE,
+        DaysTotallyRotten	=	4,
+        MinutesToBurn	=	70,
+        DisplayName	=	Pork Ribs,
+        Icon		=	SFPorkribs,
+        DaysFresh	=	2,
+        MinutesToCook	=	50,
+        EvolvedRecipe 	= Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    	=   Meat,
+        Carbohydrates 	= 0,
+        Proteins 	= 25,
+        Lipids 		= 6,
+        Calories 	= 150,
+    }
+
+    item SFPotatoSliced
+	{
+		Type				=		Food,
+		DisplayName			=		Sliced Potato,
+		Icon				=		SFPotatoSliced,
+		Weight				=		0.2,
+		HungerChange 		=		-18,
+		DaysFresh 			=		7,
+		DaysTotallyRotten 	=	 	14,
+        EvolvedRecipe       =       Soup:18;Stew:18;Pie:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        ThirstChange	=	-7,
+        FoodType    =   Vegetables,
+        Carbohydrates = 14.52,
+        Proteins = 2.88,
+        Lipids = 0.15,
+        Calories = 70,
+	}
+
+    item PumpkinPieWholeRaw
+	{
+		HungerChange	=	-40,
+		Weight		=	0.5,
+		AlwaysWelcomeGift	=	true,
+		Type		=	Food,
+		UnhappyChange	=	-20,
+		DisplayName	=	Pumpkin Pie,
+		Icon		=	SFPumpkinPie,
+        	IsCookable	=	TRUE,
+		DaysTotallyRotten	=	9,
+		MinutesToBurn	=	110,
+        	MinutesToCook	=	40,
+        	ReplaceOnUse	=	BakingPan,
+		DaysFresh	=	5,
+        	BadInMicrowave 	= true,
+        	Carbohydrates 	= 50,
+        	Proteins 	= 8,
+        	Lipids 		= 48,
+        	Calories 	= 800,
+        	WorldStaticModel = Pie,
+	}
+
+    item SaucepanFries
+    {
+        Weight		=	3,
+        Type		=	Food,
+        DisplayName	=	Saucepan with Fries,
+        Icon		=	SaucepanFilled,
+        HungerChange    =	-10,
+        Carbohydrates	=	35.97,
+        Proteins	= 3.35,
+        Lipids		= 5.19,
+        Calories	= 203,
+        IsCookable	=	    true,
+        MinutesToBurn   =   50,
+        MinutesToCook   =   20,
+        UnhappyChange   =   20,
+        ReplaceOnUse    =   Saucepan,
+        BadInMicrowave	=	true,
+        GoodHot		= true,
+        BadCold		= true,
+        RemoveUnhappinessWhenCooked = true,
+    }
+
+    item SFSausage
+    {
+        HungerChange	=	-10,
+        Weight		=	0.1,
+        Type		=	Food,
+        EvolvedRecipe	=       Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        DaysTotallyRotten	=	4,
+        DisplayName	=	Sausage,
+        Icon		=	Hotdog,
+        DaysFresh	=	2,
+        IsCookable	=	TRUE,
+        DangerousUncooked	=	TRUE,
+        MinutesToCook   =   	10,
+        FoodType    	=   	Meat,
+        Carbohydrates 	= 	0,
+        Proteins 	= 	18,
+        Lipids 		= 	8,
+        Calories 	= 	150,
+    }
+
+    	item Spoonbread
+    	{
+        	Type		=	Food,
+		HungerChange 	=	-10,
+		UnhappyChange	=	-5,
+        	DisplayName	=	Spoonbread,
+        	Icon		=	Spoonbread,
+        	Weight		=	0.2,
+		DaysFresh 	=	3,
+		DaysTotallyRotten =	 5,
+        	Carbohydrates 	= 50,
+        	Proteins 	= 5,
+        	Lipids 		= 5,
+        	Calories 	= 80,
+    	}
+
+    item SFTomatoSauce
+	{
+		HungerChange	=	-20,
+		Weight		=	0.2,
+		Type		=	Food,
+		UnhappyChange	=	30,
+		DisplayName	=	Tomato Sauce,
+		Icon		=	SFTomatoSauce,
+		EvolvedRecipe 	= 	Soup:4;Stew:4;Stir fry:4;RicePot:4;RicePan:4;PastaPot:4;PastaPan:4;Hotdog:2;Chili:4,
+		FoodType	=  	NoExplicit,
+        	ReplaceOnUse    =   filcher.JarAndLid,
+        	Carbohydrates 	= 16,
+        	Proteins 	= 3.2,
+        	Lipids 		= 0.4,
+        	Calories 	= 70,
+        	Packaged 	= TRUE,
+	}
+
+    item SFTurnip
+	{
+		Type				=		Food,
+		DisplayName			=		Turnip,
+		Icon				=		SFTurnip,
+		Weight				=		0.3,
+		HungerChange 		=		-9,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	9,
+		EvolvedRecipe = Soup:9;Stew:9;Stir fry:9;Burger:3;Salad:9;Roasted Vegetables:9;Pickles:3,
+		ThirstChange	=	-3,
+		FoodType    =   Vegetables,
+        Carbohydrates = 0.46,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 4,
+	}
+
+	item WaterGlass
+	{
+		IsWaterSource	=	TRUE,
+		Weight		=	0.8,
+		CanStoreWater	=	TRUE,
+		Type		=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	Glass of Water,
+		ReplaceOnDeplete	=	filcher.EmptyGlass,
+		ReplaceOnUseOn	=	WaterSource-WaterGlass,
+		Icon		=	WaterGlass,
+		IsCookable	=	TRUE,
+		RainFactor 	= 	0.2,
+		Tooltip 	= 	Tooltip_item_RainFromGround,
+	}
+
+    item SFWaterPotBeans
+    {
+        Weight		=	3,
+        Type		=	Food,
+        DisplayName	=	Cooking Pot with Beans,
+        Icon		=	PotFull,
+        HungerChange    =   -10,
+        Carbohydrates 	= 109.3,
+        Proteins 	= 78,
+        Lipids 		= 2.66,
+        Calories 	= 720,
+        IsCookable	=	    true,
+        MinutesToBurn   =   70,
+        MinutesToCook   =   30,
+        UnhappyChange   =   20,
+        ReplaceOnUse    =   Pot,
+        BadInMicrowave 	= true,
+        GoodHot 	= true,
+	WorldStaticModel = CookingPotGround,
+    }
+
+	item SFWhippedCream
+	{
+		HungerChange	=	-15,
+		Weight		=	0.3,
+		Type		=	Food,
+		UnhappyChange	=	-5,
+		DisplayName	=	Whipped Cream,
+		Icon		=	SFWhippedCream,
+		BoredomChange	=	-5,
+		EvolvedRecipe	=	HotDrink:3;Cake:5;Cupcakes:5;Pancakes:5;Waffles:5,
+		FoodType	=  	NoExplicit,
+        Carbohydrates = 128,
+        Proteins = 84,
+        Lipids = 224,
+        Calories = 2660,
+        Packaged = TRUE,
+	}
+
+/************************Misc Items************************/
+
+	item SFCupcakeTray
+    {
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=   Cupcake Tray,
+        Icon	=	SFCupcakeTray,
+        MetalValue = 40,
+    }
+
+	item EmptyGlass
+	{
+		Weight		=	0.2,
+		CanStoreWater	=	TRUE,
+		Type		=	Normal,
+		DisplayName	=	Empty Glass,
+		ReplaceOnUseOn	=	WaterSource-WaterGlass,
+		Icon		=	EmptyGlass,
+		RainFactor 	= 	0.2,
+		Tooltip 	= 	Tooltip_item_RainFromGround,
+	}
+
+    item JarAndLid
+	{
+		Type		=		Normal,
+		DisplayName	=		Empty Jar with Lid,
+		Icon		=		JarAndLid,
+		Weight		=		0.3,
+        	MetalValue 	= 10,
+		Tooltip 	= Tooltip_Jar,
+		WorldStaticModel = EmptyJar,
+	}
+
+    item SFThinStick
+    {
+        Type = Normal,
+        DisplayName = Thin Stick,
+        Icon = SFThinStick,
+        Weight = 0.02,
+    }
+
+}

@@ -1,0 +1,3 @@
+ContextMenu_JP = {
+    ContextMenu_Pry_open = "こじ開ける",
+}

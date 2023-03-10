@@ -1,0 +1,87 @@
+module Ducks
+
+{
+    imports
+    {
+        Base
+
+    }
+
+	model BlackRubberducky
+	{
+		mesh 	= WorldItems/BlackRubberducky,
+		texture = WorldItems/BlackRubberDuck,
+		scale 	= 1,
+	}
+	
+	model BlueRubberducky
+	{
+		mesh 	= WorldItems/BlueRubberducky,
+		texture = WorldItems/BlueRubberDuck,
+		scale 	= 1,
+	}
+	
+	model GoldRubberducky
+	{
+		mesh 	= WorldItems/GoldRubberducky,
+		texture = WorldItems/GoldRubberDuck,
+		scale 	= 1,
+	}
+	
+	model GreenRubberducky
+	{
+		mesh 	= WorldItems/GreenRubberducky,
+		texture = WorldItems/GreenRubberDuck,
+		scale 	= 1,
+	}
+	
+	model OrangeRubberducky
+	{
+		mesh 	= WorldItems/OrangeRubberducky,
+		texture = WorldItems/OrangeRubberDuck,
+		scale 	= 1,
+	}
+
+	model PinkRubberducky
+	{
+		mesh 	= WorldItems/PinkRubberducky,
+		texture = WorldItems/PinkRubberDuck,
+		scale 	= 1,
+	}
+
+	model PurpleRubberducky
+	{
+		mesh 	= WorldItems/PurpleRubberducky,
+		texture = WorldItems/PurpleRubberDuck,
+		scale 	= 1,
+	}
+
+	model RainbowRubberducky
+	{
+		mesh 	= WorldItems/RainbowRubberducky,
+		texture = WorldItems/RainbowRubberDuck,
+		scale 	= 1,
+	}
+
+	model RedRubberducky
+	{
+		mesh 	= WorldItems/RedRubberducky,
+		texture = WorldItems/RedRubberDuck,
+		scale 	= 1,
+	}
+	
+	model WhiteRubberducky
+	{
+		mesh 	= WorldItems/WhiteRubberducky,
+		texture = WorldItems/WhiteRubberDuck,
+		scale 	= 1,
+	}
+
+	model ZedRubberducky
+	{
+		mesh 	= WorldItems/ZedRubberducky,
+		texture = WorldItems/ZedRubberDuck,
+		scale 	= 1,
+	}
+	
+}

@@ -1,0 +1,6 @@
+name=More Builds Lite
+poster=poster.png
+id=MoreBuildsLite
+description=an edited version of ProjectSky's More Builds for mostly personal use, removing most of the things you can already collect and a few others while editing recipes to be harder.
+tiledef=morebuild 275
+pack=morebuild

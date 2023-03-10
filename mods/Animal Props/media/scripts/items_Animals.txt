@@ -1,0 +1,205 @@
+module Animals {
+    imports
+    {
+        Base
+    }
+  	  	item Rooster
+    {
+        Type = Normal,
+        DisplayName = Rooster,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Rooster,
+    }
+
+  	  	item Pork
+    {
+        Type = Normal,
+        DisplayName = Pork,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Pork,
+    }
+
+  	  	item Rabbit
+    {
+        Type = Normal,
+        DisplayName = Rabbit,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Rabbit,
+    }
+
+  	  	item Sheep
+    {
+        Type = Normal,
+        DisplayName = Sheep,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Sheep,
+    }
+
+  	  	item MiniPig
+    {
+        Type = Normal,
+        DisplayName = MiniPig,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = MiniPig,
+    }
+
+  	  	item LittleSheep
+    {
+        Type = Normal,
+        DisplayName = LittleSheep,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = LittleSheep,
+    }
+
+  	  	item LittleGoat
+    {
+        Type = Normal,
+        DisplayName = LittleGoat,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = LittleGoat,
+    }
+
+  	  	item LittleChicken
+    {
+        Type = Normal,
+        DisplayName = LittleChicken,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = LittleChicken,
+    }
+
+  	  	item Horse
+    {
+        Type = Normal,
+        DisplayName = Horse,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Horse,
+    }
+
+  	  	item Goat
+    {
+        Type = Normal,
+        DisplayName = Goat,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Goat,
+    }
+
+  	  	item Donkey
+    {
+        Type = Normal,
+        DisplayName = Donkey,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Donkey,
+    }
+
+  	  	item Cow
+    {
+        Type = Normal,
+        DisplayName = Cow,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Cow,
+    }
+
+  	  	item GermanShepherd
+    {
+        Type = Normal,
+        DisplayName = German Shepherd,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = GermanShepherd,
+    }
+
+  	  	item Cat
+    {
+        Type = Normal,
+        DisplayName = Cat,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Cat,
+    }
+
+  	  	item Chicken
+    {
+        Type = Normal,
+        DisplayName = Hen,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Hen,
+    }
+
+  	  	item Calf
+    {
+        Type = Normal,
+        DisplayName = Calf,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Calf,
+    }
+
+  	  	item BrownCow
+    {
+        Type = Normal,
+        DisplayName = Brown Cow,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = BrownCow,
+    }
+
+  	  	item BrownDonkey
+    {
+        Type = Normal,
+        DisplayName = Brown Donkey,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = BrownDonkey,
+    }
+
+  	  	item BlackLittleChicken
+    {
+        Type = Normal,
+        DisplayName = Black Little Chicken,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = BlackLittleChicken,
+    }
+
+  	  	item BlackDuck
+    {
+        Type = Normal,
+        DisplayName = Black Duck,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = BlackDuck,
+    }
+
+  	  	item Bull
+    {
+        Type = Normal,
+        DisplayName = Bull,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Bull,
+    }
+	
+  	  	item Deer
+    {
+        Type = Normal,
+        DisplayName = Deer,
+        Weight = 5.00,
+        Icon	=	Animal,
+		WorldStaticModel = Deer,
+    }
+
+
+}

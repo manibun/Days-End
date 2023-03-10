@@ -1,0 +1,5 @@
+ItemName_PTBR = {
+    ItemName_filcher.SFCookingMag1 = "Revista de Culinária Vol. 3",
+    ItemName_filcher.SFCookingMag2 = "Revista de Culinária Vol. 4",
+    ItemName_filcher.SFCookingMag3 = "Revista de Culinária Vol. 5",
+}

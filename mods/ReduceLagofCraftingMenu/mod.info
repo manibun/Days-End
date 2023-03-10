@@ -1,0 +1,7 @@
+name=Reduce lag of Crafting menu
+id=ReduceLagofCraftingMenu
+poster=poster.png
+description=When you play hydrocraft, the Crafting menu opens slowly and every time you craft something, it will get stuck.
+
+This mod can solve the lag problem by reducing the time of updates.
+But the bad thing is, the Crafting menu not as sensitive as before. You need to click on the recipe to update it.

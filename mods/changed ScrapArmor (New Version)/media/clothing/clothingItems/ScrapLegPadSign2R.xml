@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\clothes\bob_ScrapLegPadSign2R</m_MaleModel>
+	<m_FemaleModel>Static\clothes\kate_ScrapLegPadSign2R</m_FemaleModel>
+	<m_GUID>1a4853db-43d5-4145-a912-7ec3bbc2f05f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_R_Thigh</m_AttachBone>
+	<textureChoices>clothes\LegPads\ScrapLegPadSign2R</textureChoices>
+</clothingItem>

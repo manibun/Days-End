@@ -1,0 +1,14 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	recipe Remove Airtank
+	{
+		Jacket_Fireman/Jacket_Fireman_Meade_Black/Jacket_Fireman_Meade_Khaki/Jacket_Fireman_Rosewood_Black/Jacket_Fireman_Rosewood_Khaki/Jacket_Fireman_Louisville_Black/Jacket_Fireman_Louisville_Khaki,
+		Result 		: AirTank,
+		Sound 		: ChangeTank,
+		Time 		: 300,
+	}
+}

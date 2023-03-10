@@ -1,0 +1,4 @@
+Tooltip_ES = {
+	Tooltip_Bgrip = "Incrementa levemente el daño del bate.",
+	Tooltip_Bsock = "Incrementa el peso y el daño del bate.",
+}

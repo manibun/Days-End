@@ -1,0 +1,21 @@
+ContextMenu_PT = {
+  ContextMenu_EvolvedRecipe_Drink = "Bebida",
+  ContextMenu_EvolvedRecipe_Juice = "Suco",
+  ContextMenu_EvolvedRecipe_Chili = "Chili",
+  ContextMenu_EvolvedRecipe_Cupcakes = "Cupcakes",
+  ContextMenu_EvolvedRecipe_Hotdog = "Cachorro Quente",
+  ContextMenu_EvolvedRecipe_Icecream = "Sorvete",
+  ContextMenu_EvolvedRecipe_Pancakes = "Panquecas",
+  ContextMenu_EvolvedRecipe_Pizza = "Pizza",
+  ContextMenu_EvolvedRecipe_Waffles = "Waffles",
+
+    ContextMenu_FoodType_Cheese = "Queijos",
+    ContextMenu_FoodType_Chocolate = "Chocolate",
+    ContextMenu_FoodType_Pop = "Pop",
+    ContextMenu_FoodType_Whiskey = "Uísque",
+
+    ContextMenu_Glass_of_Beer = "Copo com Cerveja",
+    ContextMenu_Glass_of_Wine = "Copo com Vinho Chardonnay",
+    ContextMenu_Glass_of_Wine2 = "Copo com Vinho Tinto",
+    ContextMenu_Glass_of_Whiskey = "Copo com Uísque",
+}

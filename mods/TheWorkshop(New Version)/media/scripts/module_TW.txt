@@ -1,0 +1,188 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	item HugePropaneTank
+	{
+		Count 		= 1,
+		WorldStaticModel = HugePropane_Ground,
+		Weight 		= 200,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName 		= Propane Storage Unit,
+		DisplayCategory 		= Material,
+		Icon 		= HugePropane,
+		WeightEmpty = 55.0,
+		UseDelta	=	0.0025,
+		KeepOnDeplete = true,
+		Tooltip = Tooltip_HugePropaneTank,
+	}
+	item LargePropaneTank
+	{
+		Count 		= 1,
+		WorldStaticModel = LargePropane_Ground,
+		Weight 		= 20,
+		UseWhileEquipped	=	FALSE,
+		Type	=	Drainable,
+		DisplayName 		= Industrial Propane Tank,
+		DisplayCategory 		= Material,
+		Icon 		= LargePropane,
+		WeightEmpty = 10,
+		UseDelta	=	0.025,
+		KeepOnDeplete = true,
+	}
+	item GunParts
+	{
+		Count 		= 1,
+		WorldStaticModel = GunParts_Ground,
+		Weight 		= 0.3,
+		Type 		= Normal,
+		DisplayName 		= Gun Parts,
+		DisplayCategory 		= Item,
+		Icon 		= GunParts,
+		MetalValue 		= 1,
+	}
+	item AirTank
+	{
+		Count 		= 1,
+		WorldStaticModel = AirTank_Ground,
+		Weight 		= 0.50,
+		Type 		= Normal,
+		DisplayName 		= Air Tank,
+		DisplayCategory 		= Item,
+		Icon 		= AirTank,
+		MetalValue 		= 1,
+	}
+	item MetalWorkbench
+	{
+		Weight 		     = 35,
+		WorldStaticModel = MetalWorkbench_Ground,
+		Type 		     = Container,
+		Capacity 		 = 100,
+		DisplayName 	 = Metal Workbench,
+		Icon 		     = MetalWorkbench,
+		Tooltip          = Tooltip_MetalWorkbench,
+	}
+	item MetalParts
+	{
+		Weight 				= 0.03,
+		Type 				= Normal,
+		DisplayName 		= Metal Parts,
+		DisplayCategory		= Item,
+		Icon 				= MetalParts,
+        UseWorldItem        = TRUE,
+		ScaleWorldIcon      = 1.0,
+		WorldStaticModel    = MetalParts_Ground,
+		Tooltip             = "Tooltip_MetalParts",
+	}
+	item BoxScrews
+	{
+		Count 		    	= 1,
+		Weight 		    	= 0.15,
+		Type 		    	= Normal,
+		DisplayName 		= Small Box of Screws,
+		DisplayCategory 	= Item,
+		Icon 		    	= BoxScrews,
+		MetalValue 			= 1,
+		WorldStaticModel    = BoxScrews_Ground,
+	}
+	item BoxLargeBolts
+	{
+		Count 		    	= 1,
+		Weight 		    	= 1,
+		Type 		    	= Normal,
+		DisplayName 		= Box of Large Bolts,
+		DisplayCategory 	= Item,
+		Icon 		    	= BoxLargeBolts,
+		MetalValue 			= 1,
+		WorldStaticModel    = BoxLargeBolts_Ground,
+	}
+	item LargeBolt
+	{
+		Count 		    	= 1,
+		Weight 	    		= 0.2,
+		Type 		    	= Normal,
+		DisplayName 		= Large Bolt,
+		DisplayCategory 	= Item,
+		Icon 	     		= LargeBolt,
+		MetalValue 			= 1,
+		WorldStaticModel    = LargeBolt_Ground,
+		Tooltip             = Tooltip_LargeBolt,
+	}
+	item Spring
+	{
+		Count 		    	= 1,
+		Weight 	    		= 0.2,
+		Type 		    	= Normal,
+		DisplayName 		= Spring,
+		DisplayCategory 	= Item,
+		Icon 	     		= Spring,
+		MetalValue 			= 1,
+		WorldStaticModel    = Spring_Ground,
+		
+	}
+	item Chain
+	{
+		Count 		    	= 1,
+		Weight 	    		= 1,
+		Type 		    	= Normal,
+		DisplayName 		= Chain,
+		DisplayCategory 	= Item,
+		Icon 	     		= Chain,
+		MetalValue 			= 1,
+		WorldStaticModel    = Chain_Ground,
+	}
+	item Motor
+	{
+		Count 		    	= 1,
+		Weight 	    		= 5,
+		Type 		    	= Normal,
+		DisplayName 		= Motor,
+		DisplayCategory 	= Item,
+		Icon 	     		= Motor,
+		MetalValue 			= 1,
+		WorldStaticModel    = Motor_Ground,
+		Tooltip             = Tooltip_Motor,
+	}
+	item File
+	{
+		Count 				= 1,
+		Tags 				= File,
+		Weight 				= 0.2,
+		Type 				= Normal,
+		DisplayName 		= File,
+		DisplayCategory 	= Tool,
+		Icon 				= File,
+		MetalValue 			= 1,
+		WorldStaticModel    = File_Ground,
+		Tooltip             = Tooltip_File,
+	}
+	item Pliers
+	{
+		Count 				= 1,
+		Tags 				= Pliers,
+		Weight 				= 0.1,
+		Type 				= Normal,
+		DisplayName 		= Pliers,
+		DisplayCategory 	= Tool,
+		Icon 				= WorkshopPliers,
+		MetalValue 			= 1,
+		WorldStaticModel    = Pliers_Ground,
+		Tooltip             = Tooltip_Pliers,
+	}
+	item MetalCutter
+	{
+		Count 				= 1,
+		Tags 				= MetalCutter,
+		Weight 				= 0.1,
+		Type 				= Normal,
+		DisplayName 		= Metal Cutter,
+		DisplayCategory 	= Tool,
+		Icon 				= MetalCutter,
+		MetalValue 			= 1,
+		WorldStaticModel    = MetalCutter_Ground,
+		Tooltip             = Tooltip_MetalCutter,
+	}
+}

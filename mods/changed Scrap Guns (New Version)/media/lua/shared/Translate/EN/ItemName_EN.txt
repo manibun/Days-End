@@ -1,0 +1,45 @@
+ItemName_EN = {
+--magazines
+    ItemName_SGuns.ScrapGunMag1 		= "The Power of Air Pressure!",
+	ItemName_SGuns.ScrapGunMag2 		= "Raven's Notes",
+	ItemName_SGuns.ScrapGunMag3 		= "Gunsmiths Journal Vol. 2",
+	ItemName_SGuns.ScrapGunMag4 		= "Gunsmiths Journal Vol. 1",
+--air
+	ItemName_SGuns.SSBox 				= "Shrapnel Shell Box",
+	ItemName_SGuns.MetalScraps 			= "Metal Scraps",
+	ItemName_SGuns.ShrapnelShell 		= "Shrapnel Shells",
+	ItemName_SGuns.SRMagazine 			= "SR Magazine",
+	ItemName_SGuns.HPS 					= "Handmade Pump Shotgun",
+	ItemName_SGuns.HP 					= "Handmade Pistol",
+	ItemName_SGuns.HDBS 				= "Handmade Double Barrel Shotgun",
+	ItemName_SGuns.HR 					= "Handmade Rifle",
+	ItemName_SGuns.HRB 					= "HR (Using Bayonett)",
+--scrap
+	ItemName_SGuns.ScrapPistol 			= "Scrap Pistol",
+	ItemName_SGuns.ScrapSMG 			= "Scrap SMG",
+	ItemName_SGuns.ScrapSMGMagazine	 	= "Scrap SMG Magazine",
+	ItemName_SGuns.ScrapPistolMagazine  = "Scrap Pistol Magazine",
+	ItemName_SGuns.ScrapBullets 		= "Scrap Bullets",
+	ItemName_SGuns.ScrapBBox 			= "Scrap Bullet Box",
+	ItemName_SGuns.ScrapGatling 		= "Gatling",
+	ItemName_SGuns.GatlingBoxMagazine 	= "Gatling Box Magazine",
+--salvaged
+	ItemName_SGuns.SBBox			 	= "Salvaged Bullet Box",
+	ItemName_SGuns.SBullets 			= "Salvaged Bullets",
+	ItemName_SGuns.SSMGMagazine 		= "Salvaged Magazine",
+	ItemName_SGuns.SARBO 				= "SAR (Using Bayonet)",
+	ItemName_SGuns.SSMGUnfolded 		= "Salvaged SMG",
+	ItemName_SGuns.SSMGFolded 			= "Salvaged SMG (Folded)",
+	ItemName_SGuns.SAR 					= "Salvaged Assault Rifle",
+	ItemName_SGuns.SARB 				= "Salvaged Assault Rifle",
+	ItemName_SGuns.SSR 					= "Salvaged Sniper Rifle",
+--misc
+	ItemName_SGuns.NailBomb 			= "Nail Bomb",
+	ItemName_SGuns.GlassBomb 			= "Glass Bomb",
+	ItemName_SGuns.HPB 					= "Homemade Pipe Bomb",
+	ItemName_SGuns.HD 					= "Homemade Decoy",
+	ItemName_SGuns.TBottle 				= "Throwable Bottle",
+	ItemName_SGuns.SlamFire 			= "SlamFire Shotgun",
+	
+}
+

@@ -1,0 +1,16 @@
+UI_EN = {
+    UI_profdesc_unemployed = "At least you don't have to look for a job anymore.",
+	
+    UI_prof_Drone = "Office Drone",
+    UI_profdesc_drone = "9 to 5 in the office has not made you especially prepared for the apocalypse.",
+	
+    UI_prof_Guardsman = "National Guardsman",
+    UI_profdesc_guardsman = "You were one of the cowardly, but lucky ones, who hid when the going got tough.",
+	
+    UI_prof_scientist = "Scientist",
+    UI_profdesc_scientist = "You know a few techniques that might help you on the way to a cure for this affliction, <br> and can possibly create a primitive treatment",
+	
+    UI_prof_BurgerFlipper = "Burger Flipper",
+    UI_profdesc_burgerflipper = "Flipping burgers all day is boring. That is, if you're not high. <br> Luckily, you know your way around the good stuff.",
+
+}

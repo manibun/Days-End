@@ -1,0 +1,673 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Literature************************/
+
+	item BookMaintenance1
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	220,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	Maintenance Vol. 1,
+        Icon	=	BookViolet,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+    item BookMaintenance2
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	260,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	Maintenance Vol. 2,
+        Icon	=	BookViolet,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+     item BookMaintenance3
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	300,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	Maintenance Vol. 3,
+        Icon	=	BookViolet,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+     item BookMaintenance4
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	340,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	Maintenance Vol. 4,
+        Icon	=	BookViolet,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+     item BookMaintenance5
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	380,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	Maintenance Vol. 5,
+        Icon	=	BookViolet,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+     }
+
+    item SFGuideCooking
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Cooking Guide,
+        Icon	=	SFBookCook,
+        TeachedRecipes  =   Make Cake Batter;Make Pie Dough;Make Chocolate Chip Cookie Dough;Make Chocolate Cookie Dough;Make Oatmeal Cookie Dough;Make Sugar Cookie Dough;Make Shortbread Cookie Dough;Make Bread Dough;Make Biscuits;Make Pizza,
+        ReplaceOnUse    =   SFGuideCooking,
+        StaticModel = Book,
+        WorldStaticModel = BookDarkCyan_Ground,
+    }
+
+    item SFGuideEletronics
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Electronics Guide,
+        Icon	=	SFBookElectric,
+        TeachedRecipes  =   Make Remote Controller V1;Make Remote Controller V2;Make Remote Controller V3;Make Timer;Add Timer;Add Motion Sensor V1;Add Motion Sensor V2;Add Motion Sensor V3;Make Remote Trigger;Add Crafted Trigger,
+        ReplaceOnUse    =   SFGuideEletronics,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+
+    item SFGuideEngineering
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Engineering Guide,
+        Icon	=	SFBookEngine,
+        TeachedRecipes  =   Make Noise Maker;Make Smoke Bomb,
+        ReplaceOnUse    =   SFGuideEngineering,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+
+    item SFGuideFishing
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Fishing Guide,
+        Icon	=	SFBookFish,
+        TeachedRecipes  =   Make Fishing Rod;Fix Fishing Rod;Make Fishing Net;Get Wire Back,
+        ReplaceOnUse    =   SFGuideFishing,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+    item SFGuideMechanics
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Mechanics Guide,
+        Icon	=	SFBookCars,
+        TeachedRecipes  =   Basic Mechanics;Intermediate Mechanics;Advanced Mechanics,
+        ReplaceOnUse    =   SFGuideMechanics,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+    }
+
+    item SFGuideMetalworking
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Metalworking Guide,
+        Icon	=	SFBookMetal,
+        TeachedRecipes  =   Make Metal Walls;Make Metal Roof;Make Metal Containers;Make Metal Fences;Make Metal Sheet;Make Small Metal Sheet,
+        ReplaceOnUse    =   SFGuideMetalworking,
+        StaticModel = Book,
+        WorldStaticModel = BookGrey_Ground,
+    }
+
+    item SFGuideRadio
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Radio Guide,
+        Icon	=	SFBookRadio,
+        TeachedRecipes  =   Craft Makeshift Radio;Craft Makeshift Walkie Talkie;Craft Makeshift HAM Radio,
+        ReplaceOnUse    =   SFGuideRadio,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+
+    item SFGuideTrapping
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Complete Trapping Guide,
+        Icon	=	SFBookTrap,
+        TeachedRecipes  =   Make Snare Trap;Make Wooden Cage Trap;Make Stick Trap;Make Trap Box;Make Cage Trap,
+        ReplaceOnUse    =   SFGuideTrapping,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+    item FarmingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Curing Plants,
+        Icon	=	SFNotesFarm1,
+        TeachedRecipes  =   Make Mildew Cure;Make Flies Cure,
+        ReplaceOnUse    =   FarmingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item FarmingNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Homemade Flour,
+        Icon	=	SFNotesFarm2,
+        TeachedRecipes  =   Make Cornflour;Make Flour,
+        ReplaceOnUse    =   FarmingNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item FarmingNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Homemade Sugar,
+        Icon	=	SFNotesFarm2,
+        TeachedRecipes  =   Place Beets in Cooking Pot;Make Beet Syrup;Remove Sugar From Pot,
+        ReplaceOnUse    =   FarmingNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item FishingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Fishing Rods,
+        Icon	=	SFNotesFish1,
+        TeachedRecipes  =   Make Fishing Rod;Fix Fishing Rod,
+        ReplaceOnUse    =   FishingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item FishingNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Fishing Nets,
+        Icon	=	SFNotesFish2,
+        TeachedRecipes  =   Make Fishing Net;Get Wire Back,
+        ReplaceOnUse    =   FishingNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item HuntingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Snare Traps,
+        Icon	=	SFNotesHunt1,
+        TeachedRecipes  =   Make Snare Trap,
+        ReplaceOnUse    =   HuntingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item HuntingNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Wooden Traps,
+        Icon	=	SFNotesHunt2,
+        TeachedRecipes  =   Make Wooden Cage Trap;Make Stick Trap,
+        ReplaceOnUse    =   HuntingNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item HuntingNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Varied Traps,
+        Icon	=	SFNotesHunt3,
+        TeachedRecipes  =   Make Trap Box;Make Cage Trap,
+        ReplaceOnUse    =   HuntingNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item HerbalistNotes
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Herbs,
+        Icon	=	SFNotesHerbs,
+        TeachedRecipes  =   Herbalist,
+        ReplaceOnUse    =   HerbalistNotes,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MetalworkNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Metal Walls,
+        Icon	=	SFNotesWeld1,
+        TeachedRecipes  =   Make Metal Walls;Make Metal Roof,
+        ReplaceOnUse    =   MetalworkNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MetalworkNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Metal Crates,
+        Icon	=	SFNotesWeld2,
+        TeachedRecipes  =   Make Metal Containers,
+        ReplaceOnUse    =   MetalworkNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MetalworkNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Metal Fences,
+        Icon	=	SFNotesWeld3,
+        TeachedRecipes  =   Make Metal Fences,
+        ReplaceOnUse    =   MetalworkNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MetalworkNotes4
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Metal Sheets,
+        Icon	=	SFNotesWeld4,
+        TeachedRecipes  =   Make Metal Sheet;Make Small Metal Sheet,
+        ReplaceOnUse    =   MetalworkNotes4,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item CookingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Cakes And Pies,
+        Icon	=	SFNotesCook1,
+        TeachedRecipes  =   Make Cake Batter;Make Pie Dough;Make Chocolate Chip Cookie Dough;Make Chocolate Cookie Dough;Make Oatmeal Cookie Dough;Make Sugar Cookie Dough;Make Shortbread Cookie Dough,
+        ReplaceOnUse    =   CookingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item CookingNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Bread,
+        Icon	=	SFNotesCook2,
+        TeachedRecipes  =   Make Bread Dough;Make Biscuits;Make Pizza,
+        ReplaceOnUse    =   CookingNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SFCookingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Notes On Corndogs,
+        Icon		=	SFNotesCook3,
+        TeachedRecipes  =   Make Corn Batter;Make Corndog,
+        ReplaceOnUse    =   SFCookingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item ElectronicsNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Remote Controllers,
+        Icon	=	SFNotesElect1,
+        TeachedRecipes  =   Make Remote Controller V1;Make Remote Controller V2;Make Remote Controller V3,
+        ReplaceOnUse    =   ElectronicsNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item ElectronicsNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Timers,
+        Icon	=	SFNotesElect2,
+        TeachedRecipes  =   Make Timer;Add Timer,
+        ReplaceOnUse    =   ElectronicsNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item ElectronicsNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Motion Sensors,
+        Icon	=	SFNotesElect3,
+        TeachedRecipes  =   Add Motion Sensor V1;Add Motion Sensor V2;Add Motion Sensor V3,
+        ReplaceOnUse    =   ElectronicsNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item ElectronicsNotes4
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Using Generators,
+        Icon	=	SFNotesElect4,
+        TeachedRecipes  =   Generator,
+        ReplaceOnUse    =   ElectronicsNotes4,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item ElectronicsNotes5
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Remote Triggers,
+        Icon	=	SFNotesElect5,
+        TeachedRecipes  =   Make Remote Trigger;Add Crafted Trigger,
+        ReplaceOnUse    =   ElectronicsNotes5,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item EngineerNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Noise Makers,
+        Icon	=	SFNotesEng1,
+        TeachedRecipes  =   Make Noise Maker,
+        ReplaceOnUse    =   EngineerNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item EngineerNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Smoke Bombs,
+        Icon	=	SFNotesEng2,
+        TeachedRecipes  =   Make Smoke Bomb,
+        ReplaceOnUse    =   EngineerNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item EngineerNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Aerosol Bombs,
+        Icon	=	SFNotesEng3,
+        TeachedRecipes  =   Make Aerosol bomb,
+        ReplaceOnUse    =   EngineerNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item EngineerNotes4
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Flame Bombs,
+        Icon	=	SFNotesEng4,
+        TeachedRecipes  =   Make Flame bomb,
+        ReplaceOnUse    =   EngineerNotes4,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item EngineerNotes5
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Pipe Bombs,
+        Icon	=	SFNotesEng1,
+        TeachedRecipes  =   Make Pipe bomb,
+        ReplaceOnUse    =   EngineerNotes5,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MechanicNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Standard Car Models,
+        Icon	=	SFNotesMechanic1,
+        TeachedRecipes  =   Basic Mechanics,
+        ReplaceOnUse    =   MechanicNotes1,
+        Tooltip = Tooltip_item_MechanicMag1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MechanicNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Commercial Car Models,
+        Icon	=	SFNotesMechanic2,
+        TeachedRecipes  =   Intermediate Mechanics,
+        ReplaceOnUse    =   MechanicNotes2,
+        Tooltip = Tooltip_item_MechanicMag2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MechanicNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Performance Car Models,
+        Icon	=	SFNotesMechanic3,
+        TeachedRecipes  =   Advanced Mechanics,
+        ReplaceOnUse    =   MechanicNotes3,
+        Tooltip = Tooltip_item_MechanicMag3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item RadioNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Radios,
+        Icon	=	SFNotesRadio1,
+        TeachedRecipes  =   Craft Makeshift Radio,
+        ReplaceOnUse    =   RadioNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item RadioNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Walkie Talkies,
+        Icon	=	SFNotesRadio2,
+        TeachedRecipes  =   Craft Makeshift Walkie Talkie,
+        ReplaceOnUse    =   RadioNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item RadioNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On HAM Radios,
+        Icon	=	SFNotesRadio3,
+        TeachedRecipes  =   Craft Makeshift HAM Radio,
+        ReplaceOnUse    =   RadioNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SmithingNotes1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Making Kitchen Utensils,
+        Icon	=	SFNotesSmith1,
+        TeachedRecipes  =   Make Fork;Make Spoon;Make Cooking Pot;Make Roasting Pan;Make Saucepan;Make Baking Tray;Make Baking Pan;Make Pan;Make Kitchen Knife;Make Butter Knife,
+        ReplaceOnUse    =   SmithingNotes1,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SmithingNotes2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Making Tools,
+        Icon	=	SFNotesSmith2,
+        TeachedRecipes  =   Make Hammer;Make Letter Opener;Make Nails;Make Paperclips;Make Scissors;Make Door Knob;Make Hinge;Make Crowbar;Make Sledgehammer;Make Saw;Make Screwdriver; Make Golfclub,
+        ReplaceOnUse    =   SmithingNotes2,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SmithingNotes3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	The Smithing Magazine Vol.3,
+        Icon	=	SFNotesSmith1,
+        TeachedRecipes  =   Make Suture Needle Holder;Make Tweezers;Make Suture Needle;Make Hunting Knife;Make Tent Peg;Make Shovel;Make Hand Shovel;Make Axe,
+        ReplaceOnUse    =   SmithingNotes3,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SmithingNotes4
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Making Bullets,
+        Icon	=	SFNotesSmith1,
+        TeachedRecipes  =   Make 9mm Bullets Mold;Make 308 Bullets Mold;Make 223 Bullets Mold;Make Shotgun Shells Mold;Make 9mm Bullets;Make Shotgun Shells;Make 308 Bullets;Make 223 Bullets,
+        ReplaceOnUse    =   SmithingNotes4,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item SmithingNotes5
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Notes On Making Blacksmith Tools,
+        Icon	=	SFNotesSmith2,
+        TeachedRecipes  =   Make Tongs;Make Sheet Metal;Make Small Sheet Metal;Make Ball Peen Hammer;Make Metal Drum,
+        ReplaceOnUse    =   SmithingNotes5,
+        StaticModel = Newspaper,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+}

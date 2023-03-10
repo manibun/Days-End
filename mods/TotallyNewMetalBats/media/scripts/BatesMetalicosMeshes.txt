@@ -1,0 +1,13 @@
+module MetalBat
+{
+	model MetalBaseballBat
+	{
+		mesh = Weapons/2Handed/MetalBaseballBat,
+
+		attachment world
+		{
+			offset = 0.0000 0.2450 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

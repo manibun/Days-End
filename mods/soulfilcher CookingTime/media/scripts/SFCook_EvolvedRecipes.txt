@@ -1,0 +1,69 @@
+module Base
+{
+    evolvedrecipe Chili
+    {
+        BaseItem:SFWaterPotBeans,
+        MaxItems:4,
+        ResultItem:filcher.SFChili,
+        Cookable:true,
+        AddIngredientIfCooked:true,
+        Name:Prepare Chili,
+    }
+
+    evolvedrecipe Cupcakes
+    {
+        BaseItem:SFCupcakePrep,
+        MaxItems:4,
+        ResultItem:filcher.SFCupcakes,
+        Cookable:true,
+        Name:Prepare Cupcakes,
+    }
+
+    evolvedrecipe Drink
+    {
+       BaseItem:SFDrinkBase,
+       MaxItems:4,
+       ResultItem:filcher.SFDrink,
+       Name:Prepare Drink,
+    }
+
+    evolvedrecipe Hotdog
+    {
+        BaseItem:Hotdog,
+        MaxItems:4,
+        ResultItem:filcher.SFHotdog,
+        Name:Prepare Hotdog,
+    }
+
+    evolvedrecipe Icecream
+    {
+       BaseItem:IcecreamBowl,
+       MaxItems:3,
+       ResultItem:filcher.SFIcecreamEvolved,
+       Name:Prepare Ice Cream,
+    }
+
+    evolvedrecipe Jelly
+    {
+       BaseItem:WaterGlass,
+       MaxItems:3,
+       ResultItem:filcher.SFJelly,
+       Name:Prepare Jelly,
+    }
+
+    evolvedrecipe Juice
+    {
+       BaseItem:PlasticCupWater,
+       MaxItems:2,
+       ResultItem:filcher.SFJuice,
+       Name:Prepare Juice,
+    }
+
+    evolvedrecipe Pickles
+    {
+       BaseItem:SFPicklingJar,
+       MaxItems:3,
+       ResultItem:filcher.SFPickles,
+       Name:Prepare Pickles,
+    }
+}

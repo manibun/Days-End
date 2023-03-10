@@ -1,0 +1,211 @@
+module Base {
+    item PaintBlack {
+        DisplayCategory = Paint,
+        DisplayName = Black Paint,
+        Icon = Paint_Black,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinBlack_Ground,
+    }
+
+    item PaintBlue {
+        DisplayCategory = Paint,
+        DisplayName = Blue Paint,
+        Icon = Paint_Blue,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinBlue_Ground,
+    }
+
+    item PaintBrown {
+        DisplayCategory = Paint,
+        DisplayName = Brown Paint,
+        Icon = Paint_Brown,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinBrown_Ground,
+    }
+
+    item PaintCyan {
+        DisplayCategory = Paint,
+        DisplayName = Cyan Paint,
+        Icon = Paint_Cyan,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinCyan_Ground,
+    }
+
+    item PaintGreen {
+        DisplayCategory = Paint,
+        DisplayName = Green Paint,
+        Icon = Paint_Green,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinGreen_Ground,
+    }
+
+    item PaintGrey {
+        DisplayCategory = Paint,
+        DisplayName = Grey Paint,
+        Icon = Paint_Grey,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinGrey_Ground,
+    }
+
+    item PaintLightBlue {
+        DisplayCategory = Paint,
+        DisplayName = Light Blue Paint,
+        Icon = Paint_LightBlue,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinLightBlue_Ground,
+    }
+
+    item PaintLightBrown {
+        DisplayCategory = Paint,
+        DisplayName = Light Brown Paint,
+        Icon = Paint_LightBrown,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinLightBrown_Ground,
+    }
+
+    item PaintOrange {
+        DisplayCategory = Paint,
+        DisplayName = Orange Paint,
+        Icon = Paint_Orange,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinOrange_Ground,
+    }
+
+    item PaintPink {
+        DisplayCategory = Paint,
+        DisplayName = Pink Paint,
+        Icon = Paint_Pink,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinPink_Ground,
+    }
+
+    item PaintPurple {
+        DisplayCategory = Paint,
+        DisplayName = Purple Paint,
+        Icon = Paint_Purple,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinPurple_Ground,
+    }
+
+    item PaintRed {
+        DisplayCategory = Paint,
+        DisplayName = Red Paint,
+        Icon = Paint_Red,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinRed_Ground,
+    }
+
+    item PaintTurquoise {
+        DisplayCategory = Paint,
+        DisplayName = Turquoise Paint,
+        Icon = Paint_Turquoise,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinTurquoise_Ground,
+    }
+
+    item PaintWhite {
+        DisplayCategory = Paint,
+        DisplayName = White Paint,
+        Icon = Paint_White,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinWhite_Ground,
+    }
+
+    item PaintYellow {
+        DisplayCategory = Paint,
+        DisplayName = Yellow Paint,
+        Icon = Paint_Yellow,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        StaticModel = Bucket,
+        Tooltip = Tooltip_Paint,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 5,
+        WorldStaticModel = PaintTinYellow_Ground,
+    }
+}

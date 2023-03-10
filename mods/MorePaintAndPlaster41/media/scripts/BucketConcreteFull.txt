@@ -1,0 +1,16 @@
+module Base {
+    item BucketConcreteFull {
+        DisplayCategory = Material,
+        DisplayName = Bucket of Concrete,
+        EatType = Bucket,
+        Icon = Concrete_Mixed,
+        ReplaceOnDeplete = BucketEmpty,
+        ReplaceOnUseOn = WaterSource-BucketWaterFull,
+        StaticModel = Bucket,
+        Type = Drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = FALSE,
+        Weight = 10,
+        WorldStaticModel = BucketFullConcrete_Ground,
+    }
+}

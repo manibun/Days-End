@@ -1,0 +1,29 @@
+getActivatedMods():contains("AquatsarYachtClub")
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	
+	
+	recipe Deconstruct Boat Items
+    {
+
+    	Compass/BoatPropeller/ManualStarter,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+        Result           		: MetalParts=5,
+        Time             		: 200.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give10MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn			: false,
+    }
+}

@@ -1,0 +1,2803 @@
+module VanillaFoodExtension
+{
+	imports
+	{
+		Base
+	}
+	recipe Make Instant Popcorn
+	{
+		Corn,
+		Newspaper,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Popcorn=2,
+		Time:200.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+	
+	recipe Make Chocolate Chips
+	{
+		Chocolate,
+		keep ButterKnife/KitchenKnife/HuntingKnife,
+
+		Result:ChocolateChips=4,
+		Time:200.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+	
+	recipe Make Sugar Packets
+	{
+		Sugar;1,
+		SheetPaper2,
+		keep Scissors,
+
+		Result:SugarPacket=5,
+		Time:160.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+	
+	recipe Make Brown Sugar Packets
+	{
+		SugarBrown;1,
+		SheetPaper2,
+		keep Scissors,
+
+		Result:SugarPacket=5,
+		Time:160.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+	
+	recipe Make Pot of Miso Soup
+	{
+		Seaweed=2,
+		Tofu,
+		Water=15,
+		Pot,
+		keep ButterKnife/KitchenKnife/HuntingKnife,
+
+		Result:PotOfSoup,
+		Time:260.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+	
+	recipe Roll Odd Cigarettes
+	{
+		Violets=10,
+		GrapeLeaves=10,
+		SheetPaper2=20,
+		keep KitchenKnife/HuntingKnife/Scissors,
+
+		Result:Cigarettes=5,
+		Time:600.0,
+		SkillRequired:Cooking=1,
+		Category:Cooking,
+	}
+
+	recipe Make Fries
+	{
+		Potato=2,
+		Salt;1,
+		Butter;5,
+		Newspaper,
+		Ketchup;1,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:Fries=4,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Candied Fruit Slices
+	{
+		Pineapple,
+		SugarPacket=5,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CandyFruitSlices=5,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Candied Fruit Slices
+	{
+		Mango/Grapefruit,
+		SugarPacket=4,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CandyFruitSlices=4,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Candied Fruit Slices
+	{
+		Apple/Banana/Pear/Grapes,
+		SugarPacket=3,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CandyFruitSlices=3,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Candied Fruit Slices
+	{
+		Orange/Peach/Lime/BeautyBerry/HollyBerry/WinterBerry/Lemon/BerryBlack/BerryBlue/BerryGeneric2/BerryGeneric4/BerryGeneric5,
+		SugarPacket=2,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CandyFruitSlices=2,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Candied Fruit Slices
+	{
+		Cherry/Rosehips/BerryGeneric1/BerryGeneric3,
+		SugarPacket,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CandyFruitSlices,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Fried Onion Rings
+	{
+		Onion,
+		Flour=1,
+		Egg/WildEggs,
+		Salt;1,
+		OilVegetable;5,
+		keep KitchenKnife/HuntingKnife,
+		keep Pan,
+		
+		Result:FriedOnionRings=6,
+		Time:400.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Smores
+	{
+		GrahamCrackers,
+		Marshmallows,
+		Chocolate,
+		keep CampfireKit,
+		
+		Result:Smore=6,
+		Time:400.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+
+	recipe Make TV Dinner
+	{
+		RedRadish/Tomato/Leek/Peas/Carrots/Broccoli/BellPepper/Eggplant/Zucchini,
+		Rice;10,
+		FrogMeat/Smallanimalmeat/Smallbirdmeat/DogfoodOpen,
+		Newspaper/Aluminum,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:TVDinner=3,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+
+	recipe Make TV Dinner
+	{
+		RedRadish/Tomato/Leek/Peas/Carrots/Broccoli/BellPepper/Eggplant/Zucchini,
+		Pasta;10,
+		FrogMeat/Smallanimalmeat/Smallbirdmeat/DogfoodOpen,
+		Newspaper/Aluminum,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:TVDinner=3,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+
+	recipe Make TV Dinner
+	{
+		RedRadish/Tomato/Leek/Peas/Carrots/Broccoli/BellPepper/Eggplant/Zucchini,
+		Macandcheese;10,
+		FrogMeat/Smallanimalmeat/Smallbirdmeat/DogfoodOpen,
+		Newspaper/Aluminum,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:TVDinner=3,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+
+	recipe Make TV Dinner
+	{
+		OpenBeans,
+		FrogMeat/Smallanimalmeat/Smallbirdmeat/DogfoodOpen,
+		Newspaper/Aluminum,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:TVDinner=2,
+		Time:300.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Ice Cream Cones
+	{
+		Flour=1,
+		Sugar;1,
+		OilVegetable;1,
+		Milk;5,
+		Salt;1,
+		keep Spoon,
+		keep Pan,
+		keep MortarPestle,
+
+		Result:Cone=10,
+		Time:200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Ice Cream Cones
+	{
+		Flour=1,
+		Sugar;1,
+		OilVegetable;1,
+		Milk;5,
+		Salt;1,
+		keep Bowl,
+		keep Spoon,
+		keep Pan,
+		keep MortarPestle,
+
+		Result:Cone=10,
+		Time:200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Ice Cream Cones
+	{
+		Flour=1,
+		Sugar;1,
+		Egg/WildEggs,
+		Butter;5,
+		keep Bowl,
+		keep Spoon,
+		keep Pan,
+		keep MortarPestle,
+
+		Result:Cone=10,
+		Time:200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Corndogs
+	{
+		MeatPatty,
+		BreadDough,
+		Ketchup;2,
+		Mustard;2,
+		Twigs=5,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+
+		Result:Corndog=5,
+		Time:400.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Pretzels
+	{
+		Flour=1,
+		Yeast=1,
+		Sugar;1,
+		Butter;5,
+		Salt;2,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Pretzel=6,
+		Time:600.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+
+	recipe Make Peanut Butter Sandwich
+	{
+		PeanutButter;1,
+		BreadSlices=2,
+		keep ButterKnife/KitchenKnife/HuntingKnife,
+
+		Result:PeanutButterSandwich,
+		Time:100.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Traditional BLT Sandwiches
+	{
+		Bacon,
+		Lettuce,
+		Tomato/CannedTomatoOpen,
+		BreadSlices,
+		keep ButterKnife/KitchenKnife/HuntingKnife,
+
+		Result:Burger=2,
+		Time:300.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Improvised BLT Sandwiches
+	{
+		MeatPatty,
+		Cabbage,
+		Tomato/CannedTomatoOpen,
+		Egg/WildEggs,
+		Bread,
+		keep ButterKnife/KitchenKnife/HuntingKnife,
+
+		Result:Burger=4,
+		Time:300.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+
+	recipe Make Yoghurt
+	{
+		Yoghurt,
+		Milk;10,
+		EmptyJar,
+		JarLid,
+
+		Result:Yoghurt=3,
+		Time:500.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+
+	recipe Make Processed Cheese
+	{
+		Cheese,
+		Salt;1,
+		Aluminum/Plasticbag,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+		
+		Result:Processedcheese=5,
+		Time:100.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Tortilla
+	{
+		Flour/Cornflour,
+		Salt;1,
+		OilOlive;2,
+		Water=5,
+		keep RollingPin,
+		
+		Result:Tortilla=10,
+		Time:800.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Tortilla Chips
+	{
+		Tortilla=2,
+		Salt;1,
+		OilOlive;2,
+		keep Pan/BakingTray/BakingPan,
+		
+		Result:TortillaChips,
+		Time:200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Taco Shells
+	{
+		Tortilla=5,
+		keep Pan/BakingTray/BakingPan,
+		keep MetalBar,
+		
+		Result:TacoShell=5,
+		Time:300.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Baguette
+	{
+		BreadDough,
+		keep KitchenKnife/HuntingKnife,
+		keep BakingPan/BakingTray,
+		
+		Result:Baguette,
+		Time:500.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Bagels
+	{
+		Flour=1,
+		Yeast=1,
+		Sugar;1,
+		Salt;1,
+		keep Pot,
+		keep BakingPan/BakingTray,
+		
+		Result:BagelPlain=6,
+		Time:1000.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Mince Meat
+	{
+		Steak/CannedCornedBeefOpen/FrogMeat/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/PorkChop/MuttonChop/Chicken,
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:MincedMeat,
+		Time:200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Sausage
+	{
+		MincedMeat,
+		Salt;1,
+		Pepper;1,
+		Egg/WildEggs,
+		keep Bowl,
+		
+		Result:Sausage=3,
+		Time:800.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Icing
+	{
+		Milk;5,
+		Sugar;2,
+		keep Fork,
+		keep MortarPestle,
+		keep Bowl,
+		
+		Result:Icing=5,
+		Time:600.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+	recipe Make Potato Pancakes
+	{
+		Potato/CannedPotatoOpen,
+		Salt;1,
+		Pepper;1,
+		Onion,
+		OilVegetable;5,
+		keep Fork,
+		keep KitchenKnife/HuntingKnife
+		keep Bowl,
+		
+		Result:PotatoPancakes=4,
+		Time:400.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+		recipe Make Chocolate Bar
+	{
+		CocoaPowder,
+		Butter;5,
+		Salt;1,
+		Milk;5,
+		Sugar;1,
+		Water;10,
+		keep Fork,
+		keep RollingPin,
+		keep Pot,
+		keep BakingTray,
+
+		Result:Chocolate,
+		Time:600.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Crackers
+	{
+		Flour=1,
+		Salt;1,
+		Water;5,
+		OilOlive;2,
+		Sugar;1,
+		keep Fork,
+		keep BakingTray/BakingPan,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+		keep Bowl,
+		
+		Result:Crackers=8,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Apple Pie Slices
+	{
+		PiePrep,
+		Apple=4,
+		Water;5,
+		Butter;5,
+		Sugar;1,
+		SugarBrown;1,
+		keep Fork,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+		
+		Result:PieApple=4,
+		Time:700.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Blueberry Pie Slices
+	{
+		PiePrep,
+		BerryBlue=6,
+		Water;5,
+		Butter;5,
+		Sugar;1,
+		Egg/WildEggs,
+		keep Fork,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+		
+		Result:PieBlueberry=4,
+		Time:700.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Hotdogs
+	{
+		MeatPatty,
+		Onion,
+		CannedChiliOpen,
+		BreadDough,
+		Processedcheese=3,
+		Ketchup;2,
+		Mustard;2,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Hotdog=5,
+		Time:400.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Hotdogs
+	{
+		Sausage,
+		Onion,
+		CannedChiliOpen,
+		BreadDough,
+		Processedcheese=3,
+		Ketchup;2,
+		Mustard;2,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Hotdog=4,
+		Time:400.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Ham
+	{
+		PorkChop=2,
+		Salt;1,
+		Pepper;1,
+		Twine=1,
+		keep BakingTray/RoastingPan,
+
+		Result:Ham,
+		Time:600.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Ham
+	{
+		PorkChop,
+		CannedBologneseOpen,
+		Salt;1,
+		Pepper;1,
+		Twine=1,
+		keep BakingTray/RoastingPan,
+
+		Result:Ham,
+		Time:600.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Pepperoni
+	{
+		PorkChop,
+		Steak,
+		Salt;2,
+		Pepper;2,
+		Sugar;2,
+		Hotsauce,
+		Twine=3,
+		keep WoodenStick,
+		keep MortarPestle,
+		keep CampfireKit,
+		keep Lighter,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Pepperoni=5,
+		Time:1800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Salami
+	{
+		Steak,
+		Onion,
+		Salt;2,
+		Pepper;2,
+		Hotsauce,
+		Twine=3,
+		keep WoodenStick,
+		keep MortarPestle,
+		keep CampfireKit,
+		keep Lighter,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Salami=4,
+		Time:1800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Baloney
+	{
+		Steak,
+		Onion,
+		SugarBrown;1,
+		Water;5,
+		Twine=3,
+		keep WoodenStick,
+		keep MortarPestle,
+		keep CampfireKit,
+		keep Lighter,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Baloney=2,
+		Time:1800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Traditional Savory Pie
+	{
+		MuttonChop/Steak/CannedCornedBeefOpen,
+		Leek,
+		Carrots/CannedCarrotsOpen,
+		PiePrep,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Pie=4,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Traditional Chicken Pot Pie
+	{
+		Chicken,
+		Potato/CannedPotatoOpen,
+		Carrots/CannedCarrotsOpen,
+		Peas/CannedPeasOpen,
+		Onion,
+		PiePrep,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Pie=6,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Pancakes
+	{
+		Flour=1,
+		Egg/WildEggs,
+		Water=5,
+		Honey;5,
+		Butter;5,
+		keep Mugl/MugRed/MugWhite/MugSpiffo,
+		keep Fork,
+		keep Spoon,
+		keep Pan,
+
+		Result:Pancakes=2,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Waffles
+	{
+		Flour=1,
+		Salt;1,
+		Sugar;1,
+		Water=5,
+		Egg/WildEggs,
+		Milk;10,
+		Butter;5,
+		keep Bowl,
+		keep Spoon,
+		keep Fork,
+		keep Pan,
+
+		Result:Waffles=3,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make CheeseSandwich
+	{
+		Processedcheese=2,
+		BreadSlices=2,
+		keep Plate/PlateBlue/PlateOrange,
+		keep Pan,
+		
+		Result:CheeseSandwich,
+		Time:100.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+	
+	recipe Make Cornbread
+	{
+		Cornflour=1,
+		Milk;5,
+		Salt;1,
+		Sugar;1,
+		BakingSoda=1,
+		Butter;5,
+		Egg/WildEggs,
+		keep Pan/BakingPan/RoastingPan,
+		
+		Result:Cornbread=8,
+		Time:100.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+	}
+
+	recipe Make Soy Milk
+	{
+		OpenBeans=2,
+		Water=5,
+		WaterBottleEmpty/PopBottleEmpty,
+		keep Sheet,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		
+		Result:Milk=2,
+		Time:1000.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Rice Milk
+	{
+		Rice;10,
+		Water=5,
+		Sugar;1,
+		WaterBottleEmpty/PopBottleEmpty,
+		keep Sheet,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		
+		Result:Milk=2,
+		Time:1000.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make OatMilk
+	{
+		OatsRaw,
+		Water=5,
+		WaterBottleEmpty/PopBottleEmpty,
+		keep Sheet,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		
+		Result:Milk=2,
+		Time:1000.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Perogies
+	{
+		Flour=1,
+		Water=5,
+		Salt;1,
+		Milk;5,
+		Egg/WildEggs,
+		Yoghurt,
+		Potato=2,
+		Cheese,
+		Butter;5,
+		Bacon,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+		keep Pan,
+		
+		Result:Perogies=16,
+		Time:1200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+
+	recipe Make Tofu
+	{
+		OpenBeans,
+		Water=5,
+		Salt;2,
+		Sheet,
+		keep RoastingPan,
+		keep RollingPin,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		
+		Result:Tofu=2,
+		Time:800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Onigiri
+	{
+		FishFillet/Salmon,
+		RicePot,
+		Seaweed,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:Onigiri=8,
+		Time:400.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Maki Sushi
+	{
+		FishFillet/Salmon,
+		RicePot,
+		Seaweed,
+		Salt;1,
+		Pepper;1,
+		RiceVinegar;5,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:Maki=10,
+		Time:600.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Fish Sushi
+	{
+		FishFillet/Salmon,
+		RicePot,
+		Seaweed,
+		Salt;1,
+		Pepper;1,
+		RiceVinegar;5,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:SushiFish=8,
+		Time:600.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Egg Sushi
+	{
+		Egg=4,
+		Water=5,
+		Sugar;1,
+		RicePot,
+		Seaweed,
+		Salt;1,
+		Pepper;1,
+		RiceVinegar;5,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot/BakingPan/RoastingPan,
+		
+		Result:SushiEgg=8,
+		Time:500.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+		
+	recipe Make Pizza
+	{
+		Flour=1,
+		Water=1,
+		Salt;1,
+		Yeast,
+		Pepper;1,
+		HamSlice,
+		Processedcheese=1,
+		Marinara;1,
+		keep Bowl,
+		keep RollingPin,
+		keep Pan/BakingTray/RoastingPan/BakingPan,
+
+		Result:Pizza=2,
+		Time:1200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Pizza
+	{
+		BreadDough,
+		Salt;3,
+		Pepper;3,
+		HamSlice=3,
+		Processedcheese=3,
+		Marinara;3,
+		keep Bowl,
+		keep RollingPin,
+		keep Pan/BakingTray/RoastingPan,
+
+		Result:Pizza=6,
+		Time:1200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Spring Rolls
+	{
+		Flour=1,
+		Salt;1,
+		Pepper;1,
+		Water=5,
+		OilVegetable;5,
+		Egg/WildEggs,
+		Cabbage,
+		Carrots,
+		MincedMeat,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7
+		keep Bowl,
+		keep RollingPin,
+		keep Pan,
+
+		Result:Springroll=12,
+		Time:1200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+
+	recipe Make Fried Chicken
+	{
+		BreadSlices=1,
+		Chicken,
+		Butter;10,
+		Salt;1,
+		Pepper;1,
+		keep KitchenKnife/HuntingKnife,
+		keep Pan/BakingTray/BakingPan,
+
+		Result:ChickenFried=4,
+		Time:400.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Chicken Nuggets
+	{
+		BreadSlices=1,
+		Chicken,
+		Butter;10,
+		Salt;1,
+		Pepper;1,
+		Egg/WildEggs,
+		keep KitchenKnife/HuntingKnife,
+		keep Pan/BakingTray/BakingPan,
+
+		Result:ChickenNuggets=8,
+		Time:500.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+
+	recipe Make Dry Ramen Noodles
+	{
+		Flour=1,
+		Egg/WildEggs,
+		Water=1,
+		Salt;1,
+		keep RollingPin,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+		
+		Result:Ramen=2,
+		Time:200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+
+	recipe Make Sugar
+	{
+		CandyPackage,
+		Aluminum,
+		Plasticbag,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Hammer,
+
+		Result:Sugar=2,
+		Time:1200.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Tomato Paste
+	{
+		Tomato=6,
+		Salt;2,
+		OilOlive;5,
+		Lemon,
+		Aluminum,
+		keep Pot,
+		keep Sheet,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:TomatoPaste=3,
+		Time:1000.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Key Lime Pie Slices
+	{
+		GrahamCrackers=3,
+		Lime=5,
+		Yoghurt,
+		Butter;5,
+		SugarBrown;1,
+		CannedMilk,
+		keep Fork,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+		
+		Result:PieKeyLime=4,
+		Time:700.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Lemon Meringue Pie Slices
+	{
+		PiePrep,
+		Lemon=4,
+		Egg=3,
+		Water=5,
+		Salt;1,
+		Butter;5,
+		Sugar;1,
+		keep Fork,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+		
+		Result:PieLemonMeringue=4,
+		Time:700.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Plain Doughnuts
+	{
+		Milk;5,
+		Vinegar=1,
+		Flour=1,
+		Egg/WildEggs,
+		BakingSoda=1,
+		Sugar;1,
+		Salt;1,
+		Butter;5,
+		OilVegetable;2,
+		keep Fork,
+		keep Bowl,
+
+		Result:DoughnutPlain=8,
+		Time:800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Chocolate Doughnuts
+	{
+		Milk;5,
+		ChocolateChips,
+		Vinegar=1,
+		Flour=1,
+		Egg/WildEggs,
+		BakingSoda=1,
+		Sugar;1,
+		Salt;1,
+		Butter;5,
+		OilVegetable;2,
+		keep Fork,
+		keep Bowl,
+
+		Result:DoughnutChocolate=8,
+		Time:800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Frosted Doughnuts
+	{
+		Milk;5,
+		Icing,
+		Vinegar=1,
+		Flour=1,
+		Egg/WildEggs,
+		BakingSoda=1,
+		Sugar;1,
+		Salt;1,
+		Butter;5,
+		OilVegetable;2,
+		keep Fork,
+		keep Bowl,
+
+		Result:DoughnutFrosted=8,
+		Time:800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Jelly Doughnuts
+	{
+		Milk;5,
+		JamFruit;5,
+		Vinegar=1,
+		Flour=1,
+		Egg/WildEggs,
+		BakingSoda=1,
+		Sugar;1,
+		Salt;1,
+		Butter;5,
+		OilVegetable;2,
+		keep Fork,
+		keep Bowl,
+
+		Result:DoughnutJelly=8,
+		Time:800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+	}
+	
+	recipe Make Sugar
+	{
+		Honey,
+		Plasticbag,
+		Aluminum,
+		keep BakingTray/RoastingPan,
+		keep RollingPin,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Hammer,
+
+		Result:Sugar,
+		Time:1600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Pumpkin Pie
+	{
+		Sugar;1,
+		Milk;5,
+		Pumpkin,
+		Egg=2,
+		Salt;1,
+		PiePrep,
+		keep RollingPin,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep HammerStone/BallPeenHammer/Hammer,
+
+		Result:PiePumpkin=4,
+		Time:1200.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Ferment Hot Sauce
+	{
+		BellPepper,
+		PepperHabanero/PepperJalapeno,
+		Onion,
+		JarLid,
+		EmptyJar,
+		Vinegar;1,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		keep HammerStone/BallPeenHammer/Hammer,
+
+		Result:Hotsauce=3,
+		Time:1600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Cheese
+	{
+		Flour=1,
+		Milk;20,
+		Plasticbag,
+		Yeast=1,
+		Salt;1,
+		Vinegar;1,
+		Water=10,
+		Butter;5,
+		keep Bowl,
+		keep Fork,
+		keep Pot,
+		keep CampfireKit,
+		keep Lighter,
+
+		Result:Cheese=2,
+		Time:1800.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+
+	recipe Make Meat Patty
+	{
+		FrogMeat/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/FishFillet,
+		CannedBologneseOpen/CannedChiliOpen/CannedCornedBeefOpen,
+		Egg/WildEggs,
+		Salt;1,
+		Pepper;1,
+		BlackSage,
+		WildGarlic2,
+		keep KitchenKnife/HuntingKnife,
+		keep Bowl,
+
+		Result:MeatPatty,
+		Time:600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+
+	recipe Make Bacon
+	{
+		PorkChop,
+		Salt;2,
+		Pepper;2,
+		Sugar;1,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+
+		Result:Bacon=4,
+		Time:600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+
+	recipe Make Beef Jerky
+	{
+		Steak,	
+		WildGarlic2/LemonGrass/BlackSage,
+		Salt;2,
+		Pepper;2,
+		Twine=2,
+		Lighter=2,
+		keep CampfireKit,
+		keep WoodenStick=4,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:BeefJerky=4,
+		Time:600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Croissants
+	{
+		Milk;5,
+		Butter;10,	
+		Yeast=1,
+		Honey;5,
+		Sugar;1,
+		Salt;1,
+		Egg/WildEggs,
+		keep RollingPin,
+		keep Paintbrush,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Croissant=6,
+		Time:800.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Meat Dumplings
+	{
+		Milk;5,
+		MincedMeat,	
+		Water=20,
+		Flour=1,
+		Salt;1,
+		Egg/WildEggs,
+		Onion,
+		WildGarlic2,
+		OilVegetable;2,
+		Soysauce;1,
+		keep RollingPin,
+		keep Pot/Pan,
+		keep Bowl,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:MeatDumpling=10,
+		Time:1600.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Shrimp Dumplings
+	{
+		Milk;5,
+		Shrimp=4,
+		MincedMeat,
+		Water=20,
+		Flour=1,
+		Salt;1,
+		Pepper;1,
+		Cabbage,
+		Egg/WildEggs,
+		Onion,
+		WildGarlic2,
+		OilVegetable;2,
+		Soysauce;1,
+		keep RollingPin,
+		keep Pot/Pan,
+		keep Bowl,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:ShrimpDumpling=16,
+		Time:2000.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Meat Steam Buns
+	{
+		Sugar;1,
+		Yeast=1,
+		MincedMeat,	
+		Water=20,
+		Flour=1,
+		Salt;1,
+		Pepper;1,
+		Egg/WildEggs,
+		Onion,
+		WildGarlic2,
+		Wine;5,
+		OpenBeans/RefriedBeans,
+		OilVegetable;2,
+		Soysauce;1,
+		keep RollingPin,
+		keep Pot,
+		keep Bowl=2,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo,
+
+		Result:MeatSteamBun=10,
+		Time:1800.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+
+	recipe Make Tea Bags
+	{
+		Plantain=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		Comfrey=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		CommonMallow=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		LemonGrass=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		BlackSage=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		Ginseng=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		Violets=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+	
+	recipe Make Tea Bags
+	{
+		GrapeLeaves=3,
+		AlcoholRippedSheets,
+		Thread=1,
+		keep MortarPestle,
+		keep Scissors,
+		keep Spoon,
+
+		Result:Teabag2=5,
+		Time:500.0,
+		SkillRequired:Cooking=6,
+		Category:Cooking,
+	}
+
+    recipe Ferment Grain Alcohol
+	{
+		CannedCornOpen=4,
+		Sheet,
+		Yeast,
+		Water=10,
+		Sugar;3,
+		WhiskeyEmpty,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep RollingPin,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		keep BucketEmpty,
+		keep Plasticbag,
+		keep Rope,
+
+		Result:WhiskeyFull=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Ferment Wine
+	{
+		Grapes=4,
+		Sheet,
+		Yeast,
+		Sugar;3,
+		WineEmpty/WineEmpty2,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep RollingPin,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		keep BucketEmpty,
+		keep Plasticbag,
+		keep Rope,
+
+		Result:Wine=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+    recipe Ferment Grain Alcohol
+	{
+		Flour=4,
+		Water=10,
+		Sugar;3,
+		Sheet,
+		Yeast,
+		WhiskeyEmpty,
+		keep BucketEmpty,
+		keep Plasticbag,
+		keep Rope,
+
+		Result:WhiskeyFull,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+     recipe Ferment Grain Alcohol
+	{
+		Rice;40,
+		Sheet,
+		Yeast,
+		Sugar;2,
+		Water=10,
+		WhiskeyEmpty,
+		keep BucketEmpty,
+		keep Plasticbag,
+		keep Rope,
+
+		Result:WhiskeyFull=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make CornFlour
+	{
+		CannedCornOpen=4,
+		EmptySandbag,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep RollingPin,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		keep BakingTray/RoastingPan,
+
+		Result:Cornflour=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Flour
+	{
+		Rice;30,
+		EmptySandbag,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep RollingPin,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		keep BakingTray/RoastingPan,
+
+		Result:Flour=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Flour
+	{
+		Potato=6,
+		EmptySandbag,
+		keep KitchenKnife/HuntingKnife,
+		keep MortarPestle,
+		keep RollingPin,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+		keep BakingTray/RoastingPan,
+
+		Result:Flour=2,
+		Time:1800.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Butter Sticks
+	{
+		Milk;10,
+		Salt;2,
+		keep JarLid,
+		Aluminum,
+		keep EmptyJar,
+		
+		Result:Butter=2,
+		Time:1200.0,
+		SkillRequired:Cooking=7,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Chocolate Chip Cookies
+	{
+		ChocolateChips=2,
+		Sugar;1,
+		Butter;5,
+		Flour=2,
+		Egg/WildEggs,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo/Bowl,
+		keep BakingTray,
+		
+		Result:CookieChocolateChip=12,
+		Time:700.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Chocolate Cookies
+	{
+		Flour=1,
+		Sugar;1,
+		Butter;5,
+		BakingSoda=1,
+		CocoaPowder,
+		Egg/WildEggs,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo/Bowl,
+		keep BakingTray,
+		
+		Result:CookiesChocolate=12,
+		Time:700.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Oatmeal Cookies
+	{
+		OatsRaw,
+		Sugar;1,
+		SugarBrown;1,
+		BakingSoda=1,
+		Butter;5,
+		Flour=2,
+		Egg/WildEggs,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo/Bowl,
+		keep BakingTray,
+		
+		Result:CookiesOatmeal=12,
+		Time:700.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Shortbread Cookies
+	{
+		Sugar;2,
+		Butter;10,
+		Flour=2,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo/Bowl,
+		keep BakingTray,
+		
+		Result:CookiesShortbread=12,
+		Time:700.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Strawberry Shortbread
+	{
+		Strewberrie=6,
+		Sugar;2,
+		Butter;15,
+		Flour=2,
+		Egg/WildEggs,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Mugl/MugRed/MugWhite/MugSpiffo/Bowl,
+		keep BakingTray,
+		
+		Result:CookieJelly=12,
+		Time:700.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Cupcakes
+	{
+		Butter;10,
+		Flour=2,
+		Egg/WildEggs,
+		Yeast,
+		Icing=6,
+		Milk;10,
+		keep MuffinTray=2,
+		
+		Result:Cupcake=12,
+		Time:800.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Pasta
+	{
+		Flour=2,
+		Egg/WildEggs,
+		Salt;1,
+		Water=2,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+		
+		Result:Pasta,
+		Time:600.0,
+		SkillRequired:Cooking=8,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Mac and Cheese
+	{
+		Processedcheese=2,
+		Flour=2,
+		Salt;2,
+		Egg/WildEggs,
+		Water=2,
+		keep KitchenKnife/HuntingKnife,
+		keep RollingPin,
+
+		Result:Macandcheese,
+		Time:700.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Cereal
+	{
+		OatsRaw,
+		Corn/CannedCornOpen,
+		SunflowerSeeds=2,
+		Sugar;4,
+		Newspaper,
+		keep RoastingPan/BakingTray,
+		keep RollingPin,
+
+		Result:Cereal=2,
+		Time:1200.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Sourdough Yeast
+	{
+		Flour=4,
+		Water=4,
+		EmptyJar=2,
+		Thread=1,
+		AlcoholRippedSheets,
+		keep Spoon,
+
+		Result:Yeast,
+		Time:2000.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+		
+	recipe Make PeanutButter
+	{
+		Peanuts=3,
+		EmptyJar,
+		JarLid,
+		Aluminum,
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep MortarPestle,
+
+		Result:PeanutButter,
+		Time:1200.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Bags of Chips
+	{
+		Plasticbag=2,
+		Potato=6,
+		Butter;10,
+		Salt;3,
+		Lighter=2,
+		keep KitchenKnife/HuntingKnife,
+		keep Scissors,
+
+		Result:Crisps=6,
+		Time:1200.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe Make Icecream
+	{
+		Milk;10,
+		Butter;5,
+		Sugar;4,
+		Yoghurt=3,
+		EmptyJar=2,
+		JarLid=2,
+		keep Pot/BucketEmpty,
+		keep Spoon,
+		
+		Result:Icecream=2,
+		Time:1600.0,
+		SkillRequired:Cooking=9,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Prepare For Canning Tomato
+	{
+		Tomato,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		TinCanEmpty,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedTomatoOpen,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=3,
+	}
+	
+	recipe Prepare For Canning Potato
+	{
+		Potato,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		TinCanEmpty,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedPotatoOpen,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=3,
+	}
+	
+	recipe Prepare For Canning Peas
+	{
+		Peas,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		TinCanEmpty=2,
+		keep Spoon,
+		
+		Result:CannedPeasOpen=2,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=3,
+	}
+	
+	recipe Prepare For Canning Carrots
+	{
+		Carrots,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		TinCanEmpty=1,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedCarrotsOpen,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=3,
+	}
+	
+	recipe Prepare For Canning Corn
+	{
+		Corn=2,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		TinCanEmpty=1,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedCornOpen,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=3,
+	}
+	
+	recipe Pour Soup Into Cans
+	{
+		PotOfSoup/PotOfSoupRecipe,
+		TinCanEmpty=4,
+
+		Result:TinnedSoupOpen=4,
+		OnCreate:SealBowlOfSoup4_OnCreate,
+		Time:80.0,
+		Category:Cooking,
+		SkillRequired:Cooking=4,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Prepare For Canning Mushroom Soup
+	{
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+		Water=10,
+		Salt;1,
+		Pepper;1,
+		TinCanEmpty=1,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedMushroomSoupOpen,
+		Time:60.0,
+		Category:Cooking,
+		SkillRequired:Cooking=5,
+	}
+	
+	recipe Prepare For Canning Sardines
+	{
+		BaitFish=4,
+		Water=10,
+		Salt;2,
+		Pepper;1,
+		TinCanEmpty=2,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedSardinesOpen=2,
+		Time:180.0,
+		Category:Cooking,
+		SkillRequired:Cooking=6,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Prepare For Canning Tuna
+	{
+		FishFillet=2,
+		LemonGrass/Lemon,
+		Water=10,
+		Salt;2,
+		Pepper;1,
+		TinCanEmpty=3,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:TunaTinOpen=3,
+		Time:180.0,
+		Category:Cooking,
+		SkillRequired:Cooking=6,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	
+	recipe Prepare For Canning Chili
+	{
+		FrogMeat/Rabbitmeat/Smallanimalmeat/Smallbirdmeat,
+		Tomato/CannedTomatoOpen,
+		WildGarlic2,
+		RedRadish,
+		Water=10,
+		Vinegar;1,
+		Sugar;1,
+		Salt;2,
+		Pepper;2,
+		TinCanEmpty=3,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedChiliOpen=3,
+		Time:1800.0,
+		Category:Cooking,
+		SkillRequired:Cooking=6,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Prepare For Spaghetti Bolognese
+	{
+		Pasta;10,
+		PorkChop/MuttonChop/Chicken,
+		WildGarlic2,
+		LemonGrass=2,
+		Water=10,
+		Vinegar;1,
+		Salt;2,
+		Pepper;2,
+		TinCanEmpty=3,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedBologneseOpen=3,
+		Time:1800.0,
+		Category:Cooking,
+		SkillRequired:Cooking=7,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Prepare For CornedBeef
+	{
+		Pickles,
+		Steak,
+		BlackSage=2,
+		WildGarlic2=2,
+		Water=10,
+		Vinegar;1,
+		Salt;2,
+		Pepper;2,
+		TinCanEmpty=3,
+		keep MortarPestle,
+		keep KitchenKnife/HuntingKnife,
+		
+		Result:CannedCornedBeefOpen=3,
+		Time:1800.0,
+		Category:Cooking,
+		SkillRequired:Cooking=7,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Juice Box
+	{
+		Apple/BerryBlack/BerryBlue/BerryGeneric2/BerryGeneric4/BerryGeneric5/Carrots/Cherry/Grapes/Lemon/Orange/Peach/Tomato,
+		Sugar;1,
+		Aluminum/Plasticbag,
+		Newspaper,
+		Woodglue/Glue,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JuiceBox,
+		Time:400.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Juice Box
+	{
+		BerryGeneric1/BerryGeneric3/WatermelonSliced/Rosehips,
+		Sugar;1,
+		Aluminum/Plasticbag,
+		Newspaper,
+		Woodglue/Glue,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JuiceBox,
+		Time:400.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Juice Box
+	{
+		Cherry=3,
+		Sugar;1,
+		Aluminum/Plasticbag,
+		Newspaper,
+		Woodglue/Glue,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JuiceBox,
+		Time:400.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+
+	recipe Make Juice Box
+	{
+		Pineapple,
+		Sugar;1,
+		Aluminum/Plasticbag,
+		Newspaper,
+		Woodglue/Glue,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JuiceBox=2,
+		Time:500.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Juice Box
+	{
+		Watermelon,
+		Sugar;2,
+		Aluminum/Plasticbag,
+		Newspaper,
+		Woodglue/Glue,
+		keep KitchenKnife/HuntingKnife,
+		keep Spoon,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JuiceBox=5,
+		Time:600.0,
+		SkillRequired:Cooking=2,
+		Category:Cooking,
+	}
+	
+	recipe Make Vegetable Oil
+	{
+		SunflowerSeeds=10,
+		EmptyJar=2,
+		JarLid=2,
+		keep RoastingPan,
+		keep Sheet/EmptySandbag,
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep MortarPestle,
+
+		Result:OilVegetable=2,
+		Time:1200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+	}
+	
+    recipe Make Marinara
+	{
+		Tomato=2,
+		Carrots/CannedCarrotsOpen,
+		Sugar;1,
+		Onion/WildGarlic2,
+		Salt;1,
+		Pepper;1,
+		JarLid,
+		EmptyJar,
+		CampfireKit,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+
+		Result:Marinara=2,
+		Time:1000.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Ketchup
+	{
+		CannedTomatoOpen=2,
+		WildGarlic2,
+		Sugar;2,
+		Onion,
+		Salt;1,
+		Pepper;1,
+		CampfireKit,
+		PopBottleEmpty=2,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:Ketchup=2,
+		Time:1000.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Radish Mustard
+	{
+		RedRadish=5,
+		WildGarlic2=2,
+		Water=10,
+		Onion,
+		Salt;2,
+		Honey;5,
+		CampfireKit,
+		PopBottleEmpty=2,
+		keep KitchenKnife/HuntingKnife,
+		keep Sheet,
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:Mustard=2,
+		Time:1000.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Mayonnaise
+	{
+		Egg=2,
+		Mustard;1,
+		Vinegar;1,
+		Salt;1,
+		Butter;5,
+		PopBottleEmpty=2,
+		keep Bowl,
+		keep Fork,
+		keep MortarPestle,
+
+		Result:MayonnaiseFull=2,
+		Time:1000.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Blackberry Jam
+	{
+		BerryBlack=10,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Blueberry Jam
+	{
+		BerryBlue=10,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Berry Jam
+	{
+		BerryGeneric2=10,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Berry Jam
+	{
+		BerryGeneric4=10,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Berry Jam
+	{
+		BerryGeneric5=10,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Apple Jam
+	{
+		Apple,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Cherry Jam
+	{
+		Cherry=8,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Grape Jam
+	{
+		Grapes,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:1000.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Peach Jam
+	{
+		Peach=2,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Pear Jam
+	{
+		Pear,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Mango Jam
+	{
+		Mango,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Strawberry Jam
+	{
+		Strewberrie=8,
+		Lemon/Lime,
+		Sugar;1,
+		Salt;1,
+		JarLid,
+		EmptyJar,
+		keep Spoon,
+		keep KitchenKnife/HuntingKnife,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:JamFruit,
+		Time:800.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Ferment Vinegar
+	{
+		JuiceBox=6,
+		WaterBottleEmpty/PopBottleEmpty,
+		keep BucketEmpty,
+		keep Sheet,
+		keep Rope,
+
+		Result:Vinegar=2,
+		Time:3200.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Ferment Apple Cider Vinegar
+	{
+		Apple=4,
+		Sugar;3,
+		WaterBottleEmpty/PopBottleEmpty,
+		CampfireKit,
+		keep BucketEmpty,
+		keep Sheet,
+		keep Rope,
+		keep Pot,
+		keep EmptySandbag,
+		keep HammerStone/BallPeenHammer/Sledgehammer/Hammer,
+
+		Result:Vinegar=2,
+		Time:3200.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Red Velvet Cake
+	{
+		Butter;5,
+		Milk;5,
+		Vinegar=1,
+		Egg=2,
+		CocoaPowder;5,
+		Flour=1,
+		Sugar;1,
+		Strewberrie=3,
+		BakingSoda=1,
+		Salt;1,
+		keep Bowl,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeRedVelvet=8,
+		Time:1600.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Strawberry Shortcake
+	{
+		Butter;5,
+		Milk;5,
+		Egg=2,
+		LemonGrass/Lemon,
+		Flour=1,
+		Sugar;1,
+		Strewberrie=8,
+		BakingSoda=1,
+		Salt;1,
+		keep Bowl,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeStrawberryShortcake=8,
+		Time:1400.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make CheeseCake
+	{
+		Butter;10,
+		Milk;10,
+		Egg=6,
+		Vinegar=1,
+		Flour=1,
+		Sugar;1,
+		Lemon,
+		Salt;2,
+		Yoghurt,
+		GrahamCrackers=6,
+		keep Bowl,
+		keep Fork,
+		keep Plasticbag,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeCheeseCake=8,
+		Time:2000.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Carrot Cake
+	{
+		OilVegetable;2,
+		Egg=4,
+		Apple,
+		Carrots=4,
+		Flour=1,
+		SugarBrown;1,
+		Lemon,
+		Salt;1,
+		GingerPickled,
+		BakingSoda=1,
+
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeCarrot=8,
+		Time:1600.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Chocolate Cake
+	{
+		Milk;5,
+		Egg=2,
+		OilVegetable;2,
+		Flour=1,
+		Sugar;1,
+		Coffee2;5,
+		Chocolate=2,
+		Salt;1,
+		Water=5,
+		BakingSoda=1,
+
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeChocolate=6,
+		Time:1600.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Chocolate Cake
+	{
+		Milk;5,
+		Egg=2,
+		OilVegetable;2,
+		Flour=1,
+		Sugar;1,
+		Coffee2;5,
+		CocoaPowder;5,
+		Salt;1,
+		Water=5,
+		BakingSoda=1,
+
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeChocolate=6,
+		Time:1400.0,
+		SkillRequired:Cooking=4,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Black Forest Cake
+	{
+		Milk;5,
+		Egg=2,
+		OilVegetable;2,
+		Flour=1,
+		Sugar;1,
+		CocoaPowder;5,
+		Chocolate,
+		Cherry=6,
+		Salt;1,
+		Water=5,
+		BakingSoda=1,
+
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife,
+		keep Fork,
+		keep BakingPan/RoastingPan,
+		
+		Result:CakeBlackForest=6,
+		Time:1800.0,
+		SkillRequired:Cooking=5,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+	recipe Make Graham Crackers
+	{
+		Milk;5,
+		Honey;5,
+		Butter;5,
+		Flour=1,
+		SugarBrown;1,
+		Salt;1,
+		BakingSoda=1,
+
+		keep Bowl,
+		keep Fork,
+		keep BakingTray,
+		keep RollingPin,
+		
+		Result:GrahamCrackers=24,
+		Time:1200.0,
+		SkillRequired:Cooking=3,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	
+}
+	

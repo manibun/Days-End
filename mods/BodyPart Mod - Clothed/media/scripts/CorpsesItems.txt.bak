@@ -1,0 +1,1377 @@
+module Corpses {
+    imports
+    {
+        Base
+    }
+    
+	    item Cross_Empty
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Cross Item,
+        Icon	=	Cross_Item,
+        WorldStaticModel = Cross_Item,
+    }
+	
+    item Noose_Empty
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Noose Hung,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Noose_Item,
+    }
+	    item Noose_Empty_Ground
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Noose,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Noose_Item_Ground,
+    }
+		
+	    item Guts_Item
+    {
+        Weight	=	0.3,
+        MinutesToBurn	=	70,
+		        Type	=	Normal,
+        DisplayName	=	Human Intestines,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Guts_Item,
+    }
+	
+	
+	
+		    item Female_Torso
+    {
+        Weight	=	0.3,
+        DisplayName	=	White Female Torso,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Female_Torso,
+    }
+	
+	
+	
+			    item Female_Torso_Black
+    {
+        Weight	=	0.3,
+        DisplayName	=	Black Female Torso,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Female_Torso_Black,
+    }
+	
+	
+	
+				    item Male_Torso_Black
+    {
+        Weight	=	0.3,
+        Type	=	Food,
+        DisplayName	=	Black Male Torso,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Male_Torso_Black,
+    }
+	
+	
+					    item Male_Torso
+    {
+        Weight	=	0.3,
+        DisplayName	=	Male Torso,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Male_Torso,
+    }
+	
+
+
+
+
+
+
+		item Hanging_Femme_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_a_01,
+    }
+		item Hanging_Femme_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_a_02,
+    }
+		item Hanging_Femme_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_a_03,
+    }
+		item Hanging_Femme_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_a_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			item Hanging_Femme_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_b_01,
+    }
+		item Hanging_Femme_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_b_02,
+    }
+		item Hanging_Femme_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_b_03,
+    }
+		item Hanging_Femme_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Femme_b_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			item Hanging_Male_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_a_01,
+    }
+		item Hanging_Male_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_a_02,
+    }
+		item Hanging_Male_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_a_03,
+    }
+		item Hanging_Male_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_a_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+				item Hanging_Male_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_b_01,
+    }
+		item Hanging_Male_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_b_02,
+    }
+		item Hanging_Male_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_b_03,
+    }
+		item Hanging_Male_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Hanging Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Hanging_Male_b_04,
+    }
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	    item Body_Male_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_a_01,
+    }
+	
+	    item Body_Male_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_a_02,
+    }
+    	    item Body_Male_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_a_03,
+    }
+	    	    item Body_Male_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_a_04,
+    }
+	
+	
+	
+	
+	
+		    item Body_Male_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_b_01,
+    }
+	
+	    item Body_Male_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_b_02,
+    }
+    	    item Body_Male_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_b_03,
+    }
+	    	    item Body_Male_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_b_04,
+    }
+	
+	
+	
+	
+	
+			    item Body_Male_c_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_b_01,
+    }
+	
+	    item Body_Male_c_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_c_02,
+    }
+    	    item Body_Male_c_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_c_03,
+    }
+	    	    item Body_Male_c_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_c_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+				    item Body_Male_d_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_d_01,
+    }
+	
+	    item Body_Male_d_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_d_02,
+    }
+    	    item Body_Male_d_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_d_03,
+    }
+	    	    item Body_Male_d_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_d_04,
+    }
+	
+	
+	
+	
+	
+	
+				    item Body_Male_e_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_e_01,
+    }
+	
+	    item Body_Male_e_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_e_02,
+    }
+    	    item Body_Male_e_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_e_03,
+    }
+	    	    item Body_Male_e_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Male_e_04,
+    }
+	
+	
+	
+	
+	
+	
+					    item Body_Femme_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_a_01,
+    }
+	
+	    item Body_Femme_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_a_02,
+    }
+    	    item Body_Femme_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_a_03,
+    }
+	    	    item Body_Femme_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_a_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+						    item Body_Femme_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_b_01,
+    }
+	
+	    item Body_Femme_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_b_02,
+    }
+    	    item Body_Femme_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_b_03,
+    }
+	    	    item Body_Femme_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_b_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+							    item Body_Femme_c_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_c_01,
+    }
+	
+	    item Body_Femme_c_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_c_02,
+    }
+    	    item Body_Femme_c_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_c_03,
+    }
+	    	    item Body_Femme_c_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_c_04,
+    }
+	
+	
+	
+	
+	
+								    item Body_Femme_d_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_d_01,
+    }
+	
+	    item Body_Femme_d_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_d_02,
+    }
+    	    item Body_Femme_d_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_d_03,
+    }
+	    	    item Body_Femme_d_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_d_04,
+    }
+	
+	
+	
+	
+	
+	
+		item Body_Femme_e_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_e_01,
+    }
+	
+	    item Body_Femme_e_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_e_02,
+    }
+    	    item Body_Femme_e_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_e_03,
+    }
+	    	    item Body_Femme_e_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Body Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Body_Femme_e_04,
+    }
+	
+	
+	
+	
+	
+	
+		item Crucified_Male_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_a_01,
+    }
+	
+	    item Crucified_Male_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_a_02,
+    }
+    	    item Crucified_Male_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_a_03,
+    }
+	    	    item Crucified_Male_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_a_04,
+    }
+	
+	
+	
+	
+	
+		item Crucified_Male_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_b_01,
+    }
+	
+	    item Crucified_Male_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_b_02,
+    }
+    	    item Crucified_Male_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_b_03,
+    }
+	    	    item Crucified_Male_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Male_b_04,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		item Crucified_Femme_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_a_01,
+    }
+	
+	    item Crucified_Femme_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_a_02,
+    }
+    	    item Crucified_Femme_a_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_a_03,
+    }
+	    	    item Crucified_Femme_a_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_a_04,
+    }
+	
+	
+	
+	
+	item Crucified_Femme_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_b_01,
+    }
+	
+	    item Crucified_Femme_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_b_02,
+    }
+    	    item Crucified_Femme_b_03
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_b_03,
+    }
+	    	    item Crucified_Femme_b_04
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Crucified Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Crucified_Femme_b_04,
+    }
+	
+	
+	
+	
+	
+				item Head_Pike_Femme_a_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_a_01,
+    }
+		item Head_Pike_Femme_a_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_a_02,
+    }
+
+	
+	
+				item Head_Pike_Femme_b_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_b_01,
+    }
+		item Head_Pike_Femme_b_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_b_02,
+    }
+	
+	
+	
+					item Head_Pike_Femme_c_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_c_01,
+    }
+		item Head_Pike_Femme_c_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_c_02,
+    }
+	
+	
+	
+					item Head_Pike_Femme_d_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_d_01,
+    }
+		item Head_Pike_Femme_d_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Femme,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Femme_d_02,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		item Head_Pike_Male_a_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_a_01,
+    }
+		item Head_Pike_Male_a_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_a_02,
+    }
+	
+	
+			item Head_Pike_Male_b_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_b_01,
+    }
+		item Head_Pike_Male_b_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_b_02,
+    }
+	
+	
+	
+	
+	
+		item Head_Pike_Male_c_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_c_01,
+    }
+		item Head_Pike_Male_c_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_c_02,
+    }
+	
+	
+	
+	
+			item Head_Pike_Male_d_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_d_01,
+    }
+		item Head_Pike_Male_d_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_d_02,
+    }
+
+
+
+
+
+		item Head_Pike_Male_e_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_e_01,
+    }
+		item Head_Pike_Male_e_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Pike Head Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Head_Pike_Male_e_02,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			item Decap_Femme_a_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Female,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Femme_a_01,
+    }
+		item Decap_Femme_a_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Female,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Femme_a_02,
+    }
+	
+	
+	
+	
+	
+	
+	
+				item Decap_Femme_b_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Female,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Femme_b_01,
+    }
+		item Decap_Femme_b_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Female,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Femme_b_02,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		item Decap_Male_a_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_a_01,
+    }
+		item Decap_Male_a_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_a_02,
+    }
+	
+	
+	
+	
+			item Decap_Male_b_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_b_01,
+    }
+		item Decap_Male_b_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_b_02,
+    }
+	
+	
+	
+	
+	
+				item Decap_Male_c_01
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_c_01,
+    }
+		item Decap_Male_c_02
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Decap Male,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Male_c_02,
+    }
+	
+	
+	
+	
+	
+	
+	
+		item Decap_Arm
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Arm,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Arm,
+    }
+		item Decap_Arm_Black
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Arm Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Arm_Black,
+    }
+	
+		
+		item Decap_Leg
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Leg,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Leg,
+    }
+		item Decap_Leg_Black
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Leg Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Leg_Black,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			item Pike_Item
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Pike Ground Item,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Pike_Item,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		item Decap_Part
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Part,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Part,
+    }
+		item Decap_Part_Black
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Part Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Part_Black,
+    }
+	
+		
+		item Decap_Part_2
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Part 2,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Part_2,
+    }
+		item Decap_Part_Black_2
+    {
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Decap Part Black 2,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = Decap_Part_Black_2,
+    }
+
+
+
+
+
+
+
+		item StandingBody_Male_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_a_01,
+    }
+
+
+		item StandingBody_Male_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_a_02,
+    }
+
+
+
+		item StandingBody_Male_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_b_01,
+    }
+
+
+		item StandingBody_Male_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_b_02,
+    }
+
+
+		item StandingBody_Male_c_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_c_01,
+    }
+
+
+		item StandingBody_Male_c_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Male_c_02,
+    }
+
+
+
+
+
+
+
+
+		item StandingBody_Femme_a_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_a_01,
+    }
+
+
+		item StandingBody_Femme_a_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_a_02,
+    }
+
+		item StandingBody_Femme_b_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_b_01,
+    }
+
+
+		item StandingBody_Femme_b_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_b_02,
+    }
+
+
+
+		item StandingBody_Femme_c_01
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_c_01,
+    }
+
+
+		item StandingBody_Femme_c_02
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	Standing Body Black,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = StandingBody_Femme_c_02,
+    }
+
+		item testtest
+    {
+        Weight	=	20,
+        Type	=	Normal,
+        DisplayName	=	testtest,
+        Icon	=	CorpseIcon,
+        WorldStaticModel = testtest,
+    }
+
+
+	
+}

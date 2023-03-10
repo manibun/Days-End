@@ -1,0 +1,6 @@
+name=Scrap Armor (new version)
+poster=preview.png
+id=ScrapArmor(new version)
+description=This version might not work on previous saves!!
+require=TheWorkshop(new version)
+icon=logo_mini.png

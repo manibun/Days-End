@@ -1,0 +1,76 @@
+module Base
+{
+	
+	item SwordSheath
+    {
+        Type = Clothing,
+        DisplayName = Sword Sheath,
+        ClothingItem = SwordSheath,
+        BodyLocation = Back,
+        Icon = SwordSheath,
+        Weight = 0.1,
+        AttachmentsProvided = SwordSheath,   
+		DisplayCategory = Accessory,
+    }
+	item ShieldBelt
+    {
+        Type = Clothing,
+        DisplayName = Shield Belt,
+        ClothingItem = ShieldBelt,
+        BodyLocation = Back,
+        Icon = SwordSheath,
+        Weight = 0.1,
+        AttachmentsProvided = ShieldSlot,
+		DisplayCategory = Accessory,
+    }
+	
+	item ScrapLegPouchL
+    {
+        WeightReduction	=	86,
+        Weight	=	0.4,
+        Type	=	Container,
+        Capacity	=	5,
+        DisplayName	=	 Left Leg Pouch,
+        Icon        =  ScrapLegPouchL,
+        BodyLocation = ThighLeft,
+        OpenSound   =   BackpackOpen,
+        CloseSound   =   BackpackOpen,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = ScrapLegPouchL,
+		ClothingItemExtra = ScrapLegPouchL,
+        ClothingItemExtraOption = WearIt,
+		CanBeEquipped = ThighLeft,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.99,
+		Tooltip = Tooltip_ScrapLegPouch,  
+		DisplayCategory = Accessory,
+    }
+	
+	item ScrapLegPouchR
+    {
+        WeightReduction	=	86,
+        Weight	=	0.4,
+        Type	=	Container,
+        Capacity	=	5,
+        DisplayName	=	 Right Leg Pouch,
+        Icon        =  ScrapLegPouchR,
+        BodyLocation = ThighRight,
+        OpenSound   =   BackpackOpen,
+        CloseSound   =   BackpackOpen,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = ScrapLegPouchR,
+		ClothingItemExtra = ScrapLegPouchR,
+        ClothingItemExtraOption = WearIt,
+		CanBeEquipped = ThighRight,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.99,
+		Tooltip = Tooltip_ScrapLegPouch,  
+		DisplayCategory = Accessory,
+    }
+	
+	
+	
+
+
+}
+        

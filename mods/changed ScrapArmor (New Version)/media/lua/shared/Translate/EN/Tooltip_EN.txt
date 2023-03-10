@@ -1,0 +1,23 @@
+Tooltip_EN = {
+--armor
+	Tooltip_ScrapShield 		= "Protects your Arms and Torso",
+	Tooltip_ScrapHandPlate 		= "Protects your Hand",
+	Tooltip_ScrapHelmet 		= "Protects your Head",
+	Tooltip_ScrapKilt 			= "Protects your Waist",
+	Tooltip_ScrapLegPad 		= "Protects your Leg",
+	Tooltip_ScrapPauldrons 		= "Protects your Neck",
+	Tooltip_ScrapShinPlate		= "Protects your Shin",
+	Tooltip_ScrapShoulderPad 	= "Protects your Shoulder",
+	Tooltip_ScrapVest 			= "Protects your Chest",
+--equipment
+	Tooltip_SwordSheath 	= "Holsters a Sword",
+	Tooltip_ScrapLegPouch 	= "Allows Stowage Of Additional Equipment",
+--magazines	
+	Tooltip_ArmorMag1 	= "Teaches basic armor recipes",
+	Tooltip_ArmorMag2 	= "Improvise common items into Shields",
+	Tooltip_ArmorMag3 	= "Upgrade scrap armor with Roadsigns",
+	Tooltip_ArmorMag4 	= "Upgrade scrap armor with Bolts and Screws",
+	Tooltip_ArmorMag5 	= "Some pages are missing or unreadable",
+	
+} 
+	

@@ -1,0 +1,8 @@
+name=Louisville Music Festival
+id=BB_Events_MusicFestival
+require=BB_Utils
+poster=poster.png
+icon=icon.png
+authors=BitBraven
+modversion=1.0.0
+description=This mod allows you to host the Louisville music festival! Become the Rock Star you always wanted!

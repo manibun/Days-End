@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<guid>cb6fe2ec-3e6f-4e73-864a-758b94fad584</guid>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothing\Pants\JeansLong_Normal_Ripped_Base\JeansLong_Normal_Ripped_Grey</m_BaseTextures>
+</clothingItem>

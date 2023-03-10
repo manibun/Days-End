@@ -1,0 +1,42 @@
+module LabBooks {
+	imports {
+		Base
+	}
+
+	/* ------------------------------ Books & Magazines ------------------------------ */
+
+	item BkLaboratoryEquipment1 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkLaboratoryEquipment1,
+		Icon = BkLaboratoryEquipment1,
+		TeachedRecipes = LabAssembleMicroscope;LabAssembleChromatograph;LabAssembleChemistrySet;LabAssembleSpectrometer;LabAssembleCentrifuge;LabAssembleMuffleFurnace;LabAssembleWorkbench;LabAssembleEasel;DecAssembleSkeleton;DecAssembleVirusModel;DecAssembleCaduceus;DecAssembleWhiteboard;DecPaintPeriodicTablePoster;DecPaintSexyNursePoster;DecPaintWashYourHandsPoster;DecPaintBiohazardPoster;DecPaintHumanBrainPoster;DecAssemblePharmacyNeonSign;DecAssemblePizzaNeonSign;ChmMakeSyringe;FrnMakeSyringe;FrnMakeTestTube;FrnMakeFlask;FrnMakeJar;FrnMakeIngotMold;FrnMeltGoldJewelry;FrnMeltSilverJewelry;FrnMakeGolgIngot;FrnMakeSilverIngot;LabTableMorgue1;LabTableMorgue2,
+		ReplaceOnUse = BkLaboratoryEquipment1,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedLightBlue_Ground,
+		Tooltip = Tooltip_BkLaboratoryEquipment1,
+	}
+	item BkVirologyCourses1 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkVirologyCourses1,
+		Icon = BkVirologyCourses1,
+		TeachedRecipes = ChmGetBloodTest;ChmGetBloodTestTwo;ChmDivideBloodIntoComponents;ChmExtractLeukocytesFromBloodCells;ChmExtractAntibodiesFromLeukocytes;ChmSynthesizePlainVaccine;ChmSynthesizeQualityVaccine;ChmSynthesizeAdvancedVaccine;ChmSynthesizeCure;ChmSynthesizePlainVaccineTwo;ChmSynthesizeQualityVaccineTwo;ChmSynthesizeAdvancedVaccineTwo;ChmSynthesizeCureTwo;ChmMakeAlbumin,
+		ReplaceOnUse = BkVirologyCourses1,
+		StaticModel = Book,
+		WorldStaticModel = BookYellow_Ground,
+		Tooltip = Tooltip_BkVirologyCourses1,
+	}
+	item BkChemistryCourse {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkChemistryCourse,
+		Icon = BkChemistryCourse,
+		TeachedRecipes = ChmMixFlaskOfSodiumHypochlorite;ChmMixFlaskOfAmmoniumSulfate;ChmMakeChlorineTablets,
+		ReplaceOnUse = BkChemistryCourse,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedRedPink_Ground,
+		Tooltip = Tooltip_BkChemistryCourse,
+	}
+
+}

@@ -1,0 +1,165 @@
+module Base {
+
+    model Rooster
+    {
+        mesh = WorldItems/Rooster,
+        texture = WorldItems/Rooster,
+        scale = 0.01,
+    }
+
+    model Pork
+    {
+        mesh = WorldItems/Pork,
+        texture = WorldItems/Pork,
+        scale = 0.01,
+    }
+
+    model Rabbit
+    {
+        mesh = WorldItems/Rabbit,
+        texture = WorldItems/Rabbit,
+        scale = 0.01,
+    }
+
+    model Sheep
+    {
+        mesh = WorldItems/Sheep,
+        texture = WorldItems/Sheep,
+        scale = 0.01,
+    }
+	
+    model MiniPig
+    {
+        mesh = WorldItems/MiniPig,
+        texture = WorldItems/MiniPig,
+        scale = 0.01,
+    }
+	
+    model LittleSheep
+    {
+        mesh = WorldItems/LittleSheep,
+        texture = WorldItems/LittleSheep,
+        scale = 0.01,
+    }
+	
+    model LittleChicken
+    {
+        mesh = WorldItems/LittleChicken,
+        texture = WorldItems/LittleChicken,
+        scale = 0.01,
+    }
+		
+    model LittleGoat
+    {
+        mesh = WorldItems/LittleGoat,
+        texture = WorldItems/LittleGoat,
+        scale = 0.01,
+    }
+			
+    model Horse
+    {
+        mesh = WorldItems/Horse,
+        texture = WorldItems/Horse,
+        scale = 0.01,
+    }
+				
+    model Goat
+    {
+        mesh = WorldItems/Goat,
+        texture = WorldItems/Goat,
+        scale = 0.01,
+    }
+					
+    model Duck
+    {
+        mesh = WorldItems/Duck,
+        texture = WorldItems/Duck,
+        scale = 0.01,
+    }
+						
+    model Donkey
+    {
+        mesh = WorldItems/Donkey,
+        texture = WorldItems/Donkey,
+        scale = 0.01,
+    }
+							
+    model Cow
+    {
+        mesh = WorldItems/Cow,
+        texture = WorldItems/Cow,
+        scale = 0.01,
+    }
+								
+    model GermanShepherd
+    {
+        mesh = WorldItems/GermanShepherd,
+        texture = WorldItems/GermanShepherd,
+        scale = 0.01,
+    }
+								
+    model Cat
+    {
+        mesh = WorldItems/Cat,
+        texture = WorldItems/Cat,
+        scale = 0.01,
+    }
+								
+    model Hen
+    {
+        mesh = WorldItems/Hen,
+        texture = WorldItems/Hen,
+        scale = 0.01,
+    }
+								
+    model Calf
+    {
+        mesh = WorldItems/Calf,
+        texture = WorldItems/Calf,
+        scale = 0.01,
+    }
+								
+    model BrownCow
+    {
+        mesh = WorldItems/BrownCow,
+        texture = WorldItems/BrownCow,
+        scale = 0.01,
+    }
+								
+    model BrownDonkey
+    {
+        mesh = WorldItems/BrownDonkey,
+        texture = WorldItems/BrownDonkey,
+        scale = 0.01,
+    }
+								
+    model BlackLittleChicken
+    {
+        mesh = WorldItems/BlackLittleChicken,
+        texture = WorldItems/BlackLittleChicken,
+        scale = 0.01,
+    }
+									
+    model BlackDuck
+    {
+        mesh = WorldItems/BlackDuck,
+        texture = WorldItems/BlackDuck,
+        scale = 0.01,
+    }
+										
+    model Bull
+    {
+        mesh = WorldItems/Bull,
+        texture = WorldItems/Bull,
+        scale = 0.01,
+    }
+											
+										
+    model Deer
+    {
+        mesh = WorldItems/Deer,
+        texture = WorldItems/Deer,
+        scale = 0.01,
+    }
+											
+}

@@ -1,0 +1,24 @@
+ContextMenu_EE = {
+  ContextMenu_EvolvedRecipe_Drink = "Cocktail",
+  ContextMenu_EvolvedRecipe_Chili = "Chili",
+  ContextMenu_EvolvedRecipe_Cupcakes = "Cupcakes",
+  ContextMenu_EvolvedRecipe_Hotdog = "Hotdog",
+  ContextMenu_EvolvedRecipe_Icecream = "Ice Cream",
+  ContextMenu_EvolvedRecipe_Jelly = "Jelly",
+  ContextMenu_EvolvedRecipe_Juice = "Juice",
+  ContextMenu_EvolvedRecipe_Pancakes = "Pancakes",
+  ContextMenu_EvolvedRecipe_Pickles = "Pickles",
+  ContextMenu_EvolvedRecipe_Pizza = "Pizza",
+  ContextMenu_EvolvedRecipe_Waffles = "Waffles",
+
+    ContextMenu_FoodType_Cheese = "Cheese",
+    ContextMenu_FoodType_Chocolate = "Chocolate",
+    ContextMenu_FoodType_Pop = "Pop",
+    ContextMenu_FoodType_Whiskey = "Whiskey",
+
+    ContextMenu_Glass_of_Beer = "Glass of Beer",
+    ContextMenu_Glass_of_Wine = "Glass of Chardonnay",
+    ContextMenu_Glass_of_Wine2 = "Glass of Red Wine",
+    ContextMenu_Glass_of_Vodka = "Glass of Vodka",
+    ContextMenu_Glass_of_Whiskey = "Glass of Whiskey",
+}

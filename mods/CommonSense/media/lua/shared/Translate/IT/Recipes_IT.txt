@@ -1,0 +1,4 @@
+Recipes_IT = {
+    Recipe_Empty-Bag = "Versa a terra",
+    Recipe_Empty-Sack = "Versa a terra",
+}

@@ -1,0 +1,24 @@
+module Base
+{
+
+	model CordlessDrill
+	{
+		mesh = WorldItems/other/CordlessDrill,
+		texture	= other/CordlessDrillTexture,
+		scale = 0.012,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model HandGun04
+	{
+		mesh = weapons/firearm/HandGun04,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}	
+}

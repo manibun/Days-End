@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_ScrapArmorSuit</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_ScrapArmorSuit</m_FemaleModel>
+	<m_GUID>ff000fc5-41f6-4b85-955b-f26233e310d2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\shoes_socks_textures\ScrapBoots</textureChoices>
+	<textureChoices>clothes\shoes_socks_textures\ScrapBoots2</textureChoices>
+</clothingItem>

@@ -1,0 +1,13 @@
+ItemName_ES = {
+	ItemName_Ducks.Rubberducky_Black = "Negra Pata de Goma",
+	ItemName_Ducks.Rubberducky_Blue = "Azul Pata de Goma",
+	ItemName_Ducks.Rubberducky_Gold = "Oro Pata de Goma",
+	ItemName_Ducks.Rubberducky_Green = "Verde Pata de Goma",
+	ItemName_Ducks.Rubberducky_Orange = "Naranja Pata de Goma",
+	ItemName_Ducks.Rubberducky_Pink = "Rosado Pata de Goma",
+	ItemName_Ducks.Rubberducky_Purple = "Morada Pata de Goma",
+	ItemName_Ducks.Rubberducky_Red = "Arcoíris Pata de Goma",
+	ItemName_Ducks.Rubberducky_Red = "Roja Pata de Goma",
+	ItemName_Ducks.Rubberducky_White = "Blanca Pata de Goma",
+	ItemName_Ducks.Tshirt_DuckDECAL = "Pata Camiseta",
+}

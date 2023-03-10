@@ -1,0 +1,6 @@
+Sandbox_EN = {
+    Sandbox_BuffysMods = "Buffy's Mods",
+    Sandbox_SkillBalance = "Starting Budget for assigning TTRPG skills: ",
+    Sandbox_CritSuccess = "Should rolls over 20 be critical successes? ",
+    Sandbox_CritSuccess_tooltip = "Checked = YES Example: You roll a 15, but have a +7 modifier to that skill. Your final roll is then 22. With this enabled, that is a crit success.",
+}

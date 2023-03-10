@@ -1,0 +1,169 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	item MetalPipeMold
+    {
+		Weight 		= 3,
+		Type 		= Normal,
+		DisplayName 		= Metal Pipe Mold,
+		DisplayCategory 		= Tool,
+		Icon 		= MetalPipeMold,
+		MetalValue 		= 1,
+		WorldStaticModel = MetalPipeMold_Ground,
+    }
+	item MetalBarMold
+    {
+	
+		Weight 		= 3,
+		Type 		= Normal,
+		DisplayName 		= Metal Bar Mold,
+		DisplayCategory 		= Tool,
+		Icon 		= MetalBarMold,
+		MetalValue 		= 1,
+		WorldStaticModel = MetalBarMold_Ground,
+    }
+	item SmallMetalSheetMold
+    {
+	
+		Weight 		= 2,
+		Type 		= Normal,
+		DisplayName 		= Small Sheet Metal Mold,
+		DisplayCategory 		= Tool,
+		Icon 		= SmallMetalSheetMold,
+		MetalValue 		= 1,
+		WorldStaticModel = MetalSheetMold_Ground,
+    }
+	
+	recipe Make Small Metal Sheet Mold
+    {
+    	Dirtbag,
+		SmallSheetMetal=1,
+        Result           		: SmallMetalSheetMold,
+        Time             		: 200.0,
+        Category         		: Welding,
+		OnGiveXP 				: Give2MWXP,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	recipe Make Metal Bar Mold
+    {
+    	Dirtbag,
+		MetalBar=1,
+        Result           		: MetalBarMold,
+        Time             		: 200.0,
+        Category         		: Welding,
+		OnGiveXP 				: Give2MWXP,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	recipe Make Metal Pipe Mold
+    {
+    	Dirtbag,
+		MetalPipe=1,
+        Result           		: MetalPipeMold,
+        Time             		: 200.0,
+        Category         		: Welding,
+		OnGiveXP 				: Give2MWXP,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn	: true,
+    }
+	
+	recipe Cast Small Metal Sheet
+    {
+    	ScrapMetal=8,
+		PropaneTank/LargePropaneTank,
+		keep PropaneGasFurnace,
+		keep SmallMetalSheetMold,
+        Result           		: SmallSheetMetal=4,
+        Time             		: 550,
+        Category         		: Welding,
+	    Sound 					: Welding2,
+		OnGiveXP 				: Give10MWXP,
+		CanBeDoneFromFloor      : TRUE,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	recipe Cast Metal Bar
+    {
+    	ScrapMetal=9,
+		PropaneTank/LargePropaneTank,
+		keep PropaneGasFurnace,
+		keep MetalBarMold,
+        Result           		: MetalBar=3,
+        Time             		: 550,
+        Category         		: Welding,
+	    Sound 					: Welding2,
+		OnGiveXP 				: Give10MWXP,
+		CanBeDoneFromFloor      : TRUE,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	recipe Cast Metal Pipe
+    {
+
+    	ScrapMetal=9,
+		PropaneTank/LargePropaneTank,
+		keep PropaneGasFurnace,
+		keep MetalPipeMold,
+        Result           		: MetalPipe=3,
+        Time             		: 550,
+        Category         		: Welding,
+	    Sound 					: Welding2,
+		OnGiveXP 				: Give10MWXP,
+		CanBeDoneFromFloor      : TRUE,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	recipe Cast Lead Pipe
+    {
+
+    	ScrapMetal=9,
+		PropaneTank/LargePropaneTank,
+		keep PropaneGasFurnace,
+		keep MetalPipeMold,
+        Result           		: LeadPipe=3,
+        Time             		: 550,
+        Category         		: Welding,
+	    Sound 					: Welding2,
+		OnGiveXP 				: Give10MWXP,
+		CanBeDoneFromFloor      : TRUE,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	
+    recipe Assemble Propane Gas Furnace
+    {
+	
+    	SheetMetal=2,
+		SmallSheetMetal=3,
+		Screws=20,
+		keep WeldingMask,
+		BlowTorch=5,
+        Result           		: PropaneGasFurnace,
+        Time             		: 500,
+        Category         		: Welding,
+	    Sound 					: Welding2,
+		OnGiveXP 				: Give25MWXP,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+		SkillRequired 		: MetalWelding=4,
+		NeedToBeLearn: true,
+    }
+	
+	item PropaneGasFurnace
+    {
+    	Count 		= 1,
+        WorldStaticModel = PropaneGasFurnace_Ground,
+		Weight 		= 35,
+		Type 		= Normal,
+		DisplayName 		= Propane Gas Furnace,
+		DisplayCategory 		= Item,
+		Icon 		= PropaneGasFurnace,
+		MetalValue 		= 1,
+    }
+	
+
+}

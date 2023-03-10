@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\m_huntergarb</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\f_huntergarb</m_FemaleModel>
+	<m_GUID>fe52aa90-80b1-4b41-95ac-860d7545bd7e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Jacket/Masks</m_MasksFolder>
+	<textureChoices>slyyhuntergarb</textureChoices>
+</clothingItem>

@@ -1,0 +1,58 @@
+module Base
+{
+    item Socks_RippedSheet
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ripped Sheet Socks,
+		ClothingItem = Socks_RippedSheet,
+		BodyLocation = Socks,
+		Icon = RippedSheetSocks,
+		BloodLocation = Shoes,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.1,
+        WorldStaticModel = Sock_Ankle_Ground,
+	}
+	item Gloves_RippedSheet
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ripped Sheet Gloves,
+		ClothingItem = Gloves_RippedSheet,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = RippedSheetGloves,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}
+	item Apron_Used
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Used Apron,
+		ClothingItem = Apron_Used,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronUsed,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+    item Socks_PotatoSack
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Potato Sack Socks,
+		ClothingItem = Socks_PotatoSack,
+		BodyLocation = Socks,
+		Icon = PotatoSackSocks,
+		BloodLocation = Shoes,
+        Insulation = 0.10,
+        WindResistance = 0.1,
+        Weight = 0.1,
+        WorldStaticModel = Sock_Ankle_Ground,
+	}
+
+}

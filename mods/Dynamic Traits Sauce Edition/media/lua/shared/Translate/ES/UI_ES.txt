@@ -1,0 +1,18 @@
+UI_ES = {
+    UI_trait_AmateurElectrician = "Electricista aficionado",
+    UI_trait_AmateurElectricianDesc = "Has practicado lo suficiente, estás listo para conectar generadores.",
+    UI_trait_Pluviophile = "Pluviofilia",
+    UI_trait_PluviophileDesc = "Amas la lluvia. Tu estado de ánimo mejora al estar bajo ella.",
+    UI_trait_Pluviophobia = "Pluviofobia",
+    UI_trait_PluviophobiaDesc = "Odias la lluvia. Tu estado de ánimo empeora al estar bajo ella.",
+    UI_trait_Alcoholic = "Alcohólico",
+    UI_trait_AlcoholicDesc = "Necesitas que el alcohol fluya por tus venas para sentirte bien.",
+	UI_trait_Prodigy = "Prodigio",
+	UI_trait_ProdigyDesc = "Entrenas fuerza y estado físico más rápido que otras personas.",
+	UI_trait_PhysicallyActive = "Activo físicamente",
+	UI_trait_PhysicallyActiveDesc = "Persona enérgica. Gastar energía te hace sentir bien.",
+	UI_trait_Sedentary = "Sedentario",
+	UI_trait_SedentaryDesc = "Estilo de vida inactivo. No te gusta gastar energías.",
+	UI_trait_Nightmares = "Pesadillas",
+	UI_trait_NightmaresDesc = "Sufres pesadillas más seguido que otras personas."
+}

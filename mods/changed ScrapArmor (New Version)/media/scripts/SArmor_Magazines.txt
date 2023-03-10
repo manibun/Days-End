@@ -1,0 +1,76 @@
+module SArmor
+{
+	imports
+	{
+		Base
+	}
+
+	item ArmorMag1
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Post Apocalyptic Knights Vol. 1,
+		Icon = ArmorMag1,
+		TeachedRecipes = Make Left Scrap Hand Plate;Make Right Scrap Hand Plate;Upgrade Scrap Hand Plate with Rods;Make Tire Pauldrons;Make Scrap Pauldrons;Upgrade Scrap Greaves with Rods;Make Left Scrap Greaves;Make Right Scrap Greaves;Make Left Scrap Shoulderpad;Make Right Scrap Shoulderpad;Upgrade Scrap Shoulderpad with Sawblade;Make Left Scrap Leg pad;Make Right Scrap Leg pad;Make Scrap Kilt;Make Scrap Vest;Make Scrap Helmet;Make Scrap Kettle Helmet,
+		StaticModel = ArmorMag1_Reading,
+		ReplaceOnUse    =   ArmorMag1,
+		Tooltip    =    Tooltip_ArmorMag1,
+		WorldStaticModel = ArmorMag1_Ground,
+		DisplayCategory = SkillBook,
+	}
+	
+	item ArmorMag2
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Protecc urself issue 1,
+		Icon = ArmorMag2,
+		TeachedRecipes = Make Wooden Shield;Make Scrap Shield;Make Car Door Shield;Paint Scrap Shield (Warrior);Paint Scrap Shield (Signs);Paint Scrap Shield (Medic),
+		StaticModel = ArmorMag2_Reading,
+		ReplaceOnUse    =   ArmorMag2,
+		Tooltip    =    Tooltip_ArmorMag2,
+		WorldStaticModel = ArmorMag2_Ground,
+		DisplayCategory = SkillBook,
+	}
+    item ArmorMag3
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Post Apocalyptic Knights Vol. 2,
+		Icon = ArmorMag3,
+		TeachedRecipes = Upgrade Scrap Shoulderpad with RoadSign;Upgrade Scrap Leg Pad with Roadsign;Upgrade Scrap Leg Pad with Roadsign2;Upgrade Scrap Kilt with Roadsigns;Upgrade Scrap Vest with Roadsigns,
+		StaticModel = ArmorMag3_Reading,
+		ReplaceOnUse    =   ArmorMag3,
+		Tooltip    =    Tooltip_ArmorMag3,
+		WorldStaticModel = ArmorMag3_Ground,
+		DisplayCategory = SkillBook,
+	}
+	item ArmorMag4
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Post Apocalyptic Knights Vol. 3,
+		Icon = ArmorMag4,
+		TeachedRecipes = Upgrade Scrap Pauldrons with Screws;Upgrade Scrap Hand Plate with Screws;Upgrade Scrap Greaves with Screws;Upgrade Scrap Shoulderpad with Screws;Upgrade Scrap Leg Pad with Screws;Upgrade Plated Scrap Kilt with Screws;Upgrade Plated Scrap Vest with Screws,
+		StaticModel = ArmorMag4_Reading,
+		ReplaceOnUse    =   ArmorMag4,
+		Tooltip    =    Tooltip_ArmorMag4,
+		WorldStaticModel = ArmorMag4_Ground,
+		DisplayCategory = SkillBook,
+	}
+	item ArmorMag5
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Post Apocalyptic Knights Vol. ???,
+		Icon = ArmorMag5,
+		TeachedRecipes = Make Shield Belt;Make Sword Sheath;Make Left Leg Pouch;Make Right Leg Pouch;Make Plated Scrap Kilt;Make Plated Scrap Vest,
+		StaticModel = ArmorMag5_Reading,
+		ReplaceOnUse    =   ArmorMag5,
+		Tooltip    =    Tooltip_ArmorMag5,
+		WorldStaticModel = ArmorMag5_Ground,
+		DisplayCategory = SkillBook,
+	}
+	
+}
+ 

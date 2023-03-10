@@ -1,0 +1,93 @@
+Recipes_EN = {
+--workshop
+	recipe_Refill_Propane_Tank 				= "Refill Propane Tank",
+    recipe_Refill_Industrial_Propane_Tank 	= "Refill Industrial Propane Tank",
+	recipe_Refill_Blow_Torch 				= "Refill Blow Torch",
+	recipe_Remove_Airtank					= "Remove Airtank",
+	recipe_Unbox_Large_Bolts 				= "Unbox Large Bolts",
+	recipe_Unbox_Screws 					= "Unbox Screws",
+	recipe_box_Large_Bolts 					= "box Large Bolts",
+	recipe_box_Screws 						= "box Screws",
+	recipe_Make_File 						= "Make File",
+	recipe_Make_Metal_Workbench 			= "Make Metal Workbench",
+--smelting
+	recipe_Make_Small_Metal_Sheet_Mold 		= "Make Small Metal Sheet Mold ",
+	recipe_Make_Metal_Bar_Mold 				= "Make Metal Bar Mold",
+	recipe_Make_Metal_Pipe_Mold 			= "Make Metal Pipe Mold",
+	recipe_Cast_Small_Metal_Sheet 			= "Cast Small Metal Sheet",
+	recipe_Cast_Metal_Bar 					= "Cast Metal Bar",
+	recipe_Cast_Metal_Pipe 					= "Cast Metal Pipe",
+	recipe_Cast_Lead_Pipe 					= "Cast Lead Pipe",
+	recipe_Assemble_Propane_Gas_Furnace 	= "Assemble Propane Gas Furnace",
+--carscrap
+	recipe_Deconstruct_Car_Battery 			= "Deconstruct Car Battery",
+	recipe_Deconstruct_Car_Suspension 		= "Deconstruct Car Suspension",
+	recipe_Deconstruct_Car_Brake 			= "Deconstruct Car Brake",
+	recipe_Deconstruct_Car_Door 			= "Deconstruct Car Door",
+	recipe_Deconstruct_Car_Gas_Tank 		= "Deconstruct Car Gas Tank",
+	recipe_Deconstruct_Car_Muffler 			= "Deconstruct Car Muffler",
+	recipe_Deconstruct_Car_Wheel 			= "Deconstruct Car Wheel",
+	recipe_Deconstruct_Car_Seat 			= "Deconstruct Car Seat",
+--tooldisassemble
+	recipe_Disassemble_Battery_Powered_Tool = "Disassemble Battery Powered Tool",
+	recipe_Disassemble_Golfclub 			= "Disassemble Golfclub",
+	recipe_Disassemble_Hammer 				= "Disassemble Hammer",
+	recipe_Disassemble_Sledgehammer 		= "Disassemble Sledgehammer",
+	recipe_Disassemble_Axe 					= "Disassemble Axe",
+	recipe_Disassemble_SmallBlade 			= "Disassemble SmallBlade",
+	recipe_Disassemble_Screwdriver 			= "Disassemble Screwdriver",
+	recipe_Disassemble_MeatCleaver 			= "Disassemble MeatCleaver",
+	recipe_Disassemble_Scythe 				= "Disassemble Scythe",
+	recipe_Disassemble_LongBlade 			= "Disassemble LongBlade",
+	recipe_Disassemble_Shovel 				= "Disassemble Shovel",
+	recipe_Disassemble_Hoe 					= "Disassemble Hoe",
+	recipe_Disassemble_Pickaxe 				= "Disassemble Pickaxe",
+	recipe_Disassemble_Rake 				= "Disassemble Rake",
+	recipe_Disassemble_Fork 				= "Disassemble Fork",
+--toolscrap
+	recipe_Deconstruct_Crowbar 				= "Deconstruct Crowbar",
+	recipe_Deconstruct_Pan 					= "Deconstruct Pan",
+	recipe_Deconstruct_Fishing_Rod 			= "Deconstruct Fishing Rod",
+	recipe_Deconstruct_Golf_Club_Head 		= "Deconstruct Golf Club Head",
+	recipe_Deconstruct_Hammer_Head 			= "Deconstruct Hammer Head",
+	recipe_Deconstruct_SledgeHammer_Head 	= "Deconstruct SledgeHammer Head",
+	recipe_Deconstruct_Axe_Head 			= "Deconstruct Axe Head",
+	recipe_Deconstruct_SmallBlade 			= "Deconstruct SmallBlade",
+	recipe_Deconstruct_Small_Metal_Bar 		= "Deconstruct Small Metal Bar",
+	recipe_Deconstruct_Meat_Cleaver_Head 	= "Deconstruct Meat Cleaver Head",
+	recipe_Deconstruct_Scythe_Head 			= "Deconstruct Scythe Head",
+	recipe_Deconstruct_Long_Blade_Head 		= "Deconstruct Long Blade Head",
+	recipe_Deconstruct_Wrench 				= "Deconstruct Wrench",
+	recipe_Deconstruct_Shovel_Head 			= "Deconstruct Shovel Head",
+	recipe_Deconstruct_Hoe_Head 			= "Deconstruct Hoe Head",
+	recipe_Deconstruct_Pickaxe_Head 		= "Deconstruct Pickaxe Head",
+	recipe_Deconstruct_Rake_Head 			= "Deconstruct Rake Head",
+	recipe_Deconstruct_BarBell 				= "Deconstruct BarBell",
+	recipe_Deconstruct_DumbBell 			= "Deconstruct DumbBell",
+	recipe_Deconstruct_Scalpel 				= "Deconstruct Scalpel",
+	recipe_Deconstruct_Fork_Head 			= "Deconstruct Fork Head",
+	recipe_Deconstruct_Tool_Box 			= "Deconstruct Tool Box",
+--scrap
+	recipe_Combine_MetalParts 				= "Combine MetalParts",
+	recipe_Deconstruct_Small_Items 			= "Deconstruct Small Items",
+	recipe_Deconstruct_Medium_Items 		= "Deconstruct Medium Items",
+	recipe_Deconstruct_Large_Items 			= "Deconstruct Large Items",
+	recipe_Cut_Metal_into_Wire 				= "Cut Metal into Wire",
+--disassemble	
+	recipe_Disassamble_Metal_Armor 			= "Disassamble Metal Armor",
+	recipe_Disassamble_Gun 					= "Disassamble Gun",
+	recipe_Disassemble_Gun_Magazine 		= "Disassemble Gun Magazine",
+	recipe_Disassemble_Motor 				= "Disassemble Motor",
+	
+----modcompatibility
+--aqua
+	recipe_Deconstruct_Boat_Items 			= "Deconstruct Boat Items",
+--bcg
+	recipe_Disassemble_Bushcraft_Axe 		= "Disassemble Bushcraft Axe",
+	recipe_Disassemble_Bushcraft_SmallBlade = "Disassemble Bushcraft SmallBlade",
+	recipe_Disassemble_Bushcraft_LongBlade  = "Disassemble Bushcraft LongBlade",
+
+
+
+} 
+	

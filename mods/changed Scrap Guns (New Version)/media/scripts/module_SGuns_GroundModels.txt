@@ -1,0 +1,229 @@
+module Base
+{
+    model ScrapBullet_Ground
+	{
+		mesh = WorldItems/ScrapBulletGround,
+		texture	= other/ScrapBulletGround,
+		scale = 1,
+    }
+    model SalvagedBullet_Ground
+	{
+		mesh = WorldItems/SalvagedBulletGround,
+		texture	= other/SalvagedBulletGround,
+		scale = 1,
+    }
+	model MetalScraps_Ground
+	{
+		mesh = WorldItems/MetalScrapsGround,
+		texture	= other/MetalScrapsGround,
+		scale = 1,
+    }
+    model ShrapnelShell_Ground
+	{
+		mesh = WorldItems/ShrapnelShellGround,
+		texture	= other/ShrapnelShellGround,
+		scale = 1,
+    }
+	model SSB_Ground
+	{
+		mesh = WorldItems/SSBGround,
+		texture	= other/SSBGround,
+		scale = 1,
+    }
+	model SBB_Ground
+	{
+		mesh = WorldItems/SBBGround,
+		texture	= other/SBBGround,
+		scale = 1,
+    }
+	model ScrapBB_Ground
+	{
+		mesh = WorldItems/ScrapBBGround,
+		texture	= other/ScrapBBGround,
+		scale = 1,
+    }
+
+
+	
+	
+	model ScrapSMG_Ground
+    {
+        mesh = WorldItems/ScrapSMGGround,
+        texture = weapons/firearm/ScrapSMG,
+		scale = 0.0012,
+	} 
+	model ScrapSMGMag_Ground
+	{
+		mesh = WorldItems/ScrapSMGMagGround,
+		texture	= weapons/firearm/ScrapSMG,
+		scale = 0.0012,
+    }
+	
+	
+	model ScrapPistol_Ground
+    {
+        mesh = WorldItems/ScrapPISTOLGround,
+        texture = weapons/firearm/ScrapPistol,
+		scale = 0.0012,
+	} 
+	model ScrapPistolMag_Ground
+	{
+		mesh = WorldItems/ScrapPistolMagGround,
+		texture	= weapons/firearm/ScrapSMG,
+		scale = 0.0012,
+    }
+	
+	
+	model ScrapGatling_Ground
+    {
+        mesh = WorldItems/ScrapGatlingGround,
+        texture = weapons/firearm/ScrapGatling,
+		scale = 0.012,
+	} 
+	model ScrapGatlingBoxMag_Ground
+	{
+		mesh = WorldItems/ScrapGatlingBoxMagGround,
+		texture	= weapons/firearm/ScrapGatling,
+		scale = 0.012,
+    }
+	
+	
+	model SAR_Ground
+    {
+        mesh = WorldItems/SARGround,
+        texture = weapons/firearm/SAR,
+		scale = 0.012,
+	} 
+	model SARB_Ground
+    {
+        mesh = WorldItems/SARBGround,
+        texture = weapons/firearm/SARB,
+		scale = 0.012,
+	} 
+    model SSMG_Ground
+    {
+        mesh = WorldItems/SSMGUnfoldedGround,
+        texture = weapons/firearm/SSMGUnfolded,
+		scale = 0.012,
+	} 
+	model SSMGFolded_Ground
+    {
+        mesh = WorldItems/SSMGFoldedGround,
+        texture = weapons/firearm/SSMGFolded,
+		scale = 0.012,
+	} 
+	model SalvagedMag_Ground
+	{
+		mesh = WorldItems/SalvagedMagGround,
+		texture	= weapons/firearm/SSMGFolded,
+		scale = 0.012,
+    }
+	
+	
+	model SSR_Ground
+    {
+        mesh = WorldItems/SSRGround,
+        texture = weapons/firearm/SSR,
+		scale = 0.012,
+	} 
+	
+	
+	model HDBS_Ground
+    {
+        mesh = WorldItems/HDBSGround,
+        texture = weapons/firearm/HDBS,
+		scale = 0.012,
+	} 
+	
+	
+	model HP_Ground
+    {
+        mesh = WorldItems/HPGround,
+        texture = weapons/firearm/HP,
+		scale = 0.012,
+	} 
+	
+	
+	model HR_Ground
+    {
+        mesh = WorldItems/HRGround,
+        texture = weapons/firearm/HR,
+		scale = 0.012,
+	} 
+	
+	model HRMag_Ground
+    {
+        mesh = WorldItems/HRMagGround,
+        texture = weapons/firearm/HR,
+		scale = 0.012,
+	} 
+	
+	
+	model HPS_Ground
+    {
+        mesh = WorldItems/HPSGround,
+        texture = weapons/firearm/HPS,
+		scale = 0.012,
+	} 
+	
+	model SlamFire_Ground
+    {
+        mesh = WorldItems/SlamFireGround,
+        texture = weapons/firearm/SlamFire,
+		scale = 0.012,
+	} 
+	
+	model ScrapGunMag1_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ScrapGunMag1Ground,
+		scale = 1,
+	} 
+	model ScrapGunMag1_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ScrapGunMag1Ground,
+		scale = 1,
+	} 
+	
+	model ScrapGunMag2_Ground
+    {
+        mesh = WorldItems/ScrapRecipeNotebook,
+        texture = other/ScrapGunMag2Ground,
+		scale = 0.012,
+	} 
+	model ScrapGunMag2_Reading
+    {
+        mesh = WorldItems/RecipeNotebookReading,
+        texture = other/ScrapGunMag2Ground,
+		scale = 1,
+	} 
+	
+	model ScrapGunMag3_Ground
+    {
+        mesh = WorldItems/ScrapRecipeNotebook,
+        texture = other/ScrapGunMag3Ground,
+		scale = 0.012,
+	} 
+	model ScrapGunMag3_Reading
+    {
+        mesh = WorldItems/RecipeNotebookReading,
+        texture = other/ScrapGunMag3Ground,
+		scale = 1,
+	} 
+
+	model ScrapGunMag4_Ground
+    {
+        mesh = WorldItems/ScrapRecipeNotebook,
+        texture = other/ScrapGunMag4Ground,
+		scale = 0.012,
+	} 
+	model ScrapGunMag4_Reading
+    {
+        mesh = WorldItems/RecipeNotebookReading,
+        texture = other/ScrapGunMag4Ground,
+		scale = 1,
+	} 
+
+	
+}	

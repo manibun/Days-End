@@ -1,0 +1,18 @@
+UI_FR = {
+	UI_trait_AmateurElectrician = "Electricien amateur",
+	UI_trait_AmateurElectricianDesc = "Dès le début de votre partie, vous serez capable de brancher un générateur.",
+	UI_trait_Pluviophile = "Pluviophile",
+	UI_trait_PluviophileDesc = "La pluie, c'est trop cool ! À tel point que votre état mental s'améliore sous celle-ci.",
+	UI_trait_Pluviophobia = "Pluviophobe",
+	UI_trait_PluviophobiaDesc = "Vous avez horreur de la pluie. Mieux vaut ne pas rester dehors quand il pleut si vous ne voulez pas que votre état mental se dégrade.",
+	UI_trait_Alcoholic = "Alcoolique",
+    UI_trait_AlcoholicDesc = "Vous avez besoin que l'alcool coule dans vos veines pour vous sentir bien.",
+	UI_trait_Prodigy = "Sportif",
+	UI_trait_ProdigyDesc = "Vous améliorer votre Force et votre Condition physique plus rapidement.",
+	UI_trait_PhysicallyActive = "Physically Active",
+	UI_trait_PhysicallyActiveDesc = "Energetic person. Spending energy makes you feel good.",
+	UI_trait_Sedentary = "Sedentary",
+	UI_trait_SedentaryDesc = "Inactive lifestyle. You don't like wasting energy.",
+	UI_trait_Nightmares = "Nightmares",
+	UI_trait_NightmaresDesc = "You suffer nightmares more often than others."
+}

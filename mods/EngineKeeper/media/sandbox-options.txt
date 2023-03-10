@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option EngineKeeper.ECT
+{
+    type = integer,
+    min = -1,
+    max = 100,
+    default = -1,
+    page = EngineKeeper,
+    translation = ECT,
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+		<path>media/clothing/clothingItems/Bag_Improvised_Backpack.xml</path>
+		<guid>de737278-efb2-4977-8949-a8032afbc7a4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Improvised_Backpack_LHand.xml</path>
+		<guid>50ca7e37-2755-480e-a8df-f0aadd612754</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Improvised_Backpack_RHand.xml</path>
+		<guid>c596ee89-4fc6-43f5-9b72-1562d0457041</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Sheet_Bag.xml</path>
+		<guid>d1296c95-acd9-4b7a-a948-c270074786b9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Sheet_Bag_LHand.xml</path>
+		<guid>e5e0e350-ace1-4fb1-85e8-64e7dd01af1d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Sheet_Bag_RHand.xml</path>
+		<guid>1783aeca-e13e-4ed3-9b50-3a1e19a86d3d</guid>
+	</files>
+</fileGuidTable>

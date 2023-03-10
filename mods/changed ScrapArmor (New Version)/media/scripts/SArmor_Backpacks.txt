@@ -1,0 +1,21 @@
+module Base
+{
+	item Rucksack
+    {
+        WeightReduction	=	85,
+        Weight	=	0.9,
+        Type	=	Container,
+        Capacity	=	21,
+        DisplayName	=	 Travel Pack,
+        IconsForTexture = RucksackBrown;RucksackGreen;RucksackGreen2;RucksackBlue,
+        CanBeEquipped = Back,
+        OpenSound   =   BackpackOpen,
+        CloseSound   =   BackpackOpen,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Rucksack,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        ReplaceInSecondHand = Rucksack_LEFT_HAND holdingbagleft,
+        ReplaceInPrimaryHand = Rucksack_RIGHT_HAND holdingbagright,
+    }
+}

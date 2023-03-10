@@ -1,0 +1,13 @@
+ItemName_RU = {
+	ItemName_Ducks.Rubberducky_Black = "Черный Резиновая утка",
+	ItemName_Ducks.Rubberducky_Blue = "Синий Резиновая утка",
+	ItemName_Ducks.Rubberducky_Gold = "Золото Резиновая утка",
+	ItemName_Ducks.Rubberducky_Green = "Зеленый Резиновая утка",
+	ItemName_Ducks.Rubberducky_Orange = "Апельсин Резиновая утка",
+	ItemName_Ducks.Rubberducky_Pink = "Розовый Резиновая утка",
+	ItemName_Ducks.Rubberducky_Purple = "Пурпурный Резиновая утка",
+	ItemName_Ducks.Rubberducky_Red = "радуга Резиновая утка",
+	ItemName_Ducks.Rubberducky_Red = "Красный Резиновая утка",
+	ItemName_Ducks.Rubberducky_White = "Белый Резиновая утка",
+	ItemName_Ducks.Tshirt_DuckDECAL = "Утка Футболка",
+}

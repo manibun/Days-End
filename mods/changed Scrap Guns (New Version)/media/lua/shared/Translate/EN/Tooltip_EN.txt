@@ -1,0 +1,20 @@
+Tooltip_EN = {
+--magazines
+	Tooltip_ScrapGunMag1 			= "Teaches how to use air pressure as a Weapon",
+	Tooltip_ScrapGunMag2 			= "Teaches how to make Improvised Explosives",
+	Tooltip_ScrapGunMag3 			= "Teaches how to make Advanced Guns",
+	Tooltip_ScrapGunMag4 			= "Teaches how to make Basic Guns",
+--ammo
+	Tooltip_UsesMetalScraps 		= "Uses Metal Scraps",
+	Tooltip_UsesShrapnelShells 		= "Uses Shrapnel Shells",
+	Tooltip_UsesHRMag				= "Uses HR Magazine (Metal Scraps)",
+	Tooltip_Uses308Bullets			= "Uses 308. Bullets",
+	Tooltip_UsesShotgunShells 		= "Uses Shotgun Shells",
+	Tooltip_UsesSalvagedMag 		= "Uses Salvaged Magazine (Salvaged Bullets)",
+	Tooltip_UsesSalvagedBullets		= "Uses Salvaged Bullets",
+	Tooltip_UsesScrapPistolMag 		= "Uses Scrap Pistol Magazine (Scrap Bullets)",
+	Tooltip_UsesScrapSMGMag 		= "Uses Scrap SMG Magazine (Scrap Bullets)",
+	Tooltip_UsesScrapGatlingBoxMag 	= "Uses Scrap Gatling Box Magazine (Scrap Bullets)",
+	Tooltip_UsesScrapBullets		= "Uses Scrap Bullets",
+} 
+	

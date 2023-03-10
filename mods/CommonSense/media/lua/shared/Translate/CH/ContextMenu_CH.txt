@@ -1,0 +1,3 @@
+ContextMenu_CH = {
+    ContextMenu_Pry_open = "撬开",
+}

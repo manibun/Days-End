@@ -1,0 +1,286 @@
+module DBDA
+{
+	imports
+	{
+		Base
+	}
+
+    item DBDA1
+	{
+		DisplayName	    =	Crime and Punishment by Fyodor Dostoyevsky,
+        Icon	        =	DBDA1,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	+30,
+		StressChange	=	-50,
+		BoredomChange	=	-70,
+	}
+
+    item DBDA2
+	{
+		DisplayName	    =	Moby Dick by Herman Melville,
+        Icon	        =	DBDA2,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+    item DBDA3
+	{
+		DisplayName	    =	The Holy Bible - King James Version,
+        Icon	        =	DBDA3,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+	}
+
+    item DBDA4
+	{
+		DisplayName	    =	The Satanic Bible by Anton LaVey,
+        Icon	        =	DBDA4,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+	}
+
+    item TW
+	{
+		DisplayName	    =	English-French Dictionary,
+        Icon	        =	TW,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+	}
+
+    item TWSR
+	{
+		DisplayName	    =	A Series of Unfortunate Events: The Bad Beginning by Lemony Snicket,
+        Icon	        =	TWSR,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	+5,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Carrie
+	{
+		DisplayName	    =	1984 by George Orwell,
+        Icon	        =	Carrie,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	+30,
+		BoredomChange	=	-70,
+	}
+
+	item Shine
+	{
+		DisplayName	    =	The Shining by Stephen King,
+        Icon	        =	Shine,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	+20,
+		BoredomChange	=	-70,
+	}
+
+	item Stand
+	{
+		DisplayName	    =	The Giver by Lois Lowry,
+        Icon	        =	Stand,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Cujo
+	{
+		DisplayName	    =	A Game of Thrones by George R.R. Martin,
+        Icon	        =	Cujo,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Pet
+	{
+		DisplayName	    =	American Psycho by Bret Easton Ellis,
+        Icon	        =	Pet,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Green
+	{
+		DisplayName	    =	The Lord of the Rings by J.R.R. Tolkien,
+        Icon	        =	Green,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-70,
+		StressChange	=	-50,
+		BoredomChange	=	-70,
+	}
+
+	item Dream
+	{
+		DisplayName	    =	Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream by Hunter S. Thompson,
+        Icon	        =	Dream,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Mist
+	{
+		DisplayName	    =	The Communist Manifesto by Karl Marx and Friedrich Engels,
+        Icon	        =	Mist,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+	}
+
+	item Doc
+	{
+		DisplayName	    =	Holes by Louis Sachar,
+        Icon	        =	Doc,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item Out
+	{
+		DisplayName	    =	A Pickle for the Knowing Ones: Lord Timothy Dexter,
+        Icon	        =	Out,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	+20,
+		BoredomChange	=	+70,
+		AngerChange	=	+50,
+	}
+
+	item Who
+	{
+		DisplayName	    =	Extreme Teen Bible,
+        Icon	        =	Who,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-60,
+		StressChange	=	-60,
+		BoredomChange	=	-70,
+	}
+
+	item It
+	{
+		DisplayName	    =	IT,
+        Icon	        =	It,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-40,
+		StressChange	=	-40,
+		BoredomChange	=	-50,
+	}
+
+	item Farm
+	{
+		DisplayName	    =	Animal Farm by George Orwell,
+        Icon	        =	Farm,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-20,
+		StressChange	=	+20,
+		BoredomChange	=	-30,
+	}
+
+	item Road
+	{
+		DisplayName	    =	The Road by Cormac McCarthy,
+        Icon	        =	Road,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-40,
+		StressChange	=	+20,
+		BoredomChange	=	-20,
+	}
+
+	item Scream
+	{
+		DisplayName	    =	I Have No Mouth, and I Must Scream by Harlan Ellison,
+        Icon	        =	Scream,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-10,
+		StressChange	=	+60,
+		BoredomChange	=	-40,
+	}
+
+	item Lovecraft
+	{
+		DisplayName	    =	The Complete Works of H. P. Lovecraft,
+        Icon	        =	DBDA4,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-5,
+		StressChange	=	-30,
+		BoredomChange	=	-20,
+	}
+
+	item Eternity
+	{
+		DisplayName	    =	The End of Eternity by Isaac Asimov,
+        Icon	        =	Green,
+        StaticModel     =   Book,
+        Weight	        =	0.2,
+		Type	        =	Literature,
+		UnhappyChange	=	-20,
+		StressChange	=	-30,
+		BoredomChange	=	-30,
+	}
+}
+
+

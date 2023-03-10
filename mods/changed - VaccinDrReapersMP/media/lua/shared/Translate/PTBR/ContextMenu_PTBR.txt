@@ -1,0 +1,23 @@
+-- Translation: RAlfa https://steamcommunity.com/id/ralfabr
+ContextMenu_PTBR = {
+	ContextMenu_LabTestInfo = "Ver Condição",
+	ContextMenu_LabTestInfoItems = "Ver Informação dos Items",
+	ContextMenu_LabClearWater = "Purificar com Tabletes de Cloro",
+	ContextMenu_LabClearWaterTooltip = "Necessário %1 pcs. <LINE> <RGB:1,1,1> (Possui %2 pcs.)",
+	ContextMenu_LabCorpseAutopsy = "Autópsia do Corpo",
+	ContextMenu_LabCorpse = "Cadáver",
+	ContextMenu_LabYes = "Sim",
+	ContextMenu_LabNo = "Nao",
+	ContextMenu_LabHrs = "hrs.",
+	ContextMenu_LabWasZombie = "É zombie",
+	ContextMenu_LabCorpseAge = "Idade do Corpo",
+	ContextMenu_LabAutopsyDone = "Autópsia Feita",
+	ContextMenu_LabPutCorpseOnTable = "Colocar Corpo na Mesa de Necropsia",
+	ContextMenu_LabPutRemainsIntoSack = "Colocar Restos na Sacola Plástica",
+	ContextMenu_LabPutRemainsIntoBags = "Colocar Restos no Sacola de Lixo",
+	ContextMenu_LabClearMorgueTable = "Limpar Mesa de Necropsia",
+	ContextMenu_LabMustHaveItems = " <RGB:0.9,0.8,0.5> Itens Necessários: <RGB:1,1,1> <LINE> ", 
+	ContextMenu_LabMustHaveItemsOr ="     ou", 
+	ContextMenu_LabMustHaveItemsAnd = "assim como",
+	ContextMenu_LabSomethingMissing = "Algo faltando...",
+}

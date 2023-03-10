@@ -1,0 +1,254 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Literature************************/
+
+    	item ColoringBook
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Coloring Book,
+        	Icon		=	ColoringBook,
+		RequireInHandOrInventory	=	Crayons,
+        	Weight		=	0.1,
+        	StressChange	=	-10,
+        	BoredomChange	=	-15,
+        	CustomContextMenu   =   ColorBook,
+		ConditionMax	=	21,
+        	WorldStaticModel = MagazineOpenGround,
+    	}
+
+    	item Crosswords
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Crosswords,
+        	Icon		=	Crosswords,
+		RequireInHandOrInventory	=	Pencil/Pen/BluePen/RedPen/GreenPen/MulticolorPen,
+        	Weight		=	0.1,
+        	StressChange	=	-15,
+        	BoredomChange	=	-20,
+        	CustomContextMenu   =   Solve,
+ 		ConditionMax	=	4,
+        	WorldStaticModel = MagazineOpenGround,
+    	}
+
+    	item GiftCard
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Gift Card,
+        	Icon		=	SFGiftCard,
+        	Weight		=	0.0,
+        	Description     =	Inspect,
+		MaxCapacity	=	0,
+		ConditionMax	=	1,
+    	}
+
+	item SFLetterToYou
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Letter to You,
+		Icon	=	SFWrittenLetter,
+		StressChange	=	-5,
+		BoredomChange	=	-10,
+        	WorldStaticModel = SheetOfPaper,
+	}
+
+	item Note
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Note,
+		Icon	=	SFWrittenLetter,
+        	CanBeWrite  =   true,
+        	PageToWrite =   1,
+		OnCreate =	CreateNote,
+        	WorldStaticModel = SheetOfPaper,
+	}
+
+    item NotesJokes
+    {
+        Weight		=	0.5,
+        Type		=	Literature,
+        DisplayName	=	Notes on Rhyming Jokes,
+        Icon		=	SFNotesJokes,
+        BoredomChange	=	-5,
+        StaticModel 	=	Magazine,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    	item Novel
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Novel,
+        	Icon		=	Novel1,
+        	Weight		=	0.15,
+        	UnhappyChange	=	-20,
+        	StressChange	=	-20,
+        	BoredomChange	=	-30,
+        	WorldStaticModel = MagazineGround,
+    	}
+
+    	item PostcardLocal
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Postcard,
+        	Icon		=	Postcard,
+        	Weight		=	0.0,
+		MaxCapacity	=	0,
+		ConditionMax	=	3,
+    	}
+
+    	item PostcardOthers
+    	{
+        	Type		=	Literature,
+        	DisplayName	=	Postcard,
+        	Icon		=	Postcard,
+        	Weight		=	0.0,
+		MaxCapacity	=	0,
+		ConditionMax	=	4,
+    	}
+
+    item RippedPages
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Ripped Pages,
+        Icon	=	Paper,
+	MaxCapacity	=	0,
+        WorldStaticModel = SheetOfPaper,
+    }
+
+/************************Miscellaneous************************/
+
+    item Briefcase
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	5,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	7,
+        DisplayName	=	Briefcase,
+        Icon	=	Briefcase,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.97,
+        MetalValue = 15,
+        ReplaceInSecondHand = Bag_Briefcase_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Briefcase_RHand holdingbagright,
+        WorldStaticModel = Briefcase_Ground,
+    }
+
+	item GreenPen
+	{
+	    	DisplayCategory = Household,
+		MaxRange	=	0.8,
+		WeaponSprite	=	Pen,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised,
+		ConditionLowerChanceOneIn	=	1,
+		Weight	=	0.1,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	2,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	0,
+		SwingAnim	=	Stab,
+		DisplayName	=	Green Pen,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Pen,
+		RunAnim	=	Run_Weapon2,
+		IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakMetalItem,
+		TreeDamage  =   0,
+		EnduranceMod = 0.5,
+		ColorRed = 50,
+        ColorGreen = 210,
+        ColorBlue = 50,
+        CriticalChance	=	0,
+        MinDamage	=	0.1,
+        MaxDamage	=	0.1,
+		WeaponLength = 0.15,
+		Tags = Write;GreenPen,
+ 	}
+
+    item SFChessboard
+    {
+        Weight	=	1.0,
+        Type	=	Normal,
+        DisplayName	=	Chess Board,
+        Icon	=	SFChessboard,
+    }
+
+    	item SFLetter
+    	{
+        	Type		=	Normal,
+		Weight		=	0.1,
+        	DisplayName	=	Letter,
+        	Icon		=	SFLetter,
+    	}
+
+	item Magic8Ball
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Magic 8-Ball,
+		Icon	=	Poolball8,
+		WorldStaticModel = PoolBall8,
+	}
+
+	item MulticolorPen
+	{
+	    	DisplayCategory = Household,
+		MaxRange	=	0.8,
+		WeaponSprite	=	Pen,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised,
+		ConditionLowerChanceOneIn	=	1,
+		Weight	=	0.1,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	2,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	0,
+		SwingAnim	=	Stab,
+		DisplayName	=	Multicolor Pen,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	MulticolorPen,
+		RunAnim	=	Run_Weapon2,
+		IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakMetalItem,
+		TreeDamage  =   0,
+		EnduranceMod = 0.5,
+        CriticalChance	=	0,
+        MinDamage	=	0.1,
+        MaxDamage	=	0.1,
+		WeaponLength = 0.15,
+		Tags = Write;BluePen;GreenPen;RedPen;Pen,
+ 	}
+
+}

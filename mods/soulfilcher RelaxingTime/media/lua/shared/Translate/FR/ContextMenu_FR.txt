@@ -1,0 +1,7 @@
+ContextMenu_FR = {
+	ContextMenu_Ask = "Demander",
+	ContextMenu_ColorBook = "Colorier",
+	ContextMenu_Inspect = "Inspecter",
+	ContextMenu_LetterTo = "Lettre pour",
+	ContextMenu_Solve = "Resoudre",
+}

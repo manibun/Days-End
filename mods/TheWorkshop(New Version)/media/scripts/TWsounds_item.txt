@@ -1,0 +1,35 @@
+module TW
+{
+    sound CordlessDrillSwing
+    {
+		category = TW: Main,
+		is3D = false,
+        clip
+        {
+            file = media/sound/CordlessDrillSwing.ogg,
+			distanceMax = 10,
+			volume = 0.6,
+        }
+		clip
+        {
+            file = media/sound/CordlessDrillSwing1.ogg,
+			distanceMax = 10,
+			volume = 0.6,
+        }
+		clip
+        {
+            file = media/sound/CordlessDrillSwing2.ogg,
+			distanceMax = 10,
+			volume = 0.6,
+        }
+		clip
+        {
+            file = media/sound/CordlessDrillSwing3.ogg,
+			distanceMax = 10,
+			volume = 0.6,
+        }
+
+    }	
+	
+}
+

@@ -1,0 +1,145 @@
+module DaysEndCraftAll
+{
+	imports
+	{
+		Base
+	}
+
+
+	recipe Bedroom Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=1,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_49,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Fancy Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_8,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Fancy Oak Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_12,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Light Wood Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_46,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Medical Tool Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_community_medical_01_36,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Mirror and Drawers
+	{
+		Plank=5,
+		Nails=4,
+		Woodglue=2,
+		Drawer=3,
+		Mirror=1,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_42,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Small Table with Drawer
+	{
+		Plank=4,
+		Nails=2,
+		Woodglue=2,
+		Drawer=1,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.furniture_storage_01_52,
+		Time:240.0,
+		SkillRequired:Woodwork=7,
+		Category:MathoulDrawers,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+
+
+}

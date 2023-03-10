@@ -1,0 +1,23 @@
+Tooltip_EN = {
+--workshop
+	Tooltip_HugePropaneTank 	= "Can only be moved with a Trailer",
+	Tooltip_MetalWorkbench 		= "Used for all Recipes in the Scrapping Tab",
+	Tooltip_MetalParts 			= "Scrap Metal but smaller",
+	Tooltip_LargeBolt 			= "It's like a nail but much bigger",
+	Tooltip_File				= "For sharpening blades and more",
+	Tooltip_Pliers 				= "Can be used to dismantle small items",
+	Tooltip_MetalCutter			= "Used to cut Metal Sheets",
+	Tooltip_Motor				= "A small Engine",
+--equipment
+	Tooltip_Toolbelt			= "Allows storage Of various Tools",
+--smelting
+
+--magazines
+	Tooltip_WorkshopMag1 		= "Teaches how to Scrap Metallic items",
+	Tooltip_WorkshopMag2 		= "Teaches how to disassemble Weapons and Tools",
+	Tooltip_WorkshopMag3 		= "Teaches how to make a propane gas furnace and how to use it",
+	Tooltip_WorkshopMag4 		= "Teaches how to disassemble car parts for scrap",
+	Tooltip_WorkshopMag5 		= "Teaches how to disassemble complex items",
+
+} 
+	

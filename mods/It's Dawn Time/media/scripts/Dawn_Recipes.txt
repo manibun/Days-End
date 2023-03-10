@@ -1,0 +1,29 @@
+module DawnRecipes {
+	imports {
+		Base
+	}
+
+	/* ------------------------------ Fun Recipes ------------------------------ */
+
+	recipe Dawn2Baby
+	{
+		DawnPlushie=1,
+		Result:DawnBaby=1,
+		Sound:Drawing_B,
+		Time:320.0,
+		Category:Decorations,
+		CanBeDoneFromFloor:True,
+		NeedToBeLearn:False,
+	}
+	
+	recipe Baby2Dawn
+	{
+		DawnBaby=1,
+		Result:DawnPlushie=1,
+		Sound:Drawing_B,
+		Time:320.0,
+		Category:Decorations,
+		CanBeDoneFromFloor:True,
+		NeedToBeLearn:False,
+	}
+}

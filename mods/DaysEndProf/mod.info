@@ -1,0 +1,6 @@
+name=Day's End Professions TEST
+poster=poster.png
+id=DaysEndProf
+description=Now with 50% more veterans!
+url=
+require=ProfessionFramework

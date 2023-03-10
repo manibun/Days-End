@@ -1,0 +1,88 @@
+module Base
+{
+
+	model AxeHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/AxeHeadGround,
+		texture	= ToolHeads/AxeHeadTexture,
+		scale = 0.012,
+    }
+	model ForkHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/ForkHeadGround,
+		texture	= ToolHeads/ForkHeadTexture,
+		scale = 0.012,
+    }
+	model GolfClubHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/GolfClubHeadGround,
+		texture	= ToolHeads/GolfClubHeadTexture,
+		scale = 0.012,
+    }
+	model HammerHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/HammerHeadGround,
+		texture	= ToolHeads/HammerHeadTexture,
+		scale = 0.012,
+    }
+	model HoeHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/HoeHeadGround,
+		texture	= ToolHeads/HoeHeadTexture,
+		scale = 0.012,
+    }
+	model LongBlade_Ground
+	{
+		mesh = WorldItems/ToolHeads/LongBladeGround,
+		texture	= ToolHeads/LongBladeTexture,
+		scale = 0.012,
+    }
+	model MeatCleaverHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/MeatCleaverHeadGround,
+		texture	= ToolHeads/MeatCleaverHeadTexture,
+		scale = 0.012,
+    }
+	model PickaxeHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/PickaxeHeadGround,
+		texture	= ToolHeads/PickaxeHeadTexture,
+		scale = 0.012,
+    }
+	model RakeHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/RakeHeadGround,
+		texture	= ToolHeads/RakeHeadTexture,
+		scale = 0.012,
+    }
+	model ScytheHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/ScytheHeadGround,
+		texture	= ToolHeads/ScytheHeadTexture,
+		scale = 0.012,
+    }
+	model ShovelHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/ShovelHeadGround,
+		texture	= ToolHeads/ShovelHeadTexture,
+		scale = 0.012,
+    }
+	model SledgeHammerHead_Ground
+	{
+		mesh = WorldItems/ToolHeads/SledgeHammerHeadGround,
+		texture	= ToolHeads/SledgeHammerHeadTexture,
+		scale = 0.012,
+    }
+	model SmallBlade_Ground
+	{
+		mesh = WorldItems/ToolHeads/SmallBladeGround,
+		texture	= ToolHeads/SmallBladeTexture,
+		scale = 0.012,
+    }
+	model SmallMetalBar_Ground
+	{
+		mesh = WorldItems/ToolHeads/SmallMetalBarGround,
+		texture	= ToolHeads/SmallMetalBarTexture,
+		scale = 0.012,
+    }
+}

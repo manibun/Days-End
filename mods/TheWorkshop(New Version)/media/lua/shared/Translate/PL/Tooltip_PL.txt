@@ -1,0 +1,22 @@
+Tooltip_PL = {
+--workshop
+	Tooltip_HugePropaneTank 	= "Mozna przemiescic uzywajac tylko naczepy",
+	Tooltip_MetalWorkbench 		= "Uzywany do wytwarzania wszystkich przedmiotow w zakladce Scrapping",
+	Tooltip_MetalParts 			= "Male czesci zlomu metalowego",
+	Tooltip_LargeBolt 			= "Naprawde duza sruba",
+	Tooltip_File				= "Najlepszy przyjaciel twojego ulubionego ostrza",
+	Tooltip_Pliers 				= "Sluzy do rozkladania malych czesci",
+	Tooltip_MetalCutter			= "Sluzy do przecinania blach",
+--equipment
+	Tooltip_Toolbelt			= "Schowasz w nim swoje ulubione narzedzia",
+--smelting
+
+--magazines
+	Tooltip_WorkshopMag1 		= "Uczy jak rozlozyc przedmiotow metalowych",
+	Tooltip_WorkshopMag2 		= "Uczy jak rozkladac bron i narzedzia",
+	Tooltip_WorkshopMag3 		= "Uczy jak zlozyc i obslugiwac piec gazowy.",
+	Tooltip_WorkshopMag4 		= "Uczy jak rozlozyc czesci samochodowe na zlom.",
+	Tooltip_WorkshopMag5 		= "Uczy jak rozkladac zlozone i skomplikowane przedmioty",
+
+} 
+	

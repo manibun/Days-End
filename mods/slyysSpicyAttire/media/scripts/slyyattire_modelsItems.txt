@@ -1,0 +1,43 @@
+module slyyAttire
+{
+	imports
+	{
+		Base
+	}
+
+        model PlagueDocMaskGround
+    {
+        mesh = WorldItems/Clothing/PlagueDocMask_Ground,
+        scale = 1,
+    }
+
+        model BallisticFacemaskGround
+    {
+        mesh = WorldItems/Clothing/BallisticFacemask_Ground,
+        scale = 1,
+    }
+
+        model HunterGarbGround
+    {
+        mesh = WorldItems/Clothing/HunterGarb_Ground,
+        scale = 1,
+    }
+
+        model KasaGround
+    {
+        mesh = WorldItems/Clothing/Kasa_Ground,
+        scale = 1,
+    }
+
+        model JingasaGround
+    {
+        mesh = WorldItems/Clothing/Jingasa_Ground,
+        scale = 1,
+    }
+
+        model OniMaskGround
+    {
+        mesh = WorldItems/Clothing/OniMask_Ground,
+        scale = 1,
+    }
+}

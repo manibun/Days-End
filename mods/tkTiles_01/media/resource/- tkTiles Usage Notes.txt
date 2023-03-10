@@ -1,0 +1,2 @@
+junkyard_tk_01 - The car walls have no sprite for the back sides, use the invisibles kit to create collision there.
+junkyard_tk_01 - The car floors are marked as overlays to prevent render issues. Use the invisibles kit to create actual floors to walk on as well.

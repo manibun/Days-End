@@ -1,0 +1,13 @@
+ItemName_FR = {
+	ItemName_Ducks.Rubberducky_Black = "Canard Noire en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Blue = "Canard Bleue en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Gold = "Canard Or en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Green = "Canard Verte en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Orange = "Canard Orange en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Pink = "Canard Rose en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Purple = "Canard Violette en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Red = "Canard Arc en ciel en Caoutchouc",
+	ItemName_Ducks.Rubberducky_Red = "Canard Rouge en Caoutchouc",
+	ItemName_Ducks.Rubberducky_White = "Canard Blanche en Caoutchouc",
+	ItemName_Ducks.Tshirt_DuckDECAL = "Canard Tee-Shirt",
+}

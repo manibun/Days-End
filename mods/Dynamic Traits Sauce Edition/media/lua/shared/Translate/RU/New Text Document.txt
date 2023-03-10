@@ -1,0 +1,18 @@
+UI_RU = {
+    UI_trait_AmateurElectrician = "Любитель-электрик",
+    UI_trait_AmateurElectricianDesc = "Вы достаточно практиковались, чтобы начать работать с генераторами.",
+    UI_trait_Pluviophile = "Плювиофил",
+    UI_trait_PluviophileDesc = "Вы любите дождь. Ваше настроение улучшается под дождём.",
+    UI_trait_Pluviophobia = "Плювиофобия",
+    UI_trait_PluviophobiaDesc = "Вы ненавидите дождь. Ваше настроение ухудшается под дождём.",
+    UI_trait_Alcoholic = "Алкоголик",
+    UI_trait_AlcoholicDesc = "Вам периодически нужно выпивать, чтобы чувствовать себя хорошо.",
+	UI_trait_Prodigy = "Одарённый",
+	UI_trait_ProdigyDesc = "Ваше тело охотнее усваивает физические тренировки.",
+	UI_trait_PhysicallyActive = "Активный",
+	UI_trait_PhysicallyActiveDesc = "Вы ведёте активный образ жизни. Тренировки поднимают вам настроение.",
+	UI_trait_Sedentary = "Лентяй",
+	UI_trait_SedentaryDesc = "Вы ведёте малоподвижный образ жизни. Вам не нравится попусту тратить силы.",
+	UI_trait_Nightmares = "Кошмары",
+	UI_trait_NightmaresDesc = "Во снах вас часто мучают кошмары."
+}

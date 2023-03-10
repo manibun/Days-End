@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\clothes\bob_ScrapShoulderPadL</m_MaleModel>
+	<m_FemaleModel>Static\clothes\kate_ScrapShoulderPadL</m_FemaleModel>
+	<m_GUID>772059c2-fff9-4c4b-9a75-eca1c6afe65f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_L_UpperArm</m_AttachBone>
+	<textureChoices>clothes\ShoulderPads\ScrapShoulderPadL</textureChoices>
+</clothingItem>

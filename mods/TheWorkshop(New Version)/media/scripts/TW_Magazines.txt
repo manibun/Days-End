@@ -1,0 +1,73 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	
+	item WorkshopMag1
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = D.I.Y Crafting for Idiots Vol. 1 (Deconstruction),
+		Icon = WorkshopMag1,
+		TeachedRecipes = Make Metal Workbench;Make File;Deconstruct Fork Head;Deconstruct Scalpel;Deconstruct DumbBell;Deconstruct BarBell;Deconstruct Rake Head;Deconstruct Pickaxe Head;Deconstruct Hoe Head;Deconstruct Shovel Head;Deconstruct Wrench;Deconstruct Long Blade Head;Deconstruct Scythe Head;Deconstruct Meat Cleaver Head;Deconstruct Small Metal Bar;Deconstruct SmallBlade;Deconstruct Axe Head;Deconstruct SledgeHammer Head;Deconstruct Hammer Head;Deconstruct Golf Club Head;Deconstruct Fishing Rod;Deconstruct Large Items;Deconstruct Medium Items;Deconstruct Small Items;Deconstruct Pan;Deconstruct Crowbar;Combine MetalParts,
+		StaticModel = WorkshopMag1,
+		ReplaceOnUse    =   WorkshopMag1,
+		WorldStaticModel = WorkshopMag1_Ground,
+		Tooltip             = Tooltip_WorkshopMag1,
+		DisplayCategory = SkillBook,
+	}
+	item WorkshopMag2
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = D.I.Y Crafting for Idiots Vol. 2 (Tool Disassembly),
+		Icon = WorkshopMag2,
+		TeachedRecipes = Make Metal Workbench;Deconstruct Tool Box;Disassemble Fork;Disassemble Rake;Disassemble Pickaxe;Disassemble Hoe;Disassemble Shovel;Disassemble LongBlade;Disassemble Scythe;Disassemble MeatCleaver;Disassemble Screwdriver;Disassemble SmallBlade;Disassemble Axe;Disassemble Sledgehammer;Disassemble Hammer;Disassemble Golfclub;Combine MetalParts,
+		StaticModel = WorkshopMag2,
+		ReplaceOnUse    =   WorkshopMag2,
+		WorldStaticModel = WorkshopMag2_Ground,
+		Tooltip             = Tooltip_WorkshopMag2,
+		DisplayCategory = SkillBook,
+	}
+	item WorkshopMag3
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Backyard Smelting for Dumbshits,
+		Icon = WorkshopMag3,
+		TeachedRecipes = Make Metal Pipe Mold;Cast Metal Pipe;Cast Lead Pipe;Cast Metal Bar;Make Metal Bar Mold;Cast Small Metal Sheet;Assemble Propane Gas Furnace;Make Small Metal Sheet Mold,
+		StaticModel = WorkshopMag3,
+		ReplaceOnUse    =   WorkshopMag3,
+		WorldStaticModel = WorkshopMag3_Ground,
+		Tooltip             = Tooltip_WorkshopMag3,
+		DisplayCategory = SkillBook,
+	}
+	item WorkshopMag4
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = Car Butchering in a nutshell,
+		Icon = WorkshopMag4,
+		TeachedRecipes = Make Metal Workbench;Deconstruct Car Suspension;Deconstruct Car Wheel;Deconstruct Car Seat;Deconstruct Car Battery;Deconstruct Car Brake;Deconstruct Car Door;Deconstruct Car Gas Tank;Deconstruct Car Muffler,
+		StaticModel = WorkshopMag4,
+		ReplaceOnUse    =   WorkshopMag4,
+		WorldStaticModel = WorkshopMag4_Ground,
+		Tooltip             = Tooltip_WorkshopMag4,
+		DisplayCategory = SkillBook,
+	}
+	item WorkshopMag5
+	{
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = D.I.Y Crafting for Idiots Vol. 3 (Complex Disassembly),
+		Icon = WorkshopMag5,
+		TeachedRecipes = Make Metal Workbench;Disassemble Motor;Disassemble Gun Magazine;Disassamble Gun;Disassamble Metal Armor,
+		StaticModel = WorkshopMag5,
+		ReplaceOnUse    =   WorkshopMag5,
+		WorldStaticModel = WorkshopMag5_Ground,
+		Tooltip             = Tooltip_WorkshopMag5,
+		DisplayCategory = SkillBook,
+	}
+}

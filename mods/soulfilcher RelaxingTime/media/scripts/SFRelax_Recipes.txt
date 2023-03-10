@@ -1,0 +1,12 @@
+module Base
+{
+    recipe Open Letter
+    {
+        SFLetter,
+
+        Result:SheetPaper2,
+        Time:20.0,
+        OnCreate:OpenLetter_OnCreate,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+}

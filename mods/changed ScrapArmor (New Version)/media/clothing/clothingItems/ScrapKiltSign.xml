@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\bob_ScrapKiltSign</m_MaleModel>
+	<m_FemaleModel>static\clothes\kate_ScrapKiltSign</m_FemaleModel>
+	<m_GUID>2828408c-2968-4a66-8ac2-18b59844bdee</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Pelvis</m_AttachBone>
+	<textureChoices>clothes\ChestArmor\ScrapKiltSign</textureChoices>
+</clothingItem>

@@ -1,0 +1,987 @@
+module SArmor
+{
+	imports
+	{
+		Base,
+	}
+	
+	recipe Make Sword Sheath
+	{
+		Belt2,
+		LeatherStrips=8,
+	    keep Scissors,
+		keep Needle,
+		Thread=2,
+		ScrapMetal=3,
+		Result 		: SwordSheath,
+		Sound 		: EquipCrafting,
+		Time 		: 500,
+		Category    :  Tailoring,
+		SkillRequired 		: Tailoring=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	recipe Make Left Leg Pouch
+	{
+		Belt2,
+		LeatherStrips=8,
+	    keep Scissors,
+		keep Needle,
+		Thread=2,
+		Result 		: ScrapLegPouchL,
+		Sound 		: EquipCrafting,
+		Time 		: 500,
+		Category    :  Tailoring,
+		SkillRequired 		: Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	recipe Make Right Leg Pouch
+	{
+		Belt2,
+		LeatherStrips=8,
+	    keep Scissors,
+		keep Needle,
+		Thread=2,
+		Result 		: ScrapLegPouchR,
+		Sound 		: EquipCrafting,
+		Time 		: 500,
+		Category    :  Tailoring,
+		SkillRequired 		: Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Left Scrap Hand Plate
+	{
+		SmallSheetMetal,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlate2L,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Right Scrap Hand Plate
+	{
+		SmallSheetMetal,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlate2R,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Hand Plate with Rods
+	{
+		ScrapMetal=2,
+		ScrapHandPlate2L,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlateL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Hand Plate with Rods
+	{
+		ScrapMetal=2,
+		ScrapHandPlate2R,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlateR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Hand Plate with Screws
+	{
+		Screws=10,
+		ScrapHandPlate2L,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlateStuddedL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Hand Plate with Screws
+	{
+		Screws=10,
+		ScrapHandPlate2R,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapHandPlateStuddedR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Tire Pauldrons
+	{
+		OldTire1/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapPauldrons,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Scrap Pauldrons
+	{
+		SmallSheetMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapPauldrons2,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Pauldrons with Screws
+	{
+		Screws=20,
+		ScrapPauldrons2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapPauldrons2Studded,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Greaves with Rods
+	{
+		SmallSheetMetal=2,
+		ScrapShinPlateL,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlate2L,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Greaves with Rods
+	{
+		SmallSheetMetal=2,
+		ScrapShinPlateR,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlate2R,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Left Scrap Greaves
+	{
+		SmallSheetMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlateL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Right Scrap Greaves
+	{
+		SmallSheetMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlateR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Greaves with Screws
+	{
+		Screws=10,
+		LeatherStrips=2,
+		ScrapShinPlateL,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlateStuddedL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Greaves with Screws
+	{
+		Screws=10,
+		ScrapShinPlateR,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShinPlateStuddedR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Left Scrap Shoulderpad
+	{
+		ScrapMetal=2,
+		SmallSheetMetal,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Right Scrap Shoulderpad
+	{
+		ScrapMetal=2,
+		SmallSheetMetal,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with Sawblade
+	{
+		ScrapMetal=1,
+		ScrapShoulderPadL,
+		Saw,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadSawL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with Sawblade
+	{
+		ScrapMetal=1,
+		ScrapShoulderPadR,
+		Saw,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadSawR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with RoadSign
+	{
+		ScrapMetal=1,
+		ScrapShoulderPadL,
+		SmallSheetMetal,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadSignL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with RoadSign
+	{
+		ScrapMetal=1,
+		ScrapShoulderPadR,
+		SmallSheetMetal,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadSignR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with Screws
+	{
+		Screws=15,
+		ScrapShoulderPadL,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadBoltsL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Shoulderpad with Screws
+	{
+		Screws=15,
+		ScrapShoulderPadR,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShoulderPadBoltsR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Left Scrap Leg pad
+	{
+		ScrapMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Right Scrap Leg pad
+	{
+		ScrapMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Leg Pad with Roadsign
+	{
+		SheetMetal,
+		ScrapLegPadL,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadSignL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+    
+    recipe Upgrade Scrap Leg Pad with Roadsign
+	{
+		SheetMetal,
+		ScrapLegPadR,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadSignR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Leg Pad with Roadsign2
+	{
+		SheetMetal,
+		ScrapLegPadL,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadSign2L,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+    
+    recipe Upgrade Scrap Leg Pad with Roadsign2
+	{
+		SheetMetal,
+		ScrapLegPadR,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadSign2R,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Leg Pad with Screws
+	{
+		SmallSheetMetal,
+		ScrapLegPadL,
+		LeatherStrips=2,
+		Screws=10,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadBoltsL,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4;Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Leg Pad with Screws
+	{
+		SmallSheetMetal,
+		ScrapLegPadR,
+		LeatherStrips=2,
+		Screws=10,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapLegPadBoltsR,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4;Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Scrap Kilt
+	{
+		SmallSheetMetal=4,
+		LeatherStrips=4,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapKilt,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Kilt with Roadsigns
+	{
+		SheetMetal=2,
+		ScrapKilt,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapKiltSign,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Plated Scrap Kilt
+	{
+		SheetMetal=4,
+		LeatherStrips=4,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapKiltPlated,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4;Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Plated Scrap Kilt with Screws
+	{
+		Screws=30,
+		ScrapKiltPlated,
+		LeatherStrips=1,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapKiltStudded,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=6,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Scrap Vest
+	{
+		MetalPipe/MetalBar/LeadPipe=2,
+		LeatherStrips=8,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+	    keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapVest,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Scrap Vest with Roadsigns
+	{
+		SheetMetal=2,
+		ScrapVest,
+		SmallSheetMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+	    keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapVestSign,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Plated Scrap Vest
+	{
+		SheetMetal=3,
+		SmallSheetMetal=6,
+		LeatherStrips=8,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+	    keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapVestPlated,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=4;Tailoring=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Upgrade Plated Scrap Vest with Screws
+	{
+		Screws=40,
+		ScrapVestPlated,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+	    keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapVestStudded,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=6,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Scrap Helmet
+	{
+		SheetMetal=3,
+		SmallSheetMetal=2,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: Hat_ScrapHelmet,
+		Sound 		: ArmorCrafting,
+		Time 		: 1500,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Scrap Kettle Helmet
+	{
+		SheetMetal=2,
+		SmallSheetMetal=2,
+		ScrapMetal=3,
+		LeatherStrips=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: Hat_ScrapKettleHelmet,
+		Sound 		: ArmorCrafting,
+		Time 		: 1200,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Transform Welder Mask
+	{
+		WeldingMask,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: Hat_WelderMask2,
+		Sound 		: ArmorCrafting,
+		Time 		: 50,
+		SkillRequired 		: MetalWelding=3,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : False,
+	}
+	
+	recipe Transform Welder Mask
+	{
+		Hat_WelderMask2,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: WeldingMask,
+		Sound 		: ArmorCrafting,
+		Time 		: 50,
+		SkillRequired 		: MetalWelding=3,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : False,
+	}
+	
+	recipe Convert Motorcycle Helmet
+	{
+	    Hat_CrashHelmetFULL,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: Hat_MotorcycleHelmet2,
+		Time 		: 500,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : False,
+	}
+	
+	recipe Make Scrap Shield
+	{
+		SheetMetal,
+		LeatherStrips=2,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapShield,
+		Sound 		: ArmorCrafting,
+		Time 		: 1900,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give20MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	recipe Make Wooden Shield
+	{
+		Plank=5,
+		RippedSheets=2,
+		Nails=6,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: WoodenShield,
+		Sound 		: WoodShieldCraft,
+		Time 		: 1000,
+		Category         		: Armor,
+		OnGiveXP 		: Give10MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	recipe Make Car Door Shield
+	{
+		FrontCarDoor1,
+		Result 		: CarDoorShield,
+		Sound 		: ArmorCrafting,
+		Time 		: 500,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=0,
+		OnGiveXP 		: Give10MWXP,
+		AnimNode 		: BuildLow,
+		NeedToBeLearn : True,
+	}
+	recipe Make Car Door Shield
+	{
+		FrontCarDoor2,
+		Result 		: CarDoorShield1,
+		Sound 		: ArmorCrafting,
+		Time 		: 500,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=0,
+		OnGiveXP 		: Give20MWXP,
+		AnimNode 		: BuildLow,
+		NeedToBeLearn : True,
+	}
+	recipe Make Car Door Shield
+	{
+		FrontCarDoor3,
+		Result 		: CarDoorShield2,
+		Sound 		: ArmorCrafting,
+		Time 		: 500,
+		Category         		: Armor,
+		SkillRequired 		: MetalWelding=0,
+		OnGiveXP 		: Give20MWXP,
+		AnimNode 		: BuildLow,
+		NeedToBeLearn : True,
+	}
+	recipe Paint Scrap Shield (Warrior)
+	{
+	    ScrapShield,
+		PaintWhite,
+		keep Paintbrush,
+		Result 		: ScrapShieldPainted1,
+		Time 		: 1000,
+		Category         		: Armor,
+		AnimNode 		: Painting,
+		Prop1 		: Paintbrush,
+		NeedToBeLearn : True,
+	}
+	recipe Paint Scrap Shield (Signs)
+	{
+		PaintYellow,
+		ScrapShield,
+		keep Paintbrush,
+		Result 		: ScrapShieldPainted2,
+		Sound 		: ArmorCrafting,
+		Time 		: 1000,
+		Category         		: Armor,
+		AnimNode 		: Painting,
+		Prop1 		: Paintbrush,
+		NeedToBeLearn : True,
+	}
+	recipe Paint Scrap Shield (Medic)
+	{
+		PaintRed,
+		ScrapShield,
+		keep Paintbrush,
+		Result 		: ScrapShieldPainted3,
+		Time 		: 1000,
+		Category         		: Armor,
+		AnimNode 		: Painting,
+		Prop1 		: Paintbrush,
+		NeedToBeLearn : True,
+	}
+
+	recipe Make Rebreather
+	{
+		[Recipe.GetItemTypes.GasMask]/Hat_GasMask,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result 		: Hat_Rebreather,
+		Time 		: 100,
+	}
+
+}

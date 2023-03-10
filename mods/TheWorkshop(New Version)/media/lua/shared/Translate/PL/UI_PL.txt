@@ -1,0 +1,5 @@
+UI_PL = {
+
+UI_ClothingType_SpecialBelt = "Specjalny pas",
+
+}

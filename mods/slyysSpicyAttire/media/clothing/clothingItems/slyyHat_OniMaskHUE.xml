@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_onimask</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_onimask</m_FemaleModel>
+	<m_GUID>51cedad3-7711-4ecb-b063-6ff02b3ec856</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>true</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>slyyonimask</textureChoices>
+</clothingItem>

@@ -1,0 +1,5 @@
+UI_EN = {
+    UI_trait_preparedscrapweapons = "Prepared: Scrap Weapons",
+    UI_trait_preparedscrapweaponsdesc = "You collected improvised weapons before the Apocalypse.<br>You begin the game with 2 decent Scrap Weapons in your inventory.",
+	UI_trait_scrapwarrior = "Scrap Warrior",
+    UI_trait_scrapwarriordesc = "You've learned the ways of a Scrap Warrior.<br>+1 Metalworking<br>Know how to make basic Scrap Weapons.",

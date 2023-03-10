@@ -1,0 +1,3 @@
+IGUI_IT = {
+    IGUI_Pry_fail = "Non si arrende. Posso riprovare...",
+}

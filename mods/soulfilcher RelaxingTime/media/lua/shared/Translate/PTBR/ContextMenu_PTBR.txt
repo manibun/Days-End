@@ -1,0 +1,7 @@
+ContextMenu_PTBR = {
+	ContextMenu_Ask = "Perguntar",
+	ContextMenu_ColorBook = "Colorir",
+	ContextMenu_Inspect = "Inspecionar",
+	ContextMenu_LetterTo = "Carta para ",
+	ContextMenu_Solve = "Resolver",
+}

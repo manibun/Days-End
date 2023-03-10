@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_EngineKeeper = "Mod Engine Keeper",
+    Sandbox_EngineKeeper_ECT = "Engine condition threshold",
+    Sandbox_EngineKeeper_ECT_help = "Use -1 to keep ModOptions selection",
+}

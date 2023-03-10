@@ -1,0 +1,107 @@
+module Base
+{
+
+
+	model MetalWorkbench_Ground
+	{
+		mesh = WorldItems/other/MetalWorkbenchGround,
+		texture	= other/MetalWorkbenchTexture,
+    }
+	model PropaneGasFurnace_Ground
+	{
+		mesh = WorldItems/other/PropaneGasFurnaceGround,
+		texture	= other/PropaneGasFurnaceTexture,
+    }
+	model MetalParts_Ground
+	{
+		mesh = WorldItems/other/MetalPartsGround,
+		texture	= other/MetalPartsTexture,
+		scale = 0.012,
+    }
+	model File_Ground
+	{
+		mesh = WorldItems/other/FileGround,
+		texture	= other/FileTexture,
+		scale = 0.012,
+    }
+	model BoxScrews_Ground
+	{
+		mesh = WorldItems/other/BoxScrewsGround,
+		texture	= other/BoxScrewsTexture,
+		scale = 0.012,
+    }
+	model BoxLargeBolts_Ground
+	{
+		mesh = WorldItems/other/BoxLargeBoltsGround,
+		texture	= other/BoxLargeBoltsTexture,
+		scale = 0.012,
+    }
+	model LargeBolt_Ground
+	{
+		mesh = WorldItems/other/LargeBoltGround,
+		texture	= other/LargeBoltTexture,
+		scale = 0.012,
+    }
+	model Pliers_Ground
+	{
+		mesh = WorldItems/other/PliersGround,
+		texture	= other/PliersTexture,
+		scale = 0.012,
+    }
+	model Spring_Ground
+	{
+		mesh = WorldItems/other/SpringGround,
+		texture	= other/SpringTexture,
+		scale = 0.012,
+    }
+	model Chain_Ground
+	{
+		mesh = WorldItems/other/ChainGround,
+		texture	= other/ChainTexture,
+		scale = 0.012,
+    }
+	model Motor_Ground
+	{
+		mesh = WorldItems/other/MotorGround,
+		texture	= other/MotorTexture,
+		scale = 0.012,
+    }
+	model GunParts_Ground
+	{
+		mesh = WorldItems/other/GunPartsGround,
+		texture	= other/GunPartsTexture,
+		scale = 0.012,
+    }
+	model MetalCutter_Ground
+	{
+		mesh = WorldItems/other/MetalCutterGround,
+		texture	= other/MetalCutterTexture,
+    }
+	model HugePropane_Ground
+	{
+		mesh = WorldItems/other/HugePropaneGround,
+		texture	= other/HugePropaneTexture,
+    }
+	model LargePropane_Ground
+	{
+		mesh = WorldItems/other/LargePropaneGround,
+		texture	= other/LargePropaneTexture,
+    }
+	model MetalBarMold_Ground
+	{
+		mesh = WorldItems/other/MetalBarMoldGround,
+		texture	= other/MetalBarMoldTexture,
+    }
+	model MetalPipeMold_Ground
+	{
+		mesh = WorldItems/other/MetalBarMoldGround,
+		texture	= other/MetalPipeMoldTexture,
+    }
+	model MetalSheetMold_Ground
+	{
+		mesh = WorldItems/other/MetalSheetMoldGround,
+		texture	= other/MetalSheetMoldTexture,
+    }
+	
+	
+}

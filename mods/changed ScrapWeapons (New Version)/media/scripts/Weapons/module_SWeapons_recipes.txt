@@ -1,0 +1,756 @@
+module SWeapons
+{
+	imports
+	{
+		Base,
+	}
+	
+	recipe Make 2x4
+	{
+        Plank,
+		Result 		: 2x4,
+		Sound 		: BreakWoodItem,
+		Time 		: 50,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+	}
+	recipe Break
+	{
+		Broom/Mop/Poolcue,
+		Result 		: SpearCrafted,
+		Sound 		: BreakingWeapon,
+		Time 		: 200,
+		Category 		: Weapons,
+		AnimNode 		: BuildLow,
+	}
+	recipe Make Scrap Sword
+	{
+		SheetMetal,
+		MetalPipe/MetalBar/LeadPipe,
+		LeatherStrips=5,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: ScrapSword,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : true,
+	}
+	recipe Make Huge Scrap Pickaxe
+	{
+	    LargeBolt=3,
+		SalvagedPipe,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		Result 		: HugeScrapPickaxe,
+		Sound 		: TinCanClubCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Make Scrap Machete
+	{
+		SmallSheetMetal,
+		WoodenStick,
+		Screws=2,
+		LeatherStrips=3,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: ScrapMachete,
+		Sound 		: ScrapMacheteCrafting,
+		Time 		: 600,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give20MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Make Scrap Pickaxe
+	{
+		Plank,
+		WoodenStick,
+		LargeBolt,
+		Screws=2,
+		LeatherStrips=3,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		Result 		: ScrapPickaxe,
+		Sound 		: ScrapPickaxeCrafting,
+		Time 		: 600,
+		Category 		: Weapons,
+		SkillRequired 		: Woodwork=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Make Big Scrap Pickaxe
+	{
+		Plank=2,
+		WoodenStick,
+		LargeBolt=2,
+		Screws=4,
+		LeatherStrips=5,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		Result 		: BigScrapPickaxe,
+		Sound 		: BigScrapPickaxeCrafting,
+		Time 		: 800,
+		Category 		: Weapons,
+		SkillRequired 		: Woodwork=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Make Scrap Shiv
+	{
+		ScrapMetal/SmallSheetMetal,
+		RippedSheets=5,
+		Result 		: ScrapShiv,
+		Sound 		: ScrapShivCrafting,
+		Time 		: 150,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		NeedToBeLearn: true,
+	}
+	
+    recipe Sharpen Screwdriver
+	{
+		Screwdriver,
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SharpenedScrewdriver,
+		Sound 		: ScrewdriverCrafting,
+		Time 		: 500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give10MWXP,
+		NeedToBeLearn: true,
+	}
+	recipe Attach Scrap Shiv on Spear
+	{
+		SpearCrafted,
+		ScrapShiv,
+		DuctTape=2,
+		Result 		: SpearScrapShiv,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Attach Sharpened Screwdriver on Spear
+	{
+		SpearCrafted,
+		SharpenedScrewdriver,
+		DuctTape=2,
+		Result 		: SpearSharpenedScrewdriver,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Attach Scrap Machete on Spear
+	{
+		SpearCrafted,
+		ScrapMachete,
+		DuctTape=2,
+		Result 		: SpearScrapMachete,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Bind Sharpened Screwdriver on Spear
+	{
+		SpearCrafted,
+		SharpenedScrewdriver,
+		LeatherStrips/Twine,
+		Result 		: SpearSharpenedScrewdriver,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Bind Scrap Shiv on Spear
+	{
+		SpearCrafted,
+		ScrapShiv,
+		LeatherStrips/Twine,
+		Result 		: SpearScrapShiv,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Bind ScrapMachete on Spear
+	{
+		SpearCrafted,
+		ScrapMachete,
+		LeatherStrips/Twine,
+		Result 		: SpearScrapMachete,
+		Sound 		: SpearBinding,
+		Time 		: 250,
+		OnCreate 		: UpgradeSpear_OnCreate,
+		Category 		: Survivalist,
+	}
+	recipe Attach Pipes
+	{
+		MetalPipe,
+		LeadPipe,
+		Result 		: SalvagedPipe,
+		Sound 		: SalvagedPipeCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		OnGiveXP 		: Give10MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: LeadPipe,
+		NeedToBeLearn: true,
+	}
+	recipe Bind Scissors to Pipe
+	{
+		Scissors,
+		MetalPipe/MetalBar/LeadPipe,
+		LeatherStrips=5,
+		Result 		: PipewithScissors,
+		Sound 		: SpearBinding,
+		Time 		: 200,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: SawLog,
+		Prop1 		: Scissors,
+		Prop2 		: LeadPipe,
+	}
+	recipe Make TireIronAxe
+	{
+		SmallSheetMetal,
+		LugWrench,
+		MetalPipe/MetalBar/LeadPipe,
+		Screws=2,
+		LeatherStrips=3,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: TireIronAxe,
+		Sound 		: ScrapMacheteCrafting,
+		Time 		: 600,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Make Salvaged PipeWrench
+	{
+		SmallSheetMetal,
+		PipeWrench,
+		RippedSheets=3,
+		Screws=3,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		BlowTorch=1,
+		Result 		: SalvagedPipeWrench,
+		Sound 		: ScrapMacheteCrafting,
+		Time 		: 600,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Add Screws to Baseball Bat
+	{
+		BaseballBat,
+		Screws=25,
+		RippedSheets=5,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: BoltBat,
+		Sound 		: BoltBatCrafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Add Chain to Baseball Bat
+	{
+		BaseballBat,
+		Chain=1,
+		RippedSheets=5,
+		Screws=5,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ChainBat,
+		Sound 		: ChainBatCrafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Make Salvaged Crowbar
+	{
+		Crowbar,
+		ScrapMetal/SmallSheetMetal,
+		Screws=4,
+		Nails=3,
+		LeatherStrips=4,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedCrowbar,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Make Salvaged Climbing Axe
+	{
+		HandAxe,
+		ScrapMetal/SmallSheetMetal,
+		Screws=4,
+		RippedSheets=4,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedClimbingAxe,
+		Sound 		: ScrapMacheteCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=5,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: HandAxe,
+		NeedToBeLearn: true,
+	}
+	recipe Make Tin Can Club
+	{
+		Nails=25,
+		MetalPipe/MetalBar/LeadPipe,
+		TinCanEmpty,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: TinCanClub,
+		Sound 		: TinCanClubCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Sharpen Stop Sign
+	{
+		MetalPipe/MetalBar/LeadPipe=1,
+		SheetMetal,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SharpenedStopSign,
+		Sound 		: SharpenedStopSignCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Attach Gears to Pipe
+	{
+		LeadPipe=2,
+		EngineParts=3,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		Result 		: GearMace,
+		Sound 		: TinCanClubCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=6,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Attach DumbBell to Pipe
+	{
+		DumbBell,
+		MetalBar=2,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		Result 		: SalvagedSledgehammer,
+		Sound 		: TinCanClubCrafting,
+		Time 		: 1500,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=6,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn: true,
+	}
+	recipe Make Salvaged Machete
+	{
+		SmallSheetMetal=2,
+		WoodenStick,
+		LeatherStrips=5,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedMachete,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn: true,
+	}
+	recipe Make Salvaged Shiv
+	{
+		ScrapMetal,
+		SmallSheetMetal,
+		RippedSheets=5,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedShiv,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		NeedToBeLearn: true,
+	}
+	recipe Add Wire to Baseball Bat
+	{
+		BaseballBat,
+		BarbedWire,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: WireBat,
+		Sound 		: WireBatCrafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Can
+	{
+		2x4,
+		TinCanEmpty,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: 2x4Can,
+		Sound 		: 2x4Crafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Large Bolt
+	{
+		2x4,
+		LargeBolt,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: 2x4Bolt,
+		Sound 		: 2x4Crafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Screwdriver
+	{
+		2x4,
+		Screwdriver,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: 2x4Screwdriver,
+		Sound 		: 2x4Crafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Sharpened Screwdriver
+	{
+		2x4,
+		SharpenedScrewdriver,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: 2x4SScrewdriver,
+		Sound 		: 2x4Crafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Nails
+	{
+		2x4,
+		Nails=10,
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: 2x4Nail,
+		Sound 		: 2x4Crafting,
+		Time 		: 700,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+	}
+	recipe Upgrade 2x4 with Scissors
+	{
+		2x4,
+		Scissors,
+		RippedSheets=5,
+		Result 		: 2x4Scissors,
+		Sound 		: SpearBinding,
+		Time 		: 200,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=0,
+		AnimNode 		: SawLog,
+		Prop1 		: Scissors,
+		Prop2 		: 2x4,
+	}
+	recipe Make Scrap Blade
+	{
+		MetalBar,
+		Plank,
+		Screws=2,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: ScrapBlade,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	
+	recipe Make Salvaged Nightstick
+	{
+		Nightstick,
+		MetalBar,
+		Screws=4,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedNightstick,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn : True,
+	}
+	recipe Make Salvaged Spear
+	{
+		SmallSheetMetal,
+		MetalPipe/MetalBar/LeadPipe,
+		MetalPipe/MetalBar/LeadPipe,
+		LeatherStrips=15,
+		BlowTorch=1,
+		Wrench,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SpearSalvaged,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 		: BlowTorch,
+		NeedToBeLearn : True,
+	}
+	recipe Make Scrap Spear
+	{
+		SheetMetal,
+		RippedSheets=6,
+		WoodenStick=4,
+		Twine=3,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: ScrapSpear,
+		Sound 		: SpearBinding,
+		Time 		: 1050,
+		Category 		: Weapons,
+		OnGiveXP 		: Give10MWXP,
+		SkillRequired 		: MetalWelding=2,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : True,
+	}
+	recipe Swing
+	{
+		SalvagedShiv,
+		Result 		: SalvagedShivO,
+		Time 		: 5,
+		OnCreate 		: SS_Stabytime,
+	}
+	recipe Stab
+	{
+		SalvagedShivO,
+		Result 		: SalvagedShiv,
+		Time 		: 5,
+		OnCreate 		: SS_Stabytime,
+	}
+	recipe Make Glass Shiv
+	{
+		SmashedBottle,
+		RippedSheets,
+		Sound : Bottlesmash,
+		Category : Weapons,
+		Result 		: GlassShiv,
+		Time 		: 100,
+		NeedToBeLearn : False,
+	}
+	recipe Make Salvaged Blade
+	{
+		MetalBar=2,
+		SmallSheetMetal,
+		LeatherStrips=5,
+		WoodenStick,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedBlade,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=4,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : true,
+	}
+	recipe Make Salvaged Cleaver
+	{
+		MetalBar=2,
+		SmallSheetMetal,
+		LeatherStrips=5,
+		Screws=6,
+		WoodenStick,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.Drill],
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.File],
+		Result 		: SalvagedCleaver,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 1050,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,
+		NeedToBeLearn : true,
+	}	
+	recipe Make Scrap Club
+	{
+		Screws=20,
+		WoodenStick,
+		TinCanEmpty,
+		SmallSheetMetal,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: ScrapClub,
+		Sound 		: ScrapSwordCrafting,
+		Time 		: 750,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=1,
+		OnGiveXP 		: Give10MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,,
+		NeedToBeLearn: true,
+	}
+	recipe Make Salvaged Club
+	{
+		Screws=10,
+		Chain,
+		WoodenStick,
+		TinCanEmpty,
+		SmallSheetMetal=2,
+		LeatherStrips=5,
+		RippedSheets=3,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		Result 		: SalvagedClub,
+		Sound 		: ChainBatCrafting,
+		Time 		: 750,
+		Category 		: Weapons,
+		SkillRequired 		: MetalWelding=3,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BuildLow,
+		Prop1 		: Hammer,,
+		NeedToBeLearn: true,
+	}
+	
+}

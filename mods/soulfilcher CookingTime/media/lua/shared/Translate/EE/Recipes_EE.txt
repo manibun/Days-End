@@ -1,0 +1,16 @@
+Recipes_EE = {
+  	Recipe_Make_Bowl_of_Ice_Cream = "Make Bowl of Ice Cream",
+  	Recipe_Make_Corn_Batter = "Make Corn Batter",
+  	Recipe_Make_Corndog = "Make Corndog",
+  	Recipe_Make_Cupcake_Batter = "Make Cupcake Batter",
+	Recipe_Prepare_Chili = "Prepare Chili",
+	Recipe_Prepare_Cupcakes = "Prepare Cupcakes",
+	Recipe_Prepare_Drink = "Prepare Cocktail",
+	Recipe_Prepare_Juice = "Prepare Juice",
+	Recipe_Prepare_Hotdog = "Prepare Hotdog",
+	Recipe_Prepare_Ice_Cream = "Prepare Ice Cream",
+	Recipe_Prepare_Pancakes = "Prepare Pancakes",
+	Recipe_Prepare_Pizza = "Prepare Pizza",
+	Recipe_Prepare_Waffles = "Prepare Waffles",
+  	Recipe_Slice_Potato = "Slice Potato",
+}

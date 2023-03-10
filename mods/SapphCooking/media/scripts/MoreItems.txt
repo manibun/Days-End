@@ -1,0 +1,1798 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}
+	item BowlofChili
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -15,
+		Weight 		= 0.2,
+		Type 		= Food,
+		UnhappyChange 		= 30,
+		DisplayName 		= Bowl of Chili,
+		Icon 		= BowlFullMisc,
+		ReplaceOnUse 		= Bowl,
+		Carbohydrates 		= 180,
+		Proteins 		= 3,
+		Lipids 		= 3,
+		Calories 		= 200,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 		= BowlSoup_Ground,
+	}
+	item TortillaChipsinChili
+	{
+		HungerChange 		= -19,
+		Weight 		= 0.2,
+		Type 		= Food,
+		DisplayName 		= Tortilla Chips in Guacamole,
+		Icon 		= NachosinGuacamoleIcon,
+		Carbohydrates 		= 22,
+		Proteins 		= 2.5,
+		Lipids 		= 2,
+		Calories 		= 260,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 		= Chips,
+		CustomEatSound 		= EatingCrispy,
+		WorldStaticModel 		= TortillaChips_Ground,
+		UnhappyChange 		= -10,
+	}
+
+
+
+	recipe Make Minced Meat with Rabbit Meat
+	{
+		Rabbitmeat;40,
+		keep MeatCleaver/KitchenKnife/HuntingKnife,
+		Result 		: MincedMeat,
+		Time 		: 200,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Bowl of Chili
+	{
+		CannedChiliOpen;15,
+		Bowl,
+		Result 		: BowlofChili,
+		Time 		: 200,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Dip Nacho in Chili Bowl
+	{
+		TortillaChips=1,
+		BowlofChili;4,
+		Result 		: TortillaChipsinChili,
+		Time 		: 30.0,
+		NeedToBeLearn 		: false,
+		OnGiveXP 		: NoXP_OnGiveXP,
+		StopOnWalk 		: true,
+		CanBeDoneFromFloor 		: true,
+	}
+
+
+
+	/****************************** 14.07.22 ******************************/	
+
+	item TenderizedMeat
+	{
+	    DisplayCategory = Food,
+		HungerChange	=	-20,
+		Weight	=	0.15,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	50,
+		DisplayName	= Tenderized Meat,
+		Icon	=	TenderizedMeatIcon,
+		DaysFresh	=	2,
+		MinutesToCook	=	25,
+		EvolvedRecipe = Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Burger:20;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20,
+		FoodType    =   Meat,
+        	Carbohydrates = 0,
+        	Proteins = 16,
+        	Lipids = 4,
+        	Calories = 110,
+        	BadInMicrowave = true,
+        	GoodHot = true,
+        	BadCold = true,
+        	WorldStaticModel = TenderizedMeat_Ground,
+		StaticModel = H_TenderizedMeat,
+
+	}
+	item BreadCrumbs
+	{
+                DisplayCategory         = Food,
+		HungerChange		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DaysTotallyRotten	= 2,
+		DisplayName		= Bread Crumbs,
+		Icon			= BreadCrumbsIcon,
+		DaysFresh		= 1,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+       		Calories 		= 177,
+                WorldStaticModel        = BreadCrumbs_Ground,
+	}
+	item BreadedTenderizedMeat
+	{
+	    DisplayCategory = Food,
+		HungerChange	=	-30,
+		Weight	=	0.15,
+		Type	=	Food,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		DisplayName	= Breaded Tenderized Meat,
+		Icon	=	TenderizedMeatBreadedIcon,
+		DaysFresh	=	2,
+		FoodType    =   Meat,
+        	Carbohydrates = 0,
+        	Proteins = 16,
+        	Lipids = 4,
+        	Calories = 110,
+        	WorldStaticModel = BreadedTenderizedMeat_Ground,
+		StaticModel = H_BreadedTenderizedMeat,
+	}
+	item WildGarlicBreadUn
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-35,
+		Weight	=	0.3,
+		Type	=	Food,
+		MinutesToCook	=	25,
+		MinutesToBurn	=	50,
+		IsCookable	=	TRUE,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Wild Garlic Bread,
+		Icon	=	GarlicBreadIcon,
+		DaysFresh	=	3,
+        	Carbohydrates = 105,
+        	Proteins = 18.7,
+        	Lipids = 7.66,
+        	Calories = 550,
+		StaticModel = H_WildGarlicBread,
+        	WorldStaticModel = WildGarlicBread_Ground,
+		ReplaceOnCooked 		= SapphCooking.WildGarlicBreadCooked,
+	}
+	item WildGarlicBreadCooked
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-45,
+		StressChange 		= -10,
+		FatigueChange 		= -10,
+		Weight	=	0.3,
+		Type	=	Food,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Wild Garlic Bread,
+		Icon	=	GarlicBreadIcon,
+		DaysFresh	=	3,
+        	Carbohydrates = 115,
+        	Proteins = 19.7,
+        	Lipids = 7.66,
+        	Calories = 560,	
+        	WorldStaticModel = WildGarlicBread_Ground,
+	}
+	item WildGarlicBreadPiece
+	{
+		DisplayCategory = Food,
+		HungerChange	=	-15,
+		StressChange 		= -5,
+		FatigueChange 		= -5,
+		Weight	=	0.3,
+		Type	=	Food,
+		DaysTotallyRotten	=	6,
+		DisplayName	=	Slice of Wild Garlic Bread,
+		Icon	=	GarlicBreadSlicesIcon,
+		DaysFresh	=	3,
+        	Carbohydrates = 40,
+        	Proteins = 6,
+        	Lipids = 2.66,
+        	Calories = 186,
+        	WorldStaticModel = WildGarlicBreadPiece_Ground,
+		StaticModel = H_WildGarlicBreadPiece,
+	}
+	item BowlofMashedPotatoes_Meatballs
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Bowl of Mashed Potatoes with Meatballs,
+		Icon 		= BowlofMashedPotatoesMeatballsIcon,
+		Carbohydrates 		= 180,
+		Proteins 		= 25,
+		Lipids 		= 13,
+		Calories 		= 280,
+		ReplaceOnUse 		= Bowl,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_BowlMashedPotatoMeatballs,
+		WorldStaticModel 		= BowlMashedPotatoMeatballs_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -35,
+		UnhappyChange 		= -20,
+		FatigueChange 		= -20,
+		StressChange 		= -20,
+	}
+	item BowlofCandy
+	{
+		Type 		= Drainable,
+		Weight 		= 0.5,
+		DisplayName 		= Bowl of Candy,
+		Icon 		= BowlofCandyIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= BowlofCandy_Ground,
+		DisplayCategory 		= Food,
+		ReplaceOnDeplete 		= Bowl,
+		UseDelta 		= 0.2,
+		UseWhileEquipped 		= FALSE,
+	}
+	item BagofMarshmallows
+	{
+		DisplayName 		= Bag of Marshmallows,
+		Type 		= Food,
+		Icon 		= BagofMarshmallowsIcon,
+		HungerChange 		= -25,
+		Carbohydrates 		= 40,
+		Proteins 		= 2.5,
+		Lipids 		= 0,
+		Calories 		= 150,
+		WorldStaticModel 		= BagofMarshmallows_Ground,
+		Weight 		= 0.5,
+	}
+	item BowlofMarshmallows
+	{
+		Type 		= Drainable,
+		Weight 		= 0.5,
+		DisplayName 		= Bowl of Marshmallows,
+		Icon 		= BowlofMarshmallowIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= BowlofMarshmallows_Ground,
+		DisplayCategory 		= Food,
+		ReplaceOnDeplete 		= Bowl,
+		UseDelta 		= 0.2,
+		UseWhileEquipped 		= FALSE,
+	}
+	item TinofCaviar
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		StressChange 		= -10,
+		Weight 		= 0.1,
+		Type 		= Food,
+		UnhappyChange 		= 30,
+		DisplayName 		= Tin of Caviar,
+		Icon 		= TinofCaviarIcon,
+		ReplaceOnUse 		= Bowl,
+		Carbohydrates 		= 10,
+		Proteins 		= 25,
+		Lipids 		= 20,
+		Calories 		= 220,
+		CantBeFrozen 		= TRUE,
+		EatType 		= 2hand,
+		Packaged 		= TRUE,
+		WorldStaticModel 		= TinCaviar_Ground,
+		StaticModel 		= H_TinCaviar,
+	}
+	item CanofBeets
+	{
+		Type 		= Food,
+		Weight 		= 0.8,
+		DisplayName 		= Can of Sliced Beets,
+		Icon 		= CanofSlicedBeetsIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= CanofBeets_Ground,
+		DisplayCategory 		= Food,
+		CannedFood 		= true,
+		Packaged 		= true,
+		Carbohydrates 		= 50,
+		Proteins 		= 8,
+		Lipids 		= 2,
+		Calories 		= 150,
+	}
+	item OpenCanofBeets
+	{
+		Type 		= Food,
+		Weight 		= 0.8,
+		HungerChange 		= -15,
+		DisplayName 		= Open Can of Sliced Beets,
+		Icon 		= CanofSlicedBeetsOpenIcon,
+		StaticModel 		= H_CanofBeets,
+		WorldStaticModel 		= CanofBeetsOpen_Ground,
+		ReplaceOnUse		= TinCanEmpty,
+		Carbohydrates 		= 50,
+		Proteins 		= 8,
+		EatType 		= 2hand,
+		Lipids 		= 2,
+		Calories 		= 150,
+		DisplayCategory 		= Food,
+	}
+	item DicedBellPepper
+	{
+		DisplayName = Diced Bell Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = DicedTomatoIcon,
+		EvolvedRecipe = Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -8,
+		ThirstChange = -2,
+		Calories = 30,
+		Carbohydrates = 7,
+		Lipids = 0,
+		Proteins = 1,
+		WorldStaticModel = DicedPeppers_Ground,
+		Tags = Pepper,
+	}
+	item DicedCarrots
+	{
+		DisplayName = Diced Carrots,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.2,
+		Icon = DicedCarrotsIcon,
+		EvolvedRecipe = Soup:8;Stew:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8,
+		FoodType = Vegetables,
+		DaysFresh = 6,
+		DaysTotallyRotten = 8,
+		HungerChange = -8,
+		ThirstChange = -4,
+		Calories = 25,
+		Carbohydrates = 5.84,
+		Lipids = 0.15,
+		Proteins = 0.57,
+		WorldStaticModel = DicedCarrots_Ground,
+		Tags = SapphDicedVegetables,
+	}
+	item DicedBroccoli
+	{
+		DisplayName = Diced Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.2,
+		Icon = DicedBroccoliIcon,
+		EvolvedRecipe = Omelette:9;Soup:9;Stew:9;Pie:9;Stir fry Griddle Pan:9;Stir fry:9;Salad:9;Roasted Vegetables:9;RicePot:9;RicePan:9;PastaPot:9;PastaPan:9,
+		FoodType = Vegetables,
+		DaysFresh = 4,
+		DaysTotallyRotten = 6,
+		HungerChange = -9,
+		ThirstChange = -4,
+		Calories = 11,
+		Carbohydrates = 2.06,
+		Lipids = 0.11,
+		Proteins = 0.87,
+		WorldStaticModel = DicedBroccoli_Ground,
+		Tags = SapphDicedVegetables,
+	}
+    	item DicedTomato
+	{
+	  	DisplayCategory = Food,
+		Type		= Food,
+		DisplayName	= Diced Tomato,
+		Icon		= DicedTomatoIcon,
+		Weight		= 0.2,
+		HungerChange 		=		-12,
+		ThirstChange		=		-15,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	12,
+		EvolvedRecipe       =       Omelette:12;Soup:12;Stew:12;Pie:12;Stir fry Griddle Pan:12;Stir fry:12;Sandwich:6;Sandwich Baguette:6;Burger:6;Salad:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12;Taco:12;Burrito:12,
+		ThirstChange	=	-8,
+		FoodType    =   Vegetables,
+        	Carbohydrates = 3.53,
+       	 	Proteins = 1.29,
+       	 	Lipids = 0.21,
+        	Calories = 14,
+     		WorldStaticModel = DicedTomato_Ground,
+		Tags = SapphDicedVegetables,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Tenderize Steak
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Steak;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Tenderize Chicken
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Chicken;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Tenderize Pork
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		PorkChop;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Tenderize Mutton Chop
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		MuttonChop;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Tenderize Small Bird Meat
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Smallbirdmeat;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Tenderize Rabbit Meat
+	{
+		keep MeatTenderizer,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Rabbitmeat;20,
+		Result 		: TenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Bread Crumbs
+	{
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		BreadSlices;10,
+		Result 		: BreadCrumbs,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Breaded Tenderized Meat
+	{
+		TenderizedMeat;20,
+		BreadCrumbs;5,
+		BowlwithBeatenEggs;5,
+		Result 		: BreadedTenderizedMeat,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Wild Garlic Bread
+	{
+		Bread;30,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		WildGarlic=2,
+		Butter;5,
+		CanBeDoneFromFloor 		: true,
+		Result 		: WildGarlicBreadUn,
+		Time 		: 250,
+		SkillRequired 		: Cooking=4,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+	}
+	recipe Slice Wild Garlic Bread
+	{
+		WildGarlicBreadCooked;15,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		CanBeDoneFromFloor 		: true,
+		Result 		: WildGarlicBreadPiece,
+		Time 		: 100,
+		Category 		: Cooking,
+	}
+	recipe Put Meatballs in Bowl of Mashed Potatoes
+	{
+		MeatballsCooked;15,
+		BowlofMashedPotatoes;25,
+		Result 		: BowlofMashedPotatoes_Meatballs,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+	recipe Sterilize BandagesWok
+	{
+		Bandage,
+		WokPanWater,
+		Result 		: AlcoholBandage,
+		Time 		: 80.0,
+		Heat 		: -0.22,
+	}
+	recipe Sterilize SheetsWok
+	{
+		RipperSheets,
+		WokPanWater,
+		Result 		: AlcoholRippedSheets,
+		Time 		: 80.0,
+		Heat 		: -0.22,
+	}
+	recipe Make Bowl of Candy
+	{
+		destroy Bowl,
+		MintCandy=5,
+		Result 		: BowlofCandy,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Take Candy from Bowl
+	{
+		BowlofCandy,
+		Result 		: MintCandy,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Bowl of Marshmallow
+	{
+		destroy Bowl,
+		Marshmallows=5,
+		Result 		: BowlofMarshmallows,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Take Marshmallow from Bowl
+	{
+		BowlofMarshmallows,
+		Result 		: Marshmallows,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Take Marshmallow from Bag
+	{
+		BagofMarshmallows;5,
+		Result 		: Marshmallows,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Open Can of Beets
+	{
+		CanofBeets,
+		keep [Recipe.GetItemTypes.CanOpener],
+		Result 		: OpenCanofBeets,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: OpenCannedFood,
+	}
+	recipe Dice Bell Pepper
+	{
+		BellPepper;8,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: DicedBellPepper,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound		: FoodSlicing,
+		Prop1:Source=2,
+		Prop2:Source=1,
+	}
+	recipe Dice Carrots
+	{
+		Carrots;8,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: DicedCarrots,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound		: FoodSlicing,
+		Prop1:Source=2,
+		Prop2:Source=1,
+	}
+	recipe Dice Broccoli
+	{
+		Broccoli;9,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: DicedBroccoli,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound		: FoodSlicing,
+		Prop1:Source=2,
+		Prop2:Source=1,
+	}
+	recipe Dice Tomato
+	{
+		Tomato;12,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: DicedTomato,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound		: FoodSlicing,
+		Prop1:Source=2,
+		Prop2:Source=1,
+	}
+	recipe Remove All Bowls from Stack
+	{
+		destroy StackBowl3,
+		Result 		: Bowl=3,
+		Time 		: 60.0,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}	
+
+
+	/****************************** 14.07.22 ******************************/	
+	recipe Clean Pan
+	{
+		destroy FryingPanwithOil,
+		Result 		: Pan,
+		Time 		: 60.0,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+
+	/****************************** 30.07.22 ******************************/
+
+	item FryingPan_BaconandEggs
+	{
+		DisplayCategory 		= Food,
+		Icon 		= PanwithBaconandEggsIcon,
+		Type 		= Food,
+		Weight 		= 1.2,
+		StaticModel 		= H_FryingPanBaconEggs,
+		WorldStaticModel 		= FryingPanBaconEggs_Ground,
+		DisplayName 		= Frying Pan with Bacon and Eggs,
+		FatigueChange 		= -5,
+		UnhappyChange 		= -5,
+		HungerChange 		= -30,
+		BoredomChange 		= -5,
+		StressChange 		= -5,
+		ReplaceOnUse 		= Pan,
+		Calories 		= 288,
+		Carbohydrates 		= 15,
+		EatType 		= 2hand,
+		Lipids 		= 18,
+		Proteins 		= 20,
+	}	
+	item Plate_BaconandEggs
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Bacon and Eggs,
+		Icon 		= PlateBaconandEggsIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= Plate,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateBaconEggs,
+		WorldStaticModel 		= PlateBaconEggs_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -30,
+		UnhappyChange 		= -5,
+		FatigueChange 		= -5,
+		StressChange 		= -5,
+		BoredomChange 		= -5,
+	}
+	item PlateBlue_BaconandEggs
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Bacon and Eggs,
+		Icon 		= PlateBlueBaconandEggsIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateBlue,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateBlueBaconEggs,
+		WorldStaticModel 		= PlateBlueBaconEggs_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -30,
+		UnhappyChange 		= -5,
+		FatigueChange 		= -5,
+		StressChange 		= -5,
+		BoredomChange 		= -5,
+	}
+	item PlateOrange_BaconandEggs
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Bacon and Eggs,
+		Icon 		= PlateOrangeBaconandEggsIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateOrange,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateOrangeBaconEggs,
+		WorldStaticModel 		= PlateOrangeBaconEggs_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -30,
+		UnhappyChange 		= -5,
+		FatigueChange 		= -5,
+		StressChange 		= -5,
+		BoredomChange 		= -5,
+	}
+	item PlateFancy_BaconandEggs
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Bacon and Eggs,
+		Icon 		= PlateFancyBaconandEggsIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateFancy,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateFancyBaconEggs,
+		WorldStaticModel 		= PlateFancyBaconEggs_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -30,
+		UnhappyChange 		= -5,
+		FatigueChange 		= -5,
+		StressChange 		= -5,
+		BoredomChange 		= -5,
+	}
+	item RiceBeanBowl
+	{
+		DisplayName = Bowl of Rice and Beans,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.5,
+		Icon = BowlofBeansandRiceIcon,
+		EatType = 2hand,
+		GoodHot = true,
+		ReplaceOnUse = Bowl,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -45,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		Calories = 210,
+		Carbohydrates = 43,
+		Lipids = 2,
+		Proteins = 10,
+		StaticModel = H_BowlofRiceBeans,
+		WorldStaticModel = BowlofRiceBeans_Ground,
+	}
+	item BakingTray_CremeBrulee
+	{
+		Weight 		= 2.5,
+		Type 		= Food,
+		DaysTotallyRotten 		= 10,
+		DisplayName 		= Baking Tray with Creme Brulee Bowls,
+		Icon 		= TrayBowlYellowIcon,
+		DaysFresh 		= 3,
+		Carbohydrates 		= 60,
+		Proteins 		= 9,
+		Lipids 		= 6,
+		Calories 		= 240,
+		IsCookable 		= true,
+		MinutesToBurn 		= 60,
+		MinutesToCook 		= 30,
+		BadInMicrowave 		= true,
+		GoodHot 		= true,
+		BadCold 		= true,
+		ReplaceOnUse 		= BakingTray,
+		CantEat 		= TRUE,
+		ReplaceOnCooked 		= BakingTray;SapphCooking.CremeBruleeBowl;SapphCooking.CremeBruleeBowl;SapphCooking.CremeBruleeBowl,
+		WorldStaticModel 		= BakingTray_CremeBrulee_Ground,
+	}
+	item CremeBruleeBowl
+	{
+		DisplayName = Bowl of Creme Brulee,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofCremeBruleeIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -10,
+		ThirstChange 		= -25,
+		UnhappyChange = -10,
+		BoredomChange 	= -10,
+		StressChange 	= -10,
+		Calories = 80,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofCremeBrulee,
+		WorldStaticModel = BowlofCremeBrulee_Ground,
+	}
+	item BakingTray_CaramelPudding
+	{
+		Weight 		= 2.5,
+		Type 		= Food,
+		DaysTotallyRotten 		= 10,
+		DisplayName 		= Baking Tray with Bowls of Caramel Pudding,
+		Icon 		= TrayBowlYellowIcon,
+		DaysFresh 		= 3,
+		Carbohydrates 		= 60,
+		Proteins 		= 9,
+		Lipids 		= 6,
+		Calories 		= 240,
+		IsCookable 		= true,
+		MinutesToBurn 		= 60,
+		MinutesToCook 		= 30,
+		BadInMicrowave 		= true,
+		GoodHot 		= true,
+		BadCold 		= true,
+		ReplaceOnUse 		= BakingTray,
+		CantEat 		= TRUE,
+		ReplaceOnCooked 		= BakingTray;SapphCooking.CaramelPuddingBowl;SapphCooking.CaramelPuddingBowl;SapphCooking.CaramelPuddingBowl,
+		WorldStaticModel 		= BakingTray_CremeBrulee_Ground,
+	}
+	item CaramelPuddingBowl
+	{
+		DisplayName = Bowl of Caramel Pudding,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofCaramelPuddingIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -10,
+		ThirstChange 		= -25,
+		UnhappyChange = -10,
+		BoredomChange 	= -10,
+		StressChange 	= -10,
+		Calories = 80,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofPuddingCaramel,
+		WorldStaticModel = BowlofPuddingCaramel_Ground,
+	}
+	item BakingTray_ChocolatePudding
+	{
+		Weight 		= 2.5,
+		Type 		= Food,
+		DaysTotallyRotten 		= 10,
+		DisplayName 		= Baking Tray with Bowls of Chocolate Pudding,
+		Icon 		= TrayBowlBrownIcon,
+		DaysFresh 		= 3,
+		Carbohydrates 		= 60,
+		Proteins 		= 9,
+		Lipids 		= 6,
+		Calories 		= 240,
+		IsCookable 		= true,
+		MinutesToBurn 		= 60,
+		MinutesToCook 		= 30,
+		BadInMicrowave 		= true,
+		GoodHot 		= true,
+		BadCold 		= true,
+		ReplaceOnUse 		= BakingTray,
+		CantEat 		= TRUE,
+		ReplaceOnCooked 		= BakingTray;SapphCooking.ChocolatePuddingBowl;SapphCooking.ChocolatePuddingBowl;SapphCooking.ChocolatePuddingBowl,
+		WorldStaticModel 		= BakingTray_ChocolatePudding_Ground,
+	}
+	item ChocolatePuddingBowl
+	{
+		DisplayName = Bowl of Chocolate Pudding,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofChocolatePuddingIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -15,
+		ThirstChange 		= -25,
+		UnhappyChange = -10,
+		BoredomChange 	= -10,
+		StressChange 	= -10,
+		Calories = 80,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofPuddingChocolate,
+		WorldStaticModel = BowlofPuddingChocolate_Ground,
+	}
+	item Jello_Lime
+    	{
+        	DisplayCategory = Food,
+        	Weight	=	1,
+        	Type	=	Food,
+        	HungerChange    =   -10,
+        	UnhappyChange   =   10,
+        	ThirstChange    =   60,
+        	DisplayName	= Jello Lime Gelatin Mix,
+        	Icon	=	BoxJelloLimeIcon,
+        	EvolvedRecipe   =   HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        	Carbohydrates = 10,
+        	Proteins = 1,
+        	Lipids = 0,
+        	Calories = 20,
+        	Packaged = TRUE,
+        	WorldStaticModel = BoxJello_Lime_Ground,
+   	 }
+	item Jello_Strawberry
+    	{
+        	DisplayCategory = Food,
+        	Weight	=	1,
+        	Type	=	Food,
+        	HungerChange    =   -10,
+        	UnhappyChange   =   10,
+        	ThirstChange    =   60,
+        	DisplayName	= Jello Strawberry Gelatin Mix,
+        	Icon	=	BoxJelloStrawberryIcon,
+        	EvolvedRecipe   =   HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        	Carbohydrates = 10,
+        	Proteins = 1,
+        	Lipids = 0,
+        	Calories = 20,
+        	Packaged = TRUE,
+        	WorldStaticModel = BoxJello_Strawberry_Ground,
+   	 }
+	item Jello_Orange
+    	{
+        	DisplayCategory = Food,
+        	Weight	=	1,
+        	Type	=	Food,
+        	HungerChange    =   -10,
+        	UnhappyChange   =   10,
+        	ThirstChange    =   60,
+        	DisplayName	= Jello Orange Gelatin Mix,
+        	Icon	=	BoxJelloOrangeIcon,
+        	EvolvedRecipe   =   HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        	Carbohydrates = 10,
+        	Proteins = 1,
+        	Lipids = 0,
+        	Calories = 20,
+        	Packaged = TRUE,
+        	WorldStaticModel = BoxJello_Orange_Ground,
+   	 }
+	item Jello_Grape
+    	{
+        	DisplayCategory = Food,
+        	Weight	=	1,
+        	Type	=	Food,
+        	HungerChange    =   -10,
+        	UnhappyChange   =   10,
+        	ThirstChange    =   60,
+        	DisplayName	= Jello Grape Gelatin Mix,
+        	Icon	=	BoxJelloGrapeIcon,
+        	EvolvedRecipe   =   HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        	Carbohydrates = 10,
+        	Proteins = 1,
+        	Lipids = 0,
+        	Calories = 20,
+        	Packaged = TRUE,
+        	WorldStaticModel = BoxJello_Grape_Ground,
+   	 }
+	item Jello_Pineapple
+    	{
+        	DisplayCategory = Food,
+        	Weight	=	1,
+        	Type	=	Food,
+        	HungerChange    =   -10,
+        	UnhappyChange   =   10,
+        	ThirstChange    =   60,
+        	DisplayName	= Jello Pineapple Gelatin Mix,
+        	Icon	=	BoxJelloPineappleIcon,
+        	EvolvedRecipe   =   HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+        	Carbohydrates = 10,
+        	Proteins = 1,
+        	Lipids = 0,
+        	Calories = 20,
+        	Packaged = TRUE,
+        	WorldStaticModel = BoxJello_Pineapple_Ground,
+   	 }
+	item BowlJello_Lime
+	{
+		DisplayName = Bowl of Lime Jello,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofJelloLimeIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		HungerChange = -8,
+		ThirstChange 	= -50,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 40,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofJello_Lime,
+		WorldStaticModel = BowlofJello_Lime_Ground,
+	}
+	item BowlJello_Strawberry
+	{
+		DisplayName = Bowl of Strawberry Jello,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofJelloStrawberryIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		HungerChange = -8,
+		ThirstChange 	= -50,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 40,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofJello_Strawberry,
+		WorldStaticModel = BowlofJello_Strawberry_Ground,
+	}
+	item BowlJello_Orange
+	{
+		DisplayName = Bowl of Orange Jello,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofJelloOrangeIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		HungerChange = -8,
+		ThirstChange 	= -50,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 40,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofJello_Orange,
+		WorldStaticModel = BowlofJello_Orange_Ground,
+	}
+	item BowlJello_Grape
+	{
+		DisplayName = Bowl of Lime Jello,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofJelloGrapeIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		HungerChange = -2,
+		ThirstChange 	= -50,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 40,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofJello_Grape,
+		WorldStaticModel = BowlofJello_Grape_Ground,
+	}
+	item BowlJello_Pineapple
+	{
+		DisplayName = Bowl of Pineapple Jello,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.2,
+		Icon = BowlofJelloPineappleIcon,
+		EatType = 2hand,
+		ReplaceOnUse = Bowl,
+		HungerChange = -2,
+		ThirstChange 	= -50,
+		UnhappyChange = -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 40,
+		Carbohydrates = 20,
+		Lipids = 2,
+		Proteins = 3,
+		StaticModel = H_BowlofJello_Pineapple,
+		WorldStaticModel = BowlofJello_Pineapple_Ground,
+	}
+	item BakingTray_Ladyfingers
+	{
+		Weight 		= 1.0,
+		Type 		= Food,
+		DisplayName 		= Baking Tray with Ladyfingers,
+		Icon 		= TrayLadyfingersIcon,
+		Carbohydrates 		= 60,
+		Proteins 		= 9,
+		Lipids 		= 6,
+		Calories 		= 240,
+		IsCookable 		= true,
+		MinutesToBurn 		= 60,
+		MinutesToCook 		= 30,
+		BadInMicrowave 		= true,
+		GoodHot 		= true,
+		BadCold 		= true,
+		ReplaceOnUse 		= BakingTray,
+		CantEat 		= TRUE,
+		ReplaceOnCooked 		= BakingTray;SapphCooking.Ladyfingers;SapphCooking.Ladyfingers;SapphCooking.Ladyfingers;SapphCooking.Ladyfingers;SapphCooking.Ladyfingers,
+		WorldStaticModel 		= BakingTray_Ladyfingers_Ground,
+	}
+	item Ladyfingers
+	{
+		DisplayName = Ladyfingers,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = LadyfingersIcon,
+		HungerChange = -5,
+		UnhappyChange = -2,
+		BoredomChange 	= -2,
+		Calories = 100,
+		Carbohydrates = 18,
+		Lipids = 7,
+		Proteins = 1,
+		CustomEatSound = EatingCrispy,
+		StaticModel = H_Ladyfingers,
+		WorldStaticModel = Ladyfingers_Ground,
+	}
+	item TiramisuPan
+	{
+		DisplayName = Pan of Tiramisu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = TiramisuPanIcon,
+		EatType = 2hand,
+		DaysFresh = 4,
+		DaysTotallyRotten = 7,
+		HungerChange = -60,
+		FatigueChange 	= -30,
+		UnhappyChange = -30,
+		BoredomChange 	= -30,
+		StressChange 	= -30,
+		Calories = 800,
+		Carbohydrates = 50,
+		Lipids = 48,
+		Proteins = 8,
+		StaticModel = H_TiramisuPan,
+		WorldStaticModel = TiramisuPan_Ground,
+	}
+	item TiramisuPiece
+	{
+		DisplayName = Pan of Tiramisu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = TiramisuPieceIcon,
+		DaysFresh = 4,
+		DaysTotallyRotten = 7,
+		HungerChange = -10,
+		UnhappyChange = -5,
+		FatigueChange 	= -5,
+		BoredomChange 	= -5,
+		StressChange 	= -5,
+		Calories = 130,
+		Carbohydrates = 8.5,
+		Lipids = 8,
+		Proteins = 1.3,
+		StaticModel = H_TiramisuPiece,
+		WorldStaticModel = TiramisuPiece_Ground,
+	}
+	item CannedEggs
+	{
+        	DisplayCategory = Food,
+        	Type			=	Food,
+        	DisplayName		=	Jar of Eggs,
+        	Icon			=	JarofEggsIcon,
+        	Weight			=	0.5,
+        	DaysFresh 		=	60,
+        	DaysTotallyRotten 	=	 	90,
+        	WorldStaticModel = JarofEggs_Ground,
+    	}
+	item PoutineBowl
+	{
+		DisplayName = Bowl of Poutine,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.5,
+		Icon = BowlofPoutineIcon,
+		EatType = 2hand,
+		GoodHot = true,
+		ReplaceOnUse = Bowl,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -50,
+		UnhappyChange = -15,
+		BoredomChange 	= -15,
+		StressChange 	= -10,
+		Calories = 500,
+		Carbohydrates = 115,
+		Lipids = 2,
+		Proteins = 12,
+		StaticModel = H_PoutineBowl,
+		WorldStaticModel = PoutineBowl_Ground,
+	}
+	item ChurrosDough
+	{
+		Type 		= Food,
+		DisplayName 		= Churros Dough,
+		Icon 		= CookieDoughIcon,
+		Weight 		= 0.5,
+		HungerChange 		= -20,
+		UnhappyChange 		= 5,
+		Carbohydrates 		= 100,
+		Proteins 		= 20,
+		Lipids 		= 10,
+		Calories 		= 200,
+		WorldStaticModel 		= CookieDough,
+	}
+	item ChurrosPlain
+	{
+		HungerChange		= -5,
+		UnhappyChange		= -5,
+		BoredomChange 		= -5,
+		StressChange 		= -5,
+		Weight			= 0.1,
+		Type			= Food,
+		DisplayName		= Churros,
+		DaysTotallyRotten	= 5,
+		DaysFresh 		= 3,
+		Icon			= ChurrosIcon,
+		Carbohydrates 		= 25,
+		Proteins 		= 5,
+		Lipids 			= 2,
+		Calories 		= 50,
+		StaticModel 		= H_Churros,
+		WorldStaticModel 	= Churros_Ground,
+
+	}
+	item ChurrosChocolate
+	{
+		HungerChange		= -10,
+		UnhappyChange		= -10,
+		BoredomChange 		= -10,
+		StressChange 		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DisplayName		= Churros with Chocolate,
+		DaysTotallyRotten	= 5,
+		DaysFresh 		= 3,
+		Icon			= ChurrosChocolateIcon,
+		Carbohydrates 		= 32,
+		Proteins 		= 8,
+		Lipids 			= 4,
+		Calories 		= 78,
+		StaticModel 		= H_ChurrosChocolate,
+		WorldStaticModel 	= ChurrosChocolate_Ground,
+	}
+	item Plate_HuevosRancheros
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Huevos Rancheros,
+		Icon 		= PlateHuevosRancherosIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= Plate,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateHuevos,
+		WorldStaticModel 		= PlateHuevos_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -40,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		BoredomChange 		= -10,
+	}
+	item PlateBlue_HuevosRancheros
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Huevos Rancheros,
+		Icon 		= PlateBlueHuevosRancherosIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateBlue,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateBlueHuevos,
+		WorldStaticModel 		= PlateBlueHuevos_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -40,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		BoredomChange 		= -10,
+	}
+	item PlateOrange_HuevosRancheros
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Huevos Rancheros,
+		Icon 		= PlateOrangeHuevosRancherosIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateOrange,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateOrangeHuevos,
+		WorldStaticModel 		= PlateOrangeHuevos_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -40,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		BoredomChange 		= -10,
+	}
+	item PlateFancy_HuevosRancheros
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 1,
+		Type 		= Food,
+		DisplayName 		= Plate of Huevos Rancheros,
+		Icon 		= PlateFancyHuevosRancherosIcon,
+		Carbohydrates 		= 15,
+		Proteins 		= 20,
+		Lipids 		= 18,
+		Calories 		= 288,
+		ReplaceOnUse 		= PlateFancy,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		GoodHot 		= true,
+		StaticModel 		= H_PlateFancyHuevos,
+		WorldStaticModel 		= PlateFancyHuevos_Ground,
+		EatType 		= 2hand,
+		HungerChange 		= -40,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		BoredomChange 		= -10,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Make Plate of Bacon and Eggs
+	{
+		destroy Plate,
+		FryingPan_BaconandEggs;30,
+		Result 		: Plate_BaconandEggs,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Bacon and Eggs2
+	{
+		destroy PlateBlue,
+		FryingPan_BaconandEggs;30,
+		Result 		: PlateBlue_BaconandEggs,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Bacon and Eggs3
+	{
+		destroy PlateOrange,
+		FryingPan_BaconandEggs;30,
+		Result 		: PlateOrange_BaconandEggs,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Bacon and Eggs4
+	{
+		destroy PlateFancy,
+		FryingPan_BaconandEggs;30,
+		Result 		: PlateFancy_BaconandEggs,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+
+	recipe Cook Bacon and Eggs
+	{
+		[Recipe.GetItemTypes.SapphCookingEgg];14,
+		Bacon;12,
+		destroy FryingPanwithOil,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		Result 		: FryingPan_BaconandEggs,
+		Time 		: 250,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		SkillRequired 		: Cooking=1,
+		Sound 		: FryingSounds,
+		Heat 		: -0.22,
+		CanBeDoneFromFloor 		: true,
+		AnimNode:Disassemble,
+		Prop1: Source=4,
+		Prop2: Cooking_FryingPanBaconEggs,
+	}
+	recipe Make Sausages
+	{
+		MincedMeat;20,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: Sausage,
+		Time 		: 300,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+		SkillRequired 		: Cooking=5,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Put Rice in Bowl of Beans
+	{
+		destroy Bowl,
+		BeanBowl;25,
+		[Recipe.GetItemTypes.SapphCookingRiceBowl];20,
+		Result 		: RiceBeanBowl,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+	recipe Make Tray of Creme Brulee Bowls
+	{
+		destroy Bowl=3,
+		destroy BakingTray,
+		[Recipe.GetItemTypes.Milk];5,
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		BowlwithBeatenEggs;21,
+		Result 		: BakingTray_CremeBrulee,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		Sound 		: WhiskBowl,
+		StopOnWalk 		: false,
+		SkillRequired 		: Cooking=4,
+		Prop1:Source=5,
+		Prop2:Source=1,
+	}
+	recipe Make Tray of Caramel Pudding
+	{
+		destroy Bowl=3,
+		destroy BakingTray,
+		[Recipe.GetItemTypes.Milk];5,
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		BowlwithBeatenEggs;21,
+		Result 		: BakingTray_CaramelPudding,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		Sound 		: WhiskBowl,
+		StopOnWalk 		: false,
+		SkillRequired 		: Cooking=3,
+		Prop1:Source=5,
+		Prop2:Source=1,
+	}
+	recipe Make Tray of Caramel Pudding
+	{
+		destroy Bowl=3,
+		destroy BakingTray,
+		[Recipe.GetItemTypes.Milk];5,
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		BowlwithBeatenEggs;21,
+		SaucepanwithMeltedChocolate;10,
+		Result 		: BakingTray_ChocolatePudding,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		Sound 		: WhiskBowl,
+		StopOnWalk 		: false,
+		SkillRequired 		: Cooking=3,
+		Prop1:Source=5,
+		Prop2:Source=1,
+	}
+	recipe Make Bowl of Lime Jello
+	{
+		Jello_Lime;2,
+		Water=2,
+		destroy Bowl,
+		Result 		: BowlJello_Lime,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+		AnimNode:Disassemble,
+		Prop1:Source=2,
+		Prop2:Source=3,
+	}
+	recipe Make Bowl of Strawberry Jello
+	{
+		Jello_Strawberry;2,
+		Water=2,
+		destroy Bowl,
+		Result 		: BowlJello_Strawberry,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+		AnimNode:Disassemble,
+		Prop1:Source=2,
+		Prop2:Source=3,
+	}
+	recipe Make Bowl of Orange Jello
+	{
+		Jello_Orange;2,
+		Water=2,
+		destroy Bowl,
+		Result 		: BowlJello_Orange,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+		AnimNode:Disassemble,
+		Prop1:Source=2,
+		Prop2:Source=3,
+	}
+	recipe Make Bowl of Grape Jello
+	{
+		Jello_Grape;2,
+		Water=2,
+		destroy Bowl,
+		Result 		: BowlJello_Grape,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+		AnimNode:Disassemble,
+		Prop1:Source=2,
+		Prop2:Source=3,
+	}
+	recipe Make Bowl of Pineapple Jello
+	{
+		Jello_Pineapple;2,
+		Water=2,
+		destroy Bowl,
+		Result 		: BowlJello_Pineapple,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+		AnimNode:Disassemble,
+		Prop1:Source=2,
+		Prop2:Source=3,
+	}
+	recipe Make Tray of Ladyfingers
+	{
+		destroy BakingTray,
+		BowlwithBeatenEggs;21,
+		[Recipe.GetItemTypes.Milk];5,
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		Result 		: BakingTray_Ladyfingers,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		Sound 		: WhiskBowl,
+		StopOnWalk 		: false,
+		SkillRequired 		: Cooking=3,
+		Prop1:Source=5,
+		Prop2:Source=2,
+	}
+	recipe Make Pan of Tiramisu
+	{
+		destroy BakingPan,
+		BowlwithBeatenEggs;21,
+		[Recipe.GetItemTypes.Milk];5,
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		[Recipe.GetItemTypes.SapphCookingCoffeeCup];5,
+		CreamCheese;5,
+		Ladyfingers;10,
+		CocoaPowder;5,
+		keep Spatula/Spoon/Fork/ButterKnife/PlasticSpork/WoodenSpoon,
+		Result 		: TiramisuPan,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking3,
+		Sound 		: WhiskBowl,
+		StopOnWalk 		: false,
+		SkillRequired 		: Cooking=3,
+		Prop1:Source=5,
+		Prop2:Source=2,
+	}
+	recipe Slice Tiramisu Piece
+	{
+		TiramisuPan;10,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		CanBeDoneFromFloor 		: true,
+		Result 		: TiramisuPiece,
+		Time 		: 100,
+		Category 		: Cooking,
+	}
+   	recipe Make Jar of Eggs
+   	{
+        	EmptyJar,
+        	JarLid,
+        	Egg;35,
+        	Water=10,
+        	Vinegar=2,
+        	[Recipe.GetItemTypes.Sugar];1,
+        	Result		: CannedEggs,
+        	Time		: 100.0,
+        	Category:Cooking,
+        	OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    	}
+   	 recipe Open Jar of Eggs
+    	{
+        	CannedEggs,
+        	Result:Egg=5,
+        	Time:30.0,
+        	Category:Cooking,
+       		OnCreate:Recipe.OnCreate.OpenCannedFood,
+        	OnGiveXP:Recipe.OnGiveXP.None,
+    	}
+	recipe Make Bowl of Poutine
+	{
+		destroy Bowl,
+		HomemadeFries;40,
+		Gravy;2,
+		[Recipe.GetItemTypes.SapphCookingCheese];10,
+		Result 		: PoutineBowl,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+	recipe Make Churros Dough
+	{
+		BowlwithBeatenEggs;10,
+		Butter;5,
+		SugarBrown;2,
+		keep RollingPin,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Flour,
+		Result 		: ChurrosDough,
+		NeedToBeLearn 		: false,
+		Time 		: 300,
+		Category 		: Cooking,
+		SkillRequired 		: Cooking=2,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+	}
+	recipe Fry Churros
+	{
+		keep KitchenTongs/Fork/Chopsticks,
+		ChurrosDough,
+		SaucepanwithOil,
+		CanBeDoneFromFloor 		: true,
+		Result 		: ChurrosPlain=5,
+		Time 		: 250,
+		Heat 		: -0.22,
+		Category 		: Cooking,
+		Sound 		: FryingSounds,
+		AnimNode:Disassemble,
+		Prop1: Source=1,
+		Prop2:Cooking_SaucepanOil,
+	}
+	recipe Dip Churros in Chocolate
+	{
+		ChurrosPlain;5,
+		SaucepanwithMeltedChocolate;5,
+		Result 		: ChurrosChocolate,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Huevos Rancheros
+	{
+		destroy Plate,
+		FriedEgg;20,
+		RefriedBeans;10,
+		Tortilla;5,
+		HomemadeKetchup;5,
+		Result 		: Plate_HuevosRancheros,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Huevos Rancheros2
+	{
+		destroy PlateBlue,
+		FriedEgg;20,
+		RefriedBeans;10,
+		Tortilla;5,
+		HomemadeKetchup;5,
+		Result 		: PlateBlue_HuevosRancheros,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Huevos Rancheros3
+	{
+		destroy PlateOrange,
+		FriedEgg;20,
+		RefriedBeans;10,
+		Tortilla;5,
+		HomemadeKetchup;5,
+		Result 		: PlateOrange_HuevosRancheros,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Plate of Huevos Rancheros4
+	{
+		destroy PlateFancy,
+		FriedEgg;20,
+		RefriedBeans;10,
+		Tortilla;5,
+		HomemadeKetchup;5,
+		Result 		: PlateFancy_HuevosRancheros,
+		Time 		: 50.0,
+		CanBeDoneFromFloor 		: true,
+	}
+
+
+
+}

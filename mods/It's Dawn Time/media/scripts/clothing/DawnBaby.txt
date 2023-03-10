@@ -1,0 +1,16 @@
+module Base
+{
+    item DawnBaby
+    {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+        DisplayName = Tiny Desk Dawn,
+        ClothingItem = DawnBaby,
+        BodyLocation = Scarf,
+        Icon = DawnBaby,
+        Weight = 0.1,
+        Cosmetic = TRUE,
+        WorldStaticModel = DawnBaby,
+		Tooltip = UI_Item_DawnBaby_Description,
+    }
+}

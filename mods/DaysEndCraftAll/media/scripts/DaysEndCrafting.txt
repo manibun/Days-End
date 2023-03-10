@@ -1,0 +1,4128 @@
+module DaysEndCraftAll
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Extract Seeds from Potatoes
+	{
+		Potato,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+
+		Result:PotatoSeed=5,
+		Time:30.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Extract Seeds from Strawberry
+	{
+		Strewberrie,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+
+		Result:StrewberrieSeed=15,
+		Time:50.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Extract Seeds from Tomato
+	{
+		Tomato,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+
+		Result:TomatoSeed=15,
+		Time:50.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Put Apples in Sacks
+	{
+		EmptySandbag,
+		Apple=12,
+
+		Result:SackProduce_Apple,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Bell Peppers in Sacks
+	{
+		EmptySandbag,
+		BellPepper=12,
+
+		Result:SackProduce_BellPepper,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Broccoli in Sacks
+	{
+		EmptySandbag,
+		Broccoli=12,
+
+		Result:SackProduce_Broccoli,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Cabbages in Sacks
+	{
+		EmptySandbag,
+		Cabbage=8,
+
+		Result:SackProduce_Cabbage,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Carrots in Sacks
+	{
+		EmptySandbag,
+		Carrots=12,
+
+		Result:SackProduce_Carrot,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Corn in Sacks
+	{
+		EmptySandbag,
+		Corn=12,
+
+		Result:SackProduce_Corn,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Cherries in Sacks
+	{
+		EmptySandbag,
+		Cherry=16,
+
+		Result:SackProduce_Cherry,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Eggplants in Sacks
+	{
+		EmptySandbag,
+		Eggplant=12,
+
+		Result:SackProduce_Eggplant,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Grapes in Sacks
+	{
+		EmptySandbag,
+		Grapes=12,
+
+		Result:SackProduce_Grapes,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Leeks in Sacks
+	{
+		EmptySandbag,
+		Leek=12,
+
+		Result:SackProduce_Leek,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Lettuce in Sacks
+	{
+		EmptySandbag,
+		Lettuce=8,
+
+		Result:SackProduce_Lettuce,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Onions in Sacks
+	{
+		EmptySandbag,
+		Onion=12,
+
+		Result:SackProduce_Onion,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Peaches in Sacks
+	{
+		EmptySandbag,
+		Peach=12,
+
+		Result:SackProduce_Peach,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Pears in Sacks
+	{
+		EmptySandbag,
+		Pear=12,
+
+		Result:SackProduce_Pear,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Potatoes in Sacks
+	{
+		EmptySandbag,
+		Potato=12,
+
+		Result:SackProduce_Potato,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Red Radishes in Sacks
+	{
+		EmptySandbag,
+		RedRadish=12,
+
+		Result:SackProduce_RedRadish,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Strawberries in Sacks
+	{
+		EmptySandbag,
+		Strewberrie=16,
+
+		Result:SackProduce_Strawberry,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Put Tomatoes in Sacks
+	{
+		EmptySandbag,
+		Tomato=12,
+
+		Result:SackProduce_Tomato,
+		Time:20.0,
+		Category:Farming,
+	}
+
+	recipe Make Compost from Coffee
+	{
+		Coffee2,
+		Dirtbag=3,
+		EmptySandbag,
+		keep Shovel/Shovel2,
+
+		Result:CompostBag,
+		Time:300.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Make Compost from Banana
+	{
+		Banana=3,
+		Dirtbag=3,
+		EmptySandbag,
+		keep KitchenKnife/HuntingKnife,
+		keep Shovel/Shovel2,
+
+		Result:CompostBag,
+		Time:600.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Make Compost from Fish
+	{
+		BaitFish=10,
+		Dirtbag=3,
+		EmptySandbag,
+		keep KitchenKnife/HuntingKnife,
+		keep Shovel/Shovel2,
+
+		Result:CompostBag,
+		Time:600.0,
+		Category:Farming,
+		OnGiveXP:Get1FarmingXP,
+	}
+
+	recipe Make Box of Jars
+	{
+		OldTire1/NormalTire1/ModernTire1/OldTire2/NormalTire2/ModernTire2/OldTire3/NormalTire3/ModernTire3,
+		Sandbag=4,
+		Charcoal=2,
+		CampfireKit,
+		BlowTorch=1,
+		Pot,
+		keep MetalPipe,
+		keep MetalBar,
+		keep WeldingMask,
+
+		CanBeDoneFromFloor:true,
+		Result:BoxOfJars,
+		Time:1800.0,
+		Category:Survivalist,
+	}
+
+	recipe Chip a Stone
+	{
+		Stone,
+		keep Stone,
+
+		Result:SharpedStone,
+		Time:300.0,
+		Category:Survivalist,
+	}
+
+	recipe Make SheetRope from Sheet
+	{
+		Sheet,
+
+		Result:SheetRope,
+		Time:10.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Tarp
+	{
+		Garbagebag=6,
+		DuctTape=2,
+		keep KitchenKnife/HuntingKnife/Scissors,
+		keep Screwdriver,
+
+		Result:Tarp,
+		Time:800.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Tarp
+	{
+		Sheet,
+		PlasterPowder,
+		Water=10,
+		keep Pot/BucketEmpty,
+		keep Paintbrush,
+
+		Result:Tarp,
+		Time:500.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Purple Light Bulb
+	{
+		LightBulb=5,
+		PaintPurple,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbPurple=5,
+		Time:500.0,
+	}
+
+	recipe Make Red Light Bulb
+	{
+		LightBulb=5,
+		PaintRed,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbRed=5,
+		Time:500.0,
+	}
+
+	recipe Make Green Light Bulb
+	{
+		LightBulb=5,
+		PaintGreen,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbGreen=5,
+		Time:500.0,
+	}
+
+	recipe Make Blue Light Bulb
+	{
+		LightBulb=5,
+		PaintBlue,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbBlue=5,
+		Time:500.0,
+	}
+
+	recipe Make Yellow Light Bulb
+	{
+		LightBulb=5,
+		PaintYellow,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbYellow=5,
+		Time:500.0,
+	}
+
+	recipe Make Cyan Light Bulb
+	{
+		LightBulb=5,
+		PaintCyan,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbCyan=5,
+		Time:500.0,
+	}
+
+	recipe Make Magenta Light Bulb
+	{
+		LightBulb=5,
+		PaintPink,
+		PaintPurple,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbMagenta=5,
+		Time:500.0,
+	}
+
+	recipe Make Orange Light Bulb
+	{
+		LightBulb=5,
+		PaintOrange,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbOrange=5,
+		Time:500.0,
+	}
+
+	recipe Make Pink Light Bulb
+	{
+		LightBulb=5,
+		PaintPink,
+		Water=5,
+		keep EmptyJar,
+		keep Paintbrush,
+
+		Result:LightBulbPink=5,
+		Time:500.0,
+	}
+
+	recipe Mix Gray Paint
+	{
+		PaintBlack=2,
+		PaintWhite=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintGrey,
+		Time:200.0,
+	}
+
+	recipe Mix Green Paint
+	{
+		PaintBlue=2,
+		PaintYellow=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintGreen,
+		Time:200.0,
+	}
+
+	recipe Mix Light Blue Paint
+	{
+		PaintBlue=2,
+		PaintWhite=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintLightBlue,
+		Time:200.0,
+	}
+
+	recipe Mix Purple Paint
+	{
+		PaintBlue=2,
+		PaintRed=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintPurple,
+		Time:200.0,
+	}
+
+	recipe Mix Brown Paint
+	{
+		PaintPurple=2,
+		PaintYellow=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintBrown,
+		Time:200.0,
+	}
+
+	recipe Mix Light Brown Paint
+	{
+		PaintBrown=2,
+		PaintWhite=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintLightBrown,
+		Time:200.0,
+	}
+
+	recipe Mix Orange Paint
+	{
+		PaintRed=2,
+		PaintYellow=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintOrange,
+		Time:200.0,
+	}
+
+	recipe Mix Pink Paint
+	{
+		PaintRed=2,
+		PaintWhite=2,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintPink,
+		Time:200.0,
+	}
+
+	recipe Mix Turquoise Paint
+	{
+		PaintGreen=2,
+		PaintBlue=1,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintTurquoise,
+		Time:200.0,
+	}
+
+	recipe Mix Cyan Paint
+	{
+		PaintTurquoise=2,
+		PaintWhite=1,
+		PaintbucketEmpty/BucketEmpty,
+		keep WoodenStick,
+
+		Result:PaintCyan,
+		Time:200.0,
+	}
+
+	recipe Make Gas Can
+	{
+		Garbagebag=1,
+		DuctTape=2,
+		BleachEmpty=3,
+		keep KitchenKnife/HuntingKnife/Scissors,
+
+		Result:EmptyPetrolCan,
+		Time:1000.0,
+		Category:Survivalist,
+	}
+
+
+	recipe Make Plaster Powder
+	{
+		Plasticbag/Garbagebag,
+		Water=20,
+		Glue=4,
+		Flour=4,
+		keep Pot,
+		keep WoodenStick,
+
+		Result:PlasterPowder,
+		Time:800.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Bags of Gravel
+	{
+		EmptySandbag=3,
+		Stone=50,
+		keep Hammer/BallPeenHammer/Sledgehammer,
+
+		Result:Gravelbag=3,
+		Time:1600.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Bags of Sand
+	{
+		EmptySandbag=3,
+		Stone=50,
+		keep Hammer/BallPeenHammer/Sledgehammer,
+
+		Result:Sandbag=3,
+		Time:3200.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Bags of Sand
+	{
+		Gravelbag=3,
+		keep Hammer/BallPeenHammer/Sledgehammer,
+
+		Result:Sandbag=3,
+		Time:1600.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Concrete Powder
+	{
+		EmptySandbag=3,
+		Gravelbag=4,
+		Dirtbag=1,
+		Sandbag=2,
+		keep Pot,
+		keep MetalBar,
+		keep CampfireKit,
+
+		Result:ConcretePowder=3,
+		Time:1600.0,
+		Category:Survivalist,
+	}
+
+	recipe Worm Grunting
+    {
+        keep Stake,
+		keep MetalBar,
+
+        Result:Worm=5,
+        Time:400.0,
+        Category:Survivalist,
+    }
+
+	recipe Make Glue
+    {
+        PopBottleEmpty/WaterBottleEmpty,
+		Water=20,
+		Rice;10,
+		keep MortarPestle,
+
+        Result:Glue,
+        Time:300.0,
+        Category:Survivalist,
+    }
+
+	recipe Get Sheets of Paper
+	{
+		Journal,
+
+		Result:SheetPaper2=20,
+		Time:60.0,
+	}
+
+	recipe Get Sheets of Paper
+	{
+		Notebook,
+
+		Result:SheetPaper2=10,
+		Time:30.0,
+	}
+
+	recipe Bind Notebook
+	{
+		SheetPaper2=10,
+		Wire=1,
+
+		Result:Notebook,
+		Time:60.0,
+	}
+
+	recipe Bind Journal
+	{
+		SheetPaper2=20,
+		Wire=1,
+
+		Result:Journal,
+		Time:120.0,
+	}
+
+	recipe Make Garbagebag
+	{
+		Plasticbag,
+		keep KitchenKnife/HuntingKnife/Scissors,
+
+		Result:Garbagebag,
+		Time:200.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Garbagebag
+	{
+		Tarp,
+		keep KitchenKnife/HuntingKnife/Scissors,
+
+		Result:Garbagebag=6,
+		Time:200.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Sheet From SheetRope
+	{
+		SheetRope,
+
+		Result:Sheet,
+		Time:20.0,
+		Category:Survivalist,
+	}
+
+	recipe Make Tent Pegs
+	{
+		ScrapMetal=16,
+		Charcoal=1,
+		CampfireKit,
+		BlowTorch=1,
+		keep WeldingMask,
+		keep BallPeenHammer/Hammer,
+
+		CanBeDoneFromFloor:true,
+		Result:TentPeg=4,
+		Time:1800.0,
+		Category:Survivalist,
+	}
+
+	recipe Put Wild Eggs into Carton
+	{
+		WildEggs=12,
+		Newspaper,
+		Water=10,
+		Glue/Woodglue,
+		keep Pot,
+		keep Scissors,
+
+		Result:EggCarton,
+		Time:900.0,
+	}
+
+	recipe Make Charcoal
+	{
+		TreeBranch=12,
+		CampfireKit,
+		Lighter,
+		Dirtbag=4,
+		Water=10,
+		keep BucketEmpty,
+		keep Axe,
+
+		CanBeDoneFromFloor:true,
+		Result:Charcoal=4,
+		Time:900.0,
+		Category:Survivalist,
+	}
+
+	recipe Mix Black Paint
+	{
+		Charcoal=4,
+		Water=20,
+		keep BucketEmpty,
+		keep EmptySandbag,
+		keep MortarPestle,
+		keep Hammer/BallPeenHammer,
+
+		CanBeDoneFromFloor:true,
+		Result:PaintBlack,
+		Time:700.0,
+	}
+
+	recipe Make Barbed Wire
+	{
+		Wire=2,
+		Nails=50,
+		keep Wrench/LugWrench,
+		BlowTorch=2,
+		keep WeldingMask,
+
+		Result:BarbedWire,
+		Time:1200.0,
+		Category:Survivalist,
+	}
+
+	recipe Straighten Suture Needle for Needle
+	{
+		SutureNeedle,
+		keep BallPeenHammer/Hammer,
+		keep Scissors,
+
+		Result:Needle,
+		Time:600.0,
+		Category:Tailoring,
+	}
+
+	recipe Pull Yarn from a Sweater Vest
+	{
+		Jumper_TankTopTINT/Jumper_TankTopDiamondTINT,
+		keep Scissors,
+
+		Result:Yarn=3,
+		Time:500.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Pull Yarn from a Sweater
+	{
+		Jumper_VNeck/Jumper_RoundNeck,
+		keep Scissors,
+
+		Result:Yarn=4,
+		Time:500.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Pull Yarn from Polo Neck Sweaters
+	{
+		Jumper_PoloNeck=2,
+		keep Scissors,
+
+		Result:Yarn=5,
+		Time:500.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Pull Yarn from Hoodies
+	{
+		HoodieUP_WhiteTINT/HoodieDOWN_WhiteTINT,
+		keep Scissors,
+
+		Result:Yarn=5,
+		Time:500.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Pull Cotton Balls from Pillow
+	{
+		Pillow,
+		keep Scissors,
+
+		Result:CottonBalls=60,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Stitch up a Sheet
+	{
+		Thread=2,
+		RippedSheets=8,
+		keep Needle,
+		keep Scissors,
+
+		Result:Sheet,
+		Time:1000.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Sheet from Skirts
+	{
+		Thread=2,
+		Skirt_Long,
+		Skirt_Long,
+		keep Needle,
+		keep Scissors,
+
+		Result:Sheet,
+		Time:800.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Make Sling
+	{
+		LeatherStrips=2,
+		Belt2,
+		Thread=2,
+		Wire=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Sling,
+		Time:900.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Belt
+	{
+		LeatherStrips=4,
+		SmallSheetMetal,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+		keep LetterOpener/Screwdriver/HolePuncher,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Belt2,
+		Time:600.0,
+		SkillRequired:Tailoring=1;MetalWelding=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Single Holster
+	{
+		LeatherStrips=2,
+		Belt2,
+		Thread=4,
+		keep Needle,
+		keep Scissors,
+
+		Result:HolsterSimple,
+		Time:900.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Reclaim Belt From Single Holster
+	{
+		HolsterSimple,
+
+		Result:Belt2,
+		Time:100.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Reclaim Belt From Double Holster
+	{
+		HolsterDouble,
+
+		Result:Belt2,
+		Time:100.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Make Double Holster
+	{
+		LeatherStrips=2,
+		Belt2,
+		Thread=4,
+		keep Needle,
+		keep Scissors,
+
+		Result:HolsterDouble,
+		Time:900.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make RecoilPad
+	{
+		LeatherStrips=5,
+		CottonBalls=10,
+		Thread=4,
+		keep Needle,
+		keep Scissors,
+
+		Result:RecoilPad,
+		Time:1800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Ammo Straps
+	{
+		LeatherStrips=4,
+		Belt2,
+		Thread=3,
+		keep Needle,
+		keep Scissors,
+
+		Result:AmmoStrap_Bullets,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Ammo Straps
+	{
+		LeatherStrips=4,
+		Belt2,
+		Thread=3,
+		keep Needle,
+		keep Scissors,
+
+		Result:AmmoStrap_Shells,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make a Sack
+	{
+		Sheet=5,
+		Thread=30,
+		Rope/SheetRope,
+		keep Needle,
+		keep Scissors,
+
+		Result:EmptySandbag,
+		Time:600.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+
+	recipe Make Long Gloves
+	{
+		Sheet,
+		Thread=5,
+		keep Needle,
+		keep Scissors,
+
+		Result:Gloves_LongWomenGloves,
+		Time:1400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Leather Gloves
+	{
+		LeatherStrips=10,
+		JacketLong_Random/Jacket_Black,
+		Thread=5,
+		keep Needle,
+		keep Scissors,
+
+		Result:Gloves_LeatherGloves=2,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Scarf
+	{
+		keep KnittingNeedles,
+		Yarn=2,
+		keep Scissors,
+
+		Result:Scarf_White,
+		Time:1200.0,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Open Balaclava
+	{
+		keep KnittingNeedles,
+		Yarn=3,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_BalaclavaFace,
+		Time:1200.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Winter Gloves
+	{
+		keep KnittingNeedles,
+		Yarn=3,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Gloves_WhiteTINT,
+		Time:1200.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Balaclava
+	{
+		keep KnittingNeedles,
+		Yarn=3,
+		Thread=1,
+		keep Scissors,
+
+		Result:Hat_BalaclavaFull,
+		Time:1600.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Beany
+	{
+		keep KnittingNeedles,
+		Yarn,
+		keep Scissors,
+
+		Result:Hat_Beany,
+		Time:1200.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Winter Hat
+	{
+		DenimStrips=8,
+		Thread=2,
+		Yarn=2,
+		keep Scissors,
+		keep KnittingNeedles,
+		keep Needle,
+
+		Result:Hat_WinterHat,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Woolly Hat
+	{
+		keep KnittingNeedles,
+		Yarn=3,
+		keep Scissors,
+
+		Result:Hat_WoolyHat,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Miner Hat
+	{
+		Hat_HardHat,
+		DuctTape=2,
+		Torch,
+		keep Scissors,
+
+		Result:Hat_HardHat_Miner,
+		Time:300.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Knit Long Socks
+	{
+		keep KnittingNeedles,
+		Yarn=4,
+		keep Scissors,
+
+		Result:Socks_Long,
+		Time:1000.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Sweater Vest
+	{
+		keep KnittingNeedles,
+		Yarn=4,
+		Thread=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Jumper_TankTopTINT,
+		Time:1000.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Knit Fancy Sweater Vest
+	{
+		keep KnittingNeedles,
+		Yarn=4,
+		Thread=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Jumper_TankTopDiamondTINT,
+		Time:1200.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Hoodie
+	{
+		Yarn=8,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:HoodieDOWN_WhiteTINT,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Hoodie
+	{
+		Yarn=8,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:HoodieDOWN_WhiteTINT,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit V-Neck Sweater
+	{
+		Yarn=8,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:Jumper_VNeck,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Round Neck Sweater
+	{
+		Yarn=8,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:Jumper_RoundNeck,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Polo Neck Sweater
+	{
+		Yarn=8,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:Jumper_PoloNeck,
+		Time:1600.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Knit Diamond Pattened Sweater
+	{
+		Yarn=8,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+		keep KnittingNeedles,
+
+		Result:Jumper_DiamondPatternTINT,
+		Time:2000.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get8TailoringXP,
+	}
+
+	recipe Sew on Sleeves
+	{
+		Sheet,
+		Vest_DefaultTEXTURE/Tshirt_DefaultDECAL/Tshirt_DefaultTEXTURE,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tshirt_WhiteLongSleeve,
+		Time:900.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Sew on Sleeves
+	{
+		Sheet,
+		Vest_DefaultTEXTURE_TINT/Tshirt_DefaultDECAL_TINT/Tshirt_DefaultTEXTURE_TINT/Tshirt_WhiteTINT,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tshirt_WhiteLongSleeveTINT,
+		Time:900.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Star Party Hat
+	{
+		RubberBand=2,
+		Magazine,
+		Glue/Woodglue,
+		keep Scissors,
+
+		Result:Hat_PartyHat_Stars,
+		Time:200.0,
+		Category:Tailoring,
+        OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Make Party Hat
+	{
+		RubberBand=2,
+		Magazine,
+		Glue/Woodglue,
+		keep Scissors,
+
+		Result:Hat_PartyHat_TINT,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Make Shower Cap
+	{
+		RubberBand,
+		Garbagebag/Tarp/Plasticbag,
+		Glue/Woodglue,
+		keep Scissors,
+
+		Result:Hat_ShowerCap,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:Get1TailoringXP,
+	}
+
+	recipe Make Sweat Band
+	{
+		RubberBand=2,
+		BathTowel,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_Sweatband,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bruce Lee Styled Bandana
+	{
+		RippedSheets,
+		RippedSheets,
+		RippedSheets,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_BandanaTiedTINT,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bandana
+	{
+		RippedSheets=3,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_Bandana,
+		Time:300.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bandana
+	{
+		DishCloth,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_BandanaTINT,
+		Time:100.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Coloured Face Bandana
+	{
+		RippedSheets,
+		RippedSheets,
+		RippedSheets,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_BandanaMaskTINT,
+		Time:300.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Dust Mask
+	{
+		PopBottleEmpty/WaterBottleEmpty,
+		Hat_BaseballCap/Hat_BaseballCapKY,
+		Thread=2,
+		Glue/Woodglue,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_DustMask,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Visor
+	{
+		PopBottleEmpty/WaterBottleEmpty,
+		Hat_Sweatband,
+		RippedSheets=3,
+		Thread=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_VisorBlack,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Gas Mask
+	{
+		Glasses_SwimmingGoggles,
+		Hat_BaseballCap/Hat_BaseballCapKY,
+		LeatherStrips=2,
+		Sheet,
+		Garbagebag/Tarp,
+		PopBottleEmpty/WaterBottleEmpty,
+		PopBottleEmpty/WaterBottleEmpty,
+		CottonBalls=10,
+		Sponge,
+		Thread=2,
+		PaintBlack=1,
+		Glue/Woodglue,
+		keep Paintbrush,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_GasMask,
+		Time:800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get8TailoringXP,
+	}
+
+	recipe Make Box of Nails
+	{
+		Newspaper,
+		ScrapMetal=10,
+		keep Saw,
+		keep Scissors,
+		keep Hammer/BallPeenHammer,
+		keep PipeWrench/Tongs,
+		keep BlowTorch,
+
+		Result:NailsBox,
+		Time:1200.0,
+		SkillRequired:MetalWelding=1,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Box of Nails
+	{
+		Newspaper,
+		UnusableMetal=10,
+		keep Saw,
+		keep Scissors,
+		keep Hammer/BallPeenHammer,
+		keep PipeWrench/Tongs,
+		keep BlowTorch,
+
+		Result:NailsBox,
+		Time:1200.0,
+		SkillRequired:MetalWelding=1,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Metal Bar
+	{
+		Golfclub,
+		keep Saw,
+		keep PipeWrench/Tongs,
+
+		Result:MetalBar,
+		Time:600.0,
+		SkillRequired:MetalWelding=1,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Hockey Mask
+	{
+		Rope,
+		SheetMetal,
+		Thread=1,
+		keep Needle,
+		keep Saw,
+		keep Scissors,
+		keep Screwdriver,
+		keep Hammer/BallPeenHammer,
+		keep BlowTorch,
+
+		Result:Hat_HockeyMask,
+		Time:800.0,
+		SkillRequired:MetalWelding=2,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Welder Mask
+	{
+		LeatherStrips=1,
+		SheetMetal,
+		SmallSheetMetal=2,
+		Glasses_SkiGoggles/Glasses_SafetyGoggles,
+		Thread=1,
+		keep Needle,
+		keep Saw,
+		keep Scissors,
+		keep Hammer/BallPeenHammer,
+
+		Result:WeldingMask,
+		Time:800.0,
+		SkillRequired:MetalWelding=2,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Ear Muffs
+	{
+		DeadSquirrel/DeadRabbit,
+		Headphones,
+		CottonBalls=20,
+		Thread=3,
+		Twine=1,
+		Water=10,
+		CampfireKit,
+		keep BucketEmpty,
+		keep Pot,
+		keep KitchenKnife/HuntingKnife,
+		keep Needle,
+		keep Scissors,
+
+		Result:Hat_EarMuffs,
+		Time:2000.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Baseball Cap
+	{
+		RippedSheets=4,
+		Thread=2,
+		Hat_VisorBlack/Hat_VisorRed/Hat_Visor_WhiteTINT,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_BaseballCap,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Baseball Cap
+	{
+		RippedSheets=4,
+		Thread=2,
+		Hat_VisorBlack/Hat_VisorRed/Hat_Visor_WhiteTINT,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_BaseballCapKY,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Beret
+	{
+		RippedSheets=6,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_Beret,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Golf Cap
+	{
+		RippedSheets=5,
+		Thread=2,
+		Button,
+		Hat_VisorBlack/Hat_VisorRed/Hat_Visor_WhiteTINT,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_GolfHat,
+		Time:1000.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Golf Cap
+	{
+		RippedSheets=5,
+		Thread=2,
+		Button,
+		Hat_VisorBlack/Hat_VisorRed/Hat_Visor_WhiteTINT,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_GolfHatTINT,
+		Time:1000.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Chef Hat
+	{
+		RippedSheets=8,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_ChefHat,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Fast Food Hat
+	{
+		RippedSheets=8,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_FastFood,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Ice Cream Hat
+	{
+		RippedSheets=8,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_FastFood_IceCream,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Weave Summer Hat
+	{
+		Rope=2,
+		Thread=4,
+		Glue/Woodglue,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_SummerHat,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bonnie Hat
+	{
+		DenimStrips=8,
+		Thread=4,
+		Twine=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Hat_BonnieHat,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Fedora
+	{
+		LeatherStrips=10,
+		Thread=4,
+		PopBottleEmpty/WaterBottleEmpty,
+		PopBottleEmpty/WaterBottleEmpty,
+		Glue/Woodglue,
+		Water=5,
+		keep Scissors,
+		keep Needle,
+		keep CampfireKit,
+
+		Result:Hat_Fedora,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Black Band Fedora
+	{
+		LeatherStrips=10,
+		Thread=4,
+		PopBottleEmpty/WaterBottleEmpty,
+		PopBottleEmpty/WaterBottleEmpty,
+		Glue/Woodglue,
+		Water=5,
+		keep Scissors,
+		keep Needle,
+		keep CampfireKit,
+
+		Result:Hat_Fedora_Delmonte,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Cowboy Hat
+	{
+		LeatherStrips=12,
+		Thread=4,
+		Twine=2,
+		PopBottleEmpty/WaterBottleEmpty,
+		PopBottleEmpty/WaterBottleEmpty,
+		Glue/Woodglue,
+		Water=5,
+		keep Scissors,
+		keep Needle,
+		keep CampfireKit,
+
+		Result:Hat_Cowboy,
+		Time:1500.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get8TailoringXP,
+	}
+
+	recipe Make Fingerless Gloves
+	{
+		RippedSheets=10,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Gloves_FingerlessGloves,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make White Apron
+	{
+		Sheet,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Apron_White,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Black Apron
+	{
+		Sheet,
+		Thread=1,
+		PaintBlack=1,
+		keep Paintbrush,
+		keep Scissors,
+		keep Needle,
+
+		Result:Apron_Black,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Waistcoat
+	{
+		Sheet,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Vest_Waistcoat,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Grey Hunting Vest
+	{
+		Vest_Waistcoat/Vest_Waistcoat_GigaMart,
+		RippedSheets=8,
+		Button=8,
+		PaintGrey=1,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Vest_Hunting_Grey,
+		Time:600.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Orange Hunting Vest
+	{
+		Vest_Waistcoat/Vest_Waistcoat_GigaMart,
+		RippedSheets=6,
+		Button=6,
+		PaintOrange=1,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Vest_Hunting_Orange,
+		Time:600.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+
+	recipe Make Camo Hunting Vest
+	{
+		Vest_Waistcoat/Vest_Waistcoat_GigaMart,
+		RippedSheets=8,
+		Button=8,
+		PaintGreen=1,
+		PaintYellow=1,
+		PaintBlack=1,
+		PaintLightBrown=1,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Vest_Hunting_Camo,
+		Time:800.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Green Camo Hunting Vest
+	{
+		Vest_Waistcoat/Vest_Waistcoat_GigaMart,
+		RippedSheets=8,
+		Button=8,
+		PaintGreen=1,
+		PaintYellow=1,
+		PaintBlack=1,
+		PaintTurquoise=1,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Vest_Hunting_CamoGreen,
+		Time:800.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Bullet Proof Vest
+	{
+		Vest_Waistcoat=2,
+		Thread=2,
+		Belt2=2,
+		SmallSheetMetal=10,
+		keep Scissors,
+		keep Needle,
+
+		Result:Vest_BulletCivilian,
+		Time:800.0,
+		SkillRequired:Tailoring=3;MetalWelding=1,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Slippers
+	{
+		BathTowel=2,
+		Magazine,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shoes_Slippers,
+		Time:800.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Flip Flops
+	{
+		Magazine=2,
+		Glue/Woodglue,
+		keep Scissors,
+
+		Result:Shoes_FlipFlop,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Tie
+	{
+		RippedSheets=2,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tie_Full,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Clip-on Tie
+	{
+		RippedSheets=2,
+		Thread=1,
+		Wire=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tie_Worn,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bow Tie
+	{
+		RippedSheets=1,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tie_BowTieFull,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Clip-on Bow Tie
+	{
+		RippedSheets=1,
+		Thread=1,
+		Wire=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Tie_BowTieWorn,
+		Time:400.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Bath Robe
+	{
+		BathTowel=3,
+		Thread=2,
+		keep Scissors,
+		keep Needle,
+
+		Result:LongCoat_Bathrobe,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Chef Jacket
+	{
+		Sheet,
+		Thread=4,
+		Button=8,
+		keep Scissors,
+		keep Needle,
+
+		Result:Jacket_Chef,
+		Time:1200.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Chef Pants
+	{
+		Sheet,
+		Button,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+
+		Result:Trousers_Chef,
+		Time:1200.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Chef Pants
+	{
+		Trousers/Trousers_DefaultTEXTURE/Trousers_DefaultTEXTURE_HUE/Trousers_DefaultTEXTURE_TINT,
+		PaintBlack=1,
+		PaintWhite=1,
+		keep Paintbrush,
+
+		Result:Trousers_Chef,
+		Time:500.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Suit Pants
+	{
+		Sheet,
+		Button,
+		PaintBlack=1,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Trousers_Suit,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Textured Suit Pants
+	{
+		Sheet,
+		Button,
+		PaintBlack=1,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Trousers_SuitTEXTURE,
+		Time:800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Denim Shorts
+	{
+		DenimStrips=6,
+		Button,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shorts_ShortDenim,
+		Time:1000.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Long Denim Shorts
+	{
+		DenimStrips=8,
+		Button,
+		Thread=1,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shorts_LongDenim,
+		Time:1200.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Cloth Jacket
+	{
+		Sheet,
+		Sheet,
+		Thread=4,
+		Button=6,
+		keep Scissors,
+		keep Needle,
+
+		Result:Jacket_NavyBlue,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Suit Jacket
+	{
+		Sheet,
+		Sheet,
+		PaintBlack=1,
+		Button=6,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Suit_Jacket,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Wedding Jacket
+	{
+		Sheet,
+		Sheet,
+		PaintBlack=1,
+		Button=6,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:WeddingJacket,
+		Time:1800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Wedding Dress
+	{
+		Sheet,
+		Sheet,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+
+		Result:WeddingDress,
+		Time:1800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make White Suit Pants
+	{
+		Sheet,
+		PaintWhite=1,
+		Button,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Trousers_SuitWhite,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Black Pants
+	{
+		Sheet,
+		PaintBlack=1,
+		Thread=4,
+		Button,
+		keep Scissors,
+		keep Needle,
+		keep Paintbrush,
+
+		Result:Trousers_Black,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Long Johns
+	{
+		Sheet,
+		Thread=6,
+		Button=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:LongJohns,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Formal Shirt
+	{
+		Sheet,
+		Button=8,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shirt_FormalWhite,
+		Time:1600.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Workman Shirt
+	{
+		Sheet,
+		Button=8,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shirt_Workman,
+		Time:800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Denim Jeans
+	{
+		DenimStrips=12,
+		Button,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:TrousersMesh_DenimLight,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Jeans
+	{
+		DenimStrips=12,
+		Button,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Trousers_Denim,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Baggy Jeans
+	{
+		DenimStrips=14,
+		Button,
+		Thread=3,
+		keep Scissors,
+		keep Needle,
+
+		Result:Trousers_JeanBaggy,
+		Time:1200.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Padded Jacket
+	{
+		CottonBalls=80,
+		Shirt_Denim/Shirt_Workman,
+		Sheet,
+		Thread=8,
+		keep Scissors,
+		keep Needle,
+
+		Result:Jacket_Padded,
+		Time:2400.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Padded Pants
+	{
+		Trousers/Trousers_DefaultTEXTURE/Trousers_DefaultTEXTURE_HUE/Trousers_DefaultTEXTURE_TINT,
+		CottonBalls=60,
+		Sheet,
+		Thread=6,
+		keep Scissors,
+		keep Needle,
+
+		Result:Trousers_Padded,
+		Time:2200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Overalls
+	{
+		Shorts_LongDenim/TrousersMesh_DenimLight/Trousers_Denim/Trousers_JeanBaggy,
+		DenimStrips=8,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+
+		Result:Dungarees,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Denim Shirt
+	{
+		Button=8,
+		DenimStrips=16,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shirt_Denim,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Lumberjack Shirt
+	{
+		Button=8,
+		RippedSheets=16,
+		Thread=4,
+		keep Scissors,
+		keep Needle,
+
+		Result:Shirt_Lumberjack,
+		Time:1200.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+        OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Spiffo Suit
+	{
+		Sheet=2,
+		Thread=6,
+		PaintOrange=1,
+		PaintBrown=1,
+		CottonBalls=100,
+		keep Needle,
+		keep Scissors,
+		keep Paintbrush,
+
+		Result:SpiffoSuit,
+		Time:2800.0,
+		SkillRequired:Tailoring=5,
+		Category:Tailoring,
+        OnGiveXP:Get11TailoringXP,
+	}
+
+	recipe Make Spiffo Suit Head
+	{
+		Sheet=2,
+		Thread=6,
+		PaintOrange=1,
+		PaintBrown=1,
+		CottonBalls=50,
+		keep Needle,
+		keep Scissors,
+		keep Paintbrush,
+
+		Result:Hat_Spiffo,
+		Time:2500.0,
+		SkillRequired:Tailoring=5,
+		Category:Tailoring,
+        OnGiveXP:Get11TailoringXP,
+	}
+
+	recipe Make Schoolbag
+	{
+		DenimStrips=2,
+		Shirt_Denim/Shirt_Workman,
+		Thread=3,
+		Twine=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_Schoolbag,
+		Time:1800.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Seed Bag
+	{
+		DenimStrips=4,
+		Thread=1,
+		Twine=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:SeedBag,
+		Time:800.0,
+		SkillRequired:Tailoring=1,
+		Category:Tailoring,
+        OnGiveXP:Get1TailoringXP,
+	}
+
+
+	recipe Make Fanny Pack
+	{
+		DenimStrips=7,
+		Belt2,
+		Thread=3,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_FannyPackFront,
+		Time:1500.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Duffelbag
+	{
+		Rope,
+		Shirt_Denim/Shirt_Workman,
+		Thread=3,
+		Twine=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_DuffelBag,
+		Time:1500.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Duffelbag
+	{
+		Rope,
+		Shirt_Denim/Shirt_Workman,
+		Thread=3,
+		Twine=1,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_DuffelBagTINT,
+		Time:1500.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get2TailoringXP,
+	}
+
+	recipe Make Handbag
+	{
+		LeatherStrips=5,
+		Thread=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Handbag,
+		Time:1200.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+        OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Purse
+	{
+		LeatherStrips=6,
+		Thread=3,
+		Rope,
+		keep Needle,
+		keep Scissors,
+
+		Result:Purse,
+		Time:1800.0,
+		SkillRequired:Tailoring=2,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Hiking Bag
+	{
+		Sheet=5,
+		Belt2=2,
+		Thread=3,
+		Twine=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_NormalHikingBag,
+		Time:1800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Satchel
+	{
+		JacketLong_Random/Jacket_Black,
+		Thread=3,
+		Rope,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_Satchel,
+		Time:1800.0,
+		SkillRequired:Tailoring=3,
+		Category:Tailoring,
+		OnGiveXP:Get4TailoringXP,
+	}
+
+	recipe Make Big Hiking Bag
+	{
+		DenimStrips=6,
+		Shirt_Denim/Shirt_Workman,
+		Belt2,
+		Thread=4,
+		Twine=2,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_BigHikingBag,
+		Time:1800.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get6TailoringXP,
+	}
+
+	recipe Make Large Bag
+	{
+		LeatherStrips=8,
+		RippedSheets=15,
+		Belt2,
+		Thread=8,
+		keep Needle,
+		keep Scissors,
+
+		Result:Bag_ALICEpack,
+		Time:2100.0,
+		SkillRequired:Tailoring=4,
+		Category:Tailoring,
+		OnGiveXP:Get11TailoringXP,
+	}
+
+	recipe EMPTY BAG FIRST Convert to Female model
+	{
+		Bag_SurvivorBag,
+
+		Result:Bag_ALICEpack,
+		Time:15.0,
+		Category:Tailoring,
+	}
+
+	recipe Make Riding Boots
+	{
+		Jacket_Black,
+		Thread=4,
+		Glue/Woodglue,
+		DenimStrips=20,
+		Twine=1,
+		keep Pen/BluePen/RedPen,
+		keep WhiskeyEmpty/WineEmpty2/WineEmpty,
+		keep CampfireKit,
+		keep Needle,
+		keep Scissors,
+		keep Screwdriver,
+
+		Result:Shoes_RidingBoots,
+		Time:1800.0,
+		SkillRequired:Tailoring=5,
+		Category:Tailoring,
+		OnGiveXP:Get11TailoringXP,
+	}
+
+	recipe Make Black Boots
+	{
+		Jacket_Black,
+		Thread=4,
+		Glue/Woodglue,
+		DenimStrips=20,
+		Twine=1,
+		keep Pen/BluePen/RedPen,
+		keep WhiskeyEmpty/WineEmpty2/WineEmpty,
+		keep CampfireKit,
+		keep Needle,
+		keep Scissors,
+		keep Screwdriver,
+
+		Result:Shoes_BlackBoots,
+		Time:1800.0,
+		SkillRequired:Tailoring=5,
+		Category:Tailoring,
+		OnGiveXP:Get11TailoringXP,
+	}
+
+
+	recipe Make Mouse Trap
+	{
+		Plank,
+		Wire=2,
+		Thread=1,
+		keep Screwdriver,
+		keep Saw,
+		keep Needle,
+
+		Result:TrapMouse,
+		Time:1000.0,
+		SkillRequired:Woodwork=4,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+
+	}
+
+	recipe Carve Wood Buttons
+	{
+		TreeBranch,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+		keep Screwdriver/LetterOpener/HolePuncher,
+
+		Result:Button=10,
+		Time:1200.0,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make Wood Chopping Board
+	{
+		Plank,
+		Glue/Woodglue,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:CuttingBoardWooden,
+		Time:600.0,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Knitting Needles
+	{
+		WoodenStick=2,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:KnittingNeedles,
+		Time:600.0,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Hockey Stick
+	{
+		Log=2,
+		RippedSheets=2,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:HockeyStick,
+		Time:1600.0,
+		SkillRequired:Woodwork=4,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Ice Hockey Stick
+	{
+		Log=2,
+		RippedSheets=2,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:IceHockeyStick,
+		Time:1600.0,
+		SkillRequired:Woodwork=4,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make LaCrosse Stick
+	{
+		TennisRacket,
+		Twine=1,
+		RippedSheets=2,
+		MetalBar,
+		keep WeldingMask,
+		keep Saw,
+		keep BlowTorch,
+		keep KitchenKnife/HuntingKnife/Scissors,
+		keep Hammer/BallPeenHammer,
+
+		Result:LaCrosseStick,
+		Time:1600.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Carve Baseball Bat
+	{
+		Log,
+		RippedSheets=2,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:BaseballBat,
+		Time:1000.0,
+		SkillRequired:Woodwork=2,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Canoe Paddle
+	{
+		Log,
+		PaintBlack=1,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:CanoePadel,
+		Time:1200.0,
+		SkillRequired:Woodwork=3,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Combine Canoe Paddles
+	{
+		Log,
+		CanoePadel=2,
+		DuctTape=1,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:CanoePadelX2,
+		Time:800.0,
+		SkillRequired:Woodwork=2,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Canoe Paddle Double
+	{
+		Log=3,
+		PaintBlack=1,
+		keep Axe/HandAxe/AxeStone,
+		keep Saw/GardenSaw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:CanoePadelX2,
+		Time:1600.0,
+		SkillRequired:Woodwork=5,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make Screw Driver
+	{
+		LetterOpener,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+
+		Result:Screwdriver,
+		Time:300.0,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make Crowbar
+	{
+		MetalBar,
+		keep Hammer/BallPeenHammer,
+		keep Screwdriver,
+
+		Result:Crowbar,
+		Time:500.0,
+		SkillRequired:MetalWelding=4,
+		Category:Welding,
+		OnGiveXP:Give5MetalWeldingXP,
+	}
+
+	recipe Make Scissors
+	{
+		ButterKnife=2,
+		Screws,
+		RippedSheets=2,
+		keep Hammer/BallPeenHammer,
+		keep Screwdriver,
+
+		Result:Scissors,
+		Time:600.0,
+		SkillRequired:Woodwork=2,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Wooden Bowls
+	{
+		Log,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Bowl=4,
+		Time:1200.0,
+		SkillRequired:Woodwork=1,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make Box of Matches
+	{
+		Twigs=4,
+		Newspaper/Aluminum,
+		Glue/Woodglue,
+		GunPowder=1,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Matches,
+		Time:800.0,
+		SkillRequired:Woodwork=1,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Carve Rolling Pin
+	{
+		Log,
+		WoodenStick,
+		Woodglue/Glue,
+		keep Axe,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:RollingPin,
+		Time:1200.0,
+		SkillRequired:Woodwork=2,
+		Category:Carpentry,
+		OnGiveXP:Give5WoodworkXP,
+	}
+
+	recipe Make Alcohol Wipes
+	{
+		RippedSheets/Bandage,
+		Disinfectant,
+		Aluminum/Plasticbag/Garbagebag,
+		Lighter,
+		keep KitchenKnife/HuntingKnife,
+		keep Scissors,
+
+		Result:AlcoholWipes=2,
+		Time:1800.0,
+		Category:Health,
+		OnGiveXP:Get1DoctorXP,
+	}
+
+	recipe Make Alcohol Wipes
+	{
+		RippedSheets/Bandage,
+		WhiskeyFull;5,
+		Aluminum/Plasticbag/Garbagebag,
+		Lighter,
+		keep KitchenKnife/HuntingKnife,
+		keep Scissors,
+
+		Result:AlcoholWipes=2,
+		Time:1800.0,
+		Category:Health,
+		OnGiveXP:Get1DoctorXP,
+	}
+
+	recipe Suture Needle
+	{
+		Needle,
+		Thread=1,
+		keep MetalPipe/MetalBar,
+		keep Hammer/BallPeenHammer,
+		keep Scissors,
+
+		Result:SutureNeedle,
+		Time:800.0,
+		SkillRequired:Doctor=1,
+		Category:Health,
+	}
+
+	recipe Make Homemade Disinfectant from Poultice
+	{
+		WildGarlicCataplasm=2,
+		PlantainCataplasm=2,
+		Water=10,
+		CampfireKit,
+		PopBottleEmpty/WaterBottleEmpty,
+		keep Sheet,
+		keep Pot,
+
+		Result:Disinfectant,
+		Time:1000.0,
+		SkillRequired:Doctor=1,
+		Category:Health,
+		OnGiveXP:Get4DoctorXP,
+	}
+
+	recipe Freeze Bourbon for Disinfectant
+	{
+		WhiskeyFull,
+		keep Coldpack,
+
+		Result:Disinfectant,
+		Time:1600.0,
+		SkillRequired:Doctor=1,
+		Category:Health,
+		OnGiveXP:Get1DoctorXP,
+	}
+
+	recipe Make Disinfectant from Bourbon with Salt
+	{
+		WhiskeyFull,
+		Salt;2,
+
+		Result:Disinfectant,
+		Time:600.0,
+		SkillRequired:Doctor=3,
+		Category:Health,
+		OnGiveXP:Get2DoctorXP,
+	}
+
+	recipe Suture Needle Holder
+	{
+		Scissors,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+		keep Saw,
+		keep Screwdriver,
+
+		Result:SutureNeedleHolder,
+		Time:800.0,
+		SkillRequired:Doctor=2;MetalWelding=1,
+		Category:Health,
+		OnGiveXP:Get6DoctorXP,
+	}
+
+	recipe Tweezers
+	{
+		SmallSheetMetal=1,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+		keep Saw,
+
+		Result:Tweezers,
+		Time:600.0,
+		SkillRequired:Doctor=1;MetalWelding=1,
+		Category:Health,
+		OnGiveXP:Get6DoctorXP,
+	}
+
+	recipe Steam Bourbon for Disinfectant
+	{
+		WhiskeyFull,
+		CampfireKit,
+		PopBottleEmpty/WaterBottleEmpty,
+		keep Pot,
+		keep Rope,
+		keep WoodenStick=3,
+		keep BucketEmpty,
+		keep Plasticbag/Garbagebag/Tarp,
+
+		Result:Disinfectant,
+		Time:1600.0,
+		SkillRequired:Doctor=1;Cooking=3,
+		Category:Health,
+		OnGiveXP:Get6DoctorXP,
+	}
+
+	recipe Extract Antibiotics from Moldy Bread
+	{
+		BreadSlices=6,
+		Aluminum,
+		AlcoholRippedSheets,
+		keep Bowl,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+
+		Result:Antibiotics=2,
+		Time:1800.0,
+		SkillRequired:Doctor=4;Cooking=6,
+		Category:Health,
+		OnGiveXP:Get6DoctorXP,
+	}
+
+	recipe Make Herbal Antibiotics
+	{
+		WildGarlic=3,
+		Honey;10,
+		Aluminum,
+		AlcoholRippedSheets,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+		keep RollingPin,
+		keep MortarPestle,
+
+		Result:Antibiotics=2,
+		Time:1600.0,
+		SkillRequired:Doctor=3;Cooking=6,
+		Category:Health,
+		OnGiveXP:Get8DoctorXP,
+	}
+
+	recipe Make Vitamins
+	{
+		Rosehips=5,
+		Lemon/Orange,
+		BerryBlue=5,
+		Carrots,
+		Honey;10,
+		Sugar;1,
+		EmptyJar,
+		JarLid,
+		AlcoholRippedSheets,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+		keep Hammer/BallPeenHammer,
+		keep Pot,
+		keep MortarPestle,
+
+		Result:PillsVitamins=2,
+		Time:1600.0,
+		SkillRequired:Doctor=3;Cooking=5,
+		Category:Health,
+		OnGiveXP:Get8DoctorXP,
+	}
+
+	recipe Make Natural Antidepressants
+	{
+		FishFillet=2,
+		SunflowerSeeds=2,
+		Peanuts=2,
+		AlcoholRippedSheets,
+		Water=5,
+		EmptyJar,
+		JarLid,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+		keep RollingPin,
+		keep MortarPestle,
+
+		Result:PillsAntiDep,
+		Time:1600.0,
+		SkillRequired:Doctor=2;Cooking=4,
+		Category:Health,
+		OnGiveXP:Get8DoctorXP,
+	}
+
+	recipe Make Natural Beta Blockers
+	{
+		WildGarlic=3,
+		Banana,
+		Potato,
+		FishFillet,
+		BerryBlue=5,
+		AlcoholRippedSheets,
+		Water=5,
+		EmptyJar,
+		JarLid,
+		keep KitchenKnife/HuntingKnife/ButterKnife,
+		keep RollingPin,
+		keep MortarPestle,
+
+		Result:PillsBeta,
+		Time:1600.0,
+		SkillRequired:Doctor=3;Cooking=5,
+		Category:Health,
+		OnGiveXP:Get8DoctorXP,
+	}
+
+	recipe Seal Tomato Can
+	{
+		CannedTomatoOpen,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedTomato2,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Potato Can
+	{
+		CannedPotatoOpen,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedPotato2,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Peas Can
+	{
+		CannedPeasOpen=2,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=2,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedPeas=2,
+		Time:100.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Carrots Can
+	{
+		CannedCarrotsOpen,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedCarrots2,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Corn Can
+	{
+		CannedCornOpen,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedCorn,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Soup Can
+	{
+		TinnedSoupOpen=4,
+		Vinegar=1,
+		Salt;1,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:TinnedSoup=4,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Mushroom Soup Can
+	{
+		CannedMushroomSoupOpen,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedMushroomSoup,
+		Time:60.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Sardines Cans
+	{
+		CannedSardinesOpen=2,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=2,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedSardines=2,
+		Time:120.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Tuna Can
+	{
+		TunaTinOpen=3,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:TunaTin=3,
+		Time:120.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Chili Can
+	{
+		CannedChiliOpen=3,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedChili=3,
+		Time:160.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal Spaghetti Bolognese Can
+	{
+		CannedBologneseOpen=3,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep MortarPestle,
+		keep Saw,
+
+		Result:CannedBolognese=3,
+		Time:180.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Seal CornedBeef Can
+	{
+		CannedCornedBeefOpen=3,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:CannedCornedBeef=3,
+		Time:180.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Crude Contraption For Butter
+	{
+		Milk;10,
+		Salt;2,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal,
+		JarLid,
+		MetalBar,
+		Fork/Spoon,
+		keep TinCanEmpty,
+		keep WeldingMask,
+		Aluminum,
+		keep Spoon,
+		keep Saw,
+		keep Screwdriver,
+
+		Result:Butter=2,
+		Time:1600.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=5;Cooking=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Fishing Tackles
+	{
+		Wire=1,
+		BlowTorch=1,
+		WeldingRods=1,
+		TinCanEmpty,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:FishingTackle,
+		Time:200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Iron Ingots
+	{
+		BlowTorch=1,
+		UnusableMetal=10,
+		Charcoal,
+		keep Pot,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+
+		Result:IronIngot,
+		Time:400.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Iron Ingots
+	{
+		BlowTorch=1,
+		ScrapMetal=10,
+		Charcoal,
+		keep Pot,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+
+		Result:IronIngot,
+		Time:400.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Fishing Tackles
+	{
+		Wire=1,
+		BlowTorch=1,
+		WeldingRods=1,
+		TinCanEmpty,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:FishingTackle2,
+		Time:200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Door Hinge
+	{
+		SmallSheetMetal=6,
+		MetalBar,
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver/LetterOpener,
+		keep Hammer/BallPeenHammer,
+
+		Result:Hinge=3,
+		Time:400.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Iron Sight
+	{
+		Fork,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+
+		Result:IronSight,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Choke Tube Full
+	{
+		MetalPipe/LeadPipe,
+		BlowTorch=2,
+		WeldingRods=2,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:ChokeTubeFull,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Choke Tube Improved
+	{
+		MetalPipe/LeadPipe,
+		BlowTorch=2,
+		WeldingRods=2,
+		SmallSheetMetal=3,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:ChokeTubeImproved,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+
+	recipe Make 2X Scope
+	{
+		MetalPipe/LeadPipe,
+		Glasses_Normal,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=1,
+		keep WeldingMask,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:x2Scope,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 4X Scope
+	{
+		MetalPipe/LeadPipe,
+		Glasses_Normal=2,
+		BlowTorch=2,
+		WeldingRods=2,
+		SmallSheetMetal=2,
+		keep WeldingMask,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:x4Scope,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 8X Scope
+	{
+		MetalPipe/LeadPipe,
+		Glasses_Normal=3,
+		BlowTorch=2,
+		WeldingRods=2,
+		SmallSheetMetal=4,
+		keep WeldingMask,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:x8Scope,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Garden Spray Can
+	{
+		MetalPipe=2,
+		SheetMetal,
+		SmallSheetMetal=4,
+		BlowTorch=2,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:GardeningSprayEmpty,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Propane Torch
+	{
+		MetalPipe=2,
+		MetalParts=5,
+		DuctTape=3,
+		PropaneTank=4,
+		keep Saw,
+		keep Screwdriver/LetterOpener,
+		keep PipeWrench/Tongs,
+
+		Result:BlowTorch,
+		Time:600.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+
+	recipe Make Doorknob
+	{
+		MetalPipe,
+		MetalBar,
+		Screws=8,
+		SmallSheetMetal=2,
+		BlowTorch=2,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Saw,
+		keep Screwdriver,
+
+		Result:Doorknob=2,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Weld Standard Car Hood
+	{
+		MetalPipe,
+		SheetMetal=4,
+		BlowTorch=2,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+
+		Result:EngineDoor1,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Shovel
+	{
+		WoodenStick=1,
+		SheetMetal,
+		Doorknob,
+		Woodglue/Glue,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep Saw,
+		keep KitchenKnife/HuntingKnife,
+
+		Result:Shovel2,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Trowel
+	{
+		ButterKnife,
+		SmallSheetMetal,
+		WeldingRods=1,
+		BlowTorch=1,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:HandShovel,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Trowel
+	{
+		WoodenStick,
+		SmallSheetMetal=2,
+		BlowTorch=1,
+		WeldingRods=1,
+		keep WeldingMask,
+		keep Saw,
+
+		Result:HandShovel,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+
+	recipe Make Tongs
+	{
+		BlowTorch=1,
+		MetalBar,
+		Charcoal,
+		Screws,
+		keep Screwdriver,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep LeadPipe,
+
+		Result:Tongs,
+		CanBeDoneFromFloor:true,
+		Time:200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make DumbBell
+	{
+		BlowTorch=1,
+		MetalBar,
+		IronIngot=4,
+		Charcoal,
+		WeldingRods,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:DumbBell,
+		CanBeDoneFromFloor:true,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Weld Heavy Duty Car Hood
+	{
+		MetalPipe,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+
+		Result:EngineDoor2,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Nightstick
+	{
+		BlowTorch=1,
+		MetalBar,
+		Charcoal,
+		WeldingRods,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep PipeWrench/Tongs,
+
+		Result:Nightstick,
+		CanBeDoneFromFloor:true,
+		Time:400.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Hammer
+	{
+		BlowTorch=1,
+		IronIngot,
+		WoodenStick,
+		Charcoal,
+		WeldingRods,
+		keep WeldingMask,
+		keep Screwdriver/LetterOpener,
+		keep PipeWrench/Tongs,
+
+		Result:Hammer,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Weld Sports Car Hood
+	{
+		MetalPipe,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=2,
+		keep WeldingMask,
+		keep Saw,
+		keep Hammer/BallPeenHammer,
+
+		Result:EngineDoor3,
+		Time:1600.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Hand Axe
+	{
+		BlowTorch=1,
+		MetalBar,
+		IronIngot=2,
+		Plank,
+		Charcoal,
+		WeldingRods,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:HandAxe,
+		CanBeDoneFromFloor:true,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Hand Scythe
+	{
+		BlowTorch=1,
+		MetalBar,
+		IronIngot=2,
+		Plank,
+		Charcoal,
+		WeldingRods,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:HandScythe,
+		CanBeDoneFromFloor:true,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Metal Bar
+	{
+		BlowTorch=1,
+		IronIngot=2,
+		Charcoal,
+		Water=20,
+		keep Pot,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:MetalBar,
+		CanBeDoneFromFloor:true,
+		Time:600.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Garden Hoe
+	{
+		BlowTorch=1,
+		IronIngot=3,
+		Charcoal,
+		Water=20,
+		keep Pot,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:GardenHoe,
+		CanBeDoneFromFloor:true,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Pick Axe
+	{
+		BlowTorch=1,
+		IronIngot=4,
+		Plank,
+		MetalBar,
+		Charcoal=2,
+		Water=20,
+		WeldingRods=1,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:PickAxe,
+		CanBeDoneFromFloor:true,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make BarBell
+	{
+		BlowTorch,
+		MetalBar=2,
+		IronIngot=8,
+		Charcoal=3,
+		WeldingRods,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:BarBell,
+		CanBeDoneFromFloor:true,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Meat Cleaver
+	{
+		BlowTorch=1,
+		IronIngot=2,
+		Plank,
+		Charcoal,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:MeatCleaver,
+		CanBeDoneFromFloor:true,
+		Time:800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Sledgehammer
+	{
+		BlowTorch=1,
+		IronIngot=5,
+		SpearCrafted,
+		PaintRed=1,
+		Charcoal=3,
+		WeldingRods=2,
+		Water=20,
+		keep Pot,
+		keep WeldingMask,
+		keep Hammer/BallPeenHammer,
+		keep KitchenKnife/HuntingKnife,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:Sledgehammer,
+		CanBeDoneFromFloor:true,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Machete
+	{
+		BlowTorch=1,
+		IronIngot=3,
+		Plank,
+		Charcoal=2,
+		WeldingRods,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:Machete,
+		CanBeDoneFromFloor:true,
+		Time:1000.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Fire Axe
+	{
+		BlowTorch=1,
+		IronIngot=4,
+		MetalBar,
+		Plank,
+		PaintRed=1,
+		Charcoal=2,
+		WeldingRods,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:Axe,
+		CanBeDoneFromFloor:true,
+		Time:1200.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Wood Axe
+	{
+		BlowTorch=1,
+		IronIngot=6,
+		MetalBar,
+		Log,
+		Charcoal=2,
+		WeldingRods,
+		Water=20,
+		keep Pot,
+		keep Stone,
+		keep WeldingMask,
+		keep KitchenKnife/HuntingKnife,
+		keep Hammer/BallPeenHammer,
+		keep CampfireKit,
+		keep PipeWrench/Tongs,
+
+		Result:WoodAxe,
+		CanBeDoneFromFloor:true,
+		Time:1800.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Deconstruct Small Items
+		{
+
+		PopEmpty2/PopEmptyLemon/Pop3Empty/PopOrangeEmpty/PopEmpty/Pop2Empty/PopEmpty3/EmptyBeerCan/EmptyBeerCan2/EmptyBeerCan3/EmptyBeerCan4/EnergyDrinkEmpty/EnergyDrink2Empty/EnergyDrink3Empty/EnergyDrink4Empty/EnergyDrink5Empty/CannedSoupClassicEmpty/TinCanEmpty/BeerCanEmpty,
+		keep Pliers,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+				Result           		: MetalParts=1,
+				Time             		: 200.0,
+		OnGiveXP 				: Give2MWXP,
+		Category 		        : Welding,
+		CanBeDoneFromFloor: true,
+		NeedToBeLearn: false,
+		}
+
+	recipe Battery Charger
+	{
+		BlowTorch=30,
+		Screws=12,
+		SheetMetal,
+		SmallSheetMetal=2,
+		WeldingRods=1,
+		ElectricWire=2,
+		ElectronicsScrap=50,
+		keep Screwdriver,
+
+		Result:CarBatteryCharger,
+		Time:1800.0,
+		Category:Electrical,
+		SkillRequired:Electricity=8,
+		OnGiveXP:Recipe.OnGiveXP.Electricity11,
+	}
+
+	recipe Wood Gas
+	{
+		Twigs=10,
+		TreeBranch=12,
+		Charcoal=20,
+		Lighter,
+		destroy PropaneTank,
+		keep LeadPipe/MetalPipe,
+		keep CampfireKit,
+		keep PaintbucketEmpty/Kettle,
+
+		Result:PropaneTank,
+		Time:1800.0,
+		CanBeDoneFromFloor:true,
+		Category:Survivalist,
+	}
+
+	recipe Compress Wood Gas into Fuel
+	{
+		PropaneTank=20,
+		destroy Base.EmptyPetrolCan,
+
+		Result:Base.PetrolCan,
+		Time:1800.0,
+		Category:Survivalist,	
+	}
+}

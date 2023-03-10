@@ -1,0 +1,18 @@
+UI_EN = {
+    UI_trait_AmateurElectrician = "Amateur Electrician",
+    UI_trait_AmateurElectricianDesc = "You have practiced enough, you are ready to connect generators.",
+    UI_trait_Pluviophile = "Pluviophile",
+    UI_trait_PluviophileDesc = "You love the rain. Your mood improves by being under it.",
+    UI_trait_Pluviophobia = "Pluviophobia",
+    UI_trait_PluviophobiaDesc = "You hate the rain. Your mood worsens by being under it.",
+    UI_trait_Alcoholic = "Alcoholic",
+    UI_trait_AlcoholicDesc = "You need alcohol flowing through your veins to feel good.",
+	UI_trait_Prodigy = "Natural Athlete",
+	UI_trait_ProdigyDesc = "You train Strength and Fitness faster than other people.",
+	UI_trait_PhysicallyActive = "Physically Active",
+	UI_trait_PhysicallyActiveDesc = "Energetic person. Spending energy makes you feel good.",
+	UI_trait_Sedentary = "Sedentary",
+	UI_trait_SedentaryDesc = "Inactive lifestyle. You don't like wasting energy.",
+	UI_trait_Nightmares = "Nightmares",
+	UI_trait_NightmaresDesc = "You suffer nightmares more often than others."
+}

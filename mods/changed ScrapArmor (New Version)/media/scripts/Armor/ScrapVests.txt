@@ -1,0 +1,91 @@
+module Base
+{		
+    item ScrapVest
+   	{
+        Type = Clothing,
+        DisplayName = Scrap Vest,
+        ClothingItem = ScrapVest,
+        BodyLocation = TorsoExtra,
+        Icon = ScrapVest,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 50,
+		BiteDefense = 50,
+		BulletDefense = 10,
+	    DisplayCategory = Armor,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 1.5,
+        ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = true,
+		Tooltip = Tooltip_ScrapVest,
+		Tags = MetalArmor,
+    }
+	
+	item ScrapVestPlated
+   	{
+        Type = Clothing,
+        DisplayName = Plated Scrap Vest,
+        ClothingItem = ScrapVestPlated,
+        BodyLocation = TorsoExtra,
+        Icon = ScrapVestPlated,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 90,
+		BiteDefense = 90,
+		BulletDefense = 60,
+	    DisplayCategory = Armor,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 3,
+        ConditionLowerChanceOneIn = 30,
+        ConditionMax = 30,
+        RemoveOnBroken = true,
+		Tooltip = Tooltip_ScrapVest,
+		Tags = MetalArmor,
+    }
+	
+	item ScrapVestSign
+   	{
+        Type = Clothing,
+        DisplayName = Scrap Vest with Signs,
+        ClothingItem = ScrapVestSign,
+        BodyLocation = TorsoExtra,
+        Icon = ScrapVestSign,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 75,
+		BiteDefense = 75,
+		BulletDefense = 85,
+	    DisplayCategory = Armor,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 2.5,
+        ConditionLowerChanceOneIn = 23,
+        ConditionMax = 23,
+        RemoveOnBroken = true,
+		Tooltip = Tooltip_ScrapVest,
+		Tags = MetalArmor,
+    }
+	
+	item ScrapVestStudded
+   	{
+        Type = Clothing,
+        DisplayName = Studded Scrap Vest,
+        ClothingItem = ScrapVestStudded,
+        BodyLocation = TorsoExtra,
+        Icon = ScrapVestStudded,
+        BloodLocation = UpperBody; LowerBody,
+		ScratchDefense = 100,
+		BiteDefense = 100,
+		BulletDefense = 40,
+	    DisplayCategory = Armor,
+        Insulation = 0,
+        WindResistance = 0,
+        Weight = 3.5,
+        ConditionLowerChanceOneIn = 30,
+        ConditionMax = 30,
+        RemoveOnBroken = true,
+		Tooltip = Tooltip_ScrapVest,
+		Tags = MetalArmor,
+    }
+	
+}

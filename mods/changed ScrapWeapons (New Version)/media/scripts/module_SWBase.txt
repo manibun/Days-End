@@ -1,0 +1,384 @@
+module Base
+{
+	model ScrapSword
+	{
+		mesh = weapons/2handed/ScrapSword,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapMachete
+	{
+		mesh = weapons/1handed/ScrapMachete,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapPickaxe
+	{
+		mesh = weapons/1handed/ScrapPickaxe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BigScrapPickaxe
+	{
+		mesh = weapons/2handed/BigScrapPickaxe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapShiv
+	{
+		mesh = weapons/1handed/ScrapShiv,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearScrapShiv
+	{
+		mesh = weapons/2handed/SpearScrapShiv,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearScrapMachete
+	{
+		mesh = weapons/2handed/SpearScrapMachete,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model PipewithScissors
+	{
+		mesh = weapons/1handed/PipewithScissors,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model BoltBat
+	{
+		mesh = weapons/2handed/BoltBat,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ChainBat
+	{
+		mesh = weapons/2handed/ChainBat,
+		scale = 0.012,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TireIronAxe
+	{
+		mesh = weapons/1handed/TireIronAxe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedPipe
+	{
+		mesh = weapons/2handed/SalvagedPipe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedCrowbar
+	{
+		mesh = weapons/1handed/SalvagedCrowbar,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TinCanClub
+	{
+		mesh = weapons/2handed/TinCanClub,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SharpenedStopSign
+	{
+		mesh = weapons/2handed/SharpenedStopSign,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}	}
+	model SalvagedSledgehammer
+	{
+		mesh = weapons/2handed/SalvagedSledgehammer,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model GearMace
+	{
+		mesh = weapons/2handed/GearMace,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedMachete
+	{
+		mesh = weapons/1handed/SalvagedMachete,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model WireBat
+	{
+		mesh = weapons/2handed/WireBat,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4
+	{
+		mesh = weapons/2handed/2x4,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4Can
+	{
+		mesh = weapons/2handed/2x4Can,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4Nail
+	{
+		mesh = weapons/2handed/2x4Nail,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4Scissors
+	{
+		mesh = weapons/2handed/2x4Scissors,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4Bolt
+	{
+		mesh = weapons/2handed/2x4Bolt,
+
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapBlade
+	{
+		mesh = weapons/2handed/ScrapBlade,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SharpenedScrewdriver
+	{
+		mesh = weapons/1handed/SharpenedScrewdriver,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearSharpenedScrewdriver
+	{
+		mesh = weapons/2handed/SpearSharpenedScrewdriver,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4Screwdriver
+	{
+		mesh = weapons/2handed/2x4Screwdriver,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model 2x4SScrewdriver
+	{
+		mesh = weapons/2handed/2x4SScrewdriver,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SpearSalvaged
+	{
+		mesh = weapons/2handed/SpearSalvaged,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapSpear
+	{
+		mesh = weapons/2handed/ScrapSpear,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedShiv
+	{
+		mesh = weapons/1handed/SalvagedShiv,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HugeScrapPickaxe
+	{
+		mesh = weapons/2handed/HugeScrapPickaxe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedPipeWrench
+	{
+		mesh = weapons/1handed/SalvagedPipeWrench,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model SalvagedNightstick
+	{
+		mesh = weapons/1handed/SalvagedNightstick,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model GlassShiv
+	{
+		mesh = weapons/1handed/GlassShiv,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedClimbingAxe
+	{
+		mesh = weapons/1handed/SalvagedClimbingAxe,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedBlade
+	{
+		mesh = weapons/2handed/SalvagedBlade,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedCleaver
+	{
+		mesh = weapons/2handed/SalvagedCleaver,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Micromaul
+	{
+		mesh = weapons/2handed/Micromaul,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model ScrapClub
+	{
+		mesh = weapons/1handed/ScrapClub,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model SalvagedClub
+	{
+		mesh = weapons/1handed/SalvagedClub,
+		attachment world
+		{
+		    offset = 0.0000 0.1500 0.1500,
+		   rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+}

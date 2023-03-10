@@ -1,0 +1,188 @@
+module DESMUCommunitySubmissions
+{
+	imports
+	{
+		Base, TW, LabItems,
+	}
+
+
+ /******* [Laser (Weapon Attachment)] Mad_Dove#7945 *******/
+ 
+	recipe Make Laser Attachment
+	{
+		destroy LightBulbRed,
+		destroy HandTorch,
+		Aluminum = 3,
+		Screws = 4,
+		SmallSheetMetal = 2,
+		destroy Radio.ElectricWire,
+		ElectronicsScrap = 3,
+		WeldingRods = 1,
+		BlowTorch = 1,
+		destroy Glasses_Normal,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Pliers],
+		
+		Result:Laser = 1,
+		Time:500,
+		Category:Electrical,
+		Prop1:Screwdriver,
+		SkillRequired:Electricity=8;AMReloading=3,
+	}
+
+ /******* [Spring] Novitart#1033 *******/	
+	
+	recipe Craft Makeshift Spring
+	{
+		Wire = 5,
+		keep MetalPipe/LeadPipe,
+		keep Tongs/PipeWrench,
+		keep [Recipe.GetItemTypes.Pliers],
+		BlowTorch = 3,
+		keep [Recipe.GetItemTypes.WeldingMask],
+	
+		Result:Spring = 1,
+		SkillRequired:MetalWelding=5,
+		Time:450,
+		Category:Welding,
+		Sound:Welding2,
+		AnimNode:BlowTorchMid,
+		Prop1:BlowTorch,
+		OnGiveXP:Give10MWXP,
+	}
+
+ /******* [Air Tank] Tariq#0992 *******/
+ 
+	recipe Craft Makeshift Airtank
+	{
+		destroy PropaneTank/Extinguisher,
+		keep TirePump,
+		
+		Result:AirTank = 1,
+		Time:250,
+	}
+	
+ /******* [Lightbulbs] Volke#6663 *******/
+ 
+	recipe Craft Simple Makeshift Lightbulb
+	{
+		destroy EmptyJar/LabFlask/WhiskeyEmpty,
+		ElectronicsScrap = 1,
+		Radio.ElectricWire,
+		Glue = 1,
+		keep [Recipe.GetItemTypes.Pliers],
+	
+		Result:LightBulb,
+		Category:Electrical,
+		Time:200,
+		SkillRequired:Electricity=3,
+	}
+	
+	recipe Craft Bulk Makeshift Lightbulbs
+	{
+		destroy EmptyJar/LabFlask/WhiskeyEmpty = 3,
+		ElectronicsScrap = 1,
+		Radio.ElectricWire,
+		Glue = 1,
+		keep [Recipe.GetItemTypes.Pliers],
+	
+		Result:LightBulb,
+		Category:Electrical,
+		Time:250,
+		SkillRequired:Electricity=7,
+	}
+
+
+ /******* [Large Gas Can] DarksideQueen#7782 *******/
+
+	recipe Make Large Gas Can
+	{
+		destroy PropaneTank,
+		SheetMetalSmall = 2,
+		destroy DuctTape = 1,
+		WeldingRods = 3,
+		keep MetalWorkbench,
+		JarLid,
+		keep Tongs/PipeWrench,
+		BlowTorch = 5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:FuelAPI.LargePetrolCan = 1,
+		Time:440,
+		SkillRequired:MetalWelding=8,
+		CanBeDoneFromFloor:TRUE,
+		Sound:Welding2,
+		Category:Welding,
+		AnimNode:BlowTorchMid,
+		Prop1:BlowTorch,
+		OnGiveXP:Give25MWXP,
+	}
+	
+	recipe Make Large Gas Can
+	{
+		destroy SheetMetal = 3,
+		SheetMetalSmall = 4,
+		destroy DuctTape = 1,
+		WeldingRods = 5,
+		keep MetalWorkbench,
+		JarLid,
+		keep Tongs/PipeWrench,
+		BlowTorch = 20,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:FuelAPI.LargePetrolCan = 1,
+		Time:600,
+		SkillRequired:MetalWelding=8,
+		CanBeDoneFromFloor:TRUE,
+		Sound:Welding2,
+		Category:Welding,
+		AnimNode:BlowTorchMid,
+		Prop1:BlowTorch,
+		OnGiveXP:Give25MWXP,
+	}
+	
+ /******* [Rolling Papers] salt#3652 *******/	
+	
+	recipe Craft Rolling Papers
+	{
+		ToiletPaper = 32,
+		[Recipe.GetItemTypes.Flour] = 1,
+		Water = 3,
+		
+		Result:Greenfire.RollingPapers = 1,
+		Time:50,
+		Category:Greenfire,
+	}
+
+ /******* [Wood Glue] Snoob#2670 *******/
+
+	recipe Make Wood Glue
+	{
+		WaterPot;5,
+		Glue = 5,
+		[Recipe.GetItemTypes.Flour] = 4,
+	
+		Result:Woodglue = 1,
+		SkillRequired:Woodwork=5;Cooking=2,
+		Time:240,
+		Category:Carpentry,
+	}
+	
+ /******* [Jar Lids] 17#6968 *******/
+	
+	recipe Make Jar Lids
+	{
+		MetalSheetSmall,
+		keep MetalCutter,
+		keep [Recipe.GetItemTypes.Pliers],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:JarLid = 2,
+		Time:350,
+		Category:Survivalist,
+	}
+	
+}

@@ -1,0 +1,140 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	
+	item GolfClubHead
+	{
+		Weight 					= 1.5,
+		Type 					= Normal,
+		DisplayName 			= Golf Club Head,
+		DisplayCategory 		= Item,
+		Icon 					= GolfClubHead,
+		WorldStaticModel        = GolfClubHead_Ground,
+	}
+
+    item HammerHead
+	{
+		Weight 					= 0.6,
+		Type 					= Normal,
+		DisplayName 			= Bent Hammer Head,
+		DisplayCategory 		= Item,
+		Icon 					= HammerHead,
+		WorldStaticModel        = HammerHead_Ground,
+	}
+
+    item SledgeHammerHead
+	{
+		Weight 					= 5.0,
+		Type 					= Normal,
+		DisplayName 			= Bent Sledge Hammer Head,
+		DisplayCategory 		= Item,
+		Icon 					= SledgeHammerHead,
+		WorldStaticModel        = SledgeHammerHead_Ground,
+	}
+
+    item AxeHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Blunt Axe Head,
+		DisplayCategory 		= Item,
+		Icon 					= AxeHead,	
+		WorldStaticModel        = AxeHead_Ground,
+	}
+
+    item SmallBlade
+	{
+		Weight 					= 0.2,
+		Type 					= Normal,
+		DisplayName 			= Blunt Small Blade,
+		DisplayCategory 		= Item,
+		Icon 					= SmallBlade,		
+		WorldStaticModel        = SmallBlade_Ground,
+	}
+
+    item SmallMetalBar
+	{
+		Weight 					= 0.1,
+		Type 					= Normal,
+		DisplayName 			= Bent Screwdriver Head,
+		DisplayCategory 		= Item,
+		Icon 					= SmallMetalBar,
+		WorldStaticModel        = SmallMetalBar_Ground,
+	}
+
+	item MeatCleaverHead
+	{
+		Weight 					= 1.0,
+		Type 					= Normal,
+		DisplayName 			= Bent Meat Cleaver Head,
+		DisplayCategory 		= Item,
+		Icon 					= MeatCleaverHead,
+		WorldStaticModel        = MeatCleaverHead_Ground,
+	}
+	item ScytheHead
+	{
+		Weight 					= 1.0,
+		Type 					= Normal,
+		DisplayName 			= Blunt Scythe Head,
+		DisplayCategory 		= Item,
+		Icon 					= ScytheHead,
+		WorldStaticModel        = ScytheHead_Ground,
+	}
+	item LongBlade
+	{
+		Weight 					= 0.5,
+		Type 					= Normal,
+		DisplayName 			= Broken Long Blade,
+		DisplayCategory 		= Item,
+		Icon 					= LongBlade,
+		WorldStaticModel        = LongBlade_Ground,
+	}
+	item ShovelHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Bent Shovel Head,
+		DisplayCategory 		= Item,
+		Icon 					= ShovelHead,
+		WorldStaticModel        = ShovelHead_Ground,
+	}
+	item HoeHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Bent Hoe Head,
+		DisplayCategory 		= Item,
+		Icon 					= HoeHead,
+		WorldStaticModel        = HoeHead_Ground,
+	}
+	item PickaxeHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Broken Pickaxe Head,
+		DisplayCategory 		= Item,
+		Icon 					= PickaxeHead,
+		WorldStaticModel        = PickaxeHead_Ground,
+	}
+	item RakeHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Broken Rake Head,
+		DisplayCategory 		= Item,
+		Icon 					= RakeHead,
+		WorldStaticModel        = RakeHead_Ground,
+	}
+	item ForkHead
+	{
+		Weight 					= 2.0,
+		Type 					= Normal,
+		DisplayName 			= Broken Fork Head,
+		DisplayCategory 		= Item,
+		Icon 					= ForkHead,
+		WorldStaticModel        = ForkHead_Ground,
+	}
+}

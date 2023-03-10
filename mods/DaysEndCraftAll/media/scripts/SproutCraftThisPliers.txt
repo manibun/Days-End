@@ -1,0 +1,26 @@
+module SproutCraftThisPliers
+{
+	imports
+	{
+		Base,
+		TW,
+	}
+
+
+recipe Make Some Pliers
+    {
+	   Base.HolePuncher,
+ 	   keep Screwdriver,
+ 	   keep Saw,
+	   keep Hammer,
+
+
+	   Result			: TW.Pliers,
+         Category			: Welding,
+	   SkillRequired		: MetalWelding=1,
+	   Sound			: Sawing,
+	   Time			: 200.0,
+    }
+
+}
+

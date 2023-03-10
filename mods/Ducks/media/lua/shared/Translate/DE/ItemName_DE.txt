@@ -1,0 +1,13 @@
+ItemName_DE = {
+	ItemName_Ducks.Rubberducky_Black = "Schwarze Gummiente",
+	ItemName_Ducks.Rubberducky_Blue = "Blaue Gummiente",
+	ItemName_Ducks.Rubberducky_Gold = "Goldene Gummiente",
+	ItemName_Ducks.Rubberducky_Green = "Grüne Gummiente",
+	ItemName_Ducks.Rubberducky_Orange = "Orange Gummiente",
+	ItemName_Ducks.Rubberducky_Pink = "Rosa Gummiente",
+	ItemName_Ducks.Rubberducky_Purple = "Violett Gummiente",
+	ItemName_Ducks.Rubberducky_Red = "Regenbogen Gummiente",
+	ItemName_Ducks.Rubberducky_Red = "Rot Gummiente",
+	ItemName_Ducks.Rubberducky_White = "Weiß Gummiente",
+	ItemName_Ducks.Tshirt_DuckDECAL = "Ente T-Shirt",
+}

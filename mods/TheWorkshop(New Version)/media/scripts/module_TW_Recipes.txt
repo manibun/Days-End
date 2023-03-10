@@ -1,0 +1,120 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	recipe Refill Propane Tank
+    {
+       destroy PropaneTank=1,
+       HugePropaneTank,
+
+       Result:PropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillPropaneTank,
+       OnCreate:Recipe.OnCreate.RefillPropaneTank,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Refill Industrial Propane Tank
+    {
+       destroy LargePropaneTank=1,
+       HugePropaneTank,
+
+       Result:LargePropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillLargePropaneTank,
+       OnCreate:Recipe.OnCreate.RefillLargePropaneTank,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Refill Blow Torch
+    {
+       destroy BlowTorch=1,
+       HugePropaneTank,
+
+       Result:BlowTorch,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillBlowTorchHuge,
+       OnCreate:Recipe.OnCreate.RefillBlowTorchHuge,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Refill Blow Torch
+    {
+       destroy BlowTorch=1,
+       LargePropaneTank,
+
+       Result:BlowTorch,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillBlowTorchLarge,
+       OnCreate:Recipe.OnCreate.RefillBlowTorchLarge,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Remove Airtank
+	{
+	    Jacket_Fireman/Jacket_Fireman_Meade_Black/Jacket_Fireman_Meade_Khaki/Jacket_Fireman_Rosewood_Black/Jacket_Fireman_Rosewood_Khaki/Jacket_Fireman_Louisville_Black/Jacket_Fireman_Louisville_Khaki,
+		Result 		: AirTank,
+		Sound 		: ChangeTank,
+		Time 		: 300,
+	}
+	recipe Unbox Large Bolts
+	{
+        BoxLargeBolts,
+		Result 		: LargeBolt=10,
+		Sound 		: NailBoxSound,
+		Time 		: 200,
+	}
+	recipe Unbox Screws
+	{
+        BoxScrews,
+		Result 		: Screws=10,
+		Sound 		: NailBoxSound,
+		Time 		: 200,
+	}
+	recipe box Large Bolts
+	{
+        LargeBolt=10,
+		Result 		: BoxLargeBolts,
+		Sound 		: NailBoxSound,
+		Time 		: 200,
+	}
+	recipe box Screws
+	{
+        Screws=50,
+		Result 		: BoxScrews,
+		Sound 		: NailBoxSound,
+		Time 		: 200,
+	}
+	recipe Make File
+	{
+		ScrapMetal/SmallSheetMetal,
+		RippedSheets=5,
+		WoodenStick,
+		Result 			: File,
+		Sound 			: FileCrafting,
+		Time 			: 300,
+		Category 		: Welding,
+		SkillRequired 	: MetalWelding=1,
+		OnGiveXP 		: Give25MWXP,
+		NeedToBeLearn	: true,
+	}
+	recipe Make Metal Workbench
+	{
+		SheetMetal=3,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		Result 			: MetalWorkbench,
+		Sound 			: Welding2,
+		Time 			: 1050,
+		Category 		: Welding,
+		SkillRequired 	: MetalWelding=2,
+		OnGiveXP 		: Give25MWXP,
+		AnimNode 		: BlowTorchMid,
+		Prop1 			: BlowTorch,
+		NeedToBeLearn	: true,
+	}
+}

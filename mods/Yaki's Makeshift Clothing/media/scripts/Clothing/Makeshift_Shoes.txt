@@ -1,0 +1,81 @@
+module Base
+{
+    item Shoes_TrashBag
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = TrashBag Shoes,
+		ClothingItem = Shoes_TrashBag,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = TrashBagShoes,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.1,
+        WorldStaticModel = Shoes_Ground,
+    }
+	item Shoes_Leather
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Leather Shoes,
+		ClothingItem = Shoes_Leather,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = LeatherShoes,
+		StompPower = 2.1,
+		ConditionLowerChanceOneIn = 12,
+        ConditionMax = 24,
+        RunSpeedModifier = 0.95,
+        RemoveOnBroken = false,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        WaterResistance = 0.25,
+        WorldStaticModel = Shoes_Ground,
+	}
+	item Shoes_MedievalBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Medieval Boots,
+		ClothingItem = Shoes_MedievalBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = MedievalBoots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel = Boots_Ground,
+	}
+	item Shoes_FurBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Fur Boots,
+		ClothingItem = Shoes_FurBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = FurBoots,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel = Boots_Ground,
+	}
+        
+}

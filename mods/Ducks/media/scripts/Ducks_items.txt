@@ -1,0 +1,132 @@
+module Ducks
+
+{
+	imports
+	{
+		Base
+	}
+
+  item Rubberducky_Black
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Black Rubber Duck,
+        Icon				=	BlackRubberducky,
+        WorldStaticModel 	=	BlackRubberducky,
+		
+    }
+
+    item Rubberducky_Blue
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Blue Rubber Duck,
+        Icon				=	BlueRubberducky,
+        WorldStaticModel 	=	BlueRubberducky,
+		
+    }
+
+	item Rubberducky_Gold
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Gold Rubber Duck,
+        Icon				=	GoldRubberducky,
+        WorldStaticModel 	=	GoldRubberducky,
+		
+    }
+
+    item Rubberducky_Green
+    {
+        DisplayCategory		=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Green Rubber Duck,
+        Icon				=	GreenRubberducky,
+        WorldStaticModel 	=	GreenRubberducky,
+		
+    }
+	
+	  item Rubberducky_Orange
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Orange Rubber Duck,
+        Icon				=	OrangeRubberducky,
+        WorldStaticModel 	=	OrangeRubberducky,
+		
+    }
+	
+	  item Rubberducky_Pink
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Pink Rubber Duck,
+        Icon				=	PinkRubberducky,
+        WorldStaticModel 	=	PinkRubberducky,
+		
+    }
+	
+	  item Rubberducky_Purple
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Purple Rubber Duck,
+        Icon				=	PurpleRubberducky,
+        WorldStaticModel 	=	PurpleRubberducky,
+		
+    }
+
+	  item Rubberducky_Rainbow
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Rainbow Rubber Duck,
+        Icon				=	RainbowRubberducky,
+        WorldStaticModel 	=	RainbowRubberducky,
+		
+    }
+	
+    item Rubberducky_Red
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Red Rubber Duck,
+        Icon				=	RedRubberducky,
+        WorldStaticModel 	=	RedRubberducky,
+		
+    }
+	
+	item Rubberducky_White
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	White Rubber Duck,
+        Icon				=	WhiteRubberducky,
+        WorldStaticModel 	=	WhiteRubberducky,
+		
+    }
+
+	item Rubberducky_Zed
+    {
+        DisplayCategory 	=	Junk,
+        Weight				=	0.1,
+        Type				=	Normal,
+        DisplayName			=	Zed Rubber Duck,
+        Icon				=	ZedRubberducky,
+        WorldStaticModel 	=	ZedRubberducky,
+		
+    }
+
+}
+
+

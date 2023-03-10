@@ -1,0 +1,4 @@
+Recipe_EN = {
+	Recipe_Dawn2Baby = "Ponder The Borb",
+	Recipe_Baby2Dawn = "Ponder The Borb",
+}

@@ -1,0 +1,1143 @@
+module Base {
+    
+
+	model Cross_Item
+	{
+		mesh = WorldItems/Cross_Item,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+
+    model Noose_Item
+	{
+		mesh = WorldItems/Noose_Item,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	    model Noose_Item_Ground
+	{
+		mesh = WorldItems/Noose_Item_Ground,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	
+	    model Guts_Item
+	{
+		mesh = WorldItems/Guts_Item,
+		texture = WorldItems/GutsTex,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+		 model Female_Torso
+	{
+		mesh = WorldItems/Female_Torso,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+		 model Female_Torso_Black
+	{
+		mesh = WorldItems/Female_Torso,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+		model Male_Torso
+	{
+		mesh = WorldItems/Male_Torso,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Male_Torso_Black
+	{
+		mesh = WorldItems/Male_Torso,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+
+
+
+
+
+
+	model Hanging_Femme_a_01
+	{
+		mesh = WorldItems/Hanging_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Hanging_Femme_a_02
+	{
+		mesh = WorldItems/Hanging_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	model Hanging_Femme_a_03
+	{
+		mesh = WorldItems/Hanging_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Hanging_Femme_a_04
+	{
+		mesh = WorldItems/Hanging_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+		model Hanging_Femme_b_01
+	{
+		mesh = WorldItems/Hanging_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Hanging_Femme_b_02
+	{
+		mesh = WorldItems/Hanging_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	model Hanging_Femme_b_03
+	{
+		mesh = WorldItems/Hanging_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Hanging_Femme_b_04
+	{
+		mesh = WorldItems/Hanging_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		model Hanging_Male_a_01
+	{
+		mesh = WorldItems/Hanging_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Hanging_Male_a_02
+	{
+		mesh = WorldItems/Hanging_Male_a_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	model Hanging_Male_a_03
+	{
+		mesh = WorldItems/Hanging_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Hanging_Male_a_04
+	{
+		mesh = WorldItems/Hanging_Male_a_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+
+
+
+
+
+
+
+
+		model Hanging_Male_b_01
+	{
+		mesh = WorldItems/Hanging_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Hanging_Male_b_02
+	{
+		mesh = WorldItems/Hanging_Male_b_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	model Hanging_Male_b_03
+	{
+		mesh = WorldItems/Hanging_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Hanging_Male_b_04
+	{
+		mesh = WorldItems/Hanging_Male_b_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	model Body_Male_a_01
+	{
+		mesh = WorldItems/Body_Male_a_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Body_Male_a_02
+	{
+		mesh = WorldItems/Body_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Body_Male_a_03
+	{
+		mesh = WorldItems/Body_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Body_Male_a_04
+	{
+		mesh = WorldItems/Body_Male_a_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	model Body_Male_b_01
+	{
+		mesh = WorldItems/Body_Male_b_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Body_Male_b_02
+	{
+		mesh = WorldItems/Body_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Body_Male_b_03
+	{
+		mesh = WorldItems/Body_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Body_Male_b_04
+	{
+		mesh = WorldItems/Body_Male_b_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	model Body_Male_c_01
+	{
+		mesh = WorldItems/Body_Male_c_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Body_Male_c_02
+	{
+		mesh = WorldItems/Body_Male_c_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Body_Male_c_03
+	{
+		mesh = WorldItems/Body_Male_c_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Body_Male_c_04
+	{
+		mesh = WorldItems/Body_Male_c_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	model Body_Male_d_01
+	{
+		mesh = WorldItems/Body_Male_d_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Body_Male_d_02
+	{
+		mesh = WorldItems/Body_Male_d_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Body_Male_d_03
+	{
+		mesh = WorldItems/Body_Male_d_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Body_Male_d_04
+	{
+		mesh = WorldItems/Body_Male_d_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+		model Body_Male_e_01
+	{
+		mesh = WorldItems/Body_Male_e_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Body_Male_e_02
+	{
+		mesh = WorldItems/Body_Male_e_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Body_Male_e_03
+	{
+		mesh = WorldItems/Body_Male_e_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Body_Male_e_04
+	{
+		mesh = WorldItems/Body_Male_e_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			model Body_Femme_a_01
+	{
+		mesh = WorldItems/Body_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Body_Femme_a_02
+	{
+		mesh = WorldItems/Body_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Body_Femme_a_03
+	{
+		mesh = WorldItems/Body_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Body_Femme_a_04
+	{
+		mesh = WorldItems/Body_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+				model Body_Femme_b_01
+	{
+		mesh = WorldItems/Body_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Body_Femme_b_02
+	{
+		mesh = WorldItems/Body_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Body_Femme_b_03
+	{
+		mesh = WorldItems/Body_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Body_Femme_b_04
+	{
+		mesh = WorldItems/Body_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+					model Body_Femme_c_01
+	{
+		mesh = WorldItems/Body_Femme_c_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Body_Femme_c_02
+	{
+		mesh = WorldItems/Body_Femme_c_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Body_Femme_c_03
+	{
+		mesh = WorldItems/Body_Femme_c_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Body_Femme_c_04
+	{
+		mesh = WorldItems/Body_Femme_c_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+						model Body_Femme_d_01
+	{
+		mesh = WorldItems/Body_Femme_d_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Body_Femme_d_02
+	{
+		mesh = WorldItems/Body_Femme_d_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Body_Femme_d_03
+	{
+		mesh = WorldItems/Body_Femme_d_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Body_Femme_d_04
+	{
+		mesh = WorldItems/Body_Femme_d_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+							model Body_Femme_e_01
+	{
+		mesh = WorldItems/Body_Femme_e_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Body_Femme_e_02
+	{
+		mesh = WorldItems/Body_Femme_e_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Body_Femme_e_03
+	{
+		mesh = WorldItems/Body_Femme_e_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Body_Femme_e_04
+	{
+		mesh = WorldItems/Body_Femme_e_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+		model Crucified_Male_a_01
+	{
+		mesh = WorldItems/Crucified_Male_a_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Crucified_Male_a_02
+	{
+		mesh = WorldItems/Crucified_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Crucified_Male_a_03
+	{
+		mesh = WorldItems/Crucified_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Crucified_Male_a_04
+	{
+		mesh = WorldItems/Crucified_Male_a_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+			model Crucified_Male_b_01
+	{
+		mesh = WorldItems/Crucified_Male_b_1,
+		texture = WorldItems/BodyMaleWhiteDecap,
+		scale = 1,
+	}
+	model Crucified_Male_b_02
+	{
+		mesh = WorldItems/Crucified_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Crucified_Male_b_03
+	{
+		mesh = WorldItems/Crucified_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	model Crucified_Male_b_04
+	{
+		mesh = WorldItems/Crucified_Male_b_1,
+		texture = WorldItems/BodyMaleBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	model Crucified_Femme_a_01
+	{
+		mesh = WorldItems/Crucified_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Crucified_Femme_a_02
+	{
+		mesh = WorldItems/Crucified_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Crucified_Femme_a_03
+	{
+		mesh = WorldItems/Crucified_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Crucified_Femme_a_04
+	{
+		mesh = WorldItems/Crucified_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+		model Crucified_Femme_b_01
+	{
+		mesh = WorldItems/Crucified_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhiteDecap,
+		scale = 1,
+	}
+	model Crucified_Femme_b_02
+	{
+		mesh = WorldItems/Crucified_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Crucified_Femme_b_03
+	{
+		mesh = WorldItems/Crucified_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	model Crucified_Femme_b_04
+	{
+		mesh = WorldItems/Crucified_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlackDecap,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	model Head_Pike_Femme_a_01
+	{
+		mesh = WorldItems/Head_Pike_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Head_Pike_Femme_a_02
+	{
+		mesh = WorldItems/Head_Pike_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+
+
+
+
+	model Head_Pike_Femme_b_01
+	{
+		mesh = WorldItems/Head_Pike_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Head_Pike_Femme_b_02
+	{
+		mesh = WorldItems/Head_Pike_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+		model Head_Pike_Femme_c_01
+	{
+		mesh = WorldItems/Head_Pike_Femme_c_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Head_Pike_Femme_c_02
+	{
+		mesh = WorldItems/Head_Pike_Femme_c_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+		model Head_Pike_Femme_d_01
+	{
+		mesh = WorldItems/Head_Pike_Femme_d_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Head_Pike_Femme_d_02
+	{
+		mesh = WorldItems/Head_Pike_Femme_d_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	model Head_Pike_Male_a_01
+	{
+		mesh = WorldItems/Head_Pike_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Head_Pike_Male_a_02
+	{
+		mesh = WorldItems/Head_Pike_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+
+
+
+		model Head_Pike_Male_b_01
+	{
+		mesh = WorldItems/Head_Pike_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Head_Pike_Male_b_02
+	{
+		mesh = WorldItems/Head_Pike_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+		model Head_Pike_Male_c_01
+	{
+		mesh = WorldItems/Head_Pike_Male_c_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Head_Pike_Male_c_02
+	{
+		mesh = WorldItems/Head_Pike_Male_c_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+		model Head_Pike_Male_d_01
+	{
+		mesh = WorldItems/Head_Pike_Male_d_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Head_Pike_Male_d_02
+	{
+		mesh = WorldItems/Head_Pike_Male_d_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	model Head_Pike_Male_e_01
+	{
+		mesh = WorldItems/Head_Pike_Male_e_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Head_Pike_Male_e_02
+	{
+		mesh = WorldItems/Head_Pike_Male_e_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	model Decap_Male_a_01
+	{
+		mesh = WorldItems/Decap_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Decap_Male_a_02
+	{
+		mesh = WorldItems/Decap_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+		model Decap_Male_b_01
+	{
+		mesh = WorldItems/Decap_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Decap_Male_b_02
+	{
+		mesh = WorldItems/Decap_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+			model Decap_Male_c_01
+	{
+		mesh = WorldItems/Decap_Male_c_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model Decap_Male_c_02
+	{
+		mesh = WorldItems/Decap_Male_c_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		model Decap_Arm
+	{
+		mesh = WorldItems/Decap_Arm,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+		model Decap_Arm_Black
+	{
+		mesh = WorldItems/Decap_Arm,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+			model Decap_Leg
+	{
+		mesh = WorldItems/Decap_Leg,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Decap_Leg_Black
+	{
+		mesh = WorldItems/Decap_Leg,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			model Decap_Part
+	{
+		mesh = WorldItems/Decap_Part,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Decap_Part_Black
+	{
+		mesh = WorldItems/Decap_Part,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+			model Decap_Part
+	{
+		mesh = WorldItems/Decap_Part,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Decap_Part_Black
+	{
+		mesh = WorldItems/Decap_Part,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+				model Decap_Part_2
+	{
+		mesh = WorldItems/Decap_Part_2,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Decap_Part_Black_2
+	{
+		mesh = WorldItems/Decap_Part_2,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+			model Decap_Part_2
+	{
+		mesh = WorldItems/Decap_Part_2,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+			model Decap_Part_Black_2
+	{
+		mesh = WorldItems/Decap_Part_2,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+				model Pike_Item
+	{
+		mesh = WorldItems/Pike_Item,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	model Decap_Femme_a_01
+	{
+		mesh = WorldItems/Decap_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Decap_Femme_a_02
+	{
+		mesh = WorldItems/Decap_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+	
+		model Decap_Femme_b_01
+	{
+		mesh = WorldItems/Decap_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model Decap_Femme_b_02
+	{
+		mesh = WorldItems/Decap_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	model StandingBody_Male_a_01
+	{
+		mesh = WorldItems/StandingBody_Male_a_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model StandingBody_Male_a_02
+	{
+		mesh = WorldItems/StandingBody_Male_a_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+	model StandingBody_Male_b_01
+	{
+		mesh = WorldItems/StandingBody_Male_b_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model StandingBody_Male_b_02
+	{
+		mesh = WorldItems/StandingBody_Male_b_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+	model StandingBody_Male_c_01
+	{
+		mesh = WorldItems/StandingBody_Male_c_1,
+		texture = WorldItems/BodyMaleWhite,
+		scale = 1,
+	}
+	model StandingBody_Male_c_02
+	{
+		mesh = WorldItems/StandingBody_Male_c_1,
+		texture = WorldItems/BodyMaleBlack,
+		scale = 1,
+	}
+
+
+
+
+
+
+	model StandingBody_Femme_a_01
+	{
+		mesh = WorldItems/StandingBody_Femme_a_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model StandingBody_Femme_a_02
+	{
+		mesh = WorldItems/StandingBody_Femme_a_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+	
+	model StandingBody_Femme_b_01
+	{
+		mesh = WorldItems/StandingBody_Femme_b_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model StandingBody_Femme_b_02
+	{
+		mesh = WorldItems/StandingBody_Femme_b_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+
+
+	model StandingBody_Femme_c_01
+	{
+		mesh = WorldItems/StandingBody_Femme_c_1,
+		texture = WorldItems/BodyFemmeWhite,
+		scale = 1,
+	}
+	model StandingBody_Femme_c_02
+	{
+		mesh = WorldItems/StandingBody_Femme_c_1,
+		texture = WorldItems/BodyFemmeBlack,
+		scale = 1,
+	}
+
+
+
+
+	
+	
+}
+
+
+
+
+

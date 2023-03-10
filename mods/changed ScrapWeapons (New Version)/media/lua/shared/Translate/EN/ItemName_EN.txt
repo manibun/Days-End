@@ -1,0 +1,61 @@
+ItemName_EN = {
+--magazines
+    ItemName_SWeapons.WeaponMag1 				= "Doom's Day Survivor Vol. 1 (Basics) ",
+	ItemName_SWeapons.WeaponMag2 				= "Doom's Day Survivor Vol. 2 (Shivs)",
+	ItemName_SWeapons.WeaponMag3 				= "Doom's Day Survivor Vol. 3 (Blunt Weapons) ",
+	ItemName_SWeapons.WeaponMag4 				= "Wasteland Warrior Vol. 1 (Axes)",
+	ItemName_SWeapons.WeaponMag5 				= "Wasteland Warrior Vol. 2 (Spears)",
+	ItemName_SWeapons.WeaponMag6 				= "Wasteland Warrior Vol. 3 (Bladed Weapons)",
+--2x4
+	ItemName_SWeapons.2x4 						= "2x4",
+	ItemName_SWeapons.2x4Can 					= "2x4",
+	ItemName_SWeapons.2x4Nail 					= "2x4",
+	ItemName_SWeapons.2x4Bolt 					= "2x4",
+	ItemName_SWeapons.2x4Scissors 				= "2x4",
+	ItemName_SWeapons.2x4Screwdriver 			= "2x4",
+	ItemName_SWeapons.2x4SScrewdriver 			= "2x4",
+--shortblade
+	ItemName_SWeapons.SharpenedScrewdriver 		= "Sharpened Screwdriver",
+	ItemName_SWeapons.GlassShiv 				= "Glass Shiv",
+	ItemName_SWeapons.ScrapShiv 				= "Scrap Shiv",
+	ItemName_SWeapons.SalvagedShiv 				= "Salvaged Shiv",
+	ItemName_SWeapons.SalvagedShivO 			= "Salvaged Shiv",
+--spear
+	ItemName_SWeapons.SpearSharpenedScrewdriver = "Spear with Sharpened Screwdriver",
+	ItemName_SWeapons.SpearScrapShiv 			= "Spear with Scrap Shiv",
+	ItemName_SWeapons.SpearScrapMachete 		= "Spear with Scrap Machete",
+	ItemName_SWeapons.SpearSalvaged 			= "Salvaged Spear",
+	ItemName_SWeapons.ScrapSpear 				= "Scrap Spear",
+--axe
+	ItemName_SWeapons.ScrapPickaxe 				= "Scrap Pickaxe",
+	ItemName_SWeapons.BigScrapPickaxe 			= "Big Scrap Pickaxe",
+	ItemName_SWeapons.PipewithScissors 			= "Pipe with Scissors",
+	ItemName_SWeapons.TireIronAxe 				= "Tire Iron Axe",
+	ItemName_SWeapons.SalvagedPipeWrench 		= "Salvaged Pipe Wrench",
+	ItemName_SWeapons.SalvagedClimbingAxe 		= "Salvaged Climbing Axe",
+	ItemName_SWeapons.SharpenedStopSign 		= "Sharpened Stop Sign",
+	ItemName_SWeapons.HugeScrapPickaxe 			= "Huge Scrap Pickaxe",
+--shortblunt
+	ItemName_SWeapons.ScrapClub 				= "Scrap Club",
+	ItemName_SWeapons.SalvagedClub				= "Salvaged Club",
+--blunt
+	ItemName_SWeapons.SalvagedCrowbar 			= "Salvaged Crowbar",
+	ItemName_SWeapons.BoltBat 					= "Baseball Bat",
+	ItemName_SWeapons.ChainBat 					= "Baseball Bat",
+	ItemName_SWeapons.SalvagedPipe 				= "Salvaged Pipe",
+	ItemName_SWeapons.TinCanClub 				= "TinCan Club",
+	ItemName_SWeapons.SalvagedSledgehammer 		= "Salvaged WarHammer",
+	ItemName_SWeapons.GearMace 					= "Gear Mace",
+	ItemName_SWeapons.WireBat 					= "Baseball Bat",
+	ItemName_SWeapons.Micromaul 				= "Micromaul",
+--longblade
+	ItemName_SWeapons.ScrapSword 				= "Scrap Sword",
+	ItemName_SWeapons.ScrapMachete 				= "Scrap Machete",
+	ItemName_SWeapons.SalvagedNightstick 		= "Salvaged Nightstick",
+	ItemName_SWeapons.SalvagedMachete 			= "Salvaged Machete",
+	ItemName_SWeapons.ScrapBlade 				= "Scrap Blade",
+	ItemName_SWeapons.SalvagedBlade 			= "Salvaged Blade",
+	ItemName_SWeapons.SalvagedCleaver 			= "Salvaged Cleaver",
+	
+}
+

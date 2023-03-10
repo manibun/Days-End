@@ -1,0 +1,2822 @@
+module INMS_CE {
+	imports {
+		Base}
+	 	 
+	 item BandanaTop_White{
+        Type = Clothing,
+        DisplayName = BandanaTop,
+        ClothingItem = BandanaTop_White,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTop_Camo_Desert{
+        Type = Clothing,
+        DisplayName = BandanaTop Desert Camo,
+        ClothingItem = BandanaTop_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTop_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = BandanaTop Grassland Camo,
+        ClothingItem = BandanaTop_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTop_Camo_Water{
+        Type = Clothing,
+        DisplayName = BandanaTop Water Camo,
+        ClothingItem = BandanaTop_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTop_Camo_Winter{
+        Type = Clothing,
+        DisplayName = BandanaTop Winter Camo,
+        ClothingItem = BandanaTop_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTop_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = BandanaTop Woodland Camo,
+        ClothingItem = BandanaTop_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = BandanaTop_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item BandanaTopShort_White{
+        Type = Clothing,
+        DisplayName = Short BandanaTop,
+        ClothingItem = BandanaTopShort_White,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTopShort_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Short BandanaTop Desert Camo,
+        ClothingItem = BandanaTopShort_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTopShort_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Short BandanaTop Grassland Camo,
+        ClothingItem = BandanaTopShort_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTopShort_Camo_Water{
+        Type = Clothing,
+        DisplayName = Short BandanaTop Water Camo,
+        ClothingItem = BandanaTopShort_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTopShort_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Short BandanaTop Winter Camo,
+        ClothingItem = BandanaTopShort_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item BandanaTopShort_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Short BandanaTop Woodland Camo,
+        ClothingItem = BandanaTopShort_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = BandanaTopShort_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item ChainTopNoArms_White{
+        Type = Clothing,
+        DisplayName = Top with Chain,
+        ClothingItem = ChainTopNoArms_White,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopNoArms_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Top with Chain Desert Camo,
+        ClothingItem = ChainTopNoArms_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopNoArms_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Top with Chain Grassland Camo,
+        ClothingItem = ChainTopNoArms_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopNoArms_Camo_Water{
+        Type = Clothing,
+        DisplayName = Top with Chain Water Camo,
+        ClothingItem = ChainTopNoArms_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopNoArms_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Top with Chain Winter Camo,
+        ClothingItem = ChainTopNoArms_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopNoArms_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Top with Chain Woodland Camo,
+        ClothingItem = ChainTopNoArms_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = ChainTopNoArms_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item ChainTopLong_Trans_Black{
+        Type = Clothing,
+        DisplayName = Top with Chain Trans.,
+        ClothingItem = ChainTopLong_Trans_Black,
+        BodyLocation = Tshirt,
+        Icon = ChainTopLong_Trans_Black,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item ChainTopLong_Trans_Lace_Black{
+        Type = Clothing,
+        DisplayName = Top with Chain Trans. Lace,
+        ClothingItem = ChainTopLong_Trans_Lace_Black,
+        BodyLocation = Tshirt,
+        Icon = ChainTopLong_Trans_Lace_Black,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CrissCrossTopNoArms_White{
+        Type = Clothing,
+        DisplayName = CrissCrossTop,
+        ClothingItem = CrissCrossTopNoArms_White,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArms_Camo_Desert{
+        Type = Clothing,
+        DisplayName = CrissCrossTop Desert Camo,
+        ClothingItem = CrissCrossTopNoArms_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArms_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = CrissCrossTop Grassland Camo,
+        ClothingItem = CrissCrossTopNoArms_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArms_Camo_Water{
+        Type = Clothing,
+        DisplayName = CrissCrossTop Water Camo,
+        ClothingItem = CrissCrossTopNoArms_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArms_Camo_Winter{
+        Type = Clothing,
+        DisplayName = CrissCrossTop Winter Camo,
+        ClothingItem = CrissCrossTopNoArms_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArms_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = CrissCrossTop Woodland Camo,
+        ClothingItem = CrissCrossTopNoArms_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArms_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CrissCrossTopNoArmsShort_White{
+        Type = Clothing,
+        DisplayName = Short CrissCrossTop,
+        ClothingItem = CrissCrossTopNoArmsShort_White,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArmsShort_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Short CrissCrossTop Desert Camo,
+        ClothingItem = CrissCrossTopNoArmsShort_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArmsShort_Camo_Grassland{  
+        Type = Clothing,
+		DisplayName = Short CrissCrossTop Grassland Camo,
+        ClothingItem = CrissCrossTopNoArmsShort_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArmsShort_Camo_Water{       
+        Type = Clothing,
+		DisplayName = Short CrissCrossTop Water Camo,
+        ClothingItem = CrissCrossTopNoArmsShort_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArmsShort_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Short CrissCrossTop Winter Camo,
+        ClothingItem = CrissCrossTopNoArmsShort_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CrissCrossTopNoArmsShort_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Short CrissCrossTop Woodland Camo,
+        ClothingItem = CrissCrossTopNoArmsShort_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CrissCrossTopNoArmsShort_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 	 
+	 item CropTop_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Long CropTop Desert Camo,
+        ClothingItem = CropTop_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Long CropTop Grassland Camo,
+        ClothingItem = CropTop_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Camo_Water{
+        Type = Clothing,
+        DisplayName = Long CropTop Water Camo,
+        ClothingItem = CropTop_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Long CropTop Winter Camo,
+        ClothingItem = CropTop_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Long CropTop Woodland Camo,
+        ClothingItem = CropTop_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTopNoArms_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Crop Top Desert Camo,
+        ClothingItem = CropTopNoArms_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Crop Top Grassland Camo,
+        ClothingItem = CropTopNoArms_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Camo_Water{
+        Type = Clothing,
+        DisplayName = Crop Top Water Camo,
+        ClothingItem = CropTopNoArms_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Crop Top Winter Camo,
+        ClothingItem = CropTopNoArms_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Crop Top Woodland Camo,
+        ClothingItem = CropTopNoArms_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTop_BigCutout_BoundF_White{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound,
+        ClothingItem = CropTop_BigCutout_BoundF_White,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_BigCutout_BoundF_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound Desert Camo,
+        ClothingItem = CropTop_BigCutout_BoundF_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_BigCutout_BoundF_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound Grassland Camo,
+        ClothingItem = CropTop_BigCutout_BoundF_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,		
+   	 }
+	 
+	 item CropTop_BigCutout_BoundF_Camo_Water{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound Water Camo,
+        ClothingItem = CropTop_BigCutout_BoundF_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_BigCutout_BoundF_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound Winter Camo,
+        ClothingItem = CropTop_BigCutout_BoundF_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_BigCutout_BoundF_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Long CropTop Bound Woodland Camo,
+        ClothingItem = CropTop_BigCutout_BoundF_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_BigCutout_BoundF_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	  item CropTopNoArms_BigCutout_BoundF_White{
+        Type = Clothing,
+        DisplayName = CropTop Bound,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_White,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_BigCutout_BoundF_Camo_Desert{
+        Type = Clothing,
+        DisplayName = CropTop Bound Desert Camo,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_BigCutout_BoundF_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = CropTop Bound Grassland Camo,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,		
+   	 }
+	 
+	 item CropTopNoArms_BigCutout_BoundF_Camo_Water{
+        Type = Clothing,
+        DisplayName = CropTop Bound Water Camo,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_BigCutout_BoundF_Camo_Winter{
+        Type = Clothing,
+        DisplayName = CropTop Bound Winter Camo,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_BigCutout_BoundF_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = CropTop Bound Woodland Camo,
+        ClothingItem = CropTopNoArms_BigCutout_BoundF_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_BigCutout_BoundF_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTop_Cutout_BoundF_White{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound,
+        ClothingItem = CropTop_Cutout_BoundF_White,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_BoundF_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound Desert Camo,
+        ClothingItem = CropTop_Cutout_BoundF_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_BoundF_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound Grassland Camo,
+        ClothingItem = CropTop_Cutout_BoundF_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_BoundF_Camo_Water{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound Water Camo,
+        ClothingItem = CropTop_Cutout_BoundF_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_BoundF_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound Winter Camo,
+        ClothingItem = CropTop_Cutout_BoundF_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_BoundF_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Bound Woodland Camo,
+        ClothingItem = CropTop_Cutout_BoundF_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_BoundF_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTopNoArms_Cutout_BoundF_White{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_White,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_BoundF_Camo_Desert{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound Desert Camo,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_BoundF_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound Grassland Camo,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_BoundF_Camo_Water{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound Water Camo,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_BoundF_Camo_Winter{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound Winter Camo,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_BoundF_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = CropTopCutout Bound Woodland Camo,
+        ClothingItem = CropTopNoArms_Cutout_BoundF_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_BoundF_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTop_Cutout_White{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout,
+        ClothingItem = CropTop_Cutout_White,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Desert Camo,
+        ClothingItem = CropTop_Cutout_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Grassland Camo,
+        ClothingItem = CropTop_Cutout_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_Camo_Water{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Water Camo,
+        ClothingItem = CropTop_Cutout_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Winter Camo,
+        ClothingItem = CropTop_Cutout_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTop_Cutout_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Long CropTopCutout Woodland Camo,
+        ClothingItem = CropTop_Cutout_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTop_Cutout_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTopNoArms_Cutout_White{
+        Type = Clothing,
+        DisplayName = CropTopCutout,
+        ClothingItem = CropTopNoArms_Cutout_White,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_Camo_Desert{
+        Type = Clothing,
+        DisplayName = CropTopCutout Desert Camo,
+        ClothingItem = CropTopNoArms_Cutout_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = CropTopCutout Grassland Camo,
+        ClothingItem = CropTopNoArms_Cutout_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_Camo_Water{
+        Type = Clothing,
+        DisplayName = CropTopCutout Water Camo,
+        ClothingItem = CropTopNoArms_Cutout_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_Camo_Winter{
+        Type = Clothing,
+        DisplayName = CropTopCutout Winter Camo,
+        ClothingItem = CropTopNoArms_Cutout_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopNoArms_Cutout_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = CropTopCutout Woodland Camo,
+        ClothingItem = CropTopNoArms_Cutout_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopNoArms_Cutout_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+
+	  
+	 item CropTopRing_White{
+        Type = Clothing,
+        DisplayName = O-RingTop,
+        ClothingItem = CropTopRing_White,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopRing_Camo_Desert{
+        Type = Clothing,
+        DisplayName = O-RingTop Desert Camo,
+        ClothingItem = CropTopRing_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopRing_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = O-RingTop Grassland Camo,
+        ClothingItem = CropTopRing_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopRing_Camo_Water{
+        Type = Clothing,
+        DisplayName = O-RingTop Water Camo,
+        ClothingItem = CropTopRing_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopRing_Camo_Winter{
+        Type = Clothing,
+        DisplayName = O-RingTop Winter Camo,
+        ClothingItem = CropTopRing_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopRing_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = O-RingTop Woodland Camo,
+        ClothingItem = CropTopRing_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopRing_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item CropTopOneCarrier_White{
+        Type = Clothing,
+        DisplayName = MonoStrapTop,
+        ClothingItem = CropTopOneCarrier_White,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopOneCarrier_Camo_Desert{
+        Type = Clothing,
+        DisplayName = MonoStrapTop Desert Camo,
+        ClothingItem = CropTopOneCarrier_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopOneCarrier_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = MonoStrapTop Grassland Camo,
+        ClothingItem = CropTopOneCarrier_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopOneCarrier_Camo_Water{
+        Type = Clothing,
+        DisplayName = MonoStrapTop Water Camo,
+        ClothingItem = CropTopOneCarrier_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopOneCarrier_Camo_Winter{
+        Type = Clothing,
+        DisplayName = MonoStrapTop Winter Camo,
+        ClothingItem = CropTopOneCarrier_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item CropTopOneCarrier_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = MonoStrapTop Woodland Camo,
+        ClothingItem = CropTopOneCarrier_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = CropTopOneCarrier_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTankTop_White{
+        Type = Clothing,
+        DisplayName = TankTop Neckh.,
+        ClothingItem = NeckholderTankTop_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTop_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TankTop Neckh. Desert Camo,
+        ClothingItem = NeckholderTankTop_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTop_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TankTop Neckh. Grassland Camo,
+        ClothingItem = NeckholderTankTop_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTop_Camo_Water{
+        Type = Clothing,
+        DisplayName = TankTop Neckh. Water Camo,
+        ClothingItem = NeckholderTankTop_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTop_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TankTop Neckh. Winter Camo,
+        ClothingItem = NeckholderTankTop_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTop_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TankTop Neckh. Woodland Camo,
+        ClothingItem = NeckholderTankTop_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTop_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTankTopShort_White{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh.,
+        ClothingItem = NeckholderTankTopShort_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTopShort_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh. Desert Camo,
+        ClothingItem = NeckholderTankTopShort_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTopShort_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh. Grassland Camo,
+        ClothingItem = NeckholderTankTopShort_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTopShort_Camo_Water{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh. Water Camo,
+        ClothingItem = NeckholderTankTopShort_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTopShort_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh. Winter Camo,
+        ClothingItem = NeckholderTankTopShort_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTankTopShort_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Short TankTop Neckh. Woodland Camo,
+        ClothingItem = NeckholderTankTopShort_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTankTopShort_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTop_Backstrap_White{
+        Type = Clothing,
+        DisplayName = Top Neckh.,
+        ClothingItem = NeckholderTop_Backstrap_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Backstrap_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Top Neckh. Desert Camo,
+        ClothingItem = NeckholderTop_Backstrap_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Backstrap_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Top Neckh. Grassland Camo,
+        ClothingItem = NeckholderTop_Backstrap_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Backstrap_Camo_Water{
+        Type = Clothing,
+        DisplayName = Top Neckh. Water Camo,
+        ClothingItem = NeckholderTop_Backstrap_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Backstrap_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Top Neckh. Winter Camo,
+        ClothingItem = NeckholderTop_Backstrap_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Backstrap_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Top Neckh. Woodland Camo,
+        ClothingItem = NeckholderTop_Backstrap_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Backstrap_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTopShort_Backstrap_White{
+        Type = Clothing,
+        DisplayName = Short Top Neckh.,
+        ClothingItem = NeckholderTopShort_Backstrap_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTopShort_Backstrap_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Short Top Neckh. Desert Camo,
+        ClothingItem = NeckholderTopShort_Backstrap_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTopShort_Backstrap_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Short Top Neckh. Grassland Camo,
+        ClothingItem = NeckholderTopShort_Backstrap_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTopShort_Backstrap_Camo_Water{
+        Type = Clothing,
+        DisplayName = Short Top Neckh. Water Camo,
+        ClothingItem = NeckholderTopShort_Backstrap_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTopShort_Backstrap_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Short Top Neckh. Winter Camo,
+        ClothingItem = NeckholderTopShort_Backstrap_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTopShort_Backstrap_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Short Top Neckh. Woodland Camo,
+        ClothingItem = NeckholderTopShort_Backstrap_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTopShort_Backstrap_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTop_Cutout_White{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh.,
+        ClothingItem = NeckholderTop_Cutout_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Cutout_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh. Desert Camo,
+        ClothingItem = NeckholderTop_Cutout_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Cutout_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh. Grassland Camo,
+        ClothingItem = NeckholderTop_Cutout_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Cutout_Camo_Water{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh. Water Camo,
+        ClothingItem = NeckholderTop_Cutout_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Cutout_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh. Winter Camo,
+        ClothingItem = NeckholderTop_Cutout_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_Cutout_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TopCutout Neckh. Woodland Camo,
+        ClothingItem = NeckholderTop_Cutout_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_Cutout_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item NeckholderTop_DoubleStrap_White{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh.,
+        ClothingItem = NeckholderTop_DoubleStrap_White,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_DoubleStrap_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh. Desert Camo,
+        ClothingItem = NeckholderTop_DoubleStrap_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_DoubleStrap_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh. Grassland Camo,
+        ClothingItem = NeckholderTop_DoubleStrap_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_DoubleStrap_Camo_Water{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh. Water Camo,
+        ClothingItem = NeckholderTop_DoubleStrap_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_DoubleStrap_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh. Winter Camo,
+        ClothingItem = NeckholderTop_DoubleStrap_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item NeckholderTop_DoubleStrap_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TopDoubleStrap Neckh. Woodland Camo,
+        ClothingItem = NeckholderTop_DoubleStrap_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = NeckholderTop_DoubleStrap_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item Special_BR_Black_Red{
+        Type = Clothing,
+        DisplayName = SpecialTopBound,
+        ClothingItem = Special_BR_Black_Red,
+        BodyLocation = Tshirt,
+        Icon = Special_BR_Black_Red,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item StripesTop_White{
+        Type = Clothing,
+        DisplayName = StripesTop,
+        ClothingItem = StripesTop_White,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item StripesTop_Camo_Desert{
+        Type = Clothing,
+        DisplayName = StripesTop Desert Camo,
+        ClothingItem = StripesTop_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item StripesTop_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = StripesTop Grassland Camo,
+        ClothingItem = StripesTop_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item StripesTop_Camo_Water{
+        Type = Clothing,
+        DisplayName = StripesTop Water Camo,
+        ClothingItem = StripesTop_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item StripesTop_Camo_Winter{
+        Type = Clothing,
+        DisplayName = StripesTop Winter Camo,
+        ClothingItem = StripesTop_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item StripesTop_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = StripesTop Woodland Camo,
+        ClothingItem = StripesTop_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = StripesTop_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item TankTop_BoundB_White{
+        Type = Clothing,
+        DisplayName = TankTop Bound,
+        ClothingItem = TankTop_BoundB_White,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_BoundB_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TankTop Bound Desert Camo,
+        ClothingItem = TankTop_BoundB_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_BoundB_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TankTop Bound Grassland Camo,
+        ClothingItem = TankTop_BoundB_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_BoundB_Camo_Water{
+        Type = Clothing,
+        DisplayName = TankTop Bound Water Camo,
+        ClothingItem = TankTop_BoundB_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_BoundB_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TankTop Bound Winter Camo,
+        ClothingItem = TankTop_BoundB_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_BoundB_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TankTop Bound Woodland Camo,
+        ClothingItem = TankTop_BoundB_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = TankTop_BoundB_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item TankTop_White{
+        Type = Clothing,
+        DisplayName = TankTop,
+        ClothingItem = TankTop_White,
+        BodyLocation = Tshirt,
+        Icon = TankTop_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TankTop Desert Camo,
+        ClothingItem = TankTop_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TankTop Grassland Camo,
+        ClothingItem = TankTop_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Camo_Water{
+        Type = Clothing,
+        DisplayName = TankTop Water Camo,
+        ClothingItem = TankTop_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TankTop Winter Camo,
+        ClothingItem = TankTop_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TankTop Woodland Camo,
+        ClothingItem = TankTop_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item TankTopShort_White{
+        Type = Clothing,
+        DisplayName = Short TankTop,
+        ClothingItem = TankTopShort_White,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTopShort_Camo_Desert{
+        Type = Clothing,
+        DisplayName = Short TankTop Desert Camo,
+        ClothingItem = TankTopShort_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTopShort_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = Short TankTop Grassland Camo,
+        ClothingItem = TankTopShort_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTopShort_Camo_Water{
+        Type = Clothing,
+        DisplayName = Short TankTop Water Camo,
+        ClothingItem = TankTopShort_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTopShort_Camo_Winter{
+        Type = Clothing,
+        DisplayName = Short TankTop Winter Camo,
+        ClothingItem = TankTopShort_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTopShort_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = Short TankTop Woodland Camo,
+        ClothingItem = TankTopShort_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = TankTopShort_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 item TankTop_Trans_Black{
+        Type = Clothing,
+        DisplayName = TankTop Trans.,
+        ClothingItem = TankTop_Trans_Black,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Trans_Black,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TankTop_Trans_Lace_Black{
+        Type = Clothing,
+        DisplayName = TankTop Trans. Lace,
+        ClothingItem = TankTop_Trans_Lace_Black,
+        BodyLocation = Tshirt,
+        Icon = TankTop_Trans_Lace_Black,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 	 
+	 item TwistedTopNoArms_Cutout_White{
+        Type = Clothing,
+        DisplayName = TwistedTop,
+        ClothingItem = TwistedTopNoArms_Cutout_White,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_White,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }	 
+	 
+	 item TwistedTopNoArms_Cutout_Camo_Desert{
+        Type = Clothing,
+        DisplayName = TwistedTop Desert Camo,
+        ClothingItem = TwistedTopNoArms_Cutout_Camo_Desert,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_Camo_Desert,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TwistedTopNoArms_Cutout_Camo_Grassland{
+        Type = Clothing,
+        DisplayName = TwistedTop Grassland Camo,
+        ClothingItem = TwistedTopNoArms_Cutout_Camo_Grassland,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_Camo_Grassland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TwistedTopNoArms_Cutout_Camo_Water{
+        Type = Clothing,
+        DisplayName = TwistedTop Water Camo,
+        ClothingItem = TwistedTopNoArms_Cutout_Camo_Water,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_Camo_Water,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TwistedTopNoArms_Cutout_Camo_Winter{
+        Type = Clothing,
+        DisplayName = TwistedTop Winter Camo,
+        ClothingItem = TwistedTopNoArms_Cutout_Camo_Winter,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_Camo_Winter,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 item TwistedTopNoArms_Cutout_Camo_Woodland{
+        Type = Clothing,
+        DisplayName = TwistedTop Woodland Camo,
+        ClothingItem = TwistedTopNoArms_Cutout_Camo_Woodland,
+        BodyLocation = Tshirt,
+        Icon = TwistedTopNoArms_Cutout_Camo_Woodland,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = BulletVest_Ground,
+   	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 item JeansHPants_BoundS_Black{
+        Type = Clothing,
+        DisplayName = HotPants Bound Black,
+        ClothingItem = JeansHPants_BoundS_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_BoundS_Black,
+        BiteDefense = 6,
+        ScratchDefense = 14,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	 item JeansHPants_BoundS_Blue{
+        Type = Clothing,
+        DisplayName = HotPants Bound Blue,
+        ClothingItem = JeansHPants_BoundS_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_BoundS_Blue,
+        BiteDefense = 6,
+        ScratchDefense = 14,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_BoundS_Grey{
+        Type = Clothing,
+        DisplayName = HotPants Bound Grey,
+        ClothingItem = JeansHPants_BoundS_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_BoundS_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 14,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_BoundS_White{
+        Type = Clothing,
+        DisplayName = HotPants Bound White,
+        ClothingItem = JeansHPants_BoundS_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_BoundS_White,
+        BiteDefense = 6,
+        ScratchDefense = 14,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+			 
+	 item JeansHPants_Normal_Black{
+        Type = Clothing,
+        DisplayName = HotPants Black,
+        ClothingItem = JeansHPants_Normal_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Black,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	 item JeansHPants_Normal_Blue{
+        Type = Clothing,
+        DisplayName = HotPants Blue,
+        ClothingItem = JeansHPants_Normal_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Blue,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Normal_Grey{
+        Type = Clothing,
+        DisplayName = HotPants Grey,
+        ClothingItem = JeansHPants_Normal_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Normal_White{
+        Type = Clothing,
+        DisplayName = HotPants White,
+        ClothingItem = JeansHPants_Normal_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_White,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansHPants_Normal_Ripped_Black{
+        Type = Clothing,
+        DisplayName = HotPants Ripped Black,
+        ClothingItem = JeansHPants_Normal_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Ripped_Black,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	 item JeansHPants_Normal_Ripped_Blue{
+        Type = Clothing,
+        DisplayName = HotPants Ripped Blue,
+        ClothingItem = JeansHPants_Normal_Ripped_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Ripped_Blue,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Normal_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = HotPants Ripped Grey,
+        ClothingItem = JeansHPants_Normal_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Ripped_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Normal_Ripped_White{
+        Type = Clothing,
+        DisplayName = HotPants Ripped White,
+        ClothingItem = JeansHPants_Normal_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Normal_Ripped_White,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansHPants_Skull_Black{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Black,
+        ClothingItem = JeansHPants_Skull_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Black,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_LightBlue{
+        Type = Clothing,
+        DisplayName = HotPantsSkull LightBlue,
+        ClothingItem = JeansHPants_Skull_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_LightBlue,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_Grey{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Grey,
+        ClothingItem = JeansHPants_Skull_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_White{
+        Type = Clothing,
+        DisplayName = HotPantsSkull White,
+        ClothingItem = JeansHPants_Skull_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_White,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansHPants_Skull_Ripped_Black{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Ripped Black,
+        ClothingItem = JeansHPants_Skull_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Ripped_Black,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_Ripped_LightBlue{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Ripped LightBlue,
+        ClothingItem = JeansHPants_Skull_Ripped_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Ripped_LightBlue,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Ripped Grey,
+        ClothingItem = JeansHPants_Skull_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Ripped_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Skull_Ripped_White{
+        Type = Clothing,
+        DisplayName = HotPantsSkull Ripped White,
+        ClothingItem = JeansHPants_Skull_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Skull_Ripped_White,
+        BiteDefense = 6,
+        ScratchDefense = 10,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansHPants_Special_Skull_Black{
+        Type = Clothing,
+        DisplayName = HotPants Special Black,
+        ClothingItem = JeansHPants_Special_Skull_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Special_Skull_Black,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Special_Skull_Blue{
+        Type = Clothing,
+        DisplayName = HotPants Special Blue,
+        ClothingItem = JeansHPants_Special_Skull_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Special_Skull_Blue,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Special_Skull_Grey{
+        Type = Clothing,
+        DisplayName = HotPants Special Grey,
+        ClothingItem = JeansHPants_Special_Skull_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Special_Skull_Grey,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansHPants_Special_Skull_White{
+        Type = Clothing,
+        DisplayName = HotPants Special White,
+        ClothingItem = JeansHPants_Special_Skull_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansHPants_Special_Skull_White,
+        BiteDefense = 6,
+        ScratchDefense = 12,
+        Insulation = 0.35,
+        WindResistance = 0.35,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	 
+	 item JeansLong_BoundS_Black{
+        Type = Clothing,
+        DisplayName = Jeans Bound Black,
+        ClothingItem = JeansLong_BoundS_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_BoundS_Black,
+        BiteDefense = 10,
+        ScratchDefense = 19,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.60,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_BoundS_Grey{
+        Type = Clothing,
+        DisplayName = Jeans Bound Grey,
+        ClothingItem = JeansLong_BoundS_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_BoundS_Grey,
+        BiteDefense = 10,
+        ScratchDefense = 19,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.60,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_BoundS_White{
+        Type = Clothing,
+        DisplayName = Jeans Bound White,
+        ClothingItem = JeansLong_BoundS_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_BoundS_White,
+        BiteDefense = 10,
+        ScratchDefense = 19,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.60,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansLong_Normal_Black{
+        Type = Clothing,
+        DisplayName = JeansNormal Black,
+        ClothingItem = JeansLong_Normal_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Black,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	 item JeansLong_Normal_Blue{
+        Type = Clothing,
+        DisplayName = JeansNormal Blue,
+        ClothingItem = JeansLong_Normal_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Blue,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Normal_Grey{
+        Type = Clothing,
+        DisplayName = JeansNormal Grey,
+        ClothingItem = JeansLong_Normal_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Grey,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Normal_White{
+        Type = Clothing,
+        DisplayName = JeansNormal White,
+        ClothingItem = JeansLong_Normal_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_White,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansLong_Normal_Ripped_Black{
+        Type = Clothing,
+        DisplayName = Jeans Ripped Black,
+        ClothingItem = JeansLong_Normal_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Ripped_Black,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	item JeansLong_Normal_Ripped_Blue{
+        Type = Clothing,
+        DisplayName = Jeans Ripped Blue,
+        ClothingItem = JeansLong_Normal_Ripped_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Ripped_Blue,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Normal_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = Jeans Ripped Grey,
+        ClothingItem = JeansLong_Normal_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Ripped_Grey,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Normal_Ripped_White{
+        Type = Clothing,
+        DisplayName = Jeans Ripped White,
+        ClothingItem = JeansLong_Normal_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Normal_Ripped_White,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansLong_Skull_Black{
+        Type = Clothing,
+        DisplayName = JeansSkull Black,
+        ClothingItem = JeansLong_Skull_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Black,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_LightBlue{
+        Type = Clothing,
+        DisplayName = JeansSkull LightBlue,
+        ClothingItem = JeansLong_Skull_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_LightBlue,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_Grey{
+        Type = Clothing,
+        DisplayName = JeansSkull Grey,
+        ClothingItem = JeansLong_Skull_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Grey,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_White{
+        Type = Clothing,
+        DisplayName = JeansSkull White,
+        ClothingItem = JeansLong_Skull_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_White,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.70,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansLong_Skull_Ripped_Black{
+        Type = Clothing,
+        DisplayName = JeansSkull Ripped Black,
+        ClothingItem = JeansLong_Skull_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Ripped_Black,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_Ripped_LightBlue{
+        Type = Clothing,
+        DisplayName = JeansSkull Ripped LightBlue,
+        ClothingItem = JeansLong_Skull_Ripped_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Ripped_LightBlue,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = JeansSkull Ripped Grey,
+        ClothingItem = JeansLong_Skull_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Ripped_Grey,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansLong_Skull_Ripped_White{
+        Type = Clothing,
+        DisplayName = JeansSkull Ripped White,
+        ClothingItem = JeansLong_Skull_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansLong_Skull_Ripped_White,
+        BiteDefense = 10,
+        ScratchDefense = 18,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.55,
+        WindResistance = 0.55
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansShorts_Normal_Black{
+        Type = Clothing,
+        DisplayName = JeansShortsNormal Black,
+        ClothingItem = JeansShorts_Normal_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Black,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	item JeansShorts_Normal_Blue{
+        Type = Clothing,
+        DisplayName = JeansShortsNormal Blue,
+        ClothingItem = JeansShorts_Normal_Blue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Blue,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Normal_Grey{
+        Type = Clothing,
+        DisplayName = JeansShortsNormal Grey,
+        ClothingItem = JeansShorts_Normal_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Grey,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Normal_White{
+        Type = Clothing,
+        DisplayName = JeansShortsNormal White,
+        ClothingItem = JeansShorts_Normal_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_White,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansShorts_Normal_Ripped_Black{
+        Type = Clothing,
+        DisplayName = JeansShorts Ripped Black,
+        ClothingItem = JeansShorts_Normal_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Ripped_Black,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	 
+	item JeansShorts_Normal_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = JeansShorts Ripped Grey,
+        ClothingItem = JeansShorts_Normal_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Ripped_Grey,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Normal_Ripped_White{
+        Type = Clothing,
+        DisplayName = JeansShorts Ripped White,
+        ClothingItem = JeansShorts_Normal_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Normal_Ripped_White,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansShorts_Skull_Black{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Black,
+        ClothingItem = JeansShorts_Skull_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Black,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_LightBlue{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull LightBlue,
+        ClothingItem = JeansShorts_Skull_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_LightBlue,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_Grey{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Grey,
+        ClothingItem = JeansShorts_Skull_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Grey,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_White{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull White,
+        ClothingItem = JeansShorts_Skull_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_White,
+        BiteDefense = 8,
+        ScratchDefense = 16,
+        Insulation = 0.45,
+        WindResistance = 0.45,,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	
+	
+	item JeansShorts_Skull_Ripped_Black{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Ripped Black,
+        ClothingItem = JeansShorts_Skull_Ripped_Black,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Ripped_Black,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_Ripped_LightBlue{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Ripped LightBlue,
+        ClothingItem = JeansShorts_Skull_Ripped_LightBlue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Ripped_LightBlue,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_Ripped_Grey{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Ripped Grey,
+        ClothingItem = JeansShorts_Skull_Ripped_Grey,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Ripped_Grey,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	item JeansShorts_Skull_Ripped_White{
+        Type = Clothing,
+        DisplayName = JeansShortsSkull Ripped White,
+        ClothingItem = JeansShorts_Skull_Ripped_White,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JeansShorts_Skull_Ripped_White,
+        BiteDefense = 8,
+        ScratchDefense = 14,
+        Insulation = 0.40,
+        WindResistance = 0.40,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+	}
+	
+	
+	
+	 		
+}

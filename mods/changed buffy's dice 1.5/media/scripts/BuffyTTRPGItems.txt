@@ -1,0 +1,15 @@
+module Buffy
+{
+	imports
+	{
+		Base
+	}
+    item DiceResetBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Forgetta - Dice Edition,
+        Icon	=	MagazineWordsearch1,
+        WorldStaticModel = MagazineWordSearch1_Ground,
+    }
+}

@@ -1,0 +1,957 @@
+module DaysEndCraftAll
+{
+	imports
+	{
+		Base
+	}
+
+
+
+	recipe Modern Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_2,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Modern Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_3,
+		SkillRequired:Woodwork=9,
+		Time:240.0,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Wooden Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_10,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+
+	}
+
+	recipe Wooden Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_11,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+
+	}
+
+	recipe White Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_75,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe White Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_74,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe White Striped Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+PaintWhite=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_pie_01_43,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe White Striped Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+PaintWhite=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_pie_01_42,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe White Striped Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_pie_01_42,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Birchwood Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_42,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Birchwood Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_27,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Birchwood Floating Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_43,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Oak Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_51,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Oak Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_50,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Dark Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_59,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Dark Corner Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_58,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Green Counter
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+PaintGreen=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_66,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+		OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Green Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintGreen=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.fixtures_counters_01_67,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Motel Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_hospitality_sunstarmotel_02_13,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Motel Counter (Low)
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_hospitality_sunstarmotel_02_21,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Bar Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_3,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Bar Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_2,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Black Bar Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintBlack=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Black Bar Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintBlack=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_18,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Oak Bar Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_59,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Oak Bar Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_bar_01_58,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Theater Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=2,
+PaintBlue=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_entertainment_theatre_01_11,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Theater Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=2,
+PaintBlue=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_entertainment_theatre_01_10,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Square Theater Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=2,
+PaintBlue=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_entertainment_theatre_01_16,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Seahorse Coffee Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintOrange=2,
+PaintBlack=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_seahorse_01_43,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Seahorse Coffee Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintOrange=2,
+PaintBlack=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_seahorse_01_42,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Trailer Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_trailer_02_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Floating Trailer Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_trailer_02_23,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Built-in Trailer Fridge
+	{
+		Plank=4,
+		Nails=6,
+		Woodglue=2,
+		Moveables.appliances_refrigeration_01_24,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_trailer_02_17,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Spiffo's Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintOrange=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_spiffos_01_59,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Spiffo's Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintOrange=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_spiffos_01_58,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Generic Shop Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_generic_01_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Generic Shop Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_generic_01_18,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Zippee Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=3,
+PaintRed=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_zippee_01_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Zippee Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintWhite=3,
+PaintRed=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_zippee_01_18,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Diner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_diner_01_27,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Diner Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintTurquoise=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_diner_01_26,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Pizza Whirled Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintRed=2,
+PaintWhite=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_pizzawhirled_01_35,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Pizza Whirled Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintRed=2,
+PaintWhite=3,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_restaurant_pizzawhirled_01_34,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Red Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintRed=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_gas2go_01_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Red Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintRed=2,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_gas2go_01_18,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Blue Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintBlue=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_fossoil_01_19,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Blue Corner Counter
+	{
+		Plank=4,
+Nails=6,
+Woodglue=2,
+PaintBlue=2,
+PaintWhite=4,
+		keep Saw/GardenSaw,
+		keep Hammer/BallPeenHammer/HammerStone,
+
+		Result:Moveables.location_shop_fossoil_01_18,
+		Time:240.0,
+		SkillRequired:Woodwork=9,
+		Category:DECounters,
+		AnimNode: BuildLow,
+		Prop1: Hammer,
+		Sound: Hammering,
+OnGiveXP:Recipe.OnGiveXP.Woodwork11,
+	}
+
+	recipe Glass Display Counter
+	{
+		Plank=2,
+		Screws=6,
+		Woodglue=1,
+		BlowTorch=2,
+		WeldingRods=1,
+		GlassPane=3,
+		keep Saw/GardenSaw,
+		keep Screwdriver,
+
+		Result:Moveables.location_shop_generic_01_99,
+		Time:240.0,
+		SkillRequired: Woodwork=6;MetalWelding=5;,
+		Category:DECounters,
+		AnimNode: BlowTorchMid,
+		Prop1: BlowTorch,
+		Sound: BlowTorch,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding11,
+	}
+
+	recipe Glass Corner Display Counter
+	{
+		Plank=2,
+		Screws=6,
+		Woodglue=1,
+		BlowTorch=2,
+		WeldingRods=1,
+		GlassPane=3,
+		keep Saw/GardenSaw,
+		keep Screwdriver,
+
+		Result:Moveables.location_shop_generic_01_98,
+		Time:240.0,
+		SkillRequired: Woodwork=6;MetalWelding=5;,
+		Category:DECounters,
+		AnimNode: BlowTorchMid,
+		Prop1: BlowTorch,
+		Sound: BlowTorch,
+OnGiveXP:Recipe.OnGiveXP.MetalWelding11,
+	}
+
+}

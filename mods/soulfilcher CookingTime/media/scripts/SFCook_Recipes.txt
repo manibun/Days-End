@@ -1,0 +1,554 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Recipes - Cooking************************/
+
+	recipe Make Bowl of Ice Cream
+	{
+	   Icecream;15,
+	   Bowl,
+
+	   Result:filcher.IcecreamBowl,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+
+	recipe Make Guacamole
+	{
+	   Bowl,
+	   Avocado;15,
+	   Onion;2,
+	farming.Tomato;2,
+	PepperJalapeno;2,
+	Lime;1,
+	Salt;1,
+
+	   Result:Guacamole,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+
+    recipe Make Jar of Beetroot
+    {
+        EmptyJar,
+        JarLid,
+        filcher.Beetroot=5,
+        Water=10,
+        Vinegar=2,
+        [Recipe.GetItemTypes.Sugar];1,
+
+        Result:CannedBeetroot,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Open Jar of Beetroot
+    {
+        CannedBeetroot,
+
+        Result:filcher.Beetroot=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+    }
+
+    recipe Make Jar of Pumpkin
+    {
+        EmptyJar,
+        JarLid,
+        Pumpkin=1,
+        Water=10,
+        Vinegar=2,
+        [Recipe.GetItemTypes.Sugar];1,
+
+        Result:CannedPumpkin,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Open Jar of Pumpkin
+    {
+        CannedPumpkin,
+
+        Result:Pumpkin=1,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+    }
+
+    recipe Make Pickling Jar
+    {
+        EmptyJar,
+        JarLid,
+        Water=10,
+        Vinegar=2,
+        [Recipe.GetItemTypes.Sugar];1,
+
+        Result:SFPicklingJar,
+        Time:100.0,
+        Category:Cooking,
+    }
+
+    recipe Make Pot of Soup
+    {
+       CannedSoupOpen,
+       Pot,
+
+       Result:PotOfSoup,
+       Time:130.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Make Pot of Soup
+    {
+       CannedSoup,
+       keep [Recipe.GetItemTypes.CanOpener],
+       Pot,
+
+       Result:PotOfSoup,
+       Time:130.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+       Sound:OpenCannedFood,
+    }
+
+	recipe Make Smore
+	{
+	   Marshmallows;5,
+	   GrahamCrackers;5,
+
+	   Result:Smore,
+	   Time:20.0,
+	   Category:Cooking,
+       	OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+
+	recipe Open Canned Ham
+	{
+	   CannedHam,
+       	   keep [Recipe.GetItemTypes.CanOpener],
+
+	   Result:CannedHamOpen,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+       		Sound:OpenCannedFood,
+	}
+
+	recipe Open Canned Tomato Soup
+	{
+	   CannedSoup,
+       	   keep [Recipe.GetItemTypes.CanOpener],
+
+	   Result:CannedSoupOpen,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+       		Sound:OpenCannedFood,
+	}
+
+	recipe Open Canned Spaghetti
+	{
+	   CannedSpagetti,
+       	   keep [Recipe.GetItemTypes.CanOpener],
+
+	   Result:OpenCannedSpagetti,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+       		Sound:OpenCannedFood,
+	}
+
+
+	recipe Open Canned Spinach
+	{
+	   CannedSpinach,
+       	   keep [Recipe.GetItemTypes.CanOpener],
+
+	   Result:OpenCannedSpinach,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+       		Sound:OpenCannedFood,
+	}
+
+	recipe Open Jar of Chocolate Wafer Sticks
+	{
+	   SFChocolateWaferSticksJar,
+
+	   Result:SFChocolateWaferSticksJarOpen,
+	   Time:10.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Rip Bread Slices
+    {
+        BreadSlices,
+
+        Result:filcher.BreadPieces=5,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+    recipe Make Corn Batter
+    {
+       Bowl,
+       Cornflour=2,
+        [Recipe.GetItemTypes.Sugar];1,
+       Salt=1,
+        [Recipe.GetItemTypes.Egg]=1,
+       Yeast,
+        [Recipe.GetItemTypes.Milk];5,
+
+       Result:SFCornBatter,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Give10CookingXP,
+    }
+
+    recipe Make Corndog
+    {
+        SFThinStick,
+        Sausage,
+       	SFCornBatter=1,
+
+        Result:SFCorndogRaw,
+        NeedToBeLearn:true,
+        Time:100.0,
+        OnGiveXP:Give10CookingXP,
+        Category:Cooking,
+    }
+
+    recipe Open Box of Tea Bags
+    {
+       SFBoxOfTea,
+
+       Result:Teabag2=12,
+       Time:5.0,
+       OnGiveXP:NoXP_OnGiveXP,
+       Category:Cooking,
+    }
+
+	recipe Open Cat Food
+	{
+	   SFCatfood,
+       	   keep [Recipe.GetItemTypes.CanOpener],
+
+	   Result:SFCatfoodOpen,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Put Tea Bags in Box
+    {
+       Teabag2=12,
+
+       Result:SFBoxOfTea,
+       OnGiveXP:NoXP_OnGiveXP,
+       Time:5.0,
+       Category:Cooking,
+    }
+
+
+	recipe Slice Potato
+	{
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+	   farming.Potato,
+
+	   Result:SFPotatoSliced,
+	   Time:50.0,
+	   Category:Cooking,
+	}
+
+    recipe Prepare Fries
+    {
+        Saucepan,
+        SFPotatoSliced=1,
+        Salt:1,
+        OilVegetable;1,
+
+        Result:SaucepanFries,
+        Time:100.0,
+        Category:Cooking,
+    }
+
+    recipe Take Fries
+    {
+        SaucepanFries,
+
+        Result:Fries,
+        Time:20.0,
+        Category:Cooking,
+        OnTest:TakeFries_TestIsValid,
+	OnCreate:Recipe.OnCreate.TakeFries,
+    }
+
+	recipe Place Beans in Cooking Pot
+	{
+	   [Recipe.GetItemTypes.Beans];10,
+	   destroy WaterPot,
+
+	   Result:filcher.SFWaterPotBeans,
+	   Time:50.0,
+	   OnCreate:Recipe.OnCreate.AddBaseIngredientToCookingVessel,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    recipe Make 4 Bowls of Beans
+	{
+	   SFWaterPotBeans,
+	   Bowl=4,
+
+	   Result:SFBeanBowl=4,
+	   OnCreate:MakeBowlOfBeans4_OnCreate,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    recipe Make 2 Bowls of Beans
+	{
+	   SFWaterPotBeans,
+	   Bowl=2,
+
+	   Result:SFBeanBowl=2,
+	   OnCreate:MakeBowlOfBeans2_OnCreate,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    recipe Make Cornbread Batter
+    {
+       Bowl,
+       Butter/Lard/Margarine;6,
+       Cornflour=1,
+       [Recipe.GetItemTypes.Egg]=1,
+       Salt:1,
+       Yeast,
+
+       Result:SFCornbreadBatter,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make Cupcake Batter
+    {
+       Bowl,
+       [Recipe.GetItemTypes.Flour]=2,
+       Butter/Lard/Margarine;15,
+       [Recipe.GetItemTypes.Egg]=1,
+       [Recipe.GetItemTypes.Milk];5,
+
+       Result:SFCupcakeBatter,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Give10CookingXP,
+    }
+
+    recipe Make Pumpkin Pie
+	{
+	   PiePrep,
+	   Pumpkin;25,
+
+	   Result:filcher.PumpkinPieWholeRaw,
+	   Time:80.0,
+	   Category:Cooking,
+           OnGiveXP:Give10CookingXP,
+	}
+
+    recipe Slice Pumpkin Pie
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        filcher.PumpkinPieWholeRaw,
+
+        Result:PiePumpkin=5,
+        Time:20.0,
+        OnCreate:SlicePumpkinPie_OnCreate,
+        Category:Cooking,
+        OnGiveXP:Give3CookingXP,
+    }
+
+    recipe Make Hotdog
+    {
+        BreadSlices,
+	Sausage;20,
+
+        Result:Hotdog,
+	OnGiveXP:Give3CookingXP,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+    recipe Make Tomato Sauce
+    {
+        keep Saucepan,
+	farming.Tomato;36,
+	Salt;1,
+	SFBasil;3,
+
+        Result:filcher.SFTomatoSauce,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Give10CookingXP,
+    }
+
+    recipe Make Plain Bread Dough
+    {
+       keep RollingPin,
+       Water=1,
+       Flour=1,
+       Yeast,
+
+       Result:filcher.SFPlainBreadDough,
+       NeedToBeLearn:true,
+       Time:50.0,
+       OnCreate:Recipe.OnCreate.SetAgeZero,
+       Category:Cooking,
+       OnGiveXP:Give3CookingXP,
+    }
+
+    recipe Make Thin Stick
+    {
+        Plank,
+        keep Saw/GardenSaw,
+
+        Result:filcher.SFThinStick=20,
+        Sound:Sawing,
+        Time:50.0,
+    }
+
+    recipe Make Yeast
+    {
+        keep MortarPestle,
+        SFPlainBreadRotten;11,
+
+        Result:Yeast,
+        Time:20.0,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+    recipe Place Cupcake in Tray
+    {
+       SFCupcakeBatter,
+       SFCupcakeTray,
+
+       Result:SFCupcakePrep,
+       Time:30.0,
+       OnCreate:OnPutCakeBatterInBaking,
+       Category:Cooking,
+       OnGiveXP:Give3CookingXP,
+    }
+
+    recipe Remove Cupcakes from Tray
+    {
+        filcher.SFCupcakes,
+
+        Result:filcher.SFCupcake=6,
+        Time:20.0,
+        OnCreate:RemoveCupcakes_OnCreate,
+        OnTest:RemoveCupcakes_TestIsValid,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+    recipe Slice Bread
+    {
+        keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        SFPlainBreadCooked,
+
+        Result:BreadSlices=3,
+        OnCreate:Recipe.OnCreate.SliceBread,
+        Sound:SliceBread,
+        Time:40.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Fill Glass With Beer
+    {
+        EmptyGlass,
+        BeerCan;4,
+
+        Result:filcher.SFDrinkBase,
+        Time:20.0,
+        OnCreate:GlassBeer_OnCreate,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+    recipe Fill Glass With Chardonnay
+    {
+        EmptyGlass,
+        Wine;4,
+
+        Result:filcher.SFDrinkBase,
+        Time:20.0,
+        OnCreate:GlassWine_OnCreate,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+    recipe Fill Glass With Red Wine
+    {
+        EmptyGlass,
+        Wine2;4,
+
+        Result:filcher.SFDrinkBase,
+        Time:20.0,
+        OnCreate:GlassWine2_OnCreate,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+    recipe Fill Glass With Whiskey
+    {
+        EmptyGlass,
+        WhiskeyFull;4,
+
+        Result:filcher.SFDrinkBase,
+        Time:20.0,
+        OnCreate:GlassWhiskey_OnCreate,
+        Category:Cooking,
+	OnGiveXP:NoXP_OnGiveXP,
+    }
+
+	recipe Take A Stick
+	{
+	   SFChocolateWaferSticksJarOpen;1,
+
+	   Result:SFChocolateWaferStick,
+	   Time:2.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Take Lid
+    {
+        
+        JarAndLid,
+
+        Result:JarLid,
+        Time:10.0,
+        OnCreate:ReturnEmptyJar,
+    }
+}

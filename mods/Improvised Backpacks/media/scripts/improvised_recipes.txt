@@ -1,0 +1,36 @@
+module Base
+{
+	recipe Craft Improvised Backpack
+	{
+		LeatherStrips/LeatherStripsDirty,
+		Sheet/Tarp/Pillow,
+		Twine = 3,
+		TreeBranch/WoodenStick,
+		keep KitchenKnife/HuntingKnife/FlintKnife,
+
+		Result:Bag_Improvised_Backpack,
+		Time:300.0,
+		Category:Improvised,
+	}
+	recipe Craft Improvised Backpack
+	{
+		LeatherStrips/LeatherStripsDirty,
+		Sheet/Tarp/Pillow,
+		Rope,
+		TreeBranch/WoodenStick,
+		keep KitchenKnife/HuntingKnife/FlintKnife,
+
+		Result:Bag_Improvised_Backpack,
+		Time:300.0,
+		Category:Improvised,
+	}
+	recipe Craft Sheet Bag
+	{
+		Sheet,
+		SheetRope = 2,
+
+		Result:Bag_Sheet_Bag,
+		Time:100.0,
+		Category:Improvised,
+	}
+}

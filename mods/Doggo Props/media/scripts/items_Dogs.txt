@@ -1,0 +1,46 @@
+module Dog {
+    imports
+    {
+        Base
+    }
+  	  	item Corgi
+    {
+        Type = Normal,
+        DisplayName = Corgi,
+        Weight = 5.00,
+        Icon	=	corgi,
+		WorldStaticModel = Corgi,
+    }
+	item BlueHeeler
+    {
+        Type = Normal,
+        DisplayName = Blue Heeler,
+        Weight = 5.00,
+        Icon	=	blueheeler,
+		WorldStaticModel = BlueHeeler,
+    }
+	item CanaanDog
+    {
+        Type = Normal,
+        DisplayName = Canaan Dog,
+        Weight = 5.00,
+        Icon	=	canaandog,
+		WorldStaticModel = CanaanDog,
+    }
+	item Beagle
+    {
+        Type = Normal,
+        DisplayName = Beagle,
+        Weight = 5.00,
+        Icon	=	beagle,
+		WorldStaticModel = Beagle,
+    }
+	item Doberman
+    {
+        Type = Normal,
+        DisplayName = Doberman,
+        Weight = 5.00,
+        Icon	=	doberman,
+		WorldStaticModel = Doberman,
+    }
+}

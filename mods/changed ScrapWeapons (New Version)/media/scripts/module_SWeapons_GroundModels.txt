@@ -1,0 +1,75 @@
+module Base
+{
+	model WeaponMag1_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag1,
+		scale = 1,
+    }
+	model WeaponMag1
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag1,
+		scale = 1,
+    }
+	model WeaponMag2_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag2,
+		scale = 1,
+    }
+	model WeaponMag2
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag2,
+		scale = 1,
+    }
+	model WeaponMag3_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag3,
+		scale = 1,
+    }
+	model WeaponMag3
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag3,
+		scale = 1,
+    }
+	model WeaponMag4_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag4,
+		scale = 1,
+    }
+	model WeaponMag4
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag4,
+		scale = 1,
+    }
+	model WeaponMag5_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag5,
+		scale = 1,
+    }
+	model WeaponMag5
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag5,
+		scale = 1,
+    }
+	model WeaponMag6_Ground
+	{
+		mesh = WorldItems/ScrapRecipeMagazine,
+		texture	= other/WeaponMag6,
+		scale = 1,
+    }
+	model WeaponMag6
+	{
+		mesh = WorldItems/RecipeMagazineReading,
+		texture	= other/WeaponMag6,
+		scale = 1,
+    }
+}

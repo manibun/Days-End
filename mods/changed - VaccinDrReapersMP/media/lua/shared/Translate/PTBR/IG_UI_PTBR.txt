@@ -1,0 +1,7 @@
+-- Translation: RAlfa https://steamcommunity.com/id/ralfabr
+IGUI_PTBR = {
+	IGUI_CraftCategory_Equipment = "Equipamentos",
+	IGUI_CraftCategory_Decorations = "Decorações",
+	IGUI_CraftCategory_Chemistry = "Saúde Lab",
+	IGUI_CraftCategory_Other = "Outros",
+}

@@ -1,0 +1,11 @@
+UI_TH = {
+    UI_item_uses_tab_name = "ใช้"
+    UI_item_craft_tab_name = "ลงมือทำ"
+    UI_common_left_col_name = "สูตรผสม"
+    UI_common_right_col_name = "รายละเอียด"
+    UI_recipe_panel_required_book = "ตำราที่จำเป็น (เพียงหนึ่งเล่ม)"
+    UI_recipe_panel_near_item = "อุปกรณ์ที่จำเป็น"
+    UI_settings_av_valid = "ทำได้"
+    UI_settings_av_known = "รู้วิธีทำแล้ว"
+    UI_settings_av_invalid = "ยังทำไม่เป็น"
+}

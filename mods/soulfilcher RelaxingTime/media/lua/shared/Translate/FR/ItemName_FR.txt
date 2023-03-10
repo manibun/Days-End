@@ -1,0 +1,13 @@
+ItemName_FR = {
+  ItemName_Base.Briefcase = "Mallette",
+  ItemName_Base.Chessboard = "Échiquier",
+  ItemName_Base.Coloring_Book = "Livre de coloriage",
+  ItemName_Base.Crosswords = "Mots-croisés",
+  ItemName_Base.Green_Pen = "Stylo vert",
+  ItemName_Base.Magic_8-Ball = "Balle 8 magique",
+  ItemName_Base.Multicolor_Pen = "Stylo multicolore",
+  ItemName_Base.Notes_on_Rhyming_Jokes = "Notes sur des blagues",
+  ItemName_Base.Novel = "Roman",
+  ItemName_Base.Postcard = "Carte postale",
+  ItemName_Base.Ripped_Pages = "Page déchirée",
+}

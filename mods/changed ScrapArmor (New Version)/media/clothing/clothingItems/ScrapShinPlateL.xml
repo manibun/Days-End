@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\clothes\bob_ScrapShinPlateL</m_MaleModel>
+	<m_FemaleModel>Static\clothes\kate_ScrapShinPlateL</m_FemaleModel>
+	<m_GUID>0fdc9f78-9713-4119-9179-303d9a73fb78</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_L_Calf</m_AttachBone>
+	<textureChoices>clothes\ShinPlates\ScrapShinPlateL</textureChoices>
+</clothingItem>

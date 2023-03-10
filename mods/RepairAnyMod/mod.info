@@ -1,0 +1,6 @@
+name=Repair Any Mod OPTIONAL
+description= Makes you able to repair modded items! Requires ItemTweakerAPI. 
+description= Mods currently include Brita's armor pack, Authentic Z, Shark & Peach's MUI, Scrap Armor, Dislaik's Clothing Pack and Rileh's SWAT pack
+poster=poster.png
+require=ItemTweakerAPI
+id=RepairAnyMod

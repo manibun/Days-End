@@ -1,0 +1,6 @@
+﻿IGUI_EN = {
+
+	IGUI_CraftUI_Titlel = "Crafting (Press "zero" to refresh!)",
+                IGUI_CraftUI_Notel = "If you don't find the new recipe you learned, press number"0" to refresh the Crafting menu.It will take a little time.",
+
+}

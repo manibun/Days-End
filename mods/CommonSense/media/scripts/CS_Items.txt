@@ -1,0 +1,131 @@
+module Base
+{
+    item EmptyConcreteBag
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	8,
+        Capacity	=	10,
+        DisplayName	=	Sack,
+        Icon	=	Concrete_Powder,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = BagofConcretePowder,
+        Tooltip = Tooltip_item_empty_sack_container,
+        Tags    =   HoldDirt,
+    }
+
+/************************ OVERRIDES ************************/
+
+item Pie
+	{
+		DisplayName = Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		StaticModel = PieSlice,
+		WorldStaticModel = Pie,
+	}
+
+	item PiePumpkin
+	{
+		DisplayName = Pumpkin Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = PiePumpkin,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PiePumpkin,
+	}
+
+	item PieApple
+	{
+		DisplayName = Apple Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Apple,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieApple_Ground,
+	}
+
+	item PieBlueberry
+	{
+		DisplayName = Blueberry Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Blueberry,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieBlueberry_Ground,
+	}
+	
+	item PieKeyLime
+	{
+		DisplayName = Key Lime Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Keylime,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = Pie_Keylime_Ground,
+	}
+	
+	item PieLemonMeringue
+	{
+		DisplayName = Lemon Meringue Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Lemonmeringue,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieLemonmeringue_Ground,
+	}
+}
+

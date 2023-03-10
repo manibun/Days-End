@@ -1,0 +1,141 @@
+module Base
+{
+	/****************************** ITEMS SHIELD ******************************/
+
+    item ScrapShield
+	{
+		Weight	=	3,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Scrap Shield,
+		Icon	=	ScrapShield,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/ScrapShield,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item WoodenShield
+	{
+		Weight	=	3,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Wooden Shield,
+		Icon	=	WoodenShield,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/WoodenShield,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item ScrapShieldPainted1
+	{
+		Weight	=	3,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Scrap Shield,
+		Icon	=	ScrapShieldPainted1,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/ScrapShieldPainted1,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item ScrapShieldPainted2
+	{
+		Weight	=	3,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Scrap Shield,
+		Icon	=	ScrapShieldPainted2,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/ScrapShieldPainted2,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item ScrapShieldPainted3
+	{
+		Weight	=	3,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Scrap Shield,
+		Icon	=	ScrapShieldPainted3,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/ScrapShieldPainted3,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item CarDoorShield
+	{
+		Weight	=	10,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Car Door Shield,
+		Icon	=	CarDoorShield,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/CarDoorShield,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+
+	item CarDoorShield1
+	{
+		Weight	=	10,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Car Door Shield,
+		Icon	=	CarDoorShield1,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/CarDoorShield1,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+	
+	item CarDoorShield2
+	{
+		Weight	=	10,
+		DisappearOnUse	=	FALSE,
+		Type	=	 Normal,
+		DisplayName	=	Car Door Shield,
+		Icon	=	CarDoorShield2,
+		cantBeConsolided = TRUE,
+		StaticModel = Weapons/1Handed/CarDoorShield2,
+      		RunAnim	=	Run_Weapon2,
+       		IdleAnim	= HoldingTorchRight,
+		primaryAnimMask = HoldingTorchRight,
+        	secondaryAnimMask = HoldingTorchLeft,
+		Tooltip = Tooltip_ScrapShield,
+		AttachmentType 		= ShieldSlot,
+	}
+
+}

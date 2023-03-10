@@ -1,0 +1,270 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Recipes************************/
+
+    recipe Write Notes On Curing Plants
+    {
+       keep FarmingMag1,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:FarmingNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Fishing Rods
+    {
+       keep FishingMag1/filcher.SFGuideFishing,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:FishingNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Fishing Nets
+    {
+       keep FishingMag2/filcher.SFGuideFishing,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:FishingNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Snare Traps
+    {
+       keep HuntingMag1/filcher.SFGuideMaintenance,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:HuntingNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Wooden Traps
+    {
+       keep HuntingMag2/filcher.SFGuideMaintenance,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:HuntingNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Varied Traps
+    {
+       keep HuntingMag3/filcher.SFGuideMaintenance,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:HuntingNotes3,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Herbs
+    {
+       keep HerbalistMag,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:HerbalistNotes,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Cakes And Pies
+    {
+       keep CookingMag1/filcher.SFGuideCooking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:CookingNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Bread
+    {
+       keep CookingMag2/filcher.SFGuideCooking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:CookingNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Standard Car Models
+    {
+       keep MechanicMag1/filcher.SFGuideMechanics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MechanicNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Commercial Car Models
+    {
+       keep MechanicMag2/filcher.SFGuideMechanics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MechanicNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Performance Car Models
+    {
+       keep MechanicMag3/filcher.SFGuideMechanics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MechanicNotes3,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Radios
+    {
+       keep Radio.RadioMag1/filcher.SFGuideRadio,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:RadioNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Walkie Talkies
+    {
+       keep Radio.RadioMag2/filcher.SFGuideRadio,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:RadioNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On HAM Radios
+    {
+       keep Radio.RadioMag3/filcher.SFGuideRadio,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:RadioNotes3,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Noise Makers
+    {
+       keep EngineerMagazine1/filcher.SFGuideEngineering,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:EngineerNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Smoke Bombs
+    {
+       keep EngineerMagazine2/filcher.SFGuideEngineering,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:EngineerNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Metal Walls
+    {
+       keep MetalworkMag1/SFGuideMetalworking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MetalworkNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Metal Crates
+    {
+       keep MetalworkMag2/SFGuideMetalworking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MetalworkNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Metal Fences
+    {
+       keep MetalworkMag3/SFGuideMetalworking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MetalworkNotes3,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Metal Sheets
+    {
+       keep MetalworkMag4/SFGuideMetalworking,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:MetalworkNotes4,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Remote Controllers
+    {
+       keep ElectronicsMag1/SFGuideEletronics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:ElectronicsNotes1,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Timers
+    {
+       keep ElectronicsMag2/SFGuideEletronics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:ElectronicsNotes2,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Motion Sensors
+    {
+       keep ElectronicsMag3/SFGuideEletronics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:ElectronicsNotes3,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Using Generators
+    {
+       keep ElectronicsMag4,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:ElectronicsNotes4,
+       Time:250.0,
+    }
+
+    recipe Write Notes On Remote Triggers
+    {
+       keep ElectronicsMag5/SFGuideEletronics,
+       keep Pen/BluePen/RedPen,
+       destroy Notebook,
+
+       Result:ElectronicsNotes5,
+       Time:250.0,
+    }
+
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\bob_ScrapHandPlateStuddedR</m_MaleModel>
+	<m_FemaleModel>static\clothes\kate_ScrapHandPlateStuddedR</m_FemaleModel>
+	<m_GUID>a2d41860-8c09-449f-b70d-d4cb19c6499e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_R_Hand</m_AttachBone>
+	<textureChoices>clothes\HandPlates\ScrapHandPlateStuddedR</textureChoices>
+</clothingItem>
+
+

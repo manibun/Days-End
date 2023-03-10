@@ -1,0 +1,5 @@
+IG_UI_EN = {
+	IGUI_VehicleNamefiat500 = "Fieri Fifibella",
+	IGUI_VehicleNameamphicar = "Boatmobile Model 777",
+	IGUI_VehicleName30president = "Coronet Emperor"
+	IGUI_VehicleName30hotrod = "Custom Coronet Emperor HotRod"

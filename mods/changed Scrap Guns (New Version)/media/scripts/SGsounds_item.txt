@@ -1,0 +1,487 @@
+module SGuns
+{
+	sound GlassBombExplosion
+    {
+		distanceMin = 15,
+		distanceMax = 35,
+		is3D = true,
+        clip
+        {
+            file = media/sound/GlassBombExplosion.ogg,
+            
+        }
+
+    }
+	sound PipeBombExplosion
+    {
+		distanceMin = 25,
+		distanceMax = 55,
+		is3D = true,
+        clip
+        {
+            file = media/sound/PipeBombExplosion.ogg,
+            
+        }
+
+    }
+	sound MolotovExplosion
+    {
+		distanceMin = 15,
+		distanceMax = 35,
+		is3D = true,
+        clip
+        {
+            file = media/sound/MolotovExplosion.ogg,
+            
+        }
+
+    }
+	sound NailBombExplosion
+    {
+		distanceMin = 25,
+		distanceMax = 45,
+		is3D = true,
+        clip
+        {
+            file = media/sound/NailBombExplosion.ogg,
+            
+        }
+
+    }
+	sound PipeBombThrow
+    {
+		distanceMin = 10,
+		distanceMax = 15,
+		is3D = true,
+        clip
+        {
+            file = media/sound/PipeBombThrow.ogg,
+            
+        }
+
+    }
+	sound MolotovThrow
+    {
+		distanceMin = 10,
+		distanceMax = 15,
+		is3D = true,
+        clip
+        {
+            file = media/sound/MolotovThrow.ogg,
+            
+        }
+
+    }
+	sound NailBombThrow
+    {
+		distanceMin = 10,
+		distanceMax = 15,
+		is3D = true,
+        clip
+        {
+            file = media/sound/NailBombThrow.ogg,
+            
+        }
+
+    }
+	sound BottleThrow
+    {
+		distanceMin = 2,
+		distanceMax = 5,
+		is3D = true,
+        clip
+        {
+            file = media/sound/BottleThrow.ogg,
+            
+        }
+
+    }
+    sound SRRSound
+    {
+
+        clip
+        {
+            file = media/sound/SSRRSound.ogg,
+            
+        }
+
+    }
+    sound SSRRack
+    {
+
+        clip
+        {
+            file = media/sound/SSRRack.ogg,
+            
+        }
+
+    }
+	
+	
+    sound SGSSMGRack
+    {
+
+        clip
+        {
+            file = media/sound/SSMGRack.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/SSMGRack1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/SSMGRack2.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/SSMGRack3.ogg,
+
+        }
+    }
+
+    sound SGSSMGSound
+    {
+
+        clip
+        {
+            file = media/sound/SSMGSound.ogg,
+         
+        }
+        clip
+        {
+            file = media/sound/SSMGSound1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/SSMGSound2.ogg,
+            
+        }
+    }
+	
+	sound SGSSMGMagInsert
+    {
+
+		clip
+        {
+            file = media/sound/SSMGMagInsert.ogg,
+         
+        }
+        clip
+        {
+            file = media/sound/SSMGMagInsert1.ogg,
+            
+        }
+
+    }
+	
+	sound SGHDBSSound
+    {
+
+        clip
+        {
+            file = media/sound/HDBSSound.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HDBSSound1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HDBSSound2.ogg,
+            
+        }
+
+    }
+	
+	sound SGHPInsert
+    {
+
+        clip
+        {
+            file = media/sound/HPInsert.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPInsert1.ogg,
+            
+        }
+
+    }
+	
+	sound SGHPRack
+    {
+
+        clip
+        {
+            file = media/sound/HPRack.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPRack1.ogg,
+            
+        }
+	}	
+	
+	sound SGHPSound
+    {		
+        clip
+        {
+            file = media/sound/HPSound.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/HPSound2.ogg,
+
+        }
+    }
+	
+	sound SGHPSPump
+    {
+
+        clip
+        {
+            file = media/sound/HPSPump.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPSPump1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPSPump2.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPSPump3.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/HPSPump4.ogg,
+
+        }
+    }
+	
+	sound SGHPSSound
+    {		
+        clip
+        {
+            file = media/sound/HPSSound.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HPSSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/HPSSound2.ogg,
+
+        }
+    }
+	
+	sound SGSlamFireSound
+    {		
+        clip
+        {
+            file = media/sound/SlamFireSound.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/SlamFireSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/SlamFireSound2.ogg,
+
+        }
+    }
+	
+	sound SGHRSound
+    {		
+        clip
+        {
+            file = media/sound/HRSound.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HRSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/HRSound2.ogg,
+
+        }
+    }
+	
+	sound SGHRRack
+    {		
+        clip
+        {
+            file = media/sound/HRRack.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/HRRack1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/HRRack2.ogg,
+
+        }
+    }
+
+	sound HRMagInsert
+    {
+  
+        clip
+        {
+            file = media/sound/MagInsert.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/MagInsert1.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/MagInsert2.ogg,
+            
+        }
+	}
+	
+	sound BulletHit
+    {
+	
+        clip
+        {
+            file = media/sound/BulletHit1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/BulletHit2.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/BulletHit3.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/BulletHit4.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/BulletHit5.ogg,
+            
+        }
+	}
+	sound ScrapSMGRack
+    {		
+        clip
+        {
+            file = media/sound/ScrapSMGRack1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapSMGRack2.ogg,
+
+        }
+	}
+    sound ScrapSMGSound
+    {		
+        clip
+        {
+            file = media/sound/ScrapSMGSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapSMGSound2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapSMGSound3.ogg,
+
+        }
+	}
+	sound ScrapPistolRack
+    {		
+        clip
+        {
+            file = media/sound/ScrapPistolRack1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolRack2.ogg,
+
+        }
+	}
+    sound ScrapPistolSound
+    {		
+        clip
+        {
+            file = media/sound/ScrapPistolSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolSound1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/ScrapPistolSound2.ogg,
+
+        }
+	}		
+	
+}
+

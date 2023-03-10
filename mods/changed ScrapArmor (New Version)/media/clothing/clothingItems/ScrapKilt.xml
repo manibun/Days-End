@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\bob_ScrapKilt</m_MaleModel>
+	<m_FemaleModel>static\clothes\kate_ScrapKilt</m_FemaleModel>
+	<m_GUID>da25c10e-9bfc-419c-a6f2-3fac56655e4f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Pelvis</m_AttachBone>
+	<textureChoices>clothes\ChestArmor\ScrapKilt</textureChoices>
+</clothingItem>

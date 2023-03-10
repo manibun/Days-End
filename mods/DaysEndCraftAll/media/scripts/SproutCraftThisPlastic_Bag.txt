@@ -1,0 +1,19 @@
+module SproutCraftThis5
+{
+	imports
+	{
+		Base
+	}
+
+   recipe Make Some Plastic Bags
+    {
+	   Garbagebag=1,
+ 	   keep Scissors,
+ 
+	   Result			:GroceryBag1=2,
+	   Time			:100.0,
+	   Catagory			: General,
+
+    }
+
+}

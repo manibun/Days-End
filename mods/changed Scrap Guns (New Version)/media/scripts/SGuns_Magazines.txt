@@ -1,0 +1,61 @@
+module SGuns
+{
+	imports
+	{
+		Base
+	}
+
+	item ScrapGunMag1
+	{
+		Weight = 0.1,
+		Tooltip    =    Tooltip_ScrapGunMag1,
+		Type = Literature,
+		DisplayName = The Power of Air Pressure!,
+		Icon = ScrapGunMag1,
+		TeachedRecipes = Disassamble Gun;Assemble Pressure Rifle Magazine;Assemble Handmade Pressure Pump Shotgun;Assemble Double Barrel Pressure Shotgun;Make Shrapnel Shell;Make Shrapnel Shells;Scramble Metal Scraps (Ammo);Assemble Handmade Pressure Pistol;Assemble Handmade Pressure Rifle,
+		StaticModel = ScrapGunMag1_Reading,
+		ReplaceOnUse    =   ScrapGunMag1,
+		WorldStaticModel = ScrapGunMag1_Ground,
+		DisplayCategory = SkillBook,
+	}
+	item ScrapGunMag2
+	{
+		Weight = 0.1,
+		Tooltip    =    Tooltip_ScrapGunMag2,
+		Type = Literature,
+		DisplayName = Raven's Notes,
+		Icon = ScrapGunMag2,
+		TeachedRecipes = Make Nail Bomb;Make Glass Bomb;Assemble Pipe Bomb;Make Decoy,
+		StaticModel = ScrapGunMag2_Reading,
+		ReplaceOnUse    =   ScrapGunMag2,
+		WorldStaticModel = ScrapGunMag2_Ground,
+		DisplayCategory = SkillBook,
+	}
+
+	item ScrapGunMag3
+	{
+		Weight = 0.1,
+		Tooltip    =    Tooltip_ScrapGunMag3,
+		Type = Literature,
+		DisplayName = Gunsmiths Journal Vol 2,
+		Icon = ScrapGunMag3,
+		TeachedRecipes = Assemble Salvaged Magazine;Make Salvaged Bullets;Disassamble Gun;Upgrade SAR with Bayonet (REMOVE MAG FIRST!);Assemble Salvaged SMG;Assemble Salvaged Assault Rifle;Assemble Salvaged Sniper Rifle,
+		StaticModel = ScrapGunMag3_Reading,
+		ReplaceOnUse    =   ScrapGunMag3,
+		WorldStaticModel = ScrapGunMag3_Ground,
+		DisplayCategory = SkillBook,
+	}
+	item ScrapGunMag4
+	{
+		Weight = 0.1,
+		Tooltip    =    Tooltip_ScrapGunMag4,
+		Type = Literature,
+		DisplayName = Gunsmiths Journal Vol. 1,
+		Icon = ScrapGunMag4,
+		TeachedRecipes = Disassamble Gun;Make Scrap Bullets;Assemble Scrap SMG;Assemble Scrap Pistol;Assemble Scrap Gatling;Assemble Scrap Pistol Magazine;Assemble Scrap SMG Magazine;Assemble Gatling Box Magazine,
+		StaticModel = ScrapGunMag4_Reading,
+		ReplaceOnUse    =   ScrapGunMag4,
+		WorldStaticModel = ScrapGunMag4_Ground,
+		DisplayCategory = SkillBook,
+	}
+}

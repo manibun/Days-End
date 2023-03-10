@@ -1,0 +1,4 @@
+Recipes_RU = {
+    Recipe_Empty-Bag = "Вылить на землю",
+    Recipe_Empty-Sack = "Вылить на землю",
+}

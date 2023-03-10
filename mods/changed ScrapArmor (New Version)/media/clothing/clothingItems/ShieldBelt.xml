@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\clothes\bob_ShieldBelt</m_MaleModel>
+	<m_FemaleModel>Static\clothes\kate_ShieldBelt</m_FemaleModel>
+	<m_GUID>d56af61e-67e1-4c30-9ce1-d2c2a8f40201</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Spine1</m_AttachBone>
+	<textureChoices>clothes\Equipment\ShieldBelt</textureChoices>
+</clothingItem>

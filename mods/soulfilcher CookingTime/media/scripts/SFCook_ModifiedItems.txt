@@ -1,0 +1,138 @@
+module Base
+{
+	item Blackbeans
+	{
+		DisplayName = Black Beans,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Blackbeans,
+		EvolvedRecipe = Soup:10;Stew:10;Stir fry Griddle Pan:10;Stir fry:10;Roasted Vegetables:10;RicePot:10;RicePan:10;Burrito:10;Taco:5;Salad:5,
+		FoodType = Bean,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -10,
+		Calories = 45,
+		Carbohydrates = 10.45,
+		Lipids = 0.45,
+		Proteins = 3.95,
+		WorldStaticModel = Blackbeans_Ground,
+		EvolvedRecipeName = Black Bean,
+		Tags = Beans,
+	}
+
+	item DriedBlackBeans
+	{
+		DisplayName = Dried Black Beans,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = DriedBlackBeans,
+		EvolvedRecipe = Soup:10;Stew:10;RicePot:10;PastaPot:10,
+		FoodType = Bean,
+		Packaged = TRUE,
+		HungerChange = -60,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 3084,
+		Carbohydrates = 580,
+		Lipids = 0,
+		Proteins = 199,
+		WorldStaticModel = DriedBlackBeans_Ground,
+		Tags = DriedFood,
+		EvolvedRecipeName = Black Bean,
+		Tags = Beans,
+	}
+
+	item DriedKidneyBeans
+	{
+		DisplayName = Dried Kidney Peas,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = DriedKidneyBeans,
+		EvolvedRecipe = Soup:10;Stew:10;RicePot:10;PastaPot:10,
+		FoodType = Bean,
+		Packaged = TRUE,
+		HungerChange = -60,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 3265,
+		Carbohydrates = 508,
+		Lipids = 13,
+		Proteins = 272,
+		WorldStaticModel = DriedKidneyBeans_Ground,
+		Tags = DriedFood,
+		EvolvedRecipeName = Kidney Bean,
+		Tags = Beans,
+	}
+
+	item DriedWhiteBeans
+	{
+		DisplayName = Dried White Beans,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = DriedWhiteBeans,
+		EvolvedRecipe = Soup:10;Stew:10;RicePot:10;PastaPot:10,
+		FoodType = Bean,
+		Packaged = TRUE,
+		HungerChange = -60,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 2823,
+		Carbohydrates = 527,
+		Lipids = 10,
+		Proteins = 188,
+		WorldStaticModel = DriedWhiteBeans_Ground,
+		Tags = DriedFood,
+		EvolvedRecipeName = White Bean,
+		Tags = Beans,
+	}
+
+	item OpenBeans
+	{
+		DisplayName = Opened Canned Beans,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = BeansOpen,
+		EvolvedRecipe = Omelette:8;Soup:24;Stew:24;RicePot:24;RicePan:24;Sandwich:8;Sandwich Baguette:8;Toast:8;Salad:8,
+		EvolvedRecipeName = Bean,
+		FoodType = Bean,
+		CannedFood = TRUE,
+		EatType = can,
+		Packaged = TRUE,
+		ReplaceOnUse = TinCanEmpty,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		HungerChange = -24,
+		UnhappyChange = 10,
+		Calories = 170,
+		Carbohydrates = 33,
+		Lipids = 1,
+		Proteins = 7,
+		StaticModel = CanOpen,
+		WorldStaticModel = CanOpen,
+		Tags = Beans;HasMetal,
+	}
+
+	item Pasta
+	{
+		DisplayName = Pasta,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = SpagettiRaw,
+		Packaged = TRUE,
+		HungerChange = -60,
+		ThirstChange = 60,
+		UnhappyChange = 40,
+		Calories = 3360,
+		Carbohydrates = 656,
+		Lipids = 16,
+		Proteins = 112,
+		WorldStaticModel = Pasta,
+		Tags = Pasta,
+	}
+}

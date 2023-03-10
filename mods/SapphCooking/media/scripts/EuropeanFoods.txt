@@ -1,0 +1,290 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}	
+
+
+	recipe Cook Tortellini
+	{
+		Tortellini;30,
+		destroy SaucepanwithStock,
+		keep Fork/Spoon/Spatula/WoodenSpoon/PlasticSpork,
+		Result 		: SaucepanwithTortellini,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+		SkillRequired 		: Cooking=2,
+		NeedToBeLearn 		: true,
+		Heat 		: -0.22,
+		CanBeDoneFromFloor 		: true,
+		Prop2:Cooking_SaucepanOil,
+	}
+	recipe Cook Ravioli
+	{
+		Ravioli;30,
+		destroy SaucepanwithStock,
+		keep Fork/Spoon/Spatula/WoodenSpoon/PlasticSpork,
+		Result 		: SaucepanwithRavioli,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+		SkillRequired 		: Cooking=2,
+		Heat 		: -0.22,
+		NeedToBeLearn 		: true,
+		CanBeDoneFromFloor 		: true,
+		Prop2:Cooking_SaucepanOil,
+	}
+	item SaucepanwithTortellini
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 3,
+		Type 		= Food,
+		DisplayName 		= Saucepan with Tortellini,
+		Icon 		= SaucepanFilled,
+		HungerChange 		= -50,
+		Carbohydrates 		= 200,
+		Proteins 		= 20,
+		Lipids 		= 30,
+		Calories 		= 220,
+		ReplaceOnUse 		= Saucepan,
+		DaysFresh 		= 3,
+		DaysTotallyRotten 		= 6,
+		GoodHot 		= true,
+		WorldStaticModel 		= WaterSaucepanPasta,
+		ThirstChange 		= -60,
+		UnhappyChange 		= -20,
+		StressChange 		= -20,
+		BoredomChange 		= -20,
+		FatigueChange 		= -15,
+	}
+	item SaucepanwithRavioli
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 3,
+		Type 		= Food,
+		DisplayName 		= Saucepan with Ravioli,
+		Icon 		= SaucepanFilled,
+		HungerChange 		= -50,
+		Carbohydrates 		= 300,
+		Proteins 		= 20,
+		Lipids 		= 30,
+		Calories 		= 220,
+		ReplaceOnUse 		= Saucepan,
+		DaysFresh 		= 3,
+		DaysTotallyRotten 		= 6,
+		GoodHot 		= true,
+		WorldStaticModel 		= WaterSaucepanPasta,
+		ThirstChange 		= -60,
+		UnhappyChange 		= -20,
+		StressChange 		= -20,
+		BoredomChange 		= -20,
+		FatigueChange 		= -15,
+	}
+	recipe Make 2 Bowls of Tortellini
+	{
+		SaucepanwithTortellini;50,
+		Bowl=2,
+		Result 		: BowlofTortellini=2,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+	recipe Make 2 Bowls of Ravioli
+	{
+		SaucepanwithRavioli;50,
+		Bowl=2,
+		Result 		: BowlofRavioli=2,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+	}
+	item BowlofRavioli
+	{
+		HungerChange 		= -25,
+		Type 		= Food,
+		DisplayName 		= Bowl of Ravioli,
+		MinutesToCook 		= 10,
+		Weight 		= 1,
+		DaysTotallyRotten 		= 3,
+		UnhappyChange 		= -20,
+		Icon 		= BowlofFilledPastaIcon,
+		ReplaceOnUse 		= Bowl,
+		DaysFresh 		= 1,
+		Carbohydrates 		= 150,
+		Proteins 		= 10,
+		Lipids 		= 14,
+		Calories 		= 110,
+		GoodHot 		= true,
+		StaticModel 		= BowlRavioliHand,
+		WorldStaticModel 		= BowlRavioli,
+		EatType 		= 2hand,
+		StressChange 		= -10,
+		FatigueChange 		= -8,
+		ThirstChange 		= -30,
+	}
+	item BowlofTortellini
+	{
+		HungerChange 		= -25,
+		Type 		= Food,
+		DisplayName 		= Bowl of Tortellini,
+		MinutesToCook 		= 10,
+		Weight 		= 1,
+		DaysTotallyRotten 		= 3,
+		UnhappyChange 		= -10,
+		Icon 		= BowlofFilledPastaIcon,
+		ReplaceOnUse 		= Bowl,
+		DaysFresh 		= 1,
+		Carbohydrates 		= 200,
+		Proteins 		= 10,
+		Lipids 		= 14,
+		Calories 		= 105,
+		GoodHot 		= true,
+		StaticModel 		= BowlTortelliniHand,
+		WorldStaticModel 		= BowlTortellini,
+		EatType 		= 2hand,
+		StressChange 		= -10,
+		FatigueChange 		= -8,
+		ThirstChange 		= -30,
+	}
+
+
+
+
+	item RoastingpanwithRatatouilleUn
+	{
+		DisplayCategory 		= Food,
+		Type 		= Food,
+		DisplayName 		= Roasting Pan with Confit Byaldi Ratatouille,
+		Icon 		= RoastingPanRatattouilleIcon,
+		Weight 		= 1.3,
+		Carbohydrates 		= 112,
+		Proteins 		= 25,
+		Lipids 		= 21,
+		Calories 		= 400,
+		DaysFresh 		= 3,
+		DaysTotallyRotten 		= 5,
+		EatType 		= 2hand,
+		ReplaceOnUse 		= RoastingPan,
+		WorldStaticModel 		= Ratatouille_Ground,
+		StaticModel 		= H_Ratatouille,
+		CookingSound 		= FryingFood,
+		HungerChange 		= -45,
+		IsCookable 		= true,
+		MinutesToCook 		= 40,
+		MinutesToBurn 		= 80,
+		ReplaceOnCooked 		= SapphCooking.RoastingpanwithRatatouilleCooked,
+	}
+
+	item RoastingpanwithRatatouilleCooked
+	{
+		DisplayCategory 		= Food,
+		Type 		= Food,
+		DisplayName 		= Roasting Pan with Confit Byaldi Ratatouille,
+		Icon 		= RoastingPanRatattouilleIcon,
+		Weight 		= 1.3,
+		Carbohydrates 		= 120,
+		Proteins 		= 26,
+		Lipids 		= 21,
+		Calories 		= 412,
+		DaysFresh 		= 3,
+		DaysTotallyRotten 		= 5,
+		EatType 		= 2hand,
+		ReplaceOnUse 		= RoastingPan,
+		WorldStaticModel 		= Ratatouille_Ground,
+		StaticModel 		= H_Ratatouille,
+		HungerChange 		= -60,
+		UnhappyChange 		= -20,
+		StressChange 		= -20,
+		FatigueChange 		= -15,
+	}
+	item RatattouilePiece
+	{
+		DisplayCategory 		= Food,
+		Type 		= Food,
+		DisplayName 		= Piece of Ratattouile,
+		Icon 		= RatattouillePieceIcon,
+		Weight 		= 0.2,
+		Carbohydrates 		= 66,
+		Proteins 		= 7,
+		Lipids 		= 7,
+		Calories 		= 80,
+		DaysFresh 		= 3,
+		DaysTotallyRotten 		= 5,
+		StaticModel 		= H_RatatouillePiece,
+		WorldStaticModel 		= RatatouillePiece_Ground,
+		HungerChange 		= -10,
+		UnhappyChange 		= -5,
+		BoredomChange 		= -5,
+		StressChange 		= -5,
+		FatigueChange 		= -5,
+	}
+	item Schnitzel
+	{
+	    DisplayCategory = Food,
+		HungerChange	=	-40,
+		Weight	=	0.15,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	50,
+		DisplayName	= Schnitzel,
+		Icon	=	SchnitzelIcon,
+		DaysFresh	=	2,
+		MinutesToCook	=	25,
+		FoodType    =   Meat,
+        	Carbohydrates = 15,
+        	Proteins = 18,
+        	Lipids = 6,
+        	Calories = 180,
+        	BadInMicrowave = true,
+        	GoodHot = true,
+        	BadCold = true,
+        	WorldStaticModel = Schnitzel_Ground,
+		StaticModel = H_Schnitzel,
+	}
+
+
+
+	recipe Cut Ratattouile Piece
+	{
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		RoastingpanwithRatatouilleCooked;10,
+		Result 		: RatattouilePiece,
+		Time 		: 100,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Roasting Pan of Confit Byaldi Ratattouile
+	{
+		Eggplant;10,
+		BellPepper;15,
+		Tomato;20,
+		destroy RoastingPan,
+		keep ButterKnife/BreadKnife/FlintKnife/HuntingKnife/KitchenKnife/MeatCleaver,
+		Result 		: RoastingpanwithRatatouilleUn,
+		Time 		: 200,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+		SkillRequired 		: Cooking=5,
+	}
+
+	recipe Fry Schnitzel
+	{
+		BreadedTenderizedMeat;30,
+		keep KitchenTongs/Fork/Chopsticks,
+		SaucepanwithOil,
+		CanBeDoneFromFloor 		: true,
+		Result 		: Schnitzel,
+		Time 		: 250,
+		Heat 		: -0.22,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking10,
+		Sound 		: FryingSounds,
+		Prop2:Cooking_SaucepanOil,
+	}
+
+}

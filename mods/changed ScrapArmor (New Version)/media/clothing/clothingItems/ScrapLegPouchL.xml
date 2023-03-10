@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\Bob_ScrapLegPouchL</m_MaleModel>
+	<m_FemaleModel>static\clothes\Kate_ScrapLegPouchL</m_FemaleModel>
+	<m_GUID>8be5494c-848b-4918-9888-28adbdecd6e6</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_L_Thigh</m_AttachBone>
+	<textureChoices>clothes\Equipment\ScrapLegPouchL</textureChoices>
+</clothingItem>

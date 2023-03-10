@@ -1,0 +1,120 @@
+module slyyAttire
+{
+	imports
+	{
+		Base
+	}
+
+   	item slyyHat_PlagueDocMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Plague Doctor Mask,
+		ClothingItem = slyyHat_PlagueDocMask,
+		BodyLocation = MaskEyes,
+		Icon = PlagueDocMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 15,
+        ScratchDefense = 55,
+        Insulation = 0.25,
+        WindResistance = 0.50,
+		WaterResistance = 1.0,
+		Weight = 0.7,
+		ChanceToFall = 2,
+		WorldStaticModel = PlagueDocMaskGround,
+	}
+
+	item slyyHat_BallisticFacemask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ballistic Facemask,
+		ClothingItem = slyyHat_BallisticFacemask,
+		BodyLocation = MaskEyes,
+		Icon = BallisticFacemask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.20,
+        WindResistance = 0.40,
+		WaterResistance = 0.2,
+		ChanceToFall = 2,
+		WorldStaticModel = BallisticFacemaskGround,
+	}
+
+		item slyyHat_Kasa
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kasa,
+		ClothingItem = slyyHat_Kasa,
+		BodyLocation = Hat,
+		Icon = Kasa,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        ScratchDefense = 15,
+        Insulation = 0.3,
+        WindResistance = 0.3,
+		WaterResistance = 0.2,
+		ChanceToFall = 15,
+		WorldStaticModel = KasaGround,
+	}
+
+			item slyyHat_Jingasa
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tetsu Jingasa,
+		ClothingItem = slyyHat_Jingasa,
+		BodyLocation = Hat,
+		Icon = Jingasa,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		ChanceToFall = 10,
+		WorldStaticModel = JingasaGround,
+	}
+
+		item slyyHat_OniMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Oni Mask,
+		ClothingItem = slyyHat_OniMask,
+		BodyLocation = Mask,
+		Icon = OniMask,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 65,
+        ScratchDefense = 65,
+        Insulation = 0.20,
+        WindResistance = 0.40,
+		WaterResistance = 0.2,
+		ChanceToFall = 2,
+		WorldStaticModel = OniMaskGround,
+	}
+
+			item slyyHat_OniMaskHUE
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Oni Mask,
+		ClothingItem = slyyHat_OniMaskHUE,
+		BodyLocation = Mask,
+		Icon = OniMaskHue,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 65,
+        ScratchDefense = 65,
+        Insulation = 0.20,
+        WindResistance = 0.40,
+		WaterResistance = 0.2,
+		ChanceToFall = 2,
+		WorldStaticModel = OniMaskGround,
+	}
+}

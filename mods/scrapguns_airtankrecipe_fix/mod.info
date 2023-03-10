@@ -1,0 +1,6 @@
+name=Scrap Guns - Air Tank Recipe Fix
+id=scrapguns_airtankrecipe_fix
+poster=preview.png
+description=Fix for the bugged air tank recipe from The Workshop mod
+require=TheWorkshop(new version)
+icon=logo_mini.png

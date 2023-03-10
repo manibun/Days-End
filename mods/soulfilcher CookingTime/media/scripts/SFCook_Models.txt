@@ -1,0 +1,10 @@
+module Base
+{
+
+	model CylinderFood_Stick
+    {
+        mesh = CylinderFood,
+        texture = CylinderFood_Stick,
+    }
+
+}

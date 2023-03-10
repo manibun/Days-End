@@ -1,0 +1,32 @@
+module Base {
+    model Corgi
+    {
+        mesh = WorldItems/Corgi,
+        texture = WorldItems/Corgi,
+        scale = 0.01,
+    }
+    model BlueHeeler
+    {
+        mesh = WorldItems/BlueHeeler,
+        texture = WorldItems/BlueHeeler,
+        scale = 0.01,
+    }
+    model CanaanDog
+    {
+        mesh = WorldItems/CanaanDog,
+        texture = WorldItems/CanaanDog,
+        scale = 0.01,
+    }
+    model Beagle
+    {
+        mesh = WorldItems/Beagle,
+        texture = WorldItems/Beagle,
+        scale = 0.01,
+    }
+    model Doberman
+    {
+        mesh = WorldItems/Doberman,
+        texture = WorldItems/Doberman,
+        scale = 0.01,
+    }
+}

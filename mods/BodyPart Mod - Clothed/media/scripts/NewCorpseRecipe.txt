@@ -1,0 +1,1939 @@
+module Base
+{
+    recipe Hang Female White Bald Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_b_03,
+        Category:General,
+    }
+	
+	    recipe Hang Female White Bald Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_b_04,
+        Category:General,
+    }
+
+
+	    recipe Hang Female Black Bald Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_b_02,
+        Category:General,
+    }
+
+
+	    recipe Hang Female Black Bald Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_b_01,
+        Category:General,
+    }
+
+
+
+
+	    recipe Hang Female Black Hair Long Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_a_02,
+        Category:General,
+    }
+
+
+
+	    recipe Hang Female White Hair Long Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_a_04,
+        Category:General,
+    }
+
+
+
+	    recipe Hang Female White Hair Long Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Femme_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Femme_a_03,
+        Category:General,
+    }
+
+
+
+
+
+	    recipe Hang Male Black Hair Long Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_a_01,
+        Category:General,
+    }
+
+
+
+	    recipe Hang Male White Hair Long Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_a_03,
+        Category:General,
+    }
+	
+	
+	
+	
+		    recipe Hang Male Black Bald Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_b_01,
+        Category:General,
+    }
+		    recipe Hang Male White Bald Nude
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_b_03,
+        Category:General,
+    }
+	
+			    recipe Hang Male Black Bald Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_b_02,
+        Category:General,
+    }
+	
+				    recipe Hang Male White Bald Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_b_04,
+        Category:General,
+    }
+
+				    recipe Hang Male Black Hair Long Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_a_02,
+        Category:General,
+    }
+	
+	
+	
+					    recipe Hang Male White Hair Long Clothes
+    {
+        CorpseMale,Noose_Empty,
+
+        Result:Hanging_Male_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Hanging_Male_a_04,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+					    recipe Slice into a Black Female Torso
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Female_Torso_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Female_Torso_Black,
+        Category:General,
+    }
+
+					    recipe Slice into a White Female Torso
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Female_Torso,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Female_Torso,
+        Category:General,
+    }
+
+					    recipe Slice into a White Male Torso
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Male_Torso,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Male_Torso,
+        Category:General,
+    }
+	
+	
+						    recipe Slice into a Black Male Torso
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Male_Torso_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Male_Torso_Black,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+					    recipe Decapitate Black Female Hair
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Femme_a_02,
+        Category:General,
+    }
+	
+	
+						    recipe Decapitate Black Female Bald
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Femme_b_02,
+        Category:General,
+    }
+	
+	
+	
+							    recipe Decapitate White Female Bald
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Femme_b_01,
+        Category:General,
+    }
+
+
+							    recipe Decapitate White Female Hair
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Femme_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Femme_a_01,
+        Category:General,
+    }
+
+
+
+
+							    recipe Decapitate Black Male Bald
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_b_02,
+        Category:General,
+    }
+	
+	
+								    recipe Decapitate White Male Bald
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_b_01,
+        Category:General,
+    }
+	
+									    recipe Decapitate Black Male Hair Short
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_c_02,
+        Category:General,
+    }
+	
+										    recipe Decapitate White Male Hair Short
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_c_01,
+        Category:General,
+    }
+	
+	
+	
+											    recipe Decapitate Black Male Hair Long
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_a_02,
+        Category:General,
+    }
+	
+
+
+											    recipe Decapitate White Male Hair Long
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Male_a_01,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Slice White Arm
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Arm,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Arm,
+        Category:General,
+    }
+
+	recipe Slice Black Arm
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Arm_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Arm_Black,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Slice White Leg
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Leg,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Leg,
+        Category:General,
+    }
+
+	recipe Slice Black Leg
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Leg_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Leg_Black,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Slice Mystery Part
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Part,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Part,
+        Category:General,
+    }
+
+	recipe Slice Mystery Part
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Part_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Part_Black,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Slice Mystery Part
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Part,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Part,
+        Category:General,
+    }
+
+	recipe Slice Mystery Part
+    {
+        CorpseMale, keep [Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+
+        Result:Decap_Part_Black,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Decap_Part_Black,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    recipe Make Ground Pike
+    {
+        SpearCrafted,
+
+        Result:Pike_Item,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Pike_Item,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    recipe Make Hanging Noose
+    {
+        Rope,
+
+        Result:Noose_Empty,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Noose_Empty,
+        Category:General,
+    }
+	
+
+    recipe Make Noose (Ground Cosmetic)
+    {
+        Rope,
+
+        Result:Noose_Empty_Ground,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Noose_Empty_Ground,
+        Category:General,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       recipe White Female Corpse Supine Hair Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_d_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_d_01,
+        Category:General,
+    }
+	
+	
+	recipe White Female Corpse Supine Hair Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_d_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_d_02,
+        Category:General,
+    }
+	
+		recipe Black Female Corpse Splayed Bald Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_a_04,
+        Category:General,
+    }
+	
+			recipe White Female Corpse Splayed Bald Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_a_01,
+        Category:General,
+    }
+	
+	
+	
+				recipe Black Female Corpse Splayed Bald Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_a_03,
+        Category:General,
+    }
+	
+	
+		recipe White Female Corpse Splayed Bald Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_a_02,
+        Category:General,
+    }
+	
+	
+	
+	
+		recipe Black Female Corpse Supine Bald Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_c_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_c_04,
+        Category:General,
+    }
+	
+	
+	
+	
+	recipe White Female Corpse Supine Bald Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_c_02,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	recipe Black Female Corpse Supine Bald Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_c_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_c_03,
+        Category:General,
+    }
+	
+	
+		recipe White Female Corpse Supine Bald Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_c_01,
+        Category:General,
+    }
+	
+	
+	
+		recipe Black Female Corpse Supine Hair Long Clothes
+    {
+        CorpseMale,
+
+        Result:Body_Femme_e_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_e_04,
+        Category:General,
+    }
+	
+	
+	
+	
+			recipe Black Female Corpse Supine Hair Long Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_e_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_e_03,
+        Category:General,
+    }
+	
+				recipe White Female Corpse Supine Hair Long Nude
+    {
+        CorpseMale,
+
+        Result:Body_Femme_e_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_e_02,
+        Category:General,
+    }
+	
+	
+	
+					recipe White Female Corpse Supine Hair Long Clothes
+					{
+        CorpseMale,
+
+        Result:Body_Femme_e_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_e_01,
+        Category:General,
+    }
+	
+	
+	
+		recipe Black Female Corpse Splayed Hair Nude
+		{
+        CorpseMale,
+
+        Result:Body_Femme_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_b_03,
+        Category:General,
+    }
+	
+			recipe Black Female Corpse Splayed Hair Clothes
+			{
+        CorpseMale,
+
+        Result:Body_Femme_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_b_04,
+        Category:General,
+    }
+	
+	
+				recipe White Female Corpse Splayed Hair Clothes
+				{
+        CorpseMale,
+
+        Result:Body_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_b_01,
+        Category:General,
+    }
+	
+	
+					recipe White Female Corpse Splayed Hair Nude
+					{
+        CorpseMale,
+
+        Result:Body_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_b_02,
+        Category:General,
+    }
+	
+						recipe Black Female Corpse Supine Hair Short Clothes
+						{
+        CorpseMale,
+
+        Result:Body_Femme_d_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_d_04,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+		recipe Black Female Corpse Supine Hair Short Nude
+		{
+		
+		        CorpseMale,
+
+        Result:Body_Femme_d_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_d_03,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+			recipe Black Female Corpse Supine Hair Short Nude
+			{
+			
+			        CorpseMale,
+
+        Result:Body_Femme_d_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Femme_d_03,
+        Category:General,
+    }
+	
+	
+				recipe White Male Corpse Splayed Hair Short Clothes
+				{
+				
+				        CorpseMale,
+
+        Result:Body_Male_e_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_e_01,
+        Category:General,
+    }
+	
+	
+		recipe White Male Corpse Supine Hair Short Nude
+		{
+		
+		        CorpseMale,
+
+        Result:Body_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_b_02,
+        Category:General,
+    }
+	
+		recipe Black Male Corpse Supine Hair Short Nude
+		{
+		
+		        CorpseMale,
+
+        Result:Body_Male_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_b_03,
+        Category:General,
+    }
+	
+	
+		recipe White Male Corpse Supine Hair Short Clothes
+		{
+		
+		        CorpseMale,
+
+        Result:Body_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_b_01,
+        Category:General,
+    }
+	
+	
+		recipe Black Male Corpse Supine Bald Nude
+		{
+		        CorpseMale,
+
+        Result:Body_Male_c_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_c_03,
+        Category:General,
+    }
+	
+			recipe Black Male Corpse Supine Bald Clothes
+			{
+			
+			        CorpseMale,
+
+        Result:Body_Male_c_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_c_04,
+        Category:General,
+    }
+	
+	
+				recipe White Male Corpse Supine Hair Long Clothes
+				{
+				
+				        CorpseMale,
+
+        Result:Body_Male_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_c_01,
+        Category:General,
+    }
+	
+					recipe White Male Corpse Supine Bald Nude
+					{
+					
+					        CorpseMale,
+
+        Result:Body_Male_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_c_02,
+        Category:General,
+    }
+	
+	
+	
+						recipe White Male Corpse Supine Hair Short Nude
+						{
+						
+						        CorpseMale,
+
+        Result:Body_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_a_02,
+        Category:General,
+    }
+
+
+						recipe White Male Corpse Supine Hair Short Clothes
+						{
+        CorpseMale,
+        Result:Body_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_a_01,
+        Category:General,
+    }
+	
+	
+	
+	
+							recipe Black Male Corpse Supine Hair Short Clothes
+							{
+        CorpseMale,
+        Result:Body_Male_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_a_04,
+        Category:General,
+    }
+	
+	
+			recipe Black Male Corpse Supine Hair Short Nude
+			{
+        CorpseMale,
+        Result:Body_Male_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_a_03,
+        Category:General,
+    }
+	
+	
+	
+	
+			recipe Black Male Corpse Supine Hair Long Clothes
+			{
+        CorpseMale,
+        Result:Body_Male_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_b_04,
+        Category:General,
+    }
+	
+	
+				recipe Black Male Corpse Splayed Hair Long Clothes
+				{
+        CorpseMale,
+        Result:Body_Male_e_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_e_04,
+        Category:General,
+    }
+	
+	
+					recipe Black Male Corpse Splayed Bald Clothes
+					{
+        CorpseMale,
+        Result:Body_Male_d_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_d_04,
+        Category:General,
+    }
+	
+	
+	
+	
+						recipe Black Male Corpse Splayed Bald Nude
+						{
+        CorpseMale,
+        Result:Body_Male_d_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_d_03,
+        Category:General,
+    }
+	
+	
+							recipe White Male Corpse Splayed Bald Nude
+							{
+        CorpseMale,
+        Result:Body_Male_d_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_d_02,
+        Category:General,
+    }
+	
+	
+	
+	
+		recipe White Male Corpse Splayed Bald Clothes
+		{
+        CorpseMale,
+        Result:Body_Male_d_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_d_01,
+        Category:General,
+    }
+	
+	
+	
+			recipe White Male Corpse Splayed Hair Long Nude
+			{
+        CorpseMale,
+        Result:Body_Male_e_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_e_02,
+        Category:General,
+    }
+	
+	
+				recipe Black Male Corpse Splayed Hair Long Nude
+				{
+        CorpseMale,
+        Result:Body_Male_e_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Body_Male_e_03,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		recipe Make Crucifix
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		
+        Result:Cross_Empty,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Cross_Empty,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+	
+			recipe Black Crucified Female Hair Short Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+				CorpseMale,
+		
+        Result:Crucified_Femme_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_a_03,
+        Category:General,
+    }
+	
+	
+				recipe White Crucified Female Bald Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+				CorpseMale,
+		
+        Result:Crucified_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_b_02,
+        Category:General,
+    }
+	
+	
+					recipe Black Crucified Female Bald Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+				CorpseMale,
+		
+        Result:Crucified_Femme_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_b_04,
+        Category:General,
+    }
+	
+	
+						recipe White Crucified Female Hair Short Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+				CorpseMale,
+		
+        Result:Crucified_Femme_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_a_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+							recipe Black Crucified Female Hair Short Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+				CorpseMale,
+		
+        Result:Crucified_Femme_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_a_04,
+        Category:General,
+    }
+	
+	
+	
+								recipe Black Crucified Female Bald Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Femme_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_b_03,
+        Category:General,
+    }
+	
+	
+	
+									recipe White Crucified Female Hair Short Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_a_02,
+        Category:General,
+    }
+	
+	
+										recipe White Crucified Female Bald Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Femme_b_01,
+        Category:General,
+    }
+	
+	
+										recipe White Crucified Male Bald Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_b_02,
+        Category:General,
+    }
+	
+	
+	
+											recipe Black Crucified Male Bald Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_b_03,
+        Category:General,
+    }
+	
+	
+	
+												recipe Black Crucified Male Short Hair Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_a_04,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+													recipe Black Crucified Male Short Hair Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_a_03,
+        Category:General,
+    }
+	
+	
+	
+														recipe White Crucified Male Short Hair Nude
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_a_02,
+        Category:General,
+    }
+	
+	
+	
+	
+	recipe White Crucified Male Short Hair Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_a_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+		recipe White Crucified Male Bald Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_b_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+			recipe Black Crucified Male Bald Clothes
+	{
+        keep [Recipe.GetItemTypes.Hammer],
+        Plank=4,
+        Nails=5,
+		CorpseMale,
+		
+        Result:Crucified_Male_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Crucified_Male_b_04,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+				recipe Black Female Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_b_02,
+        Category:General,
+    }
+	
+					recipe Black Female Pike Hair Long
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_a_02,
+        Category:General,
+    }
+	
+	
+	
+						recipe White Female Pike Hair Long
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_a_01,
+        Category:General,
+    }
+	
+	
+	
+							recipe White Female Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_b_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+								recipe Black Female Sideways Pike Hair Long
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_c_02,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+									recipe White Female Sideways Pike Hair Long
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_c_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										recipe Black Female Sideways Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_d_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_d_02,
+        Category:General,
+    }
+	
+	
+	
+	
+											recipe White Female Sideways Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Femme_d_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Femme_d_01,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+	
+												recipe Black Male Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_b_02,
+        Category:General,
+    }
+	
+	
+	
+	
+													recipe Black Male Pike Sideways Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_e_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_e_02,
+        Category:General,
+    }
+	
+	
+	
+														recipe White Male Pike Long Hair
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_a_01,
+        Category:General,
+    }
+	
+	
+	
+	
+															recipe Black Male Pike Long Hair
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_a_02,
+        Category:General,
+    }
+	
+	
+	
+	
+	
+		recipe White Male Pike Sideways Short Hair
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_d_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_d_01,
+        Category:General,
+    }
+	
+	
+	
+	
+		
+		recipe Black Male Pike Sideways Short Hair
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_d_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_d_02,
+        Category:General,
+    }
+	
+	
+	
+	
+			recipe White Male Pike Sideways Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_e_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_e_01,
+        Category:General,
+    }
+	
+	
+	
+	
+				recipe White Male Pike Bald
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_b_01,
+        Category:General,
+   	 }
+	
+	
+	
+	
+					recipe White Male Pike Short Hair
+	{
+
+		SpearCrafted,
+		CorpseMale,
+		
+        Result:Head_Pike_Male_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.Head_Pike_Male_c_01,
+        Category:General,
+    	}
+
+
+
+					recipe Standing White Male Long Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_c_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_c_01,
+        Category:General,
+    	}
+		
+							recipe Standing White Female Short Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_b_03,
+        Category:General,
+    	}
+
+
+
+					recipe Standing White Male Long Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_c_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_c_03,
+        Category:General,
+    	}
+
+
+
+					recipe Standing White Male Short Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_b_01,
+        Category:General,
+    	}
+		
+		
+		
+		
+									recipe Standing White Female Bald Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_a_03,
+        Category:General,
+    	}
+
+									recipe Standing White Male Bald Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_a_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_a_03,
+        Category:General,
+    	}
+
+
+
+
+									recipe Standing White Male Bald Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_a_01,
+        Category:General,
+    	}
+
+
+
+
+
+
+									recipe Standing White Female Bald Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_a_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_a_01,
+        Category:General,
+    	}
+
+
+
+									recipe Standing White Female Short Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_b_01,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_b_01,
+        Category:General,
+    	}
+
+
+
+
+
+	recipe Standing White Male Short Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_b_03,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_b_03,
+        Category:General,
+    	}
+
+
+
+
+
+
+recipe Standing Black Female Bald Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_a_02,
+        Category:General,
+    	}
+		
+		
+
+
+
+
+recipe Standing Black Female Long Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_c_02,
+        Category:General,
+    	}
+
+
+
+
+
+
+
+
+recipe Standing Black Female Bald Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_c_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_c_02,
+        Category:General,
+    	}
+		
+		
+		
+		
+		
+recipe Standing Black Male Short Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_b_04,
+        Category:General,
+    	}
+		
+		
+		
+		
+		
+		
+		
+		
+	recipe Standing Black Male Bald Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_a_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_a_04,
+        Category:General,
+    	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+															recipe Standing Black Female Short Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_b_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_b_04,
+        Category:General,
+    	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+				recipe Standing Black Male Short Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_b_02,
+        Category:General,
+    	}
+
+
+
+
+				recipe Standing Black Male Bald Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_a_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_a_02,
+        Category:General,
+    	}
+
+
+
+
+				recipe Standing Black Female Short Hair Nude
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Femme_b_02,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Femme_b_02,
+        Category:General,
+    	}
+
+
+				recipe Standing Black Male Short Hair Clothes
+	{
+
+		CorpseMale,
+		
+        Result:StandingBody_Male_c_04,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.StandingBody_Male_c_04,
+        Category:General,
+    	}
+
+
+
+
+
+}

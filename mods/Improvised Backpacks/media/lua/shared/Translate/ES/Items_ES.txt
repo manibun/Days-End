@@ -1,0 +1,4 @@
+﻿Items_ES = {
+	DisplayName_Improvised_Backpack = "Mochila improvisada",
+	DisplayName_Sheet_Bag = "Mochila de tela",
+}

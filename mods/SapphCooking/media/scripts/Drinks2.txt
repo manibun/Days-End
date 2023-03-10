@@ -1,0 +1,1348 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}	
+
+	item PackofCoffeeFilters
+	{
+		Type 		= Drainable,
+		Weight 		= 0.05,
+		DisplayName 		= Bag of Coffee Filters,
+		Icon 		= BagofCoffeeFiltersIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= PackofPaperFilters_Ground,
+		DisplayCategory 		= Food,
+		CannedFood 		= true,
+		Packaged 		= true,
+		Calories 		= 0,
+		Carbohydrates 		= 0,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		UseDelta 		= 0.2,
+		UseWhileEquipped 		= FALSE,
+	}
+	item PlasticFilterHolder
+	{
+		Weight 		= 0.3,
+		Type 		= Normal,
+		DisplayName 		= Plastic Drip Filter Cup,
+		Icon 		= PlasticFilterHolderIcon,
+		WorldStaticModel 		= PlasticFilter_Ground,
+	}
+	item CoffeeGrinder
+	{
+		Weight 		= 0.3,
+		Type 		= Normal,
+		DisplayName 		= Manual Coffee Grinder,
+		Icon 		= CoffeeGrinderIcon,
+		WorldStaticModel 		= CoffeeGrinder_Ground,
+	}
+	item CoffeeBeansBag
+	{
+		Type 		= Drainable,
+		Weight 		= 0.8,
+		DisplayName 		= Can of Coffee Beans,
+		Icon 		= BagofCoffeeBeansIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= BagofCoffeeBeans_Ground,
+		DisplayCategory 		= Food,
+		CannedFood 		= true,
+		Packaged 		= true,
+		Calories 		= 1,
+		Carbohydrates 		= 2,
+		Proteins 		= 0,
+		Lipids 		= 2,
+		UseDelta 		= 0.2,
+		UseWhileEquipped 		= FALSE,
+	}
+	item CoffeeBeans
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= Coffee Beans,
+		Icon 		= CoffeeBeansIcon,
+		WorldStaticModel 		= CoffeeBeans_Ground,
+	}
+	item CoffeeFilter
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= Paper Coffee Filter,
+		Icon 		= CoffeeFilterIcon,
+		WorldStaticModel 		= PaperFilter_Ground,
+	}
+	item GrindedCoffee
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= Grinded Coffee,
+		Icon 		= GrindedCoffeeIcon,
+		WorldStaticModel 		= CoffeeGrinded_Ground,
+	}
+	item SakeEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-CachaçaWaterFull,
+		Icon 		= GinFullIcon,
+		WorldStaticModel 		= SakeBottleEmpty_Ground,
+	}
+	item SakeFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.6,
+		Type 		= Food,
+		ThirstChange 		= -30,
+		DisplayName 		= Sake Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= SakeEmpty,
+		Icon 		= GinIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 40,
+		Proteins 		= 4,
+		Lipids 		= 1,
+		Calories 		= 150,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_SakeBottle,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= SakeBottle_Ground,
+	}
+	item SakeWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= SakeEmpty,
+		ReplaceOnUseOn 		= WaterSource-CachaçaWaterFull,
+		Icon 		= GinWaterIcon,
+		WorldStaticModel 		= SakeBottleWater_Ground,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassSake
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Sake,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+	}
+	item LowballGlassWhiteRussian	
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		DisplayName 		= White Russian Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassBlackIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Black,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -10,
+		WorldStaticModel 		= LowballGlass_Black,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+	}
+	item LowballGlassBlackRussian	
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Black Russian Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassBlackIcon,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Black,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -10,
+		WorldStaticModel 		= LowballGlass_Black,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+	}
+	item LowballGlassBloodyMary
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Bloody Mary Drink,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassRedIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Red,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -12,
+		WorldStaticModel 		= LowballGlass_Red,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+	}
+	item LowBallGlassCoffeeBrew
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Brewed Coffee Drink,
+		ReplaceOnUse		= LowballGlass,
+		CustomEatSound 		= DrinkingFromMug,
+		Icon 		= LowballGlassBlackIcon,
+		RainFactor 		= 0.1,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+        	ReplaceOnRotten = LowBallGlassCoffeeBrewOld,
+		StaticModel 		= H_LowballGlass_Black,
+		Alcoholic 		= false,
+		EatType 		= Mug,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		WorldStaticModel 		= LowballGlass_Black,
+		CustomContextMenu 		= Drink,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Brewed Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= Mugl,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+        	ReplaceOnRotten = MugBrewCoffeeOld,
+		ReplaceOnUse 		= Mugl,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= Mug,
+		WorldStaticModel 		= Mug,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee2
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Brewed Coffee,
+		Icon 		= MugWhiteFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+        	ReplaceOnRotten = MugBrewCoffee2Old,
+		ReplaceOnUse 		= MugWhite,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugWhite,
+		WorldStaticModel 		= MugWhite,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee3
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Brewed Coffee,
+		Icon 		= MugRedFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+        	ReplaceOnRotten = MugBrewCoffee3Old,
+		ReplaceOnUse 		= MugRed,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugRed,
+		WorldStaticModel 		= MugRed,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee4
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Brewed Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= MugSpiffoFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -10,
+		StressChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+        	ReplaceOnRotten = MugBrewCoffee4Old,
+		ReplaceOnUse 		= MugSpiffo,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugSpiffo,
+		WorldStaticModel 		= MugSpiffo,
+		Tags = CoffeeCup,
+	}
+
+
+	item LowBallGlassCoffeeBrewOld
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Old Brewed Coffee Drink,
+		ReplaceOnUse		= LowballGlass,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= LowballGlassBlackIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Black,
+		Alcoholic 		= false,
+		EatType 		= Mug,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		FatigueChange 		= -10,
+		UnhappyChange 		= 10,
+		WorldStaticModel 		= LowballGlass_Black,
+		CustomContextMenu 		= Drink,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffeeOld
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Old Brewed Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= Mugl,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		FatigueChange 		= -10,
+		UnhappyChange 		= 10,
+		ReplaceOnUse 		= Mugl,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= Mug,
+		WorldStaticModel 		= Mug,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee2Old
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Old Brewed Coffee,
+		Icon 		= MugWhiteFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -8,
+		FatigueChange 		= -10,
+		UnhappyChange 		= 10,
+		ReplaceOnUse 		= MugWhite,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugWhite,
+		WorldStaticModel 		= MugWhite,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee3Old
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Old Brewed Coffee,
+		Icon 		= MugRedFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		FatigueChange 		= -10,
+		UnhappyChange 		= 10,
+		ReplaceOnUse 		= MugRed,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugRed,
+		WorldStaticModel 		= MugRed,
+		Tags = CoffeeCup,
+	}
+	item MugBrewCoffee4Old
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Old Brewed Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= MugSpiffoFull,
+		ThirstChange 		= -20,
+		HungerChange 		= -10,
+		FatigueChange 		= -10,
+		UnhappyChange 		= 10,
+		ReplaceOnUse 		= MugSpiffo,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugSpiffo,
+		WorldStaticModel 		= MugSpiffo,
+		Tags = CoffeeCup,
+	}
+
+
+
+
+
+
+
+
+
+
+	recipe Make An Glass of Sake
+	{
+		SakeFull;5,
+		destroy LowballGlass,
+		Result 		: LowballGlassSake,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make An Glass of White Russian Drink
+	{
+		VodkaFull;2,
+		LowBallGlassCoffee;5,
+		destroy LowballGlass,
+		[Recipe.GetItemTypes.Milk];5,
+		Result 		: LowballGlassWhiteRussian,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Black Russian Drink
+	{
+		VodkaFull;5,
+		LowBallGlassCoffee;5,
+		destroy LowballGlass,
+		Result 		: LowballGlassBlackRussian,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Bloody Mary Drink
+	{
+		VodkaFull;5,
+		destroy LowballGlass,
+		HomemadeKetchup;5,
+		HotsaucePacket;2,
+		Result 		: LowballGlassBloodyMary,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: CupFill,
+	}
+	recipe Take Coffee Filter from Pack
+	{
+		PackofCoffeeFilters,
+		Result 		: CoffeeFilter,
+		Time 		: 50.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: Paper,
+	}
+	recipe Take Coffee Beans from Bag
+	{
+		CoffeeBeansBag,
+		Result 		: CoffeeBeans,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor 		: true,
+		Sound 		: BagBeansRemove,
+	}
+	recipe Grind Coffee Beans
+	{
+		CoffeeBeans,
+		keep CoffeeGrinder,
+		Result 		: GrindedCoffee,
+		Time 		: 120.0,
+		Category 		: Cooking,
+		CanBeDoneFromFloor 		: true,
+		OnGiveXP 		: Recipe.OnGiveXP.None
+		Sound 		: GrindingCoffee,
+		Prop2: H_CoffeeGrinder
+	}
+	recipe Brew Coffee
+	{
+		destroy GrindedCoffee,
+		destroy CoffeeFilter,
+		Water=2,
+		keep PlasticFilterHolder,
+		destroy LowballGlass,
+		Result 		: LowBallGlassCoffeeBrew,
+		CanBeDoneFromFloor 		: true,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		Heat 		: -0.22,
+	}
+	recipe Brew Coffee2
+	{
+		destroy GrindedCoffee,
+		destroy CoffeeFilter,
+		Water=2,
+		keep PlasticFilterHolder,
+		destroy MugWhite,
+		Result 		: MugBrewCoffee,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+	}
+	recipe Brew Coffee3
+	{
+		destroy GrindedCoffee,
+		destroy CoffeeFilter,
+		Water=2,
+		keep PlasticFilterHolder,
+		destroy MugRed,
+		Result 		: MugBrewCoffee2,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+	}
+	recipe Brew Coffee4
+	{
+		destroy GrindedCoffee,
+		destroy CoffeeFilter,
+		Water=2,
+		keep PlasticFilterHolder,
+		destroy MugSpiffo,
+		Result 		: MugBrewCoffee3,
+		Time 		: 250,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+	}
+	recipe Brew Coffee5
+	{
+		GrindedCoffee,
+		CoffeeFilter,
+		keep PlasticFilterHolder,
+		Water=2,
+		destroy Mugl,
+		Result 		: MugBrewCoffee4,
+		Time 		: 250.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		CanBeDoneFromFloor 		: true,
+		Heat 		: -0.22,
+	}
+
+	/****************************** 14.07.22 ******************************/
+
+	item RumEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-RumWaterFull,
+		Icon 		= TequilaEmptyIcon,
+		WorldStaticModel 		= BottleRumEmpty_Ground,
+	}
+	item RumFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.6,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Bottle of Rum,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= RumEmpty,
+		Icon 		= TequilaFullIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 40,
+		Proteins 		= 4,
+		Lipids 		= 1,
+		Calories 		= 150,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_SakeBottle,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= BottleRum_Ground,
+		StaticModel 		= H_BottleRum,
+	}
+	item RumWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= RumEmpty,
+		ReplaceOnUseOn 		= WaterSource-RumWaterFull,
+		Icon 		= TequilaWaterIcon,
+		WorldStaticModel 		= BottleRumWater_Ground,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassRum
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Rum,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassYellowIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Yellow,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Yellow,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item ColaBottle
+	{
+		DisplayCategory 	= Food,
+		HungerChange		= -15,
+		Weight			= 0.8,
+		Type			= Food,
+		UnhappyChange		= -10,
+		ThirstChange		= -85,
+		DisplayName		= Bottle of Cola,
+		ReplaceOnUse		= ColaBottleEmpty,
+		Icon			= BottleofColaIcon,
+		CustomContextMenu 	= Drink,
+		CustomEatSound 		= DrinkingFromBottlePlastic,
+     	  	Carbohydrates 		= 104,
+      		Proteins 		= 0,
+        	Lipids 			= 0,
+        	Calories 		= 400,
+        	Packaged 		= TRUE,
+        	CantBeFrozen 		= TRUE,
+        	StaticModel 		= H_BottleCola,
+        	EatType 		= bottle,
+        	WorldStaticModel 	= BottleCola_Ground,
+	}
+	item ColaBottleEmpty
+	{
+		DisplayCategory 	= WaterContainer,
+		Weight			= 0.1,
+		CanStoreWater		= TRUE,
+		Type			= Normal,
+		DisplayName		= Empty Cola Bottle,
+		ReplaceOnUseOn		= WaterSource-WaterColaBottle,
+		Icon			= BottleofColaEmptyIcon,
+		WorldStaticModel 	= BottleColaEmpty_Ground,
+	}
+	item WaterColaBottle
+	{
+		DisplayCategory 	= Water,
+		IsWaterSource		= TRUE,
+		Weight			= 0.6,
+		CanStoreWater		= TRUE,
+		FillFromDispenserSound 	= GetWaterFromDispenserGlass,
+		FillFromTapSound 	= GetWaterFromTapGlass,
+		Type			= Drainable,
+		UseWhileEquipped	= FALSE,
+		UseDelta		= 0.08,
+		DisplayName		= Water Bottle,
+		ReplaceOnDeplete	= WhiskeyEmpty,
+		ReplaceOnUseOn		= WaterSource-WaterColaBottle,
+		Icon			= BottleofColaWaterIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 	= BottleColaWater_Ground,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassCola
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Cola,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassBlackIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Black,
+		EatType 		= Mug,
+		ThirstChange 		= -30,
+		HungerChange 		= -5,
+     	  	Carbohydrates 		= 42,
+      		Proteins 		= 0,
+        	Lipids 			= 0,
+        	Calories 		= 80,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Black,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassOrangeSoda
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Orange Soda,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiskeyIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Orange,
+		EatType 		= Mug,
+		ThirstChange 		= -40,
+		HungerChange 		= -6,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+
+
+
+
+
+
+
+
+
+
+	recipe Make An Glass of Rum
+	{
+		RumFull;5,
+		destroy LowballGlass,
+		Result 		: LowballGlassRum,
+		Time 		: 80.0,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make An Glass of Orange Soda
+	{
+		PopBottle;6,
+		destroy LowballGlass,
+		Result 		: LowballGlassOrangeSoda,
+		Time 		: 80.0,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make An Glass of Cola
+	{
+		ColaBottle;5,
+		destroy LowballGlass,
+		Result 		: LowballGlassCola,
+		Time 		: 80.0,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Smash Bottle of Cola
+	{
+		destroy ColaBottleEmpty,
+		Result 		: SmashedBottle,
+		Time 		: 80.0,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make Molotov Cocktail3
+	{
+		ColaBottleEmpty,
+		RippedSheets/RippedSheetsDirty,
+		PetrolCan=1,
+		Result 		: Molotov,
+		Time 		: 80.0,
+		CanBeDoneFromFloor 		: true,
+	}
+
+	/****************************** 25.07.22 ******************************/	
+
+	item ColaBottlewithMilk
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		Weight 		= 1.0,
+		Type 		= Food,
+		ThirstChange 		= -70,
+		DisplayName 		= Cola Bottle with Milk,
+		Icon 		= BottleofColaEmptyIcon,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromCarton,
+		EvolvedRecipe 		= HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2,
+		FoodType 		= NoExplicit,
+		Carbohydrates 		= 13,
+		Proteins 		= 8,
+		Lipids 		= 2.5,
+		Calories 		= 110,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_BottleColaMilk,
+		WorldStaticModel 		= BottleColaEmpty_Ground,
+		UnhappyChange 		= -3,
+		BoredomChange 		= -3,
+		ReplaceOnUse 		= ColaBottleEmpty,
+		Tags 		= Milk,
+	}
+	item ColaBottlewithProteinShake
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		Weight 		= 1.0,
+		Type 		= Food,
+		ThirstChange 		= -70,
+		DisplayName 		= Cola Bottle with Protein Shake,
+		Icon 		= BottleofColaEmptyIcon,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 7,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromCarton,
+		EvolvedRecipe 		= HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2,
+		FoodType 		= NoExplicit,
+		Carbohydrates 		= 30,
+		Proteins 		= 200,
+		Lipids 		= 2.5,
+		Calories 		= 50,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_BottleColaMilk,
+		WorldStaticModel 		= BottleColaEmpty_Ground,
+		UnhappyChange 		= -3,
+		BoredomChange 		= -3,
+		FatigueChange 		= -25,
+		ReplaceOnUse 		= ColaBottleEmpty,
+		Tags 		= Milk,
+	}
+
+	recipe Make Milk3
+	{
+		destroy WaterColaBottle,
+		CanofPowderedMilk,
+		Result 		: ColaBottlewithMilk,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: BottleShake,
+	}	
+	recipe Make Protein Shake4
+	{
+		destroy WaterColaBottle,
+		CanofProteinPowder,
+		Result 		: BottlewithProteinShake,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: BottleShake,
+	}
+
+
+
+
+	/****************************** 25.07.22 ******************************/	
+
+
+	item EmptyThermos
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	= Empty Thermos,
+		ReplaceOnUseOn	= WaterSource-FullWaterThermos,
+		Icon	= CoffeeThermosIcon,
+		MetalValue = 30,
+		StaticModel = H_CoffeeThermos,
+		WorldStaticModel = CoffeeThermos_Ground,
+		CustomEatSound = DrinkingFromGeneric,
+	}
+
+	item FullWaterThermos
+	{
+	    DisplayCategory = Water,
+		IsWaterSource	=	TRUE,
+		Weight	=	2,
+		CanStoreWater	=	TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserMetalBig,
+		FillFromTapSound = GetWaterFromTapMetalBig,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.07,
+		DisplayName	=	Thermos with Water,
+		ReplaceOnDeplete	= EmptyThermos,
+		ReplaceOnUseOn	=	WaterSource-FullWaterThermos,
+		Icon	=	CoffeeThermosIcon,
+		IsCookable	=	TRUE,
+		StaticModel = H_CoffeeThermos,
+		EatType = Kettle,
+		WorldStaticModel = CoffeeThermos_Ground,
+	}
+	item ThermosCoffee
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Thermos of Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= CoffeeThermosIcon,
+		ThirstChange 		= -100,
+		HungerChange 		= -50,
+		UnhappyChange 		= -50,
+		FatigueChange 		= -50,
+		StressChange 		= -50,
+		DaysFresh 		= 4,
+		DaysTotallyRotten 		= 8,
+		ReplaceOnRotten 		= SapphCooking.ThermosCoffeeOld,
+		ReplaceOnUse 		= EmptyThermos,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		StaticModel 		= H_CoffeeThermos,
+		WorldStaticModel 		= CoffeeThermos_Ground,
+	}
+	item ThermosCoffeeOld
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Thermos of Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= CoffeeThermosIcon,
+		ThirstChange 		= -100,
+		HungerChange 		= -50,
+		FatigueChange 		= -50,
+		UnhappyChange 		= 50,
+		ReplaceOnUse 		= EmptyThermos,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		StaticModel 		=  H_CoffeeThermos,
+		WorldStaticModel 		= CoffeeThermos_Ground,
+	}
+	item MugCoffee
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= Mugl,
+		ThirstChange 		= -15,
+		HungerChange 		= -5,
+		FatigueChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+		ReplaceOnUse 		= Mugl,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= Mug,
+		WorldStaticModel 		= Mug,
+	}
+	item MugCoffee2
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Coffee,
+		Icon 		= MugWhiteFull,
+		ThirstChange 		= -15,
+		HungerChange 		= -5,
+		FatigueChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+		ReplaceOnUse 		= MugWhite,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugWhite,
+		WorldStaticModel 		= MugWhite,
+	}
+	item MugCoffee3
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Type 		= Food,
+		DisplayName 		= Mug of Coffee,
+		Icon 		= MugRedFull,
+		ThirstChange 		= -15,
+		HungerChange 		= -5,
+		FatigueChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+		ReplaceOnUse 		= MugRed,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugRed,
+		WorldStaticModel 		= MugRed,
+	}
+	item MugCoffee4
+	{
+		DisplayCategory 		= Food,
+		Weight 		= 0.5,
+		Type 		= Food,
+		DisplayName 		= Mug of Coffee,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		Icon 		= MugSpiffoFull,
+		ThirstChange 		= -15,
+		HungerChange 		= -5,
+		FatigueChange 		= -10,
+		DaysFresh 		= 1,
+		DaysTotallyRotten 		= 1,
+		ReplaceOnUse 		= MugSpiffo,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromMug,
+		GoodHot 		= true,
+		StaticModel 		= MugSpiffo,
+		WorldStaticModel 		= MugSpiffo,
+	}
+	item LowballGlassPilk
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Pilk,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -28,
+		UnhappyChange 		= 2,
+		HungerChange 		= -5,
+       		Carbohydrates 		= 45,
+        	Proteins 		= 2,
+        	Lipids 			= 1.2,
+        	Calories 		= 95,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassCubaLibre
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Cuba Libre,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiskeyIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Orange,
+       		Carbohydrates 		= 45,
+        	Proteins 		= 2,
+        	Lipids 			= 1.2,
+        	Calories 		= 95,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		ThirstChange 		= -40,
+		HungerChange 		= -5,
+		UnhappyChange 		= -10,
+		FatigueChange 		= -5,
+		StressChange 		= -10,
+		CustomEatSound 		= PZ_DrinkingFromBottle,
+		WorldStaticModel 		= LowballGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	recipe Make a Glass of Cuba Libre
+	{
+		RumFull;3,
+		ColaBottle;2,
+		destroy LowballGlass,
+		Result 		: LowballGlassCubaLibre,
+		Time 		: 80.0,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Make a Glass of Pilk
+	{
+		[Recipe.GetItemTypes.Milk];2,
+		ColaBottle;3,
+		destroy LowballGlass,
+		Result 		: LowballGlassPilk,
+		Time 		: 80.0,
+		Sound 		: CupFill,
+		CanBeDoneFromFloor 		: true,
+	}
+	recipe Brew Coffee on Thermos
+	{
+		destroy GrindedCoffee=5,
+		destroy CoffeeFilter,
+		destroy EmptyThermos,
+		Water=5,
+		keep PlasticFilterHolder,
+		Result 		: ThermosCoffee,
+		Time 		: 500,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		CanBeDoneFromFloor 		: true,
+		StopOnWalk 		: false,
+		Heat 		: -0.22,
+	}
+	recipe Make a Mug of Coffee3
+	{
+		CoffeePacket;5,
+		Water=1,
+		destroy Mugl,
+		Result 		: MugCoffee,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		Heat 		: -0.22,
+	}
+
+	recipe Make a Mug of Coffee4
+	{
+		CoffeePacket;5,
+		Water=1,
+		destroy MugWhite,
+		Result 		: MugCoffee2,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		Heat 		: -0.22,
+	}
+	recipe Make a Mug of Coffee5
+	{
+		CoffeePacket;5,
+		Water=1,
+		destroy MugRed,
+		Result 		: MugCoffee3,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		Heat 		: -0.22,
+	}
+	recipe Make a Mug of Coffee6
+	{
+		CoffeePacket;5,
+		Water=1,
+		destroy MugSpiffo,
+		Result 		: MugCoffee4,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		Heat 		: -0.22,
+	}
+
+
+	recipe Make a Mug of Coffee Thermos1
+	{
+		ThermosCoffee;10,
+		destroy Mugl,
+		Result 		: MugBrewCoffee,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos2
+	{
+		ThermosCoffee;10,
+		destroy MugWhite,
+		Result 		: MugBrewCoffee2,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos3
+	{
+		ThermosCoffee;10,
+		destroy MugRed,
+		Result 		: MugBrewCoffee3,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos4
+	{
+		ThermosCoffee;10,
+		destroy MugSpiffo,
+		Result 		: MugBrewCoffee4,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Cup of Coffee Thermos
+	{
+		ThermosCoffee;10,
+		destroy LowballGlass,
+		Result 		: LowBallGlassCoffeeBrew,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+
+
+	recipe Make a Mug of Coffee Thermos1Old
+	{
+		ThermosCoffeeOld;10,
+		destroy Mugl,
+		Result 		: MugBrewCoffeeOld,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos2Old
+	{
+		ThermosCoffeeOld;10,
+		destroy MugWhite,
+		Result 		: MugBrewCoffee2Old,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos3Old
+	{
+		ThermosCoffeeOld;10,
+		destroy MugRed,
+		Result 		: MugBrewCoffee3Old,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Mug of Coffee Thermos4Old
+	{
+		ThermosCoffeeOld;10,
+		destroy MugSpiffo,
+		Result 		: MugBrewCoffee4Old,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+	recipe Make a Cup of Coffee ThermosOld
+	{
+		ThermosCoffeeOld;10,
+		destroy LowballGlass,
+		Result 		: LowBallGlassCoffeeBrewOld,
+		Time 		: 150,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: FilterDrip,
+		StopOnWalk 		: false,
+		Prop1:Cooking_CoffeeThermos,
+		Prop2:Source=2,
+	}
+}

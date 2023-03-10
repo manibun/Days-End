@@ -1,0 +1,5 @@
+ItemName_CN = {
+ItemName_filcher.SFCookingMag1 = "烹饪手册 Vol.1",
+ItemName_filcher.SFCookingMag2 = "烹饪手册 Vol.2",
+ItemName_filcher.SFCookingMag3 = "烹饪手册 Vol.3",
+}

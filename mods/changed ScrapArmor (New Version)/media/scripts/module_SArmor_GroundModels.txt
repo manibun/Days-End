@@ -1,0 +1,74 @@
+module Base
+{
+	model ArmorMag1_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ArmorMag1Ground,
+		scale = 1,
+	} 
+	model ArmorMag1_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ArmorMag1Ground,
+		scale = 1,
+	} 
+	
+	model ArmorMag2_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ArmorMag2Ground,
+		scale = 1,
+	} 
+	model ArmorMag2_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ArmorMag2Ground,
+		scale = 1,
+	} 
+	
+	model ArmorMag3_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ArmorMag3Ground,
+		scale = 1,
+	} 
+	model ArmorMag3_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ArmorMag3Ground,
+		scale = 1,
+	} 
+
+	model ArmorMag4_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ArmorMag4Ground,
+		scale = 1,
+	} 
+	model ArmorMag4_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ArmorMag4Ground,
+		scale = 1,
+	} 
+	
+	model ArmorMag5_Ground
+    {
+        mesh = WorldItems/ScrapRecipeMagazine,
+        texture = other/ArmorMag5Ground,
+		scale = 1,
+	} 
+	model ArmorMag5_Reading
+    {
+        mesh = WorldItems/RecipeMagazineReading,
+        texture = other/ArmorMag5Ground,
+		scale = 1,
+	} 
+	model Rucksack_Ground
+    {
+        mesh = Static/Backpack/Bob_Rucksack,
+		scale = 1,
+	} 
+
+	
+}	

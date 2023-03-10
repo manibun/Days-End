@@ -1,0 +1,56 @@
+ContextMenu_KO = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "추가하다",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "추가하다",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "추가하다",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "추가하다",
+  
+} 

@@ -1,0 +1,156 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	
+	recipe Deconstruct Car Battery
+    {
+
+    	destroy CarBattery1/CarBattery2/CarBattery3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalParts=7,
+        Time             		: 200.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+	recipe Deconstruct Car Suspension
+    {
+
+    	NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalParts=5,
+        Time             		: 200.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give2MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+    recipe Deconstruct Car Brake
+    {
+
+    	OldBrake1/OldBrake2/OldBrake3/NormalBrake1/NormalBrake2/NormalBrake3/ModernBrake1/ModernBrake2/ModernBrake3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalParts=5,
+        Time             		: 200.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give2MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+	
+	recipe Deconstruct Car Door
+    {
+
+    	EngineDoor1/EngineDoor2/EngineDoor3/FrontCarDoor1/FrontCarDoor2/FrontCarDoor3/RearCarDoor1/RearCarDoor2/RearCarDoor3/RearCarDoorDouble1/RearCarDoorDouble2/RearCarDoorDouble3/TrunkDoor1/TrunkDoor2/TrunkDoor3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: SheetMetal=1,
+        Time             		: 180.0,
+	    Sound 					: ScrapStuff,
+		Category 		        : Scrapping,
+		OnGiveXP 				: Give10MWXP,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+	
+	recipe Deconstruct Car Gas Tank
+    {
+
+    	SmallGasTank1/SmallGasTank2/SmallGasTank3/NormalGasTank1/NormalGasTank2/NormalGasTank3/BigGasTank1/BigGasTank2/BigGasTank3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalParts=8,
+        Time             		: 180.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+
+    recipe Deconstruct Car Muffler
+    {
+
+    	OldCarMuffler1/OldCarMuffler2/OldCarMuffler3/NormalCarMuffler1/NormalCarMuffler2/NormalCarMuffler3/ModernCarMuffler1/ModernCarMuffler2/ModernCarMuffler3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalPipe=2,
+        Time             		: 180.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+	recipe Deconstruct Car Wheel
+    {
+
+    	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: MetalParts=8,
+        Time             		: 180.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+	recipe Deconstruct Car Seat
+    {
+
+    	NormalCarSeat1/NormalCarSeat2/NormalCarSeat3,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+        Result           		: LeatherStrips=10,
+        Time             		: 180.0,
+	    Sound 					: ScrapStuff,
+		OnGiveXP 				: Give2MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn: True,
+    }
+
+}

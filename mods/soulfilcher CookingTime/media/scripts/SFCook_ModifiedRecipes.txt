@@ -1,0 +1,24 @@
+module Base
+{
+	recipe Place Pasta in Saucepan
+	{
+	   [Recipe.GetItemTypes.Pasta];10,
+	   destroy WaterSaucepan,
+
+	   Result:WaterSaucepanPasta,
+	   Time:50.0,
+	   Category:Cooking,
+	Override:true,
+	}
+
+    recipe Place Pasta in Cooking Pot
+	{
+	   [Recipe.GetItemTypes.Pasta];10,
+	   destroy WaterPot,
+
+	   Result:WaterPotPasta,
+	   Time:50.0,
+	   Category:Cooking,
+	Override:true,
+	}
+}

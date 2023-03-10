@@ -1,0 +1,30 @@
+module SproutCraftThis2
+{
+	imports
+	{
+		Base,
+		Tsarcraft
+	}
+
+
+
+recipe Craft TCBoombox
+    {
+        ElectronicsScrap	=4,
+        Amplifier			=2,
+        LightBulb,
+        Aluminum			=2,
+        Radio.ElectricWire	=3,
+	
+        keep Screwdriver,
+
+        NoBrokenItems:true,
+        Result:Tsarcraft.TCBoombox,
+        SkillRequired:Electricity=2,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+
+}
+

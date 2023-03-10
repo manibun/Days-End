@@ -1,0 +1,51 @@
+module Base
+{
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+	    attachment ShieldLelftHand
+	    {
+	    offset = 0.0000 -0.0000 -0.0000,
+	    rotate = -140.0000 0.0000 0.0000,
+	    bone = Bip01_L_Hand,
+	    }
+
+    }
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+		attachment Sword_Back
+		{
+			offset = -0.0020 0.1190 0.1550,
+			rotate = -121.0000 180.0000 0.0000,
+			bone = Bip01_BackPack,
+		}	
+		mesh = Skinned/FemaleBody,
+		attachment Shield_Slot
+		{
+			offset = -0.0400 0.0000 -0.2000,
+			rotate = -10.0000 15.0000 -40.0000,
+			bone = Bip01_BackPack,
+		}		
+
+	}
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+		attachment Sword_Back
+		{
+			offset = -0.0030 -0.0850 0.1700,
+			rotate = -65.0000 0.0500 0.0000,
+			bone = Bip01_BackPack,
+		}
+		mesh = Skinned/MaleBody,
+		attachment Shield_Slot
+		{
+			offset = -0.0400 0.0000 -0.2000,
+			rotate = -10.0000 15.0000 -40.0000,
+			bone = Bip01_BackPack,
+		}
+	}
+}
+

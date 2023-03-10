@@ -1,0 +1,208 @@
+module Base
+{
+	/************************ EMPTY STUFF ************************/
+
+    recipe Empty-Bag
+    {
+       ConcretePowder/PlasterPowder,
+
+       Result:EmptyConcreteBag,
+	    Sound:PutItemInBag,
+       Time:100.0,
+    }
+
+    recipe Empty-Sack
+    {
+      destroy Dirtbag/Gravelbag/Sandbag=1,
+
+       Result:EmptySandbag,
+	    Sound:PutItemInBag,
+       Time:100.0,
+    }
+
+	/************************ OPEN CANNED ITEMS ************************/
+
+	recipe Open Canned Soup
+    {
+       TinnedSoup,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:TinnedSoupOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Fruit Cocktail
+    {
+       CannedFruitCocktail,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedFruitCocktailOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Peaches
+    {
+       CannedPeaches,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedPeachesOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Pineapple
+    {
+       CannedPineapple,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedPineappleOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Beans
+	{
+	   TinnedBeans,
+	   keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+	   Result:OpenBeans,
+	   Time:80.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+	}
+
+    recipe Open Canned Corn
+    {
+       CannedCorn,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedCornOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Bolognese
+    {
+       CannedBolognese,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedBologneseOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Chili
+    {
+       CannedChili,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedChiliOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Mushroom Soup
+    {
+       CannedMushroomSoup,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedMushroomSoupOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Peas
+    {
+       CannedPeas,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedPeasOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Potato
+    {
+       CannedPotato2,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedPotatoOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Tomato
+    {
+       CannedTomato2,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedTomatoOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+    recipe Open Canned Carrots
+    {
+       CannedCarrots2,
+       keep [Recipe.GetItemTypes.CanOpener]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Screwdriver],
+
+       Result:CannedCarrotsOpen,
+       Time:80.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Sound:OpenCannedFood,
+       Override:true
+    }
+
+	/************************ CREATE STUFF ************************/
+
+    recipe Create Spear
+    {
+        Plank/TreeBranch/Mop/Broom,
+        keep [Recipe.GetItemTypes.SharpKnife]/SharpedStone/MeatCleaver,
+
+        Result:SpearCrafted,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CreateSpear,
+        Category:Survivalist,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+        Override:true
+    }
+}

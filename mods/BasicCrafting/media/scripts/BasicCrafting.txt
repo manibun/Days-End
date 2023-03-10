@@ -1,0 +1,74 @@
+module BasicCrafting
+{
+    imports
+    {
+        Base
+    }
+
+    recipe Make Thread
+    {
+        keep Scissors,
+        RippedSheets=8,
+
+        Result:Thread,
+        Time:120.0,
+        AnimNode:RipSheets,
+        OnGiveXP:Give1TailoringXP,
+    }
+
+    recipe Make Twine
+    {
+        Thread=40,
+
+        Result:Twine,
+        Time:120.0,
+        AnimNode:RipSheets,
+        OnGiveXP:Give2TailoringXP,
+    }
+
+    recipe Make Rope
+    {
+        Twine=50,
+
+        Result:Rope,
+        Time:120.0,
+        AnimNode:RipSheets,
+        OnGiveXP:Give10TailoringXP,
+    }
+
+    recipe Make Sheet
+    {
+        keep Needle/SutureNeedle,
+        Thread=10,
+        RippedSheets=8,
+
+        Result:Sheet,
+        Time:120.0,
+        AnimNode:RipSheets,
+        OnGiveXP:Give25TailoringXP,
+        SkillRequired:Tailoring=1,
+    }
+
+    recipe Make Chipped Stone
+    {
+        keep HammerStone/Hammer/ClubHammer/BallPeenHammer/Axe/HandAxe/AxeStone/WoodAxe/PickAxe,
+        Stone,
+
+        Result:SharpedStone=2,
+        Time:120.0,
+        Sound:Hammering,
+        AnimNode:RipSheets,
+        OnCreate:AddChippedStoneTool_OnCreate,
+    }
+
+    recipe Make Chipped Stone
+    {
+        Stone=2,
+
+        Result:SharpedStone,
+        Time:120.0,
+        Sound:Hammering,
+        AnimNode:RipSheets,
+        OnCreate:AddChippedStone_OnCreate,
+    }
+}

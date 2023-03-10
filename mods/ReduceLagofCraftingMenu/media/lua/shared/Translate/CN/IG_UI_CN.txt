@@ -1,0 +1,6 @@
+﻿IGUI_CN = {
+
+	IGUI_CraftUI_Titlel = "合成(按"0"键刷新合成菜单)",
+                IGUI_CraftUI_Notel = "如果你没有找到你学的新配方，按"0"键刷新合成菜单。刷新时会卡一会",
+
+}

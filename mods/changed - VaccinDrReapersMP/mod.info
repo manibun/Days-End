@@ -1,0 +1,15 @@
+id=VaccinDrReapersMP
+name=Zombie Virus Vaccine for MultiPlay
+
+description= <LANG:FR>Construisez votre propre laboratoire et trouvez un remède contre le virus zombie. <LINE> <LINE>
+description= ================================================== <LINE> <LINE>
+description= <LANG:EN>Build your very own laboratory and find a cure for zombie virus. <LINE> <LINE> This is adapted version for multiplay. We recommend this version if you play multiplay. <LINE> <LINE>
+description= <LANG:EN>Fewer books to read to make vaccines.<LINE>Easier to craft lab equipment.<LINE>More chemical spawns.
+
+modversion=1.3
+authors=Demonius mise à jours Dr_Reapers
+
+poster=poster.png
+
+pack=demonius_vaccine
+tiledef=demonius_vaccine 723

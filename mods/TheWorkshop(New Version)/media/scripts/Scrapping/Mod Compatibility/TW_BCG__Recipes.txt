@@ -1,0 +1,71 @@
+module TW
+{
+	imports
+	{
+		Base,
+	}
+	{
+	getActivatedMods():contains("BCGTools")
+	}
+	recipe Disassemble Bushcraft Axe
+    {
+
+    	HandHatchet/SplittingAxe,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: False,
+		AllowDestroyedItem      : true,
+        Result           		: AxeHead,
+        Time             		: 200.0,
+	    Sound 					: BreakingWeapon,
+		OnGiveXP 				: Give10MWXP,
+		Category 		        : Scrapping,
+		OnCreate                : DeconstructTool_OnCreate,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn			: false,
+    }
+	recipe Disassemble Bushcraft SmallBlade
+    {
+
+    	CheapSurvivalKnife/SurvivalKnife/SpearSurvivalKnife/SpearCheapSurvivalKnife,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: False,
+		AllowDestroyedItem      : true,
+        Result           		: SmallBlade,
+        Time             		: 200.0,
+	    Sound 					: BreakingWeapon,
+		OnGiveXP 				: Give10MWXP,
+		Category 		        : Scrapping,
+		OnCreate                : DeconstructSmallTool_OnCreate,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn			: false,
+    }
+	recipe Disassemble Bushcraft LongBlade
+    {
+
+    	RancherMachete/KukriMachete,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: False,
+		AllowDestroyedItem      : true,
+        Result           		: LongBlade,
+        Time             		: 200.0,
+	    Sound 					: BreakingWeapon,
+		OnGiveXP 				: Give10MWXP,
+		Category 		        : Scrapping,
+		OnCreate                : DeconstructSmallTool_OnCreate,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+		NeedToBeLearn			: false,
+    }
+
+}

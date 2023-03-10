@@ -1,0 +1,56 @@
+ContextMenu_UA = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "додати",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "додати",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "додати",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "додати",
+  
+} 

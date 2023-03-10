@@ -1,0 +1,45 @@
+module Base
+{
+	item WeldingMask
+	{
+		Type = Clothing,
+		Tags = WeldingMask,
+		DisplayName = Welder Mask,
+		ClothingItem = Hat_WeldersMask,
+		BodyLocation = SpecialMask,
+		Icon = WeldingMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        ChanceToFall = 30,
+        Insulation = 0.25,
+        WindResistance = 0.55,
+	}
+	item PropaneTank
+	{
+		DisplayCategory = Material,
+		Weight	=	10.0,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.0625,
+		DisplayName	=	Propane Tank,
+		Icon	=	PropaneTank,
+		UseWorldItem = TRUE,
+		ScaleWorldIcon = 2.0,
+		WeightEmpty = 5.0,
+		KeepOnDeplete = TRUE,
+		WorldStaticModel = PropaneTank,
+	}
+	model FireAxe
+	{
+		mesh = Weapons/2Handed/FireAxe,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+}

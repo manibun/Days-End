@@ -1,0 +1,11 @@
+module Base {
+	model Improvised_Backpack_Ground
+	{
+		mesh = WorldItems\Clothing\Improvised_Backpack_Ground,
+	}
+
+	model Sheet_Bag_Ground
+	{
+		mesh = WorldItems\Clothing\Sheet_Bag_Ground,
+	}
+}

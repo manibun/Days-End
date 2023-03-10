@@ -1,0 +1,13 @@
+Items_PTBR = {
+  DisplayNameBriefcase = "Pasta",
+  DisplayNameChessboard = "Tabuleiro de Xadrez",
+  DisplayNameColoring_Book = "Livro de Colorir",
+  DisplayNameCrosswords = "Palavra Cruzada",
+  DisplayNameGreen_Pen = "Caneta Verde",
+  DisplayNameMagic_8-Ball = "Bola 8 Mágica",
+  DisplayNameMulticolor_Pen = "Caneta Multicor",
+  DisplayNameNotes_on_Rhyming_Jokes = "Notas sobre Anedotas",
+  DisplayNameNovel = "Romance",
+  DisplayNamePostcard = "Cartão Postal",
+  DisplayNameRipped_Pages = "Páginas Arrancadas",
+}

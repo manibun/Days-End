@@ -1,0 +1,7 @@
+name=Rebalanced Prop Moving
+poster=poster.png
+id=RebalancedPropMoving
+description=Revises prop moving break chances and tools to be more realistic. 
+description=
+description=1) Removes tool and skill requirements on all furniture (except shelves) and appliances. 
+description=2) Any item still requiring a skill/tool will have its break chance be 30% at skill 0, 20% at 1, 10% at 2, and 0% at >=3. 

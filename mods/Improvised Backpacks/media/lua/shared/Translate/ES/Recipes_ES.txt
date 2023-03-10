@@ -1,0 +1,4 @@
+Recipe_ES = {
+	Recipe_Craft_Improvised_Backpack = "Crear Mochila improvisada",
+	Recipe_Craft_Sheet_Bag = "Crear Mochila de tela",
+}

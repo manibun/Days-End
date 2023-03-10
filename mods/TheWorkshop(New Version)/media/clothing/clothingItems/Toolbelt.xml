@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\Bob_Toolbelt</m_MaleModel>
+	<m_FemaleModel>static\clothes\Kate_Toolbelt</m_FemaleModel>
+	<m_GUID>397bc8d5-c380-44ac-a77b-e6ed71cf759b</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Pelvis</m_AttachBone>
+	<textureChoices>clothes\Equipment\Toolbelt</textureChoices>
+</clothingItem>

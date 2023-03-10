@@ -1,0 +1,119 @@
+module SproutCraftThis3
+{
+	imports
+	{
+		Base
+	}
+
+
+   
+
+/**HAMS**/
+
+recipe Upgrade Makeshift HAM Radio
+    {
+        destory HamRadioMakeShift,
+
+	  ElectronicsScrap=4,
+        Amplifier,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=3,
+        Aluminum=4,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.HamRadio1,
+        SkillRequired:Electricity=7,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+
+
+/**WALKIES**/
+
+recipe Upgrade Makeshift Walkie Talkie
+    {
+        destory WalkieTalkieMakeShift,
+
+	  ElectronicsScrap=3,
+        Amplifier,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=1,
+        Aluminum=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.WalkieTalkie1,
+        SkillRequired:Electricity=3,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+recipe Upgrade Walkie Talkie Budget
+    {
+        destory WalkieTalkie1,
+
+	  ElectronicsScrap=3,
+        Amplifier,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=2,
+        Aluminum=2,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.WalkieTalkie2,
+        SkillRequired:Electricity=4,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+recipe Upgrade Walkie Talkie Civilian
+    {
+        destory WalkieTalkie2,
+
+	  ElectronicsScrap=4,
+        Amplifier,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=3,
+        Aluminum=3,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.WalkieTalkie3,
+        SkillRequired:Electricity=5,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+recipe Upgrade Walkie Talkie Premium Tech
+    {
+        destory WalkieTalkie3,
+
+	  ElectronicsScrap=5,
+        Amplifier,
+        Radio.RadioReceiver,
+        Radio.RadioTransmitter,
+        Radio.ElectricWire=4,
+        Aluminum=4,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Radio.WalkieTalkie4,
+        SkillRequired:Electricity=6,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Electrical,
+    }
+
+
+}
+

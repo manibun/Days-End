@@ -1,0 +1,4 @@
+UI_EN = {
+	UI_Item_Dawn_Description = "One light touch is all that is needed to draw out the strength of runes, according to your aspirations, your hopes, and your deepest ideals.",
+	UI_Item_DawnBaby_Description = "The First Flame quickly fades. Darkness will shortly settle. But one day, tiny flames will dance across the darkness. Like embers, linked by lords past.",
+}

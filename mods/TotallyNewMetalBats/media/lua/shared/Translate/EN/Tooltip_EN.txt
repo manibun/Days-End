@@ -1,0 +1,4 @@
+Tooltip_EN = {
+	Tooltip_Bgrip = "Slightly increases bat power.",
+	Tooltip_Bsock = "Increases bat weight and power.",
+}

@@ -1,0 +1,28 @@
+module Base
+{
+	
+	item DawnPlushie
+	{
+		DisplayCategory = Security,
+		Type = Normal,
+		Icon = DawnPlushie,
+		Weight = 0.2,
+		DisplayName = Dawn,
+		WorldStaticModel = DawnPlush,
+		Tooltip = UI_Item_Dawn_Description,
+	}
+	
+	model DawnPlush
+	{
+		mesh = lopodawn,
+        	texture = DawnTexture,
+		scale = 0.0750,
+	}
+	
+	model DawnBaby
+	{
+		mesh = lopodawn,
+        	texture = DawnTexture,
+		scale = 0.0350,
+	}
+}

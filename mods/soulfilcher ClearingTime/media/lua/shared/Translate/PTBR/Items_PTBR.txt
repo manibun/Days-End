@@ -1,0 +1,3 @@
+Items_PTBR = {
+  DisplayNameWalking_Cane = "Bengala",
+}

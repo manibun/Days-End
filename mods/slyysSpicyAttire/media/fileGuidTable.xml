@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/slyyHat_PlagueDocMask.xml</path>
+        <guid>ef97b0aa-ea6c-4080-b22a-dfa36e9d7d6f</guid>
+    </files>
+	<files>
+		<path>media/clothing/clothingItems/slyyHat_BallisticFacemask.xml</path>
+		<guid>b5d9c06e-fc45-4f5b-91fd-0f898fd79bdd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/slyyJacket_HunterGarb.xml</path>
+		<guid>218bd608-9bd8-42fe-8cfb-d4a7a569fe54</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/slyyHat_Kasa.xml</path>
+		<guid>8fb2ce4d-06e7-41ba-97d7-c42e22a6d741</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/slyyHat_Jingasa.xml</path>
+		<guid>2196ad07-5154-4d13-8fe2-452b1e90e9ea</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/slyyHat_OniMask.xml</path>
+		<guid>2782b1cb-1e5b-4866-92b0-f92fad5c1322</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/slyyHat_OniMaskHUE.xml</path>
+		<guid>51cedad3-7711-4ecb-b063-6ff02b3ec856</guid>
+	</files>
+</fileGuidTable>

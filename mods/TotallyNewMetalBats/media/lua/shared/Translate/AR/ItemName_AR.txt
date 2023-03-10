@@ -1,0 +1,5 @@
+ItemName_ES = {
+	ItemName_BatesMetalicos.MetalBaseballBat = "Bate Metálico",
+	ItemName_BatesMetalicos.Bgrip = "Mango profesional de bate",
+	ItemName_BatesMetalicos.Bsock = "Recubrimiento profesional de bate",
+}

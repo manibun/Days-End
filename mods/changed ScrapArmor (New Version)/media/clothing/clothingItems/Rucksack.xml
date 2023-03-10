@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\Backpacks\Bob_Rucksack</m_MaleModel>
+	<m_FemaleModel>static\Backpacks\Kate_Rucksack</m_FemaleModel>
+	<m_GUID>0db5fbc0-905e-428b-8252-942f4f73c8c7</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Spine1</m_AttachBone>
+	<textureChoices>clothes\Backpacks\RucksackBrown</textureChoices>
+	<textureChoices>clothes\Backpacks\RucksackGreen</textureChoices>
+	<textureChoices>clothes\Backpacks\RucksackGreen2</textureChoices>
+	<textureChoices>clothes\Backpacks\RucksackBlue</textureChoices>
+</clothingItem>

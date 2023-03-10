@@ -1,0 +1,41 @@
+module Base
+{
+	item Bag_Improvised_Backpack
+	{
+		WeightReduction	=	70,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	24,
+		DisplayName	=	Improvised Backpack,
+		CanBeEquipped = Back,
+		Icon	=	Improvised_Backpack,
+		OpenSound   =   OpenClothBag,
+		CloseSound   =   CloseClothBag,
+		PutInSound   =   PutItemInBag,
+		ClothingItem = Bag_Improvised_Backpack,
+		BloodLocation = Bag,
+		RunSpeedModifier = 0.97,
+		AttachmentReplacement = Bag,
+		ReplaceInSecondHand = Bag_Improvised_Backpack_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Improvised_Backpack_RHand holdingbagright,
+		WorldStaticModel = Improvised_Backpack_Ground,
+	}
+	item Bag_Sheet_Bag
+	{
+		WeightReduction	=	55,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	16,
+		DisplayName	=	Sheet Bag,
+		CanBeEquipped = Back,
+		Icon	=	Sheet_Bag,
+		OpenSound   =   OpenClothBag,
+		CloseSound   =   CloseClothBag,
+		PutInSound   =   PutItemInBag,
+		ClothingItem = Bag_Sheet_Bag,
+		BloodLocation = Bag,
+		ReplaceInSecondHand = Bag_Sheet_Bag_LHand holdingbagleft,
+		ReplaceInPrimaryHand = Bag_Sheet_Bag_RHand holdingbagright,
+		WorldStaticModel = Sheet_Bag_Ground,
+	}
+}

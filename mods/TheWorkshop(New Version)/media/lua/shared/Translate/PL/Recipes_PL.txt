@@ -1,0 +1,93 @@
+Recipes_PL = {
+--workshop
+	recipe_Refill_Propane_Tank 			= "Napelnij butle gazu",
+    recipe_Refill_Industrial_Propane_Tank 		= "Napelnij przemyslowy zbiornik gazu",
+	recipe_Refill_Blow_Torch 			= "Napelnij palnik",
+	recipe_Remove_Airtank				= "Usun zbiornik powietrza",
+	recipe_Unbox_Large_Bolts 			= "Odpakuj dlugie sruby",
+	recipe_Unbox_Screws 				= "Odpakuj wkrety",
+	recipe_box_Large_Bolts 				= "Zapakuj dlugie sruby",
+	recipe_box_Screws 				= "Zapakuj wkrety",
+	recipe_Make_File 				= "Zrob pilnik",
+	recipe_Make_Metal_Workbench 			= "Zbuduj metalowy warsztat",
+--smelting
+	recipe_Make_Small_Metal_Sheet_Mold 		= "Zrob forme do odlewania malej blachy",
+	recipe_Make_Metal_Bar_Mold 			= "Zrob forme do odlewania metalowej sztaby",
+	recipe_Make_Metal_Pipe_Mold 			= "Zrob forme do odlewania metalowej rury",
+	recipe_Cast_Small_Metal_Sheet 			= "Odlej mala blache",
+	recipe_Cast_Metal_Bar 				= "Odlej metalowa sztabe",
+	recipe_Cast_Metal_Pipe 				= "Odlej metalowa rure",
+	recipe_Cast_Lead_Pipe 				= "Odlej olowiana rure",
+	recipe_Assemble_Propane_Gas_Furnace 		= "Zloz piec gazowy",
+--carscrap
+	recipe_Deconstruct_Car_Battery 			= "Rozloz akumulator",
+	recipe_Deconstruct_Car_Suspension 		= "Rozloz zawieszenie",
+	recipe_Deconstruct_Car_Brake 			= "Rozloz hamulce",
+	recipe_Deconstruct_Car_Door 			= "Rozloz drzwi od auta",
+	recipe_Deconstruct_Car_Gas_Tank 		= "Rozloz zbiornik paliwa",
+	recipe_Deconstruct_Car_Muffler 			= Rozloz tlumik samochodowy",
+	recipe_Deconstruct_Car_Wheel 			= "Rozloz kolo",
+	recipe_Deconstruct_Car_Seat 			= "Rozloz siedzenie",
+--tooldisassemble
+	recipe_Disassemble_Battery_Powered_Tool 		= "Rozloz narzedzie na baterie",
+	recipe_Disassemble_Golfclub 				= "Rozloz kij golfowy",
+	recipe_Disassemble_Hammer 				= "Rozloz mlotek",
+	recipe_Disassemble_Sledgehammer 			= "Rozloz mlot",
+	recipe_Disassemble_Axe 					= "Rozloz siekiere",
+	recipe_Disassemble_SmallBlade 				= "Rozloz male ostrze",
+	recipe_Disassemble_Screwdriver 				= "Rozloz srubokret",
+	recipe_Disassemble_MeatCleaver 				= "Rozloz tasak",
+	recipe_Disassemble_Scythe 				= "Rozloz sierp",
+	recipe_Disassemble_LongBlade 				= "Rozloz dlugie ostrze",
+	recipe_Disassemble_Shovel 				= "Rozloz lopate",
+	recipe_Disassemble_Hoe 					= "Rozloz motyke",
+	recipe_Disassemble_Pickaxe 				= "Rozloz kilof",
+	recipe_Disassemble_Rake 				= "Rozloz grabie",
+	recipe_Disassemble_Fork 				= "Rozloz widelec",
+--toolscrap
+	recipe_Deconstruct_Crowbar 				= "Zezlomuj lom",
+	recipe_Deconstruct_Pan 					= "Zezlomuj patelnie",
+	recipe_Deconstruct_Fishing_Rod 				= "Rozloz wedke",
+	recipe_Deconstruct_Golf_Club_Head 		= "Zezlomuj polamana czesc kija golfowego",
+	recipe_Deconstruct_Hammer_Head 			= "Zezlomuj polamana czesc mlotka",
+	recipe_Deconstruct_SledgeHammer_Head 		= "Zezlomuj zgieta czesc mlota",
+	recipe_Deconstruct_Axe_Head 			= "Zezlomuj polamana czesc siekiery",
+	recipe_Deconstruct_SmallBlade 			= "Zezlomuj tepa czesc malego ostrza",
+	recipe_Deconstruct_Small_Metal_Bar 		= "Zezlomuj zgieta czesc srubokreta",
+	recipe_Deconstruct_Meat_Cleaver_Head 		= "Zezlomuj polamana czesc tasaka",
+	recipe_Deconstruct_Scythe_Head 			= "Zezlomuj polamana czesc sierpa",
+	recipe_Deconstruct_Long_Blade_Head 		= "Zezlomuj tepa czesc dlugiego ostrza",
+	recipe_Deconstruct_Wrench 			= "Zezlomuj klucz nastawny",
+	recipe_Deconstruct_Shovel_Head 			= "Zezlomuj polamana czesc lopaty",
+	recipe_Deconstruct_Hoe_Head 			= "Zezlomuj zgieta czesc motyki",
+	recipe_Deconstruct_Pickaxe_Head 		= "Zezlomuj polamana czesc kilofa",
+	recipe_Deconstruct_Rake_Head 			= "Zezlomuj polamane grabie",
+	recipe_Deconstruct_BarBell 			= "Zezlomuj sztange",
+	recipe_Deconstruct_DumbBell 			= "Zezlomuj hantel",
+	recipe_Deconstruct_Scalpel 			= "Zezlomuj skalpel",
+	recipe_Deconstruct_Fork_Head 			= "Zezlomuj polamana czesc widelca",
+	recipe_Deconstruct_Tool_Box 			= "Zezlomuj skrzynke na narzedzia",
+--scrap
+	recipe_Combine_MetalParts 			= "Polacz metalowe czesci",
+	recipe_Deconstruct_Small_Items 			= "Rozloz male przedmioty",
+	recipe_Deconstruct_Medium_Items 		= "Rozloz srednie przedmioty",
+	recipe_Deconstruct_Large_Items 			= "Rozloz duze przedmioty",
+	recipe_Cut_Metal_into_Wire 				= "Wytnij drut z metalu",
+--disassemble	
+	recipe_Disassamble_Metal_Armor 			= "Rozloz metalowy pancerz",
+	recipe_Disassamble_Gun 					= "Rozloz bron",
+	recipe_Disassemble_Gun_Magazine 		= "Rozloz magazynek do broni",
+	recipe_Disassemble_Motor 				= "Rozloz silnik",
+	
+----modcompatibility
+--aqua
+	recipe_Deconstruct_Boat_Items 			= "Rozloz akcesoria do lodzi",
+--bcg
+	recipe_Disassemble_Bushcraft_Axe 		= "Rozloz Siekiere Bushcraft",
+	recipe_Disassemble_Bushcraft_SmallBlade = "Rozloz Male ostrze Bushcraft",
+	recipe_Disassemble_Bushcraft_LongBlade  = "Rozloz Dlugie ostrze Bushcraft",
+
+
+
+} 
+	

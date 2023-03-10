@@ -1,0 +1,23 @@
+ContextMenu_RU = {
+	ContextMenu_EvolvedRecipe_Drink = "Коктейль",
+	ContextMenu_EvolvedRecipe_Chili = "Чили",
+	ContextMenu_EvolvedRecipe_Cupcakes = "Кексы",
+	ContextMenu_EvolvedRecipe_Hotdog = "Хотдог",
+	ContextMenu_EvolvedRecipe_Icecream = "Мороженое",
+	ContextMenu_EvolvedRecipe_Jelly = "Желе",
+	ContextMenu_EvolvedRecipe_Juice = "Сок",
+	ContextMenu_EvolvedRecipe_Pancakes = "Блины",
+	ContextMenu_EvolvedRecipe_Pickles = "Соленья",
+	ContextMenu_EvolvedRecipe_Pizza = "Пицца",
+	ContextMenu_EvolvedRecipe_Waffles = "Вафли",
+
+	ContextMenu_FoodType_Cheese = "Сыр",
+	ContextMenu_FoodType_Pop = "Pop",
+	ContextMenu_FoodType_Whiskey = "Виски",
+
+	ContextMenu_Glass_of_Beer = "Стакан Вина",
+	ContextMenu_Glass_of_Wine = "Стакан Шардоне",
+	ContextMenu_Glass_of_Wine2 = "Стакан Красного Вина",
+	ContextMenu_Glass_of_Vodka = "Стакан Водки",
+	ContextMenu_Glass_of_Whiskey = "Стакан Виски",
+}

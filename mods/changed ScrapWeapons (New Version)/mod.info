@@ -1,0 +1,6 @@
+name=Scrap Weapons (new version)
+id=ScrapWeapons(new version)
+poster=poster.png
+description=This version might not work on previous saves!!
+require=TheWorkshop(new version)
+icon=logo_mini.png

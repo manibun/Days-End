@@ -1,0 +1,196 @@
+module Base
+{
+
+	sound 2x4UpgradedHit
+    {
+        category = Object,
+		clip
+        {
+            file = media/sound/Stab3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Stab4.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/Stab2.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Stab1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Bladeimpale.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/LightBlade1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/Blunt2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/KnifeCrit1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/Stab3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Stab4.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/Stab2.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Stab1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/Bladeimpale.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/LightBlade1.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/Blunt2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/KnifeCrit1.ogg,
+
+        }
+        clip
+        {
+            file = media/sound/2x4Hit1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/2x4Hit3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit4.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit5.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/2x4HitGore1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/2x4HitGore3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore4.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore5.ogg,
+            
+        }
+		
+    }
+    sound 2x4Hit
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/2x4Hit1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/2x4Hit3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit4.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4Hit5.ogg,
+            
+        }
+		clip
+        {
+            file = media/sound/2x4HitGore1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/2x4HitGore3.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore4.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/2x4HitGore5.ogg,
+            
+        }
+		
+    }
+
+}
+

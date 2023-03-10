@@ -1,0 +1,68 @@
+module Braven {
+
+    sound LMF_UsePC
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/UsePC.mp3, distanceMax = 5, volume = 0.5, }
+    }
+
+    sound Sample01
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Rage.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample02
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/No Limits.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample03
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Dark Matter.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample04
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Knockout Blow.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample05
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Aggressive.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample06
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Devil Flames.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample07
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Funk It.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample08
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Fun Disco.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample09
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Country Fiddle.mp3, distanceMax = 200, volume = 1, }
+    }
+
+    sound Sample10
+    {
+        category = Braven, loop = false, is3D = true,
+        clip { file = media/sound/Joker Boy.mp3, distanceMax = 200, volume = 1, }
+    }
+}

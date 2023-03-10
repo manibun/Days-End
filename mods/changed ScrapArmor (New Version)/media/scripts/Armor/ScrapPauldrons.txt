@@ -1,0 +1,73 @@
+module Base
+{		
+	
+	item ScrapPauldrons
+	{
+	    Type = Clothing,
+		DisplayName = Tire Pauldrons,
+		ClothingItem = ScrapPauldrons,
+		BodyLocation = Pauldrons,
+		Icon = ScrapPauldrons,
+		CanHaveHoles = True,
+		BloodLocation = Neck,
+		BiteDefense = 45,
+		ScratchDefense = 45,
+		BulletDefense = 35,
+		DisplayCategory = Armor,
+		Insulation = 0,
+		WaterResistance = 0,
+        Weight = 2.4,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = false,
+		Tooltip = Tooltip_ScrapPauldrons,
+		Tags = MetalArmor,
+    }
+	
+	item ScrapPauldrons2
+	{
+	    Type = Clothing,
+		DisplayName = Scrap Pauldrons,
+		ClothingItem = ScrapPauldrons2,
+		BodyLocation = Pauldrons,
+		Icon = ScrapPauldrons2,
+		CanHaveHoles = True,
+		BloodLocation = Neck,
+		BiteDefense = 35,
+		ScratchDefense = 35,
+		BulletDefense = 65,
+		DisplayCategory = Armor,
+		Insulation = 0,
+		WaterResistance = 0,
+        Weight = 2.4,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = false,
+		Tooltip = Tooltip_ScrapPauldrons,
+		Tags = MetalArmor,
+    }
+	
+	item ScrapPauldrons2Studded
+	{
+	    Type = Clothing,
+		DisplayName = Scrap Pauldrons 2 Studded,
+		ClothingItem = ScrapPauldrons2Studded,
+		BodyLocation = Pauldrons,
+		Icon = ScrapPauldrons2Studded,
+		CanHaveHoles = True,
+		BloodLocation = Neck,
+		BiteDefense = 55,
+		ScratchDefense = 55,
+		BulletDefense = 25,
+		DisplayCategory = Armor,
+		Insulation = 0,
+		WaterResistance = 0,
+        Weight = 2.8,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = false,
+		Tooltip = Tooltip_ScrapPauldrons,
+		Tags = MetalArmor,
+    }
+	
+}

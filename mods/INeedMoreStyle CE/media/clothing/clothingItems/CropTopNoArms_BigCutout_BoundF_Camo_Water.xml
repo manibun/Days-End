@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<guid>582e4ce3-f65c-4a8b-80b5-6abd470d45cc</guid>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothing\Shirts\CropTopNoArms_BigCutout_BoundF_Base\CropTopNoArms_BigCutout_BoundF_Camo_Water</m_BaseTextures>
+</clothingItem>

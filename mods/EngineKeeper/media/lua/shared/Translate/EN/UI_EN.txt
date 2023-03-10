@@ -1,0 +1,14 @@
+UI_EN = {
+    UI_EngineKeeper_EnginePartThreshold       = "Protected condition.",
+    UI_EngineKeeper_Tooltip_EnginePartThreshold = "Take engine parts is inhibited at and above that condition",
+    UI_EngineKeeper_EnginePartThreshold_10 = "Impossible",
+    UI_EngineKeeper_EnginePartThreshold_20 = "20",
+    UI_EngineKeeper_EnginePartThreshold_30 = "30",
+    UI_EngineKeeper_EnginePartThreshold_40 = "40",
+    UI_EngineKeeper_EnginePartThreshold_50 = "50",
+    UI_EngineKeeper_EnginePartThreshold_60 = "60 (default)",
+    UI_EngineKeeper_EnginePartThreshold_70 = "70",
+    UI_EngineKeeper_EnginePartThreshold_80 = "80",
+    UI_EngineKeeper_EnginePartThreshold_90 = "90",
+    UI_EngineKeeper_EnginePartThreshold_100 = "100",
+}

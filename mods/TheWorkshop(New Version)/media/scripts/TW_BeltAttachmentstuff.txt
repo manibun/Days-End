@@ -1,0 +1,52 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+		attachment Nail_gun
+		{
+			offset = 0.0318 -0.0606 -0.1026,
+			rotate = -90.0000 0.0000 90.0000,
+			bone = Bip01_Pelvis,
+		}
+		mesh = Skinned/FemaleBody,
+		attachment Drill_tool
+		{
+			offset = 0.0318 -0.0606 -0.1026,
+			rotate = 150.0000 90.0000 0.0000,
+			bone = Bip01_Pelvis,
+		}
+		mesh = Skinned/FemaleBody,
+		attachment Belt_WalkieFL
+		{
+			offset = 0.0000 0.0550 0.0650,
+			rotate = -110.0000 0.0000 -90.0000,
+			bone = Bip01_Pelvis,
+		}		
+
+	}
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+		attachment Nail_gun
+		{
+			offset = 0.0318 -0.0606 -0.1026,
+			rotate = -90.0000 0.0000 90.0000,
+			bone = Bip01_Pelvis,
+		}
+		mesh = Skinned/MaleBody,
+		attachment Drill_tool
+		{
+			offset = 0.0318 -0.0606 -0.1026,
+			rotate = 150.0000 90.0000 0.0000,
+			bone = Bip01_Pelvis,
+		}
+		mesh = Skinned/MaleBody,
+		attachment Belt_WalkieFL
+		{
+			offset = 0.0000 0.0550 0.0650,
+			rotate = -110.0000 0.0000 -90.0000,
+			bone = Bip01_Pelvis,
+		}		
+	}
+}

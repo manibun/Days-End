@@ -1,0 +1,51 @@
+Tooltip_EN = {
+--magazines
+	Tooltip_WeaponMag1 				= "Construct Skull penetrating weapons",
+	Tooltip_WeaponMag2 				= "Teaches how to make improvised Shanks",
+	Tooltip_WeaponMag3 				= "Teaches how to make Blunt Weapons",
+	Tooltip_WeaponMag4 				= "Teaches how to make savage Axe like weapons",
+	Tooltip_WeaponMag5 				= "Teaches how to make Spear Weapons",
+	Tooltip_WeaponMag6 				= "Teaches how to use that File to make long bladed Weapons",
+--2x4
+	Tooltip_2x4UpgradedAxe 			= "An upgraded piece of Wood (AXE)",
+	Tooltip_2x4UpgradedShortBlunt 	= "An upgraded piece of Wood (SHORT BLUNT)",
+--shortblade
+	Tooltip_SharpenedScrewdriver 	= "Its like a spike with a handle (SHORT BLADE)",
+	Tooltip_GlassShiv 				= "Very fragile but works (SHORT BLADE)",
+	Tooltip_ScrapShiv 				= "Crude but works (SHORT BLADE)",
+	Tooltip_SalvagedShiv 			= "It's sharp (SHORT BLADE)",
+--spears
+	Tooltip_SpearUpgraded 			= "An upgraded spear (SPEAR)",
+	Tooltip_SpearSalvaged 			= "Extremely sturdy spear with a sharp blade (SPEAR)",
+	Tooltip_ScrapSpear 				= "Wooden spear with a blade (SPEAR)",
+--axe
+	Tooltip_ScrapPickaxe 			= "A Tableleg with large Spikes on it (AXE)",
+	Tooltip_PipewithScissors 		= "A Pipe with scissors on it (AXE)",
+	Tooltip_ScrapAxe 				= "Can chop Trees aswell as Enemies (AXE)",
+	Tooltip_SalvagedClimbingAxe 	= "Can penetrate skulls (DOORBUSTER) (AXE)",
+	Tooltip_SharpenedStopSign 		= "Dont stop... GO KILL THEM ALL! (AXE)",
+	Tooltip_HugeScrapPickaxe		= "A pipe with large Spikes on it (AXE)",
+--shortblunt
+	Tooltip_ScrapClub				= "A club made from scraps (SHORT BLUNT)",
+	Tooltip_SalvagedClub			= "An upgraded club with a chain (SHORT BLUNT)",
+--blunt
+	Tooltip_SalvagedCrowbar 		= "An Upgraded Crowbar (DOORBUSTER) (LONG BLUNT)",
+	Tooltip_BoltBat 				= "Baseball Bat with Bolts (LONG BLUNT)",
+	Tooltip_ChainBat 				= "Baseball Bat with Chain (LONG BLUNT)",
+	Tooltip_SalvagedPipe 			= "An extended and sturdy Pipe (LONG BLUNT)",
+	Tooltip_TinCanClub				= "A Homemade Mace? (LONG BLUNT)",
+	Tooltip_SalvagedSledgehammer 	= "Extremely heavy bone breaker (LONG BLUNT)",
+	Tooltip_GearMace 				= "Extremely heavy skull crusher (LONG BLUNT)",
+	Tooltip_WireBat 				= "Baseball Bat with Wire (LONG BLUNT)",
+	Tooltip_Micromaul 				= "A microwave on a stick (LONG BLUNT)",
+--longblade
+	Tooltip_ScrapSword 				= "A Heavy Sword (LONG BLADE)",
+	Tooltip_ScrapMachete 			= "A Cleaver made from Scraps (LONG BLADE)",
+	Tooltip_SalvagedNightstick 		= "Can not be attached due to clipping issues (LONG BLADE)",
+	Tooltip_SalvagedMachete 		= "A well crafted Zombie cutter (LONG BLADE)",
+	Tooltip_ScrapBlade 				= "Crude but sharp (LONG BLADE)",
+	Tooltip_SalvagedBlade 			= "A homemade Katana (LONG BLADE)",
+	Tooltip_SalvagedCleaver 		= "An Extremely heavy cleaver (LONG BLADE)",
+
+
+} 	

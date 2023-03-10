@@ -1,0 +1,80 @@
+ItemName_EN = {
+--shields
+    ItemName_Base.ScrapShield 				= "Scrap Shield",
+	ItemName_Base.ScrapShieldPainted1 		= "Scrap Shield",
+	ItemName_Base.ScrapShieldPainted2 		= "Scrap Shield",
+	ItemName_Base.ScrapShieldPainted3 		= "Scrap Shield",
+	ItemName_Base.CarDoorShield 			= "Car Door Shield",
+	ItemName_Base.CarDoorShield1 			= "Car Door Shield",
+	ItemName_Base.CarDoorShield2 			= "Car Door Shield",
+	ItemName_Base.WoodenShield 				= "Wooden Shield",
+--magazines
+	ItemName_SArmor.ArmorMag1				= "Post Apocalyptic Knights Vol. 1",
+	ItemName_SArmor.ArmorMag2				= "Protecc urself issue 1",
+	ItemName_SArmor.ArmorMag3 				= "Post Apocalyptic Knights Vol. 2",
+	ItemName_SArmor.ArmorMag4				= "Post Apocalyptic Knights Vol. 3",
+	ItemName_SArmor.ArmorMag5				= "Post Apocalyptic Knights Vol. ???",
+--backpacks
+	ItemName_Base.Rucksack					= "Travel Pack",
+--equipment
+	ItemName_Base.SwordSheath				= "Sword Sheath",
+	ItemName_Base.ScrapLegPouchL			= "Left Leg Pouch",
+	ItemName_Base.ScrapLegPouchR			= "Right Leg Pouch",
+---armor
+--scraphandplates
+	ItemName_Base.ScrapHandPlate2R			= "Right Scrap Hand Plate",
+	ItemName_Base.ScrapHandPlate2L			= "Left Scrap Hand Plate",
+	ItemName_Base.ScrapHandPlateR			= "Right Reinforced Hand Plate",
+	ItemName_Base.ScrapHandPlateL			= "Left Reinforced Hand Plate",
+	ItemName_Base.ScrapHandPlateStuddedR	= "Right Scrap Hand Plate Studded",
+	ItemName_Base.ScrapHandPlateStuddedL	= "Left Scrap Hand Plate Studded",
+--scraphelmets
+	ItemName_Base.Hat_ScrapKettleHelmet		= "Scrap Kettle Helmet",
+	ItemName_Base.Hat_ScrapHelmet			= "Scrap Helmet",
+	ItemName_Base.Hat_ScrapHelmetopen		= "ScrapHelmet (open)",
+	ItemName_Base.Hat_MotorcycleHelmet2		= "Motorcycle Helmet",
+	ItemName_Base.Hat_WelderMask2			= "Scrap Cat Welding Mask",
+	ItemName_Base.Hat_MotorcycleHelmet2open	= "Motorcycle Helmet (open)",
+	ItemName_Base.Hat_Rebreather			= "Rebreather",
+--scrapkilts
+	ItemName_Base.ScrapKiltSign				= "Scrap Kilt with Signs",
+	ItemName_Base.ScrapKiltPlated			= "Scrap Kilt Plated",
+	ItemName_Base.ScrapKiltStudded			= "Scrap Kilt Studded",
+	ItemName_Base.ScrapKilt					= "Scrap Kilt",
+--scraplegpads
+	ItemName_Base.ScrapLegPadL				= "Left Scrap Leg Pad",
+	ItemName_Base.ScrapLegPadR				= "Right Scrap Leg Pad",
+	ItemName_Base.ScrapLegPadBoltsL			= "Left Scrap Leg Pad with Bolts",
+	ItemName_Base.ScrapLegPadBoltsR			= "Right Scrap Leg Pad with Bolts",
+	ItemName_Base.ScrapLegPadSign2L			= "Left Scrap Leg Pad with Sign",
+	ItemName_Base.ScrapLegPadSign2R			= "Right Scrap Leg Pad with Sign",
+	ItemName_Base.ScrapLegPadSignL			= "Left Scrap Leg Pad with Sign",
+	ItemName_Base.ScrapLegPadSignR			= "Right Scrap Leg Pad with Sign",
+--scrappauldrons
+	ItemName_Base.ScrapPauldrons			= "Tire Pauldrons",
+	ItemName_Base.ScrapPauldrons2			= "Scrap Pauldrons",
+	ItemName_Base.ScrapPauldrons2Studded	= "Scrap Pauldrons 2 Studded",
+--scrapshinplates
+	ItemName_Base.ScrapShinPlateR			= "Right Scrap Greaves",
+	ItemName_Base.ScrapShinPlateL			= "Left Scrap Greaves",
+	ItemName_Base.ScrapShinPlateStuddedR	= "Right Scrap Greaves Studded",
+	ItemName_Base.ScrapShinPlateStuddedL	= "Left Scrap Greaves Studded",
+	ItemName_Base.ScrapShinPlate2R			= "Right Reinforced Greaves",
+	ItemName_Base.ScrapShinPlate2L			= "Left Reinforced Greaves",
+--scrapshoulderpads
+	ItemName_Base.ScrapShoulderPadL			= "Left Scrap Shoulder Pad",
+	ItemName_Base.ScrapShoulderPadR			= "Right Scrap Shoulder Pad",
+	ItemName_Base.ScrapShoulderPadSawL		= "Left Scrap Shoulder Pad with Sawblade",
+	ItemName_Base.ScrapShoulderPadSawR		= "Right Scrap Shoulder Pad with Sawblade",
+	ItemName_Base.ScrapShoulderPadBoltsL	= "Left Scrap Shoulder Pad with Bolts",
+	ItemName_Base.ScrapShoulderPadBoltsR	= "Right Scrap Shoulder Pad with Bolts",
+	ItemName_Base.ScrapShoulderPadSignL		= "Left Scrap Shoulder Pad with Sign",
+	ItemName_Base.ScrapShoulderPadSignR		= "Right Scrap Shoulder Pad with Sign",
+--scrapvests
+	ItemName_Base.ScrapVest					= "Scrap Vest",
+	ItemName_Base.ScrapVestPlated			= "Plated Scrap Vest",
+	ItemName_Base.ScrapVestSign				= "Scrap Vest with Signs",
+	ItemName_Base.ScrapVestStudded			= "Studded Scrap Vest",
+
+}
+

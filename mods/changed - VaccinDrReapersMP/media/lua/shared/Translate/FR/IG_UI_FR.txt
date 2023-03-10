@@ -1,0 +1,6 @@
+IGUI_FR = {
+	IGUI_CraftCategory_Equipment = "Equipements",
+	IGUI_CraftCategory_Decorations = "Decorations",
+	IGUI_CraftCategory_Chemistry = "Chimie",
+	IGUI_CraftCategory_Other = "Autre",
+}

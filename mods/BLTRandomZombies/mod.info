@@ -1,0 +1,5 @@
+name=Random Zombies
+poster=poster.png
+id=BLTRandomZombies
+description=Spawns zombies of different types (crawler, sprinter, etc.) according to your settings
+url=https://github.com/belettegg/
